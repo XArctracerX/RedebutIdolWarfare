@@ -6,6 +6,9 @@ state={
 	}
 
 	history={
+		owner = SHY
+		add_core_of = SHY
+		
 		buildings = {
 			infrastructure = 1
 

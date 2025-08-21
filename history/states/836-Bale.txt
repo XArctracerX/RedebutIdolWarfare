@@ -5,6 +5,9 @@ state={
 		4995 10775 13248 13253  
 	}
 	history = {
+		owner = BOT
+		add_core_of = BOT
+		
 		buildings = {
 			# infrastructure = 1
 			13253 = {

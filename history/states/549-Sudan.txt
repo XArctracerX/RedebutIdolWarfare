@@ -6,6 +6,9 @@ state={
 	manpower = 1802132
 
 	history={
+		owner = DAE
+		add_core_of = DAE
+		
 		buildings = {
 			infrastructure = 1
 		}

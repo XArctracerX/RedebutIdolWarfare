@@ -8,7 +8,8 @@ state={
 		5131 8217 8231 13303 
 	}
 	history = {
-
+		owner = RED
+		add_core_of = RED
 
 		buildings = {
 			infrastructure = 1

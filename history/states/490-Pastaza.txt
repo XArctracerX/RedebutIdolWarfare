@@ -5,6 +5,9 @@ state={
 		8149 10942 13290 13289
 	}
 	history={
+		owner = CYU
+		add_core_of = CYU
+
 		#conquered by Peru in 1941 war
 		buildings = {
 			infrastructure = 2

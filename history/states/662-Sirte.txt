@@ -7,6 +7,9 @@ state={
 	
 	
 	history={
+		owner = MOC
+		add_core_of = MOC
+		
 		buildings = {
 			infrastructure = 1
 		}

@@ -3,6 +3,9 @@ state={
 	name="STATE_472"
 
 	history={
+		owner = MIO
+		add_core_of = MIO
+		
 		buildings = {
 			infrastructure = 1
 

@@ -5,6 +5,9 @@ state={
 		5146 5171 8913 12994 13302 
 	}
 	history={
+		owner = RED
+		add_core_of = RED
+		
 		buildings = {
 			infrastructure = 2 #was 3
 			industrial_complex = 1

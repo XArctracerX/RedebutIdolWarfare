@@ -5,6 +5,9 @@ state={
 		rubber=12.000
 	}
 	history={
+		owner = INO
+		add_core_of = INO
+		
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

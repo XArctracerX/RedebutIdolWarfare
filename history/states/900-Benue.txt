@@ -5,6 +5,9 @@ state={
 	state_category = pastoral 
 
 	history={
+		owner = AIV
+		add_core_of = AIV
+		
 		victory_points = {
 			8034 2 # Enugu
 		} 

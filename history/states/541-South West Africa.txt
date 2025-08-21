@@ -6,6 +6,9 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = BOT
+		add_core_of = BOT
+		
 		buildings = {
 			infrastructure = 2
 

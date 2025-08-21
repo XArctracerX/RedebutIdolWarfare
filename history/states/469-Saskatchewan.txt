@@ -7,6 +7,9 @@ state={
 	state_category = rural
 
 	history={
+		owner = HAK
+		add_core_of = HAK
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

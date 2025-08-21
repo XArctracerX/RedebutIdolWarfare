@@ -9,6 +9,9 @@ state={
 	name="STATE_545"
 
 	history={
+		owner = BOT
+		add_core_of = BOT
+		
 		buildings = {
 			infrastructure = 2 #was 3
 		}

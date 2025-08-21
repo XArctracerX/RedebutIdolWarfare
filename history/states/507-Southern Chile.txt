@@ -7,6 +7,9 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = RED
+		add_core_of = RED
+		
 		buildings = {
 			infrastructure = 1
 		}

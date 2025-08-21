@@ -11,6 +11,9 @@ state = {
 	}
 
 	history = {
+		owner = BOT
+		add_core_of = BOT
+		
 		victory_points = {
 			697 1 # Mongu
 		}

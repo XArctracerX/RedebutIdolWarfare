@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+		owner = KRO
+		add_core_of = KRO
+		
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2

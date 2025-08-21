@@ -5,6 +5,9 @@ state={
 		2228 5153 5204 10984 13275 
 	}
 	history={
+		owner = DOD
+		add_core_of = DOD
+		
 		victory_points = { 
 			5153 1 
 		}

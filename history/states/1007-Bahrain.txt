@@ -8,6 +8,9 @@ state={
 		oil= 6
 	}
 	history={
+		owner = HOO
+		add_core_of = HOO
+		
 		victory_points = {
 			13313 1
 		}

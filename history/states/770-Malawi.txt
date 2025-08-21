@@ -3,6 +3,9 @@ state={
 	name="STATE_770"
 
 	history={
+		owner = BOT
+		add_core_of = BOT
+		
 		victory_points = {
 			12986 1 
 		}

@@ -5,6 +5,9 @@ state={
 		2168 5151  
 	}
 	history = {
+		owner = DOD
+		add_core_of = DOD
+		
 		buildings = {
 			infrastructure = 0
 		}

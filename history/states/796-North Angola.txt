@@ -2,6 +2,9 @@ state={
 	id=796
 	name="STATE_796"
 	history={
+		owner = AIV
+		add_core_of = AIV
+
 		buildings = {
 			infrastructure = 1
 			2115 = {

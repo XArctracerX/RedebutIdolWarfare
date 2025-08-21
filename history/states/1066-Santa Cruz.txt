@@ -8,6 +8,8 @@ state={
 		2169 5173 12946 12952 13305 
 	}
 	history = {
+		owner = ELY
+		add_core_of = ELY
 
 		buildings = {
 			infrastructure = 1

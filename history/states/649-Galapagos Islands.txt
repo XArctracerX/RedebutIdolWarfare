@@ -4,8 +4,10 @@ state=
 	name="STATE_649"
 	state_category = tiny_island
 	manpower=11532
-	history=
-	{
+	history={
+		owner = CYU
+		add_core_of = CYU
+		
 		buildings = {
 			infrastructure = 1
 			5023 = {

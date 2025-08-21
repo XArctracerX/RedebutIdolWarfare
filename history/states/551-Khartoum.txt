@@ -5,6 +5,9 @@ state={
 	manpower = 1993507
 
 	history = {
+		owner = DAE
+		add_core_of = DAE
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

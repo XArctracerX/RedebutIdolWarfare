@@ -5,6 +5,9 @@ state={
 		1955 10791 10850 12702 
 	}
 	history = {
+		owner = HOO
+		add_core_of = HOO
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

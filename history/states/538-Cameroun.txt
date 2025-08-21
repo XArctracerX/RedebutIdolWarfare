@@ -9,6 +9,9 @@ state={
 	manpower = 1693974
 
 	history={
+		owner = AIV
+		add_core_of = AIV
+		
 		buildings = {
 			infrastructure = 1
 

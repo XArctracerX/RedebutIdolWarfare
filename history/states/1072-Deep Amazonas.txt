@@ -5,8 +5,9 @@ state={
 		2198 5008 5216 5232 8185 8254 12919 13277 13325 13328 13330 13285
 	}
 	history={
+		owner = DOD
+		add_core_of = DOD
 	}
-	impassable = yes
 	manpower=69488
 	buildings_max_level_factor=1.000
 	state_category=wasteland

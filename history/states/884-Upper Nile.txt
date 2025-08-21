@@ -8,6 +8,9 @@ state = {
 	}
 
 	history = {
+		owner = BOT
+		add_core_of = BOT
+		
 		buildings = {
 			infrastructure = 2
 

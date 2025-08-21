@@ -6,6 +6,8 @@ state={
 		5239 6728 7185 7782 9615 10585 10605 13182
 	}
 	history = {
+		owner = SHY
+		add_core_of = SHY
 	}
 	manpower=62374
 	state_category = pastoral

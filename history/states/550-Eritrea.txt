@@ -5,6 +5,9 @@ state={
 		steel=2.000
 	}
 	history={
+		owner = DAE
+		add_core_of = DAE
+		
 		victory_points = {
 			12766 1 
 		}

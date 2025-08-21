@@ -3,6 +3,9 @@ state={
 	name="STATE_777"
 
 	history={
+		owner = AIV
+		add_core_of = AIV
+		
 		victory_points = {
 			1951 1
 		}

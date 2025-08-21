@@ -42,11 +42,40 @@ CIN = "countries/Cinnia.txt"
 BIJ = "countries/Bijou.txt"
 
 # North America #
+SHY	= "countries/Shylily.txt"
+KRO	= "countries/Empironii.txt"
+HAK	= "countries/Haruka.txt"
+MIO	= "countries/Mio.txt"
 
 # South America #
+DOD	= "countries/Dodoland.txt"
+YAH	= "countries/Yashiro.txt"
+RED	= "countries/Claude.txt"
+ELY	= "countries/Elyssia.txt"
+CYU	= "countries/CyYu.txt"
+REI	= "countries/Reimu.txt"
+STA	= "countries/Star.txt"
+ZTA	= "countries/Ztaellar.txt"
+THZ	= "countries/Thaazminchan.txt"
+MAG	= "countries/Magochi.txt"
 
 # Asia
 
 # Africa #
+BOT	= "countries/Botan.txt"
+AIV	= "countries/Aivori.txt"
+DAE	= "countries/Miridae.txt"
+INO	= "countries/Inowi.txt"
+MEW	= "countries/Meowly.txt"
 FUW	= "countries/Fuwawa.txt"
 MOC	= "countries/Mococo.txt"
+
+# Middle-East #
+HOO	= "countries/Hooman Civilization.txt"
+
+# Oceania #
+AST	= "countries/Australia.txt"
+HAA	= "countries/Haachama Order.txt"
+MOL	= "countries/Mollymishy.txt"
+
+# Antarctica #

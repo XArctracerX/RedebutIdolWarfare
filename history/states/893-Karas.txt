@@ -5,6 +5,9 @@ state={
 	state_category = wasteland
 
 	history={
+		owner = BOT
+		add_core_of = BOT
+		
 		buildings = {
 			infrastructure = 2
 			2229 = { # Very much the only port in the country, though they do have one despite vanilla's objection

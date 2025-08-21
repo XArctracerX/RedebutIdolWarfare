@@ -5,6 +5,9 @@ state={
 		2220 13363 
 	}
 	history={
+		owner = BOT
+		add_core_of = BOT
+		
 		victory_points = {
 			2220 1
 		}

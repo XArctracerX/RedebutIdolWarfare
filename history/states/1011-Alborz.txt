@@ -11,6 +11,9 @@ state={
 	state_category = town
 
 	history={
+		owner = HOO
+		add_core_of = HOO
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

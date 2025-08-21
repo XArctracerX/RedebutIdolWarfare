@@ -3,9 +3,11 @@ state={
 	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
 	
 	state_category = wasteland
-	impassable = yes
 
 	history={
+		owner = DAE
+		add_core_of = DAE
+		
 		buildings = {
 			infrastructure = 0
 		}

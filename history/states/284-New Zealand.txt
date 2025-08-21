@@ -9,6 +9,9 @@ state={
 	state_category = city
 	
 	history={
+		owner = MOL
+		add_core_of = MOL
+		
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1

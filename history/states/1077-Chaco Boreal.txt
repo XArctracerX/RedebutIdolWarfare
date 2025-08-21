@@ -5,6 +5,9 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = ZTA
+		add_core_of = ZTA
+		
 		buildings = {
 			infrastructure = 2 #was 3
 

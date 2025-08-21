@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+		owner = AIV
+		add_core_of = AIV
+		
 		victory_points = {
 			2080 1
 		}

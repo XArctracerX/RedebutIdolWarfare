@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+		owner = ELY
+		add_core_of = ELY
+		
 		buildings = {
 			infrastructure = 2 #was 3
 		}	

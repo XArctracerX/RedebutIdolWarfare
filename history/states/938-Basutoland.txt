@@ -5,6 +5,9 @@ state={
 		4556 
 	}
 	history={
+		owner = BOT
+		add_core_of = BOT
+		
 		buildings = {
 			infrastructure = 1
 		}

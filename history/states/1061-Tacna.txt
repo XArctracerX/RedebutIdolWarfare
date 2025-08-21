@@ -8,6 +8,8 @@ state={
 		13086 13286 13287 
 	}
 	history = {
+		owner = STA
+		add_core_of = STA
 
 		buildings = {
 			infrastructure = 2

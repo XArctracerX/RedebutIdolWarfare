@@ -5,6 +5,9 @@ state={
 		7980 12714 12757 12812 13249 
 	}
 	history={
+		owner = BOT
+		add_core_of = BOT
+		
 		buildings = {
 			industrial_complex = 1
 			air_base = 1

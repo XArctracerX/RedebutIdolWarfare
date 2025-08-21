@@ -6,6 +6,9 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = MEW
+		add_core_of = MEW
+		
 		buildings = {
 			infrastructure = 3
 			12049 = {

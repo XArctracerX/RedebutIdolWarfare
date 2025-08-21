@@ -5,6 +5,9 @@ state={
 		5041 13236 13240 
 	}
 	history={
+		owner = DAE
+		add_core_of = DAE
+		
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

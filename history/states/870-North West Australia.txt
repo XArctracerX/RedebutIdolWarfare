@@ -6,6 +6,9 @@ state={
 		2201 5207 8152 8209 8247 10937 10958 11016 12993 13133 
 	}
 	history = {
+		owner = HAA
+		add_core_of = HAA
+		
 		buildings = {
 			infrastructure = 1
 		}

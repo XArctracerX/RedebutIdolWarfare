@@ -3,6 +3,9 @@ state={
 	name="STATE_470"
 
 	history={
+		owner = HAK
+		add_core_of = HAK
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

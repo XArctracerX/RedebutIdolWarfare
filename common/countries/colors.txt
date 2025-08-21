@@ -217,9 +217,135 @@ BIJ = {
 }
 
 # North America #
+SHY = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+KRO = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+HAK = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MIO = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
 
 # South America #
+DOD = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+YAH = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+RED = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ELY = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CYU = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+REI = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+STA = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ZTA = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+THZ = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MAG = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
 
 # Asia
 
 # Africa #
+BOT = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+AIV = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+DAE = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+INO = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MEW = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+FUW = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MOC = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+# Middle-East #
+HOO = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+# Oceania #
+AST = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+HAA = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MOL = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+# Antarctica #

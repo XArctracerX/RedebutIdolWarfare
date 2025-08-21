@@ -6,6 +6,9 @@ state={
 	state_category = wasteland 
 
 	history={
+		owner = MIO
+		add_core_of = MIO
+		
 		buildings = {
 			infrastructure = 0
 			# 13230 = {

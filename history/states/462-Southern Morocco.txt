@@ -7,6 +7,9 @@ state={
 	state_category = wasteland
 
 	history={
+		owner = FUW
+		add_core_of = FUW
+		
 		buildings = {
 			infrastructure = 1
 			air_base = 1

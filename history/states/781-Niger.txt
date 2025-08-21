@@ -7,6 +7,9 @@ state={
 	state_category = rural
 
 	history={
+		owner = AIV
+		add_core_of = AIV
+		
 		victory_points = {
 			2056 1
 		}

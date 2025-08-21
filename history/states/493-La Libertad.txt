@@ -10,6 +10,9 @@ state={
 	state_category = town
 
 	history={
+		owner = REI
+		add_core_of = REI
+		
 		buildings = {
 			infrastructure = 2 #was 3
 			industrial_complex = 2

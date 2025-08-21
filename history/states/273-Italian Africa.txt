@@ -4,9 +4,11 @@ state={
 	name="STATE_273"
 	
 	state_category=wasteland
-	impassable = yes
 
 	history={
+		owner = MOC
+		add_core_of = MOC
+
 		buildings = {
 			infrastructure = 0
 

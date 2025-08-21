@@ -7,6 +7,9 @@ state={
 	state_category = rural
 
 	history={
+		owner = ZTA
+		add_core_of = ZTA
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

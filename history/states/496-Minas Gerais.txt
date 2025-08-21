@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+		owner = DOD
+		add_core_of = DOD
+		
 		victory_points = {
 			7476 3
 		}

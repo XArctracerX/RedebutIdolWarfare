@@ -5,6 +5,9 @@ state={
 		aluminium=4.000
 	}
 	history={
+		owner = DOD
+		add_core_of = DOD
+		
 		buildings = {
 			infrastructure = 1
 			4980 = {

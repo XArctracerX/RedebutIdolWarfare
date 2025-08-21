@@ -13,6 +13,9 @@ state={
 
 
 	history={
+		owner = STA
+		add_core_of = STA
+		
 		buildings = {
 			infrastructure = 2
 		}

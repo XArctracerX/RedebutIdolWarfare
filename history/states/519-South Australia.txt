@@ -4,6 +4,9 @@ state={
 	name="STATE_519"
 
 	history={
+		owner = AST
+		add_core_of = AST
+		
 		buildings = {
 			infrastructure = 1 #was 2
 			12910 = {

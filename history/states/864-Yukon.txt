@@ -5,6 +5,8 @@ state={
 		3606 7869 7891 
 	}
 	history = {
+		owner = MIO
+		add_core_of = MIO
 	}
 	manpower=4364 # guess in between pop census of 31 and 41
 	state_category = wasteland

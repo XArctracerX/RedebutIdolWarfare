@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+		owner = YAH
+		add_core_of = YAH
+		
 		buildings = {
 			infrastructure = 2 #was 4
 			industrial_complex = 2

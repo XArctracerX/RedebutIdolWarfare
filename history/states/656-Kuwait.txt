@@ -6,6 +6,9 @@ state={
 	state_category = rural
 	
 	history={
+		owner = HOO
+		add_core_of = HOO
+		
 		victory_points = {
 			8085 1 
 		}

@@ -8,6 +8,9 @@ state={
 		13280 13279 13278
 	}
 	history={
+		owner = STA
+		add_core_of = STA
+		
 		victory_points = {
 			10960 1
 		}

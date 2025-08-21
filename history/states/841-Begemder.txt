@@ -5,6 +5,9 @@ state={
 		1984 2040 13137 13241 
 	}
 	history={
+		owner = DAE
+		add_core_of = DAE
+		
 		buildings = {
 
 		}

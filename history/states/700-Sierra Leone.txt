@@ -8,6 +8,9 @@ state={
 		2038 2094 
 	}
 	history={
+		owner = INO
+		add_core_of = INO
+		
 		victory_points = {
 			2038 1 
 		}

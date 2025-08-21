@@ -5,6 +5,9 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = INO
+		add_core_of = INO
+		
 		buildings = {
 			infrastructure = 2
 

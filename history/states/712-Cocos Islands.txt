@@ -4,8 +4,10 @@ state={
 	manpower=42	
 	state_category = tiny_island
 	
-	history=
-	{
+	history={
+		owner = HAA
+		add_core_of = HAA
+		
 		buildings = {
 			infrastructure = 2 #was 3
 			13002 = {

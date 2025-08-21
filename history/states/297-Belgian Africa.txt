@@ -6,6 +6,9 @@ state= {
 	state_category = enclave
 	
 	history= {
+		owner = AIV
+		add_core_of = AIV
+		
 		victory_points = {
 			1903 1 
 		}

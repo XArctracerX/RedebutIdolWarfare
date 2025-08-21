@@ -6,6 +6,9 @@ state={
 	state_category = town
 
 	history={
+		owner = DOD
+		add_core_of = DOD
+		
 		buildings = {
 			infrastructure = 1
 

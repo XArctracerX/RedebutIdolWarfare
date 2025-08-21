@@ -3,9 +3,11 @@ state={
 	name="STATE_515"
 	
 	state_category = wasteland
-	impassable = yes
 
 	history={
+		owner = INO
+		add_core_of = INO
+		
 		buildings = {
 			infrastructure = 1
 
