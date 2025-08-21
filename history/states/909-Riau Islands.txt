@@ -9,6 +9,9 @@ state={
 		12113 13298
 	}
 	history = {
+		owner = VMP
+		add_core_of = VMP
+		
 		buildings = {
 			infrastructure = 2
 			12113 = {

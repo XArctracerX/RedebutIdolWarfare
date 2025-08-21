@@ -7,6 +7,9 @@ state={
 		1082 1197 1934 4087 4318 4425 4588 4996 8063 10386 10486 12335 12464 12492 
 	}
 	history={
+		owner = MTB
+		add_core_of = MTB
+
 		victory_points = {
 			4425 1 
 		}

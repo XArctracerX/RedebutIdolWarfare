@@ -7,6 +7,9 @@ state={
 	state_category = enclave
 
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		victory_points = {
 			1273 1 
 		}

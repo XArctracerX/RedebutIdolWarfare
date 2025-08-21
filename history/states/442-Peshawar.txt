@@ -10,6 +10,9 @@ state={
 	}
 
 	history={
+		owner = KIR
+		add_core_of = KIR
+		
 		victory_points = {
 			12717 5
 		}

@@ -4,6 +4,9 @@ state={
 	name="STATE_978"
 
 	history={
+		owner = VMP
+		add_core_of = VMP
+		
 		victory_points = {
 			10138 1 
 		}

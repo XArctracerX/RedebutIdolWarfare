@@ -11,6 +11,9 @@ state={
 		oil = 2
 	}
 	history={
+		owner = AAW
+		add_core_of = AAW
+		
 		victory_points = {
 			7400 1 
 		}

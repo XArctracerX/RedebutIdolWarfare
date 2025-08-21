@@ -11,6 +11,9 @@ state={
 	#}
 
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		victory_points = {
 			9975 5
 		}

@@ -74,6 +74,18 @@ THZ	= "countries/Thaazminchan.txt"
 MAG	= "countries/Magochi.txt"
 
 # Asia
+HOL	= "countries/Hololive.txt"
+HID	= "countries/Hololive Indonesia.txt"
+FAU	= "countries/Fauna.txt"
+MIT	= "countries/Mitsuki.txt"
+KIR	= "countries/Kiran.txt"
+QLU	= "countries/Qilou.txt"
+SAY	= "countries/SaySay.txt"
+MTB	= "countries/Meitcha.txt"
+VMP	= "countries/Liliana.txt"
+AIA	= "countries/Aia.txt"
+PKO	= "countries/Pekoland.txt"
+AAW	= "countries/Aisha.txt"
 
 # Africa #
 BOT	= "countries/Botan.txt"

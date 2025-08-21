@@ -6,8 +6,10 @@ state=
 	
 	state_category = rural
 	
-	history=
-	{
+	history={
+		owner = VMP
+		add_core_of = VMP
+		
 		buildings = {
 			infrastructure = 2
 			4429 = {

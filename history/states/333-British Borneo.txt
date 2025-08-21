@@ -6,6 +6,9 @@ state={
 		oil=10.000
 	}
 	history={
+		owner = VMP
+		add_core_of = VMP
+		
 		victory_points = {
 			1208 3
 		}

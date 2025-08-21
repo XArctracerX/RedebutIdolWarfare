@@ -9,6 +9,9 @@ state={
 		chromium=3
 	}
 	history={
+		owner = KIR
+		add_core_of = KIR
+		
 		victory_points = {
 			5105 1
 		}

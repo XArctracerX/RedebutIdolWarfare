@@ -3,6 +3,9 @@ state={
 	name="STATE_737"
 
 	history={
+		owner = HID
+		add_core_of = HID
+		
 		buildings = {
 			infrastructure = 1
 			air_base = 1

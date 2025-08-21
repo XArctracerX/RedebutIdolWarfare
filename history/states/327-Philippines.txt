@@ -10,6 +10,9 @@ state={
 	}
 
 	history={
+		owner = SAY
+		add_core_of = SAY
+		
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

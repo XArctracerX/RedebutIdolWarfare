@@ -5,6 +5,9 @@ state={
 	state_category = small_island
 	
 	history={
+		owner = MTB
+		add_core_of = MTB
+		
 		buildings = {
 			infrastructure = 2 #was 3
 			12251 = {

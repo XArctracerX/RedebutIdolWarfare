@@ -5,6 +5,9 @@ state={
 		4386 7374 10825 
 	}
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

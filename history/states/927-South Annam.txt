@@ -9,6 +9,9 @@ state={
 	}
 	state_category = rural
 	history={
+		owner = AIA
+		add_core_of = AIA
+
 		victory_points = {
 			1605 1
 		}

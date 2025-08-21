@@ -7,6 +7,9 @@ state={
 	state_category = town
 
 	history={
+		owner = HID
+		add_core_of = HID
+		
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 2

@@ -7,6 +7,9 @@ state={
 	state_category = rural
 
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		victory_points = {
 			12137 1
 		}

@@ -7,6 +7,9 @@ state={
 	state_category = rural
 
 	history={
+		owner = HOL
+		add_core_of = HOL
+		
 		buildings = {
 			infrastructure = 2 #was 3
 			#there was even another steel mill built there in 37, and then others in 40-42

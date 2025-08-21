@@ -6,6 +6,9 @@ state={
 	}
 
 	history={
+		owner = PKO
+		add_core_of = PKO
+		
 		victory_points = {
 			1319 10 
 		}

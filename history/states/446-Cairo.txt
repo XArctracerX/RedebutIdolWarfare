@@ -7,6 +7,9 @@ state={
 	state_category = large_town
 
 	history={
+		owner = HID
+		add_core_of = HID
+		
 		victory_points = {
 			4608 10
 		}

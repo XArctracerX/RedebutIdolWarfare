@@ -5,6 +5,9 @@ state={
 		chromium=2.000
 	}
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

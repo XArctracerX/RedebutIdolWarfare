@@ -9,6 +9,8 @@ state={
 	}
 
 	history={
+		owner = VMP
+		add_core_of = VMP
 	}
 
 	provinces={

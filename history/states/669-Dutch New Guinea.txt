@@ -6,6 +6,9 @@ state={
 	state_category = pastoral
 
 	history= {
+		owner = HID
+		add_core_of = HID
+		
 		victory_points = {
 			12371 3 
 		}

@@ -6,6 +6,9 @@ state={
 		1898 3989 5002 5157 10021 
 	}
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		buildings = {
 			infrastructure = 2
 

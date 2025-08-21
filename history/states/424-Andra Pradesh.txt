@@ -7,6 +7,9 @@ state={
 	
 
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		buildings = {
 			infrastructure = 2 #was 4
 			industrial_complex = 1

@@ -9,6 +9,9 @@ state={
 	#}
 
 	history={
+		owner = VMP
+		add_core_of = VMP
+		
 		victory_points = {
 			12299 10 
 		}

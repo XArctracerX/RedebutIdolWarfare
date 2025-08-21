@@ -7,6 +7,9 @@ state={
 	}
 
 	history={
+		owner = PKO
+		add_core_of = PKO
+
 		buildings = {
 			7432 = {
 				naval_base = 1

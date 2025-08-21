@@ -7,6 +7,9 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = KIR
+		add_core_of = KIR
+		
 		victory_points = {
 			8066 1
 		}

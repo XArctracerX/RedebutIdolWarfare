@@ -4,6 +4,9 @@ state={
 	name="STATE_1092"
 
 	history={
+		owner = MIT
+		add_core_of = MIT
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

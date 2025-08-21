@@ -360,6 +360,66 @@ MAG = {
 }
 
 # Asia
+HOL = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+HID = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+FAU = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MIT = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+QLU = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+KIR = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+SAY = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MTB = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+VMP = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+AIA = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+PKO = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+AAW = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
 
 # Africa #
 BOT = {

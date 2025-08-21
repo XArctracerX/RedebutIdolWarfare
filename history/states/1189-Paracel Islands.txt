@@ -9,6 +9,9 @@ state={
 	manpower=30
 	state_category = small_island
 	history={
+		owner = QLU
+		add_core_of = QLU
+		
 		buildings = {
 			infrastructure = 1
 			14178 = {

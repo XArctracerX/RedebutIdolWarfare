@@ -9,6 +9,9 @@ state={
 		oil = 4 #Ceram Island Boela oil field
 	}
 	history={
+		owner = HID
+		add_core_of = HID
+		
 		victory_points = {
 			1574 1 
 		}

@@ -6,6 +6,9 @@ state={
 		rubber = 44
 	}
 	history={
+		owner = VMP
+		add_core_of = VMP
+
 		victory_points = {
 			7342 1 
 		}

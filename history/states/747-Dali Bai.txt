@@ -11,6 +11,9 @@ state={
 		steel= 6 #yunnan iron + 3 for copper lead, sulphur etc. 
 	}		
 	history={
+		owner = PKO
+		add_core_of = PKO
+		
 		victory_points = {
 			7965 3 
 		}

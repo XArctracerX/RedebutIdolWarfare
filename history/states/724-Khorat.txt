@@ -10,6 +10,9 @@ state={
 	}
 
 	history={
+		owner = AAW
+		add_core_of = AAW
+
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 2

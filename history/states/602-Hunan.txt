@@ -6,6 +6,9 @@ state={
 	}
 
 	history={
+		owner = QLU
+		add_core_of = QLU
+		
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

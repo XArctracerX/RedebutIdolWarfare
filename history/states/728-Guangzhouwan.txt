@@ -6,6 +6,9 @@ state={
 	state_category = enclave
 	
 	history={
+		owner = QLU
+		add_core_of = QLU
+		
 		buildings = {
 			infrastructure = 2 #was 3
 			11981 = {

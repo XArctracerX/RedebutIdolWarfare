@@ -7,6 +7,9 @@ state={
 		aluminium = 4
 	}
 	history={
+		owner = SAY
+		add_core_of = SAY
+		
 		buildings = {
 			infrastructure = 2
 			air_base = 1

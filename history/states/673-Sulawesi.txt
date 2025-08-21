@@ -10,6 +10,8 @@ state={
 
 
 	history= {
+		owner = HID
+		add_core_of = HID
 	
 		victory_points = {
 			10263 3

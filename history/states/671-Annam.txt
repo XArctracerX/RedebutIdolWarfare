@@ -12,6 +12,9 @@ state={
 	}
 
 	history={
+		owner = AIA
+		add_core_of = AIA
+
 		victory_points = {
 			4075 15
 		}
