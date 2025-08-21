@@ -1,0 +1,22 @@
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		2175 10933 13273 
+	}
+	history={
+		buildings = {
+			infrastructure = 1
+			10933 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 
+			10933 3 
+		}
+	}
+	manpower=535261
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=1209
+	name="STATE_1209"
+	manpower=1232
+	
+	state_category = wasteland 
+
+	history={
+		owner = ICE
+		add_core_of = ICE
+		
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	provinces={ 14276 14311 14329 14348 14323 14332 }
+}

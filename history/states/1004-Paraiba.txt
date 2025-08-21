@@ -1,0 +1,24 @@
+
+state={
+	id=1004
+	name="STATE_1004"
+	manpower = 1075245
+
+	state_category = town
+
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 
+			2227 3 
+		}
+	}
+
+	provinces={
+		2227 10989 7561
+	}
+
+	local_supplies=0.0 
+	
+}

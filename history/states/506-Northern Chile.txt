@@ -1,0 +1,26 @@
+state={
+	id=506
+	name="STATE_506"
+	provinces={
+		5146 5171 8913 12994 13302 
+	}
+	history={
+		buildings = {
+			infrastructure = 2 #was 3
+			industrial_complex = 1
+			air_base = 1
+			12994 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			12994 1 
+		}
+
+	}
+	manpower=158819
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

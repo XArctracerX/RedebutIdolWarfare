@@ -1,0 +1,26 @@
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		steel=19.000
+	}
+	history = {
+		owner = IMM
+		add_core_of = IMM
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 1 # Luxembourg has had a small commercial airport since 1930
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		victory_points = { 6583 5 }
+	}
+	provinces={
+		6583 
+	}
+	manpower=295913
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

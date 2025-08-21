@@ -1,0 +1,43 @@
+state={
+	id=44
+	name="STATE_44"
+	resources={
+		oil=1.000
+	}
+	history={
+		owner = ATL
+		add_core_of = ATL
+		
+		victory_points = {
+			9914 5 
+		}
+		victory_points = {
+			11767 2 
+		}
+		victory_points = {
+			13255 2
+		}
+		victory_points = {
+			6900 2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+			13255 = {
+				naval_base = 2
+			}
+			11767 = {
+				naval_base = 4
+			}
+		}
+	}
+	provinces={
+		3448 3884 6900 9875 9914 11767 13255
+	}
+	manpower=672348
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=5.000
+}

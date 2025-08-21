@@ -1,0 +1,19 @@
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		4946 7921 8003 10853 10871 
+	}
+	history={
+		buildings = {
+			infrastructure = 2 #was 3
+		}
+		victory_points = {
+			7921 10
+		}
+	}
+	manpower=444096
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

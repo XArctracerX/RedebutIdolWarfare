@@ -1,0 +1,14 @@
+state={
+	id=1154
+	name="STATE_1154"
+	provinces={
+		13644 13708 13773 13806 13841 13874 
+	}
+		
+	history={
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

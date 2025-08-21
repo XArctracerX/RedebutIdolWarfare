@@ -1,0 +1,22 @@
+state = {
+	id = 1076
+	name = "STATE_1076"
+	manpower = 42000
+	state_category = small_island
+	
+	history = {
+		victory_points = { 14181 1 }
+		buildings = {
+			infrastructure = 3
+			14181 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		14181
+	}
+
+	local_supplies = 1.0 
+}

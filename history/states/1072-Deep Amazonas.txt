@@ -1,0 +1,14 @@
+state={
+	id=1072
+	name="STATE_1072"
+	provinces={
+		2198 5008 5216 5232 8185 8254 12919 13277 13325 13328 13330 13285
+	}
+	history={
+	}
+	impassable = yes
+	manpower=69488
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

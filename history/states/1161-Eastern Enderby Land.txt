@@ -1,0 +1,15 @@
+state={
+	id=1161
+	name="STATE_1161"
+	provinces={
+		13469 13470 13471 13499 13573 13581 13639 13672 13673 13729 13746 13784 13792 13849 13863 13866 
+	}
+		
+	history={
+	}
+	impassable = yes
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

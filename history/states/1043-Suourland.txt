@@ -1,0 +1,23 @@
+state={
+	id=1043
+	name="STATE_1043"
+	provinces={
+		12689 13266 13267 13268 
+	}
+	history={
+		owner = LMW
+		add_core_of = LMW
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13331 1
+		}
+	}
+	manpower=38623
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

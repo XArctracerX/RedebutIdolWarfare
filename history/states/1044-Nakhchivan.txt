@@ -1,0 +1,24 @@
+state={
+	id=1044
+	name="STATE_1044"
+	provinces={
+		6997 
+	}
+	history={
+		owner = MAR
+		add_core_of = MAR
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			6997 1
+		}
+
+	}
+	manpower=126696
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

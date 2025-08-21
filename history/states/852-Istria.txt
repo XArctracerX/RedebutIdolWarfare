@@ -1,0 +1,26 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		11735 11564
+	}
+	history = {
+		owner = RAO
+		add_core_of = RAO
+		
+		victory_points = { #Fiume (Rijeka)
+		11564 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			11564 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=125850
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

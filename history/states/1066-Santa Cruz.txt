@@ -1,0 +1,25 @@
+state={
+	id=1066
+	name="STATE_1066"
+	resources={
+		oil=3.000
+	}
+	provinces={
+		2169 5173 12946 12952 13305 
+	}
+	history = {
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			5173 1 
+		}
+		
+	}
+	manpower=103457
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

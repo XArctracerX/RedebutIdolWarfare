@@ -1,0 +1,22 @@
+
+state={
+	id=1210
+	name="STATE_1210"
+	manpower = 9806
+	
+	state_category = small_island
+	history={
+		owner = RAO
+		add_core_of = RAO
+		
+		buildings = {
+			infrastructure = 3
+			14180 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces={14180 }
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1053
+	name="STATE_1053"
+	resources={
+		steel = 38
+		aluminium = 10
+	}
+
+	history={
+		owner = IMM
+		add_core_of = IMM
+		
+		victory_points = {
+			11531 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		9575 11531
+	}
+	manpower=909440
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	
+	local_supplies=0.0 
+}

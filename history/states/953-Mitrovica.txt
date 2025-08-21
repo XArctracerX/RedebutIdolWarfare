@@ -1,0 +1,23 @@
+state={
+	id=953
+	name="STATE_953"
+	provinces={
+		6953 9890 
+	}
+	history={
+		owner = MAH
+		add_core_of = MAH
+		
+		victory_points = {
+			6953 1
+		}
+		buildings = {
+			infrastructure = 1 #was 3
+		}
+	}
+	manpower=138016
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies = 0.0 
+}

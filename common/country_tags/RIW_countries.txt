@@ -1,0 +1,52 @@
+# Europe #
+LIZ	= "countries/Great Exardia.txt"
+IMM	= "countries/Immerheim.txt"
+RAO	= "countries/Romance Empire.txt"
+ATL	= "countries/Atlantis.txt"
+KFP	= "countries/Kiara.txt"
+RYZ	= "countries/Misma.txt"
+LMW	= "countries/Lucius.txt"
+LMI	= "countries/Lumi.txt"
+ALF	= "countries/Alfhilde.txt"
+FRN	= "countries/Furi.txt"
+STR	= "countries/Stronny.txt"
+ICE	= "countries/Icey.txt"
+AME	= "countries/Amelia.txt"
+SHI	= "countries/Shiori.txt"
+WLD	= "countries/Wilderwood.txt"
+RER	= "countries/Rera.txt"
+MAR	= "countries/Mana.txt"
+CAL	= "countries/Calidori.txt"
+LLA	= "countries/Lala.txt"
+SAU	= "countries/Saurei.txt"
+ETH	= "countries/Elise.txt"
+VTX	= "countries/Vortex.txt"
+HAN	= "countries/Hanamiya.txt"
+NIM	= "countries/Nimue.txt"
+CAT	= "countries/Catato.txt"
+CLV	= "countries/Cloverfield.txt"
+PEN	= "countries/Penumbral.txt"
+MAH	= "countries/Mahochii.txt"
+ROM	= "countries/Romania.txt"
+YOY = "countries/Yoyo.txt"
+NYA = "countries/Nyanners.txt"
+SNZ = "countries/Sneeziu.txt"
+FBK = "countries/Fubuki.txt"
+QUT = "countries/Qutie.txt"
+NAL = "countries/Nalithea.txt"
+SQU = "countries/SquChan.txt"
+AZU = "countries/Azumi.txt"
+FRK = "countries/Fraiki.txt"
+KYU = "countries/Marikyuun.txt"
+CIN = "countries/Cinnia.txt"
+BIJ = "countries/Bijou.txt"
+
+# North America #
+
+# South America #
+
+# Asia
+
+# Africa #
+FUW	= "countries/Fuwawa.txt"
+MOC	= "countries/Mococo.txt"

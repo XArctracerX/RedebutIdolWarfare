@@ -1,0 +1,15 @@
+state={
+	id=1198
+	name="STATE_1198"
+	provinces={ 14173}
+	manpower=30
+	state_category = small_island
+	history={
+		buildings = {
+			infrastructure = 1
+			14173 = {
+				naval_base = 1
+			}
+		}
+	}
+}

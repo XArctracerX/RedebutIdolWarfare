@@ -1,0 +1,23 @@
+
+state={
+	id=1049
+	name="STATE_1049"
+	manpower = 129856
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			3916 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		3916 5014 10811
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,225 @@
+#reload countrycolors
+
+# Europe #
+LIZ = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+IMM = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+RAO = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ATL = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+KFP = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+RYZ = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+LMW = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+LMI = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ALF = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+FRN = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+STR = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ICE = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+AME = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+SHI = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+FUW = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MOC = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+WLD = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+RER = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MAR = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CAL = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+LLA = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+SAU = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ETH = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+VTX = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+HAN = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+NIM = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CAT = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CLV = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+PEN = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+MAH = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ROM = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+YOY = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+NYA = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+SNZ = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+FBK = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+QUT = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+NAL = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+SQU = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+FRK = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+AZU = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+KYU = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CIN = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+BIJ = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+# North America #
+
+# South America #
+
+# Asia
+
+# Africa #

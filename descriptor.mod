@@ -7,5 +7,11 @@ tags={
 	"Ideologies"
 	"Gameplay"
 }
+replace_path="common/countries"
+replace_path="common/country_leader"
+replace_path="common/country_tag_aliases"
+replace_path="common/country_tags"
+replace_path="history/states"
+replace_path="map/strategicregions"
 name="Redebut: Idol Warfare!"
 supported_version="1.16.9"

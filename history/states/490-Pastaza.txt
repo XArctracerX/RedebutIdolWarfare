@@ -1,0 +1,21 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		8149 10942 13290 13289
+	}
+	history={
+		#conquered by Peru in 1941 war
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+                victory_points = {
+			8149 3
+		}
+	}
+	manpower=70020
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=6.000
+}

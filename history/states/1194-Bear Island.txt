@@ -1,0 +1,21 @@
+state={
+	id=1194
+	name="STATE_1194"
+	provinces={ 14240 }
+	resources = {
+		steel = 2
+	}
+	manpower=30
+	state_category = small_island
+	history={
+		owner = RYZ
+		add_core_of = RYZ
+		
+		buildings = {
+			infrastructure = 1
+			14240 = {
+				naval_base = 1
+			}
+		}
+	}
+}

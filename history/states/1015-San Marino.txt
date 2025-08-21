@@ -1,0 +1,23 @@
+state={
+	id=1015
+	name="STATE_1015"
+	manpower=11756
+	state_category = town
+	provinces={
+		13308
+	}
+	history={
+		owner = RAO
+		add_core_of = RAO
+		
+		victory_points = {
+			13308 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

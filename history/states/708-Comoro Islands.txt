@@ -1,0 +1,23 @@
+state={
+	id=708
+	name="STATE_708"
+	provinces={
+		13072 
+	}
+	history={
+		buildings = {
+			infrastructure = 2
+			13072 = {
+				naval_base = 1
+			}
+		
+		}
+		victory_points = {
+			13072 1
+		}
+	}
+	manpower=126703
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

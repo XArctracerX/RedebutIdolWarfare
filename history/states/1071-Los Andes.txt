@@ -1,0 +1,27 @@
+state={
+	id=1071
+	name="STATE_1071"
+	provinces={
+		2224 11001 13304 13310 13311  
+	}
+	history = {
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			2224 1 
+		}
+
+		victory_points = {
+			11001 3
+		}
+
+	}
+	manpower=612734
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

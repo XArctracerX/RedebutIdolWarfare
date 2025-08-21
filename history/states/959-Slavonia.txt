@@ -1,0 +1,25 @@
+state={
+	id=959
+	name="STATE_959"
+	manpower = 634207
+	
+	state_category = town
+
+	history={
+		owner = MAH
+		add_core_of = MAH
+		
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			6647 5
+		}
+	}
+
+	provinces={
+		3627 6647 9595
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,19 @@
+state={
+	id=1172
+	name="STATE_1172"
+	manpower=30
+	state_category = tiny_island
+	
+	history={
+		buildings = {
+			infrastructure = 1
+			14030 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = ENG
+		add_claim_by = ARG
+	}
+	
+	provinces={ 14030}
+}

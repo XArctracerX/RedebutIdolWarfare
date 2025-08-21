@@ -1,0 +1,34 @@
+state={
+	id=313
+	name="STATE_313"
+	resources={
+		chromium=1.000
+	}
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			# Santa Maria Dam
+			10842 = { dam = 1 }
+			10886 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			10886 3
+		}
+		victory_points = {
+			10842 1
+		}
+
+	}
+	provinces={
+		4991 10842 10886 13085 
+	}
+	manpower=2027436
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

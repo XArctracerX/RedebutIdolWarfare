@@ -1,0 +1,21 @@
+state={
+	id=1206
+	name="STATE_1206"
+	manpower=1
+	
+	state_category = wasteland 
+	
+	history={
+		owner = RYZ
+		add_core_of = RYZ
+		
+		buildings = {
+			infrastructure = 1
+			14302 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={ 14302 14359 14387 14296 14484}
+}

@@ -1,0 +1,26 @@
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		rubber=3.000
+	}
+	history={
+		buildings = {
+			infrastructure = 1
+			12853 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 
+			12853 3 
+		}
+	}
+
+	provinces={
+		2035 2214 8172 10874 10956 12853 12999 13274
+	}
+	manpower=714153
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

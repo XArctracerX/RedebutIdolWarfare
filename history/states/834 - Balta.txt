@@ -1,0 +1,28 @@
+
+state = {
+	id = 834
+	name = "STATE_834"
+	manpower = 587284
+	
+	state_category = rural
+
+	history = {
+		owner = NIM
+		add_core_of = NIM
+		
+		victory_points = {
+			741 1 
+		}
+		buildings = {
+		
+			infrastructure = 2
+			
+		}
+	}
+
+	provinces = {
+		741 754 9576
+	}
+
+	local_supplies = 6.0 
+}

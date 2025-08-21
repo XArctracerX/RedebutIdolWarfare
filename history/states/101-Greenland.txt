@@ -1,0 +1,29 @@
+state={
+	id=101
+	name="STATE_101"
+	resources={
+		aluminium=1.000
+	}
+	provinces={
+		12512 13058 13066 14184 14201 14227 14350 14374 14427 14429 14202
+	}
+
+	history={
+		buildings = {
+			infrastructure = 1
+			12512 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			12512 1 
+		}
+
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

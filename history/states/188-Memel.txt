@@ -1,0 +1,25 @@
+state={
+	id=188
+	name="STATE_188"
+	provinces={
+		3288 
+	}
+	history = {
+		owner = SNZ
+		add_core_of = SNZ
+		
+		victory_points = {
+			3288 3
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			3288 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,34 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		4861 12674 13271 
+	}
+	history={
+		owner = LMW
+		add_core_of = LMW
+		
+		victory_points = {
+			12674 3 
+		}
+		victory_points = {
+			4861 1 
+		}
+		buildings = {
+			infrastructure = 1
+			12674 = {
+				naval_base = 2
+
+			}
+			4861 = {
+				naval_base = 1
+
+			}
+
+		}
+	}
+	manpower=77247
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

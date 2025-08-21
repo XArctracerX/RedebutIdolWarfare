@@ -1,0 +1,36 @@
+state={
+	id=1063
+	name="STATE_1063"
+	resources={
+		steel=24.000
+	}
+	history = {
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			5121 = {
+				naval_base = 1
+			}
+			5169 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			5121 3
+		}
+
+		victory_points = {
+			5169 1
+		}
+
+	}
+	provinces={
+		5121 5169 12920 12954 
+	}
+	manpower=1042783
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

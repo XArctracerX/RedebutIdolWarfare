@@ -1,0 +1,12 @@
+state={
+	id=1119
+	name="STATE_1119"
+	manpower=549
+
+	state_category = small_island
+
+	history={
+	}
+	
+	provinces={ 13225 }
+}

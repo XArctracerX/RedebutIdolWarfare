@@ -1,0 +1,27 @@
+
+state={
+	id=442
+	name="STATE_442"
+	manpower = 4837295
+	state_category = town
+	resources={
+		chromium = 2
+		steel = 2
+	}
+
+	history={
+		victory_points = {
+			12717 5
+		}
+		buildings = {
+			infrastructure = 2 #was 3
+			air_base = 3
+		}
+	}
+
+	provinces={
+		1978 4558 4998 12717 12763 
+	}
+
+	local_supplies=5.0 
+}

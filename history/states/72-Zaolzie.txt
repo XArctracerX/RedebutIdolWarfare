@@ -1,0 +1,26 @@
+state={
+	id=72
+	name="STATE_72"
+	manpower = 152000
+	
+	state_category = rural
+	
+	history={
+		owner = AZU
+		add_core_of = AZU
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			9567 1
+		}
+	}
+
+	provinces={
+		9551 9567 
+	}
+
+	local_supplies=0.0
+}

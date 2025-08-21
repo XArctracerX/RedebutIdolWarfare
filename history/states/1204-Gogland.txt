@@ -1,0 +1,15 @@
+state={
+	id=1204
+	name="STATE_1204" #Gogland - bigges island of Outer Islands of the Gulf of Finland
+	manpower = 12
+	
+	state_category = rural
+
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={ 14182}
+}

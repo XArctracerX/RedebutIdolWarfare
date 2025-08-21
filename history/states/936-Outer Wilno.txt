@@ -1,0 +1,20 @@
+state={
+	id=936
+	name="STATE_936"
+	history={
+		owner = YOY
+		add_core_of = YOY
+		
+		buildings = {
+			infrastructure = 3 #was 5
+		}
+	}
+	provinces={
+		6340 11391 
+	}
+	manpower=165000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+
+	local_supplies = 0.0 
+}

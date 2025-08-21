@@ -1,0 +1,24 @@
+state={
+	id=980
+	name="STATE_980"
+	provinces={
+		1889 4959 7982 12863 13312 
+	}
+	history={
+		victory_points = {
+			7982 5 
+		}
+		buildings = {
+			infrastructure = 1
+			7982 = {
+				naval_base = 3
+
+			}
+
+		}
+	}
+	manpower=575241
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

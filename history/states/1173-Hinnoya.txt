@@ -1,0 +1,21 @@
+state={
+	id=1173
+	name="STATE_1173" #Lofoten
+	manpower=25
+	
+	state_category = wasteland 
+	
+	history={
+		owner = RYZ
+		add_core_of = RYZ
+		
+		buildings = {
+			infrastructure = 1
+			11157 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={ 11157 14210}
+}
