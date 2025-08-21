@@ -11,6 +11,9 @@ state={
 	}
 	
 	history={
+		owner = ZAO
+		add_core_of = ZAO
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

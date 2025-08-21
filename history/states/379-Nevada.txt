@@ -13,6 +13,9 @@ state={
 	}
 
 	history={
+		owner = LUL
+		add_core_of = LUL
+
 		buildings = {
 			infrastructure = 2 #was 4
 			# Hoover Dam

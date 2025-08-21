@@ -8,6 +8,9 @@ state={
 	}
 
 	history={
+		owner = FOX
+		add_core_of = FOX
+
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1

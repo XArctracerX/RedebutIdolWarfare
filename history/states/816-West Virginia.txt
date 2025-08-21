@@ -6,6 +6,9 @@ state={
 		steel=1.000
 	}	
 	history={
+		owner = FSA
+		add_core_of = FSA
+		
 		buildings = {
 			industrial_complex = 2
 			infrastructure = 3 #was 6

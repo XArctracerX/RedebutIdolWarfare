@@ -5,6 +5,9 @@ state={
 		4946 7921 8003 10853 10871 
 	}
 	history={
+		owner = ZAO
+		add_core_of = ZAO
+		
 		buildings = {
 			infrastructure = 2 #was 3
 		}

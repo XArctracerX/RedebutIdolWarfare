@@ -4,6 +4,9 @@ state={
 	name="STATE_930"
 
 	history={
+		owner = ZAO
+		add_core_of = ZAO
+		
 		buildings = {
 			infrastructure = 2
 

@@ -4,6 +4,8 @@ state={
 	name="STATE_484"
 
 	history={
+		owner = MOZ
+		add_core_of = MOZ
 
 		buildings = {
 			dockyard = 1

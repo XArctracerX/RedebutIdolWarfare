@@ -13,6 +13,9 @@ state={
 
 
 	history={
+		owner = RIH
+		add_core_of = RIH
+		
 		buildings = {
 			infrastructure = 2 #was 4
 			industrial_complex = 2

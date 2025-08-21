@@ -9,6 +9,9 @@ state={
 	state_category = megalopolis
 
 	history={
+		owner = FSA
+		add_core_of = FSA
+		
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 2

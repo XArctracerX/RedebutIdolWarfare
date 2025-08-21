@@ -5,6 +5,9 @@ state={
 		2077 
 	}
 	history={
+		owner = ZAO
+		add_core_of = ZAO
+		
 		victory_points = {
 			2077 1 
 		}

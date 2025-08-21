@@ -5,6 +5,9 @@ state={
 	state_category = rural
 
 	history={
+		owner = INA
+		add_core_of = INA
+		
 		buildings = {
 			infrastructure = 4 #was: 7
 			13284 = {

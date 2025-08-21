@@ -3,6 +3,9 @@ state={
 	name="STATE_937"
 	
 	history={
+		owner = YAR
+		add_core_of = YAR
+
 		buildings = {
 			infrastructure = 2
 			4611 = {

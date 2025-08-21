@@ -5,6 +5,9 @@ state={
 
 
 	history={
+		owner = INA
+		add_core_of = INA
+		
 		buildings = {
 			infrastructure = 3 #was: 7
 			industrial_complex = 1

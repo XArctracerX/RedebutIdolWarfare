@@ -5,6 +5,9 @@ state={
 		1965 12755 13264 
 	}
 	history={
+		owner = ZAO
+		add_core_of = ZAO
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

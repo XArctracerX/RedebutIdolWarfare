@@ -5,6 +5,9 @@ state={
 	manpower = 493571
 	state_category = rural
 	history={
+		owner = ZAO
+		add_core_of = ZAO
+		
 		buildings = {
 			infrastructure = 2 #was 3
 			industrial_complex = 1

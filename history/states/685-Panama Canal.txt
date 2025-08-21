@@ -6,6 +6,9 @@ state={
 	state_category = enclave
 
 	history={
+		owner = YAR
+		add_core_of = YAR
+		
 		victory_points = {
 			7617 3
 		}
