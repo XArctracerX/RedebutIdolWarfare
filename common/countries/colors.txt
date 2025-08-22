@@ -420,6 +420,20 @@ AAW = {
 	color_ui = rgb { 115 115 115 }
 }
 
+ANN = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CLS = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+UMA = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
 
 # Africa #
 BOT = {
@@ -480,3 +494,12 @@ MOL = {
 }
 
 # Antarctica #
+PLR = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+
+GAN = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}

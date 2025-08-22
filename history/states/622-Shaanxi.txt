@@ -7,6 +7,9 @@ state={
 	}
 
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		victory_points = {
 			12356 3
 		}

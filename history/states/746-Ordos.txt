@@ -10,6 +10,8 @@ state={
 	}	
 	
 	history= {
+		owner = FAU
+		add_core_of = FAU
 		
 		buildings = {
 			infrastructure = 1 #was 2

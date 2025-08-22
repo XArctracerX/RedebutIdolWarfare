@@ -6,6 +6,8 @@ state={
 	}
 
 	history={
+		owner = GAN
+		add_core_of = GAN
 	}
 
 	manpower=1

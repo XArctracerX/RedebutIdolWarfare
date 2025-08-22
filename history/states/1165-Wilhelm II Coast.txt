@@ -7,6 +7,8 @@ state={
 
 
 	history={
+		owner = PLR
+		add_core_of = PLR
 	}
 	
 	provinces={ 13953 13976}

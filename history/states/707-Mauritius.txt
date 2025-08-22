@@ -6,6 +6,9 @@ state={
 	state_category = small_island
 
 	history={
+		owner = ETH
+		add_core_of = ETH
+		
 		buildings = {
 			infrastructure = 2
 			13018 = {

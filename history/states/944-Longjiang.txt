@@ -5,6 +5,9 @@ state={
 		1588 4506 7613 7897 12485 12618 
 	}
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		victory_points = {
 			4506 8
 		}

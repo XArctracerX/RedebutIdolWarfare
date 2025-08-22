@@ -5,6 +5,9 @@ state={
 		1693 7832 7848 10541 10675 10698 12537 12548 
 	}
 	history={
+		owner = NYA
+		add_core_of = NYA
+
 		victory_points = {
 			12548 1
 		}

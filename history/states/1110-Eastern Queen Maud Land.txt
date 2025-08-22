@@ -6,9 +6,9 @@ state={
 	}
 		
 	history={
-
+		owner = GAN
+		add_core_of = GAN
 	}
-	impassable = yes
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland

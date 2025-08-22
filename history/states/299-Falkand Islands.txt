@@ -5,6 +5,9 @@ state={
 		12960 13292 
 	}
 	history= {
+		owner = LIZ
+		add_core_of = LIZ
+		
 		buildings = {
 			infrastructure = 1
 			12960 = {

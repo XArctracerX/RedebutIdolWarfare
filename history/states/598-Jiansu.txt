@@ -6,6 +6,9 @@ state={
 	state_category = town
 
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		buildings = {
 			infrastructure = 2
 

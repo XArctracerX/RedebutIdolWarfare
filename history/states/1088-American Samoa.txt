@@ -6,6 +6,9 @@ state={
 	state_category = tiny_island
 
 	history={
+		owner = RED
+		add_core_of = RED
+		
 		victory_points = {
 			13080 1
 		}

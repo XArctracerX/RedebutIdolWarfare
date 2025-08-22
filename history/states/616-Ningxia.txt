@@ -3,6 +3,9 @@ state={
 	name="STATE_616"
 
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		buildings = {
 			infrastructure = 1
 		}

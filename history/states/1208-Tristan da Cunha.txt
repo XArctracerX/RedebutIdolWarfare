@@ -6,6 +6,8 @@ state={
 	state_category = small_island
 
 	history={
+		owner = LIZ
+		add_core_of = LIZ
 	}
 	
 	provinces={ 13229 }

@@ -6,6 +6,9 @@ state={
 	}
 
 	history={
+		owner = UMA
+		add_core_of = UMA
+
 		buildings = {
 			infrastructure = 1
 		}

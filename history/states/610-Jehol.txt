@@ -5,6 +5,9 @@ state={
 		814 881 972 3814 3828 3881 6898 6937 7575 7633 9768 9873 9905 10331 11801 11855 
 	}
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		buildings = {
 			infrastructure = 2 #was 4
 

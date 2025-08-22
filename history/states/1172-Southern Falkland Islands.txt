@@ -5,14 +5,15 @@ state={
 	state_category = tiny_island
 	
 	history={
+		owner = LIZ
+		add_core_of = LIZ
+
 		buildings = {
 			infrastructure = 1
 			14030 = {
 				naval_base = 1
 			}
 		}
-		add_claim_by = ENG
-		add_claim_by = ARG
 	}
 	
 	provinces={ 14030}

@@ -5,6 +5,9 @@ state={
 	manpower=30
 	state_category = small_island
 	history={
+		owner = GAN
+		add_core_of = GAN
+		
 		buildings = {
 			infrastructure = 1
 			14065 = {

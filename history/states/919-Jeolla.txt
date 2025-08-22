@@ -2,6 +2,9 @@ state={
 	id=919
 	name="STATE_919"
 	history={
+		owner = CLS
+		add_core_of = CLS
+
 		buildings = {
 			infrastructure = 3 #was 5
 			industrial_complex = 1

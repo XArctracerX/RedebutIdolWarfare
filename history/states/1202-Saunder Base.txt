@@ -6,6 +6,9 @@ state={
 	state_category = wasteland 
 	
 	history={
+		owner = GAN
+		add_core_of = GAN
+		
 		buildings = {
 			infrastructure = 0
 			13658 = {

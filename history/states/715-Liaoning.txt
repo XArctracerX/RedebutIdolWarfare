@@ -6,6 +6,9 @@ state={
 		chromium=8.000
 	}
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		buildings = {
 			infrastructure = 2 #was 3
 

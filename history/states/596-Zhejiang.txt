@@ -4,8 +4,10 @@ state=
 	name="STATE_596"
 	manpower = 21230700
 	state_category = city
-	history=
-	{
+	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		victory_points = { 
 			9974 1 
 		}

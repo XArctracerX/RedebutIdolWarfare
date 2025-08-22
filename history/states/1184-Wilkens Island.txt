@@ -4,9 +4,10 @@ state={
 	manpower=1
 
 	state_category = wasteland 
-	impassable = yes
 
 	history={
+		owner = GAN
+		add_core_of = GAN
 	}
 	
 	provinces={ 13706}

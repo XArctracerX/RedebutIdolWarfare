@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+		owner = UMA
+		add_core_of = UMA
+		
 		victory_points = {
 			4801 10
 		}

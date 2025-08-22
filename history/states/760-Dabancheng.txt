@@ -9,6 +9,9 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
+		owner = UMA
+		add_core_of = UMA
+		
 		victory_points = {
 			12524 1
 		}

@@ -3,6 +3,9 @@ state={
 	name="STATE_328"
 
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		buildings = {
 			infrastructure = 3 #was 7
 			air_base = 6

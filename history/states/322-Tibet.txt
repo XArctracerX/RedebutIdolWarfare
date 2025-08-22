@@ -5,6 +5,9 @@ state={
 	impassable = yes
 
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		buildings = {
 
 		}

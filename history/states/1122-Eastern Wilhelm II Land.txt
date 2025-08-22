@@ -4,9 +4,10 @@ state={
 	manpower=1
 	
 	state_category = wasteland 
-	impassable = yes
 
 	history={
+		owner = PLR
+		add_core_of = PLR
 	}
 	
 	provinces={ 13474}

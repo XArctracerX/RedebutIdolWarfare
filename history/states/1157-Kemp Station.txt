@@ -6,6 +6,8 @@ state={
 	state_category = wasteland 
 
 	history={
+		owner = PLR
+		add_core_of = PLR
 	}
 	
 	provinces={ 13994 }

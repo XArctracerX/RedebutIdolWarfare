@@ -6,6 +6,8 @@ state={
 	state_category = wasteland 
 
 	history={
+		owner = GAN
+		add_core_of = GAN
 	}
 	
 	provinces={ 13604 }

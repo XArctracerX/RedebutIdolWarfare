@@ -5,6 +5,9 @@ state={
 		7290 
 	}
 	history={
+		owner = RED
+		add_core_of = RED
+		
 		buildings = {
 			infrastructure = 2
 			7290 = {

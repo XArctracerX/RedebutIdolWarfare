@@ -7,6 +7,9 @@ state={
 	state_category = tiny_island
 
 	history={
+		owner = DOK
+		add_core_of = DOK
+
 		buildings = {
 			infrastructure = 2
 			13021 = {

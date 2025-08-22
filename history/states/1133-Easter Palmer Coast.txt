@@ -7,6 +7,8 @@ state={
 
 
 	history={
+		owner = GAN
+		add_core_of = GAN
 	}
 	
 	provinces={ 14068 13751 14024 14014 14002 13992 13949 13913 13852 13884}

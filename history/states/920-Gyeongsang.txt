@@ -5,6 +5,9 @@ state={
 		steel = 4
 	}
 	history={
+		owner = CLS
+		add_core_of = CLS
+		
 		buildings = {
 			infrastructure = 3 #was 5
 			dockyard = 1

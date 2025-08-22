@@ -6,6 +6,9 @@ state={
 	}
 
 	history={
+		owner = FAU
+		add_core_of = FAU
+		
 		buildings = {
 			infrastructure = 4
 			arms_factory = 3

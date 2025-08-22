@@ -6,6 +6,9 @@ state={
 	
 	history=
 	{
+		owner = LIZ
+		add_core_of = LIZ
+		
 		buildings = {
 			infrastructure = 1
 			10995 = {

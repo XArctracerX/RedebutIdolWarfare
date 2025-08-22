@@ -9,6 +9,9 @@ state={
 	buildings_max_level_factor=1.000
 
 	history={
+		owner = PLR
+		add_core_of = PLR
+		
 		buildings = {
 			infrastructure = 0
 			13954 = {

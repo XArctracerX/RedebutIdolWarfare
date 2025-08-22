@@ -3,6 +3,9 @@ state={
 	name="STATE_917"
 
 	history={
+		owner = CLS
+		add_core_of = CLS
+		
 		buildings = {
 			infrastructure = 2 #was 4
 			1003 = {
