@@ -1,0 +1,19 @@
+bookmarks = {
+	bookmark = {
+		name = "Extra"
+		desc = ""
+		date = 2026.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = ""
+		default = yes
+
+		"---" = {
+			history = "RISE_OF_DARKNESS_OTHER_NATIONS"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
