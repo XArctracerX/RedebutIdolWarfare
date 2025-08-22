@@ -19,6 +19,7 @@ MAR	= "countries/Mana.txt"
 CAL	= "countries/Calidori.txt"
 LLA	= "countries/Lala.txt"
 SAU	= "countries/Saruei.txt"
+
 ETH	= "countries/Elise.txt"
 VTX	= "countries/Vortex.txt"
 HAN	= "countries/Hanamiya.txt"
