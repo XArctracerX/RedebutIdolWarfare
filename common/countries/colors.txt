@@ -71,16 +71,6 @@ SHI = {
 	color_ui = rgb { 115 115 115 }
 }
 
-FUW = {
-	color = rgb { 165 200 235 }
-	color_ui = rgb { 165 200 235 }
-}
-
-MOC = {
-	color = rgb { 255 165 210 }
-	color_ui = rgb { 255 165 210 }
-}
-
 WLD = {
 	color = rgb { 100 100 50 }
 	color_ui = rgb { 100 100 50 }
@@ -229,7 +219,7 @@ KRO = {
 
 HAK = {
 	color = rgb { 100 200 115 }
-	color_ui = rgb { 100 200 1155 }
+	color_ui = rgb { 100 200 115 }
 }
 
 MIO = {
@@ -306,7 +296,6 @@ SER = {
 	color = rgb { 160 45 55 }
 	color_ui = rgb { 160 45 55 }
 }
-
 
 # South America #
 DOD = {

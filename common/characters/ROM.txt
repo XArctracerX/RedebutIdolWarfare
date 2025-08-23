@@ -1,0 +1,47 @@
+characters = {
+	#### Characters ####
+	### Phase One ###
+	## Country Leaders ##
+	# Main #
+	ROM_romania_chan = {
+		name = "Romania-Chan"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ROM/portrait_ROM_romania_chan.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/ROM/portrait_ROM_romania_chan.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = chatocracy
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	# Ideology #
+	## Advisors ##
+	## Scientists ##
+	# Nuclear #
+	# Naval #
+	# Air #
+	# Land #
+	## Chiefs ##
+	# Army #
+	# Navy #
+	# Air #
+	## High Command ##
+	# Army #
+	# Navy #
+	# Air #
+	## Generals ##
+	# Field Marshal #
+	# Corps Commander #
+	# Admiral #
+	### Phase Two ### 
+}

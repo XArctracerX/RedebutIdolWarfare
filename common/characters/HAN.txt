@@ -1,0 +1,47 @@
+characters = {
+	#### Characters ####
+	### Phase One ###
+	## Country Leaders ##
+	# Main #
+	HAN_hanamiya_chii = {
+		name = "Hanamiya Chii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/HAN/portrait_HAN_hanamiya_chii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/HAN/portrait_HAN_hanamiya_chii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = chatocracy
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	# Ideology #
+	## Advisors ##
+	## Scientists ##
+	# Nuclear #
+	# Naval #
+	# Air #
+	# Land #
+	## Chiefs ##
+	# Army #
+	# Navy #
+	# Air #
+	## High Command ##
+	# Army #
+	# Navy #
+	# Air #
+	## Generals ##
+	# Field Marshal #
+	# Corps Commander #
+	# Admiral #
+	### Phase Two ### 
+}

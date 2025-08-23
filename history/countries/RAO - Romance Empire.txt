@@ -9,16 +9,42 @@ set_research_slots = 1
 
 set_popularities = {
 	anarchy = 0
-	autocracy = 0
+	autocracy = 100
 	corporatocracy = 0
-	idolocracy = 100
+	idolocracy = 0
 	theocracy = 0
 	technocracy = 0
 }
 
 set_politics = {
-	ruling_party = idolocracy
+	ruling_party = autocracy
 	last_election = "2025.1.1"
 	election_frequency = 2
 	elections_allowed = no
 }
+
+#### Characters ####
+### Phase One ###
+## Country Leaders ##
+# Main #
+recruit_character = RAO_raora_panthera
+# Ideology #
+## Advisors ##
+## Scientists ##
+# Nuclear #
+# Naval #
+# Air #
+# Land #
+## Chiefs ##
+# Army #
+# Navy #
+# Air #
+## High Command ##
+# Army #
+# Navy #
+# Air #
+## Generals ##
+# Field Marshal #
+# Corps Commander #
+# Admiral #
+### Phase Two ### 

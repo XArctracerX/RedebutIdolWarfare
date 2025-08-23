@@ -2,8 +2,16 @@ ideologies = {
 	anarchy = {
 
 		types = {
-			test = {
-				
+			anarcho_syndicalist = {
+				random = no
+			}
+
+			lawless = {
+
+			}
+
+			prison = {
+
 			}
 		}
 
@@ -16,7 +24,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 105 }
+		color = { 150 0 0 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -38,11 +46,11 @@ ideologies = {
 	autocracy = {
 
 		types = {
-			test2 = {
+			absolute_monarchy = {
 				
 			}
 
-			absolute_monarchy = {
+			dictatorship = {
 				
 			}
 		}
@@ -56,7 +64,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 105 }
+		color = { 0 0 0 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -78,7 +86,15 @@ ideologies = {
 	corporatocracy = {
 
 		types = {
-			test3 = {
+			crime_syndicate = {
+				
+			}
+
+			mega_corporation = {
+				
+			}
+
+			business = {
 				
 			}
 		}
@@ -92,7 +108,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 105 }
+		color = { 220 220 220 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -114,7 +130,11 @@ ideologies = {
 	idolocracy = {
 
 		types = {
-			test4 = {
+			chatocracy = {
+				
+			}
+
+			dodocracy = {
 				
 			}
 		}
@@ -128,7 +148,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 105 }
+		color = { 220 135 220 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -150,8 +170,16 @@ ideologies = {
 	theocracy = {
 
 		types = {
-			test5 = {
+			eldritch_cult = {
 				
+			}
+
+			organised_religion = {
+
+			}
+
+			spiritualism = {
+
 			}
 		}
 
@@ -164,7 +192,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 105 }
+		color = { 255 220 135 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -186,7 +214,19 @@ ideologies = {
 	technocracy = {
 
 		types = {
-			test6 = {
+			trans_humanism = {
+				
+			}
+
+			geniocracy = {
+
+			}
+			
+			cyberocracy = {
+
+			}
+
+			futurism = {
 				
 			}
 		}
@@ -200,7 +240,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 105 }
+		color = { 135 255 255 }
 
 		rules = {
 			can_create_collaboration_government = yes

@@ -2,19 +2,42 @@
 
 ## Anarchy ##
 anarchy:0 "Anarchy"
+  anarchy_desc:0 "Anarchy"
 # Sub-Ideologies #
+anarcho_syndicalist:0 "Anarcho-Syndicalist"
+lawless:0 "Lawless"
+prison:0 "Prison"
 ## Autocracy ##
 autocracy:0 "Autocracy"
+  autocracy_desc:0 "Autocracy"
 # Sub-Ideologies #
+absolute_monarchy:0 "Absolute Monarchy"
+dictatorship:0 "Dictatorship"
 ## Corporatocracy ##
 corporatocracy:0 "Corporatocracy"
+  corporatocracy_desc:0 "Corporatocracy"
 # Sub-Ideologies #
+crime_syndicate:0 "Crime Syndicate"
+mega_corporation:0 "Mega Corporation"
+business:0 "Business"
 ## Idolocracy ##
 idolocracy:0 "Idolocracy"
+  idolocracy_desc:0 "Idolocracy"
 # Sub-Ideologies #
+chatocracy:0 "Chatocracy"
+dodocracy:0 "Dodocracy"
 ## Theocracy ##
 theocracy:0 "Theocracy"
+  theocracy_desc:0 "Theocracy"
 # Sub-Ideologies #
+eldritch_cult:0 "Eldritch Cult"
+organised_religion:0 "Organised Religion"
+spiritualism:0 "Spiritualism"
 ## Technocracy ##
 technocracy:0 "Technocracy"
+  technocracy_desc:0 "Technocracy"
 # Sub-Ideologies #
+trans_humanism:0 "Trans-Humanism"
+geniocracy:0 "Geniocracy"
+cyberocracy:0 "Cyberocracy"
+futurism:0 "Futurism"

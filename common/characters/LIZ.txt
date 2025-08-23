@@ -1,0 +1,57 @@
+characters = {
+	#### Characters ####
+	### Phase One ###
+	## Country Leaders ##
+	# Main #
+	# Ideology #
+	## Advisors ##
+	## Scientists ##
+	# Nuclear #
+	# Naval #
+	# Air #
+	# Land #
+	## Chiefs ##
+	# Army #
+	# Navy #
+	# Air #
+	## High Command ##
+	# Army #
+	# Navy #
+	# Air #
+	## Generals ##
+	# Field Marshal #
+	# Corps Commander #
+	# Admiral #
+	### Phase Two ### 
+
+	AST_harvey_whitaker = {
+		name = "Harvey Whitaker"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/AST/portrait_AST_harvey_whitaker_idea.dds"
+			}
+			civilian = {
+				small = "gfx/interface/ideas/AST/portrait_AST_harvey_whitaker_idea.dds"
+			}	
+		}
+		
+		advisor = {
+			slot = head_of_government
+			idea_token = AST_harvey_whitaker_idea	
+
+			allowed = {
+				tag = AST
+			}
+
+			traits = { 
+				prime_minister
+			}
+
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+}
