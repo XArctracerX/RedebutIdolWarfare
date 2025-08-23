@@ -3,6 +3,27 @@ characters = {
 	### Phase One ###
 	## Country Leaders ##
 	# Main #
+	LIZ_elizabeth_rose_bloodflame = {
+		name = "Elizabeth Rose Bloodflame"
+		portraits = {
+			army = {
+				large = "gfx/leaders/LIZ/portrait_LIZ_elizabeth_rose_bloodflame.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/LIZ/portrait_LIZ_elizabeth_rose_bloodflame.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = absolute_monarchy
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
 	# Ideology #
 	## Advisors ##
 	## Scientists ##
@@ -23,35 +44,4 @@ characters = {
 	# Corps Commander #
 	# Admiral #
 	### Phase Two ### 
-
-	AST_harvey_whitaker = {
-		name = "Harvey Whitaker"
-		portraits = {
-			army = {
-				small = "gfx/interface/ideas/AST/portrait_AST_harvey_whitaker_idea.dds"
-			}
-			civilian = {
-				small = "gfx/interface/ideas/AST/portrait_AST_harvey_whitaker_idea.dds"
-			}	
-		}
-		
-		advisor = {
-			slot = head_of_government
-			idea_token = AST_harvey_whitaker_idea	
-
-			allowed = {
-				tag = AST
-			}
-
-			traits = { 
-				prime_minister
-			}
-
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
 }

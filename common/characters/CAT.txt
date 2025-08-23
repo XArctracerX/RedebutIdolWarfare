@@ -1,0 +1,47 @@
+characters = {
+	#### Characters ####
+	### Phase One ###
+	## Country Leaders ##
+	# Main #
+	CAT_murphy_catato = {
+		name = "Murphy Catato"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAT/portrait_CAT_murphy_catato.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/CAT/portrait_CAT_murphy_catato.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = chatocracy
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	# Ideology #
+	## Advisors ##
+	## Scientists ##
+	# Nuclear #
+	# Naval #
+	# Air #
+	# Land #
+	## Chiefs ##
+	# Army #
+	# Navy #
+	# Air #
+	## High Command ##
+	# Army #
+	# Navy #
+	# Air #
+	## Generals ##
+	# Field Marshal #
+	# Corps Commander #
+	# Admiral #
+	### Phase Two ### 
+}

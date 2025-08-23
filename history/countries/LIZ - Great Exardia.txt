@@ -27,6 +27,7 @@ set_politics = {
 ### Phase One ###
 ## Country Leaders ##
 # Main #
+recruit_character = LIZ_elizabeth_rose_bloodflame
 # Ideology #
 ## Advisors ##
 ## Scientists ##

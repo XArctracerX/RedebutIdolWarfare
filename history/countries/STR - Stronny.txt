@@ -22,3 +22,29 @@ set_politics = {
 	election_frequency = 2
 	elections_allowed = no
 }
+
+#### Characters ####
+### Phase One ###
+## Country Leaders ##
+# Main #
+recruit_character = STR_stronny_cuttles
+# Ideology #
+## Advisors ##
+## Scientists ##
+# Nuclear #
+# Naval #
+# Air #
+# Land #
+## Chiefs ##
+# Army #
+# Navy #
+# Air #
+## High Command ##
+# Army #
+# Navy #
+# Air #
+## Generals ##
+# Field Marshal #
+# Corps Commander #
+# Admiral #
+### Phase Two ### 
