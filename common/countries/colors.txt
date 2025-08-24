@@ -247,7 +247,7 @@ DOK = {
 	color_ui = rgb { 170 150 240 }
 }
 
-NER = {
+RAV = {
 	color = rgb { 45 45 75 }
 	color_ui = rgb { 45 45 75 }
 }

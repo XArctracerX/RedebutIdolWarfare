@@ -143,14 +143,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1712;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
 3691;7813;sea;6261;-1;-1;-1;-1;;Cold Ass-Strait
 7259;1393;sea;8561;-1;-1;-1;-1;;Vancouver-Strait
-11047;198;sea;8370;-1;-1;-1;-1;;Barents-Strait
+11047;198;sea;14196;-1;-1;-1;-1;;Barents-Strait
 11157;3145;sea;5869;-1;-1;-1;-1;;Northern-Straits
 11090;91;sea;5792;-1;-1;-1;-1;;Northern-Straits
 44;11050;sea;5792;-1;-1;-1;-1;;Northern-Straits
 22;3016;sea;5792;-1;-1;-1;-1;;Northern-Straits
 6062;6205;sea;3590;-1;-1;-1;-1;;West Scottish-Strait
 8435;6550;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
-7304;4360;sea;5752;-1;-1;-1;-1;;New Foundland-Strait
+7304;4360;sea;5778;-1;-1;-1;-1;;New Foundland-Strait
 11064;13270;sea;3195;-1;-1;-1;-1;;Scotland-Orkney
 3206;316;sea;2506;-1;-1;-1;-1;;Denmark
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North

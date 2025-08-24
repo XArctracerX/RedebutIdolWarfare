@@ -4,8 +4,87 @@ bookmarks = {
 		desc = ""
 		date = 2026.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = ""
+		default_country = "HOL"
 		default = yes
+
+		HOL = {
+			history = HOLOLIVE_IDOL_WARFARE_DESC
+			ideology = corporatocracy
+
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		AST = {
+			history = AUSTRALIA_IDOL_WARFARE_DESC
+			ideology = idolocracy
+			
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		HAA = {
+			history = HAACHAMA_IDOL_WARFARE_DESC
+			ideology = autocracy
+			
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		FAU = {
+			history = FAUNA_IDOL_WARFARE_DESC
+			ideology = theocracy
+			
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		KRO = {
+			history = KRONII_IDOL_WARFARE_DESC
+			ideology = autocracy
+			
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		HOO = {
+			history = MUMEI_IDOL_WARFARE_DESC
+			ideology = theocracy
+			
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
 
 		"---" = {
 			history = "IDOL_WARFARE_OTHER_NATIONS"

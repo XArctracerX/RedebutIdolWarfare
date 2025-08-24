@@ -22,3 +22,37 @@ set_politics = {
 	election_frequency = 2
 	elections_allowed = no
 }
+
+create_faction = hololive_faction
+add_to_faction = HID
+
+set_autonomy = {
+	target = HID
+	autonomous_state = autonomy_puppet
+}
+
+#### Characters ####
+### Phase One ###
+## Country Leaders ##
+# Main #
+recruit_character = HOL_tokino_sora
+# Ideology #
+## Advisors ##
+## Scientists ##
+# Nuclear #
+# Naval #
+# Air #
+# Land #
+## Chiefs ##
+# Army #
+# Navy #
+# Air #
+## High Command ##
+# Army #
+# Navy #
+# Air #
+## Generals ##
+# Field Marshal #
+# Corps Commander #
+# Admiral #
+### Phase Two ### 

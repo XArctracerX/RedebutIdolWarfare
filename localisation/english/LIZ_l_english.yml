@@ -4,3 +4,6 @@
 LIZ:0 "Great Exardia"
 LIZ_DEF:0 "the Kingdom of Great Exardia"
 LIZ_ADJ:0 "Exardian"
+
+#
+justice_faction:0 "Justice"

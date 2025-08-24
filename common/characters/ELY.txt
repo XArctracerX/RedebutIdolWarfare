@@ -1,0 +1,47 @@
+characters = {
+	#### Characters ####
+	### Phase One ###
+	## Country Leaders ##
+	# Main #
+	ELY_elyssia_nikos = {
+		name = "Elyssia Nikos"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ELY/portrait_ELY_elyssia_nikos.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/ELY/portrait_ELY_elyssia_nikos.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = chatocracy
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	# Ideology #
+	## Advisors ##
+	## Scientists ##
+	# Nuclear #
+	# Naval #
+	# Air #
+	# Land #
+	## Chiefs ##
+	# Army #
+	# Navy #
+	# Air #
+	## High Command ##
+	# Army #
+	# Navy #
+	# Air #
+	## Generals ##
+	# Field Marshal #
+	# Corps Commander #
+	# Admiral #
+	### Phase Two ### 
+}

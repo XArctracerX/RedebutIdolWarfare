@@ -3,7 +3,7 @@ ideologies = {
 
 		types = {
 			anarcho_syndicalist = {
-				random = no
+
 			}
 
 			lawless = {

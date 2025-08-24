@@ -23,6 +23,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_autonomy = {
+	target = FUW
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = MOC
+	autonomous_state = autonomy_puppet
+}
+
 #### Characters ####
 ### Phase One ###
 ## Country Leaders ##

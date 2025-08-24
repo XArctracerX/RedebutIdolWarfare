@@ -23,6 +23,16 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = justice_faction
+add_to_faction = FSA
+add_to_faction = IMM
+add_to_faction = RAO
+
+set_autonomy = {
+	target = SHI
+	autonomous_state = autonomy_puppet
+}
+
 #### Characters ####
 ### Phase One ###
 ## Country Leaders ##

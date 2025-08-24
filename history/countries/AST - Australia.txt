@@ -23,6 +23,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = council_faction
+add_to_faction = KRO
+add_to_faction = FAU
+add_to_faction = HOO
+
 #### Characters ####
 ### Phase One ###
 ## Country Leaders ##

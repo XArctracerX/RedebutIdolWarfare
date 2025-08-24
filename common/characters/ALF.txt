@@ -4,7 +4,7 @@ characters = {
 	## Country Leaders ##
 	# Main #
 	ALF_alfhilde_odinsdottir = {
-		name = "Alhilde Odinsdottir"
+		name = "Alfhilde Odinsdottir"
 		portraits = {
 			army = {
 				large = "gfx/leaders/ALF/portrait_ALF_alfhilde_odinsdottir.dds"

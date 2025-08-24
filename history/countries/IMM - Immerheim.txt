@@ -23,6 +23,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_autonomy = {
+	target = BIJ
+	autonomous_state = autonomy_puppet
+}
+
+
 #### Characters ####
 ### Phase One ###
 ## Country Leaders ##
