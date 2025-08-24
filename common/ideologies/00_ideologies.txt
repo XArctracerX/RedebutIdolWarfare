@@ -3,7 +3,7 @@ ideologies = {
 
 		types = {
 			anarcho_syndicalist = {
-
+				can_be_randomly_selected = no
 			}
 
 			lawless = {
@@ -135,7 +135,7 @@ ideologies = {
 			}
 
 			dodocracy = {
-				
+				color = { 235 205 200 }
 			}
 		}
 
@@ -171,7 +171,7 @@ ideologies = {
 
 		types = {
 			eldritch_cult = {
-				
+				color = { 128 0 128 }
 			}
 
 			organised_religion = {
@@ -215,7 +215,7 @@ ideologies = {
 
 		types = {
 			trans_humanism = {
-				
+				can_be_randomly_selected = no
 			}
 
 			geniocracy = {
@@ -223,11 +223,11 @@ ideologies = {
 			}
 			
 			cyberocracy = {
-
+				can_be_randomly_selected = no
 			}
 
 			futurism = {
-				
+				can_be_randomly_selected = no
 			}
 		}
 
