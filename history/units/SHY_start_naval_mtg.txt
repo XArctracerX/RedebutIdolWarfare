@@ -1,0 +1,19 @@
+﻿units = {
+	##### Naval OOB #####
+		fleet = {
+		name = "Orcat Navy"
+		naval_base = 12503
+		task_force = {				
+			name = "Pacific Squadron"			
+			location = 12503
+			# Scrap Iron Flotilla
+			ship = { name = "SHS Saguenay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 3 owner = SHY version_name = "River Class" } } }
+			ship = { name = "SHS Skeena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 3 owner = SHY version_name = "River Class" } } }
+			# Outdated S class ships
+			ship = { name = "SHS Champlain" definition = destroyer equipment = { ship_hull_light_1 = { amount = 4 owner = SHY version_name = "S Class" } } }
+			ship = { name = "SHS Vancouver" definition = destroyer equipment = { ship_hull_light_1 = { amount = 4 owner = SHY version_name = "S Class" } } }
+		}				
+	}
+}
+
+

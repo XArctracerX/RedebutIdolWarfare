@@ -1,0 +1,181 @@
+﻿division_template = {
+	name = "New Gunman Armed Infantry Division"
+
+	division_names_group = MIO_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+
+division_template = {
+	name = "New Gunman Motorised Infantry Division"
+
+	division_names_group = MIO_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "New Gunman Light Tank Division"
+
+	division_names_group = MIO_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "New Gunman Infantry"
+		location = 1408
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Infantry"
+		location = 1408
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Infantry"
+		location = 1408
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "New Gunman Infantry"
+		location = 12272
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Infantry"
+		location = 12272
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "New Gunman Infantry"
+		location = 4833
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Infantry"
+		location = 4833
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Infantry"
+		location = 4833
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Infantry"
+		location = 4833
+		division_template = "New Gunman Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "New Gunman Motorised Infantry"
+		location = 4833
+		division_template = "New Gunman Motorised Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Motorised Infantry"
+		location = 4833
+		division_template = "New Gunman Motorised Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "New Gunman Motorised Infantry"
+		location = 12272
+		division_template = "New Gunman Motorised Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Motorised Infantry"
+		location = 12272
+		division_template = "New Gunman Motorised Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "New Gunman Motorised Infantry"
+		location = 12272
+		division_template = "New Gunman Motorised Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Motorised Infantry"
+		location = 1408
+		division_template = "New Gunman Motorised Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "New Gunman Light Tank Division"
+		location = 1408
+		division_template = "New Gunman Light Tank Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Light Tank Division"
+		location = 1408
+		division_template = "New Gunman Light Tank Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "New Gunman Light Tank Division"
+		location = 1408
+		division_template = "New Gunman Light Tank Division"
+		start_experience_factor = 0.3
+	}
+	
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MIO"
+		}
+		requested_factories = 2
+		progress = 0.28
+		efficiency = 100
+	}
+}

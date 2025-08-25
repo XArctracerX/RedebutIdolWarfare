@@ -1,19 +1,43 @@
 capital = 470
 
-set_stability = 0.01
-set_war_support = 0.01
+set_stability = 0.56
+set_war_support = 0.22
+
+oob = "HAK_start"
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+}
 
 set_convoys = 50
 
 set_research_slots = 1
 
+set_technology = {
+	# Infantry #
+	infantry_weapons = 1
+	
+	# Vehicles #
+	tech_trucks = 1
+	motorised_infantry = 1
+
+	# Support #
+	tech_support = 1		
+	tech_engineers = 1		
+
+	# Artillery #
+	gw_artillery = 1
+}
+
 set_popularities = {
-	anarchy = 0
-	autocracy = 0
+	anarchy = 7
+	autocracy = 3
 	corporatocracy = 0
-	idolocracy = 0
-	theocracy = 100
-	technocracy = 0
+	idolocracy = 17
+	theocracy = 76
+	technocracy = 4
 }
 
 set_politics = {

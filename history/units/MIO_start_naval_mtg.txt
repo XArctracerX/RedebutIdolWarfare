@@ -1,0 +1,19 @@
+﻿units = {
+	##### Naval OOB #####
+		fleet = {
+		name = "New Gunman Navy"
+		naval_base = 1408
+		task_force = {				
+			name = "Atlantic Squadron"			
+			location = 1408
+			# Scrap Iron Flotilla
+			ship = { name = "OMS Saguenay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIO version_name = "River Class" } } }
+			ship = { name = "OMS Skeena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIO version_name = "River Class" } } }
+			# Outdated S class ships
+			ship = { name = "OMS Champlain" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIO version_name = "S Class" } } }
+			ship = { name = "OMS Vancouver" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIO version_name = "S Class" } } }
+		}				
+	}
+}
+
+

@@ -1,0 +1,190 @@
+﻿division_template = {
+	name = "Kronie Armed Infantry Division"
+
+	division_names_group = KRO_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+		recon = { x = 0 y = 1 }  
+	}
+}
+
+division_template = {
+	name = "Kronie Motorised Infantry Division"
+
+	division_names_group = KRO_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kronie Warden Tank Division"
+
+	division_names_group = KRO_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Kronie Infantry"
+		location = 3778
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kronie Infantry"
+		location = 3778
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kronie Infantry"
+		location = 3778
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kronie Infantry"
+		location = 3778
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Infantry"
+		location = 3775
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kronie Infantry"
+		location = 3775
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Infantry"
+		location = 9667
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Infantry"
+		location = 722
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Infantry"
+		location = 6510
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Infantry"
+		location = 3911
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Infantry"
+		location = 10230
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Infantry"
+		location = 4345
+		division_template = "Kronie Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Kronie Motorised Infantry"
+		location = 3778
+		division_template = "Kronie Motorised Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kronie Motorised Infantry"
+		location = 3778
+		division_template = "Kronie Motorised Infantry Division"
+		start_experience_factor = 0.56
+	}
+	division = {
+		name = "Kronie Motorised Infantry"
+		location = 3778
+		division_template = "Kronie Motorised Infantry Division"
+		start_experience_factor = 0.7
+	}
+
+	division = {
+		name = "Kronie Motorised Infantry"
+		location = 4345
+		division_template = "Kronie Motorised Infantry Division"
+		start_experience_factor = 0.8
+	}
+	division = {
+		name = "Kronie Motorised Infantry"
+		location = 4345
+		division_template = "Kronie Motorised Infantry Division"
+		start_experience_factor = 0.9
+	}
+
+	division = {
+		name = "Kronie Tank Divison"
+		location = 3775
+		division_template = "Kronie Warden Tank Division"
+		start_experience_factor = 0.1
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "KRO"
+		}
+		requested_factories = 2
+		progress = 0.28
+		efficiency = 100
+	}
+}

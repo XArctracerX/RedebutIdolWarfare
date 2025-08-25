@@ -4,14 +4,17 @@ state={
 	name="STATE_740"
 	manpower = 259612
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = MIO
 		add_core_of = MIO
 		
 		buildings = {
-			infrastructure = 1 #was 2
+			infrastructure = 2 
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
 		}
 		victory_points = {
 			7259 1

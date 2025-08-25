@@ -1,0 +1,42 @@
+﻿units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "Kronie Navy"			
+		naval_base = 4285
+		task_force = {
+			name = "Kronie Squadron"
+			location = 4285
+			ship = { name = "OKS Perfection" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KRO version_name = "Canberra Class" } } }
+			ship = { name = "OKS Meatball Marina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Tuna Sub" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Steak and Cheese" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KRO } } }
+			# Destroyers #
+			ship = { name = "OKS Stuart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vampire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vendetta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Voyager" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Waterhen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Stuart 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vampire 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vendetta 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Voyager 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Waterhen 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vern 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Stuart 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vampire 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vendetta 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Voyager 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Waterhen 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vern 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Stuart 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vampire 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vendetta 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Voyager 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Waterhen 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+			ship = { name = "OKS Vern 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KRO } } }
+		}				
+	}
+}
+
+

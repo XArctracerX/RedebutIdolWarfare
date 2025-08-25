@@ -7,13 +7,19 @@ state={
 	history = {
 		owner = SHY
 		add_core_of = SHY
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+		}
 		
 		victory_points = {
 			12223 1
 		}
 	}
 	manpower=70000
-	state_category = pastoral
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

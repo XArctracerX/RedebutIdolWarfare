@@ -553,7 +553,6 @@ adjacency_rule ={
 					original_tag = SPR
 					controls_state = 290
 				}
-				SPR_scw_in_progress = yes		#sanity condition
 			}
 		}
 	}

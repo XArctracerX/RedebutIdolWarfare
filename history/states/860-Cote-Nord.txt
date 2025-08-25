@@ -7,13 +7,23 @@ state={
 	history = {
 		owner = SHY
 		add_core_of = SHY
+
+		buildings = {
+			infrastructure = 3 #was: 7
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			13293 = {
+				naval_base = 1
+			}
+		}
 		
 		victory_points = {
 			10715 1
 		}
 	}
 	manpower=110000
-	state_category = rural
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

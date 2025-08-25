@@ -1,0 +1,117 @@
+﻿division_template = {
+	name = "Orcat Armed Infantry Division"
+
+	division_names_group = SHY_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Orcat Infantry"
+		location = 3736
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Orcat Infantry"
+		location = 12503
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 12503
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Orcat Infantry"
+		location = 12147
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Orcat Infantry"
+		location = 10715
+		division_template = "Orcat Armed Infantry Division"
+		start_experience_factor = 0.3
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SHY"
+		}
+		requested_factories = 2
+		progress = 0.28
+		efficiency = 100
+	}
+}
