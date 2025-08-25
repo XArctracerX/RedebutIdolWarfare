@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 
 		"---" = {
-			history = "RISE_OF_DARKNESS_OTHER_NATIONS"
+			history = "OMEN_OTHER_NATIONS"
 		}
 
 		effect = {

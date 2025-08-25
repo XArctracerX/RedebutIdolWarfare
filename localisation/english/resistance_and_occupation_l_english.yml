@@ -90,7 +90,7 @@
  COMPLIANCE_GAIN_IS_SCALED:0 "Scaled by $RATIO|R.0%$ due to insufficient garrison!"
  
  OCCUPIED_COUNTRY_CORE_COUNT_TOOLTIP:0 "The country has $NUM_CORES|H$ core states in total and you are controlling $NUM_CONTROLLED_CORES|H$ of those states."
- OCCUPIED_COUNTRY_MANPOWER_TOOLTIP:0 "There is $NUM_TOTAL_MANPOWER|*H$ population in the states you are controlling and with your current law and other modifiers you are able to access $RATIO|.1H%$ ($NUM_ACCESSED_MANPOWER|*H$) of that manpower."
+ OCCUPIED_COUNTRY_MANPOWER_TOOLTIP:0 "There is $NUM_TOTAL_MANPOWER|*H$ population in the states you are controlling and with your current law and other modifiers you are able to access $RATIO|.1H%$ ($NUM_ACCESSED_MANPOWER|*H$) of that fanpower."
  OCCUPIED_COUNTRY_RESOURCES_TOOLTIP:0 "There are $NUM_TOTAL_RESOURCES|0H$ resources ($RESOURCES$) in the states you are controlling and with your current law and other modifiers you are able to access $RATIO|.1H%$ ($NUM_ACCESSED_RESOURCES|1H$) of those resources."
  OCCUPIED_COUNTRY_INDUSTRIAL_CAPACITY_TOOLTIP:0 "There are $NUM_TOTAL_FACTORIES|0H$ factories ($NUM_TOTAL_CIV_FACTORIES|.0$£civ_factory£ $NUM_TOTAL_MIL_FACTORIES|.0$£mil_factory£) in the states you are controlling and with your current law and other modifiers you are able to access $RATIO|.1H%$ ($NUM_ACCESSED_FACTORIES|1H$) of those factories."
  OCCUPIED_COUNTRY_NO_MANPOWER_TOOLTIP:0 "The states that you are controlling has no population."
@@ -125,7 +125,7 @@
  OCCUPATION_BAD_GARRISON_NO_SUPPRESSION:0 "§RYou can't choose this template because its Suppression value is §H0§!.§!"
  OCCUPATION_NO_GARRISON_NEEDED:0 "No Garrison needed"
  OCCUPATION_CURRENT_GARRISON_NO_SUPPRESSION:0 "§RThe Suppression value of a garrison template is §H0§!. Please choose another one.§!"
- GARRISON_ENTRY_MANPOWER_TOOLTIP:0 "Manpower per suppression: $MANPOWER|*H$\nManpower per division: $MANPOWERDIV|*H$"
+ GARRISON_ENTRY_MANPOWER_TOOLTIP:0 "Fanpower per suppression: $MANPOWER|*H$\nFanpower per division: $MANPOWERDIV|*H$"
  GARRISON_ENTRY_IC_TOOLTIP:0 "Production cost per suppression: £production_cost£$IC|*H$\nProduction cost per division: £production_cost£$ICDIV|*H$"
  GARRISON_HARDNESS_TOOLTIP:0 "§HHardness§!\nThe hardness of a template will reduce the losses during Resistance activity."
  LAW_BONUS_SCALED:0 "§RThis law will not have its full effect until the Garrison needs are fully satisfied.§!"
@@ -205,7 +205,7 @@
  OCCUPATION_SHOW_NO_RESISTING_COUNTRIES:1 "Show non-resisting countries ($NUM$)"
  DEFAULT_LAW_SELECTION:0 "Default Law"
  FOREIGN_SUPPORT:0 "Foreign Support"
- FOREIGN_SUPPORT_TOOLTIP:0 "Manpower provided by other countries."
+ FOREIGN_SUPPORT_TOOLTIP:0 "Fanpower provided by other countries."
  FOREIGN_SUPPORT_IN_GARRISON:0 "$NUMBER|H*$ in Garrisons:"
  FOREIGN_SUPPORT_IN_RESERVE:0 "$NUMBER|H*$ in reserve:"
  

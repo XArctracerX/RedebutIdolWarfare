@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "Idol Warfare"
+		name = "Omen"
 		desc = ""
 		date = 2026.1.1.1
-		picture = "GFX_select_date_1939"
+		picture = "GFX_select_date_omen"
 		default_country = "HOL"
 		default = yes
 
 		HOL = {
-			history = HOLOLIVE_IDOL_WARFARE_DESC
+			history = HOLOLIVE_OMEN_DESC
 			ideology = corporatocracy
 
 			ideas = {
@@ -21,7 +21,7 @@ bookmarks = {
 		}
 
 		AST = {
-			history = AUSTRALIA_IDOL_WARFARE_DESC
+			history = AUSTRALIA_OMEN_DESC
 			ideology = idolocracy
 			
 			ideas = {
@@ -34,7 +34,7 @@ bookmarks = {
 		}
 
 		HAA = {
-			history = HAACHAMA_IDOL_WARFARE_DESC
+			history = HAACHAMA_OMEN_DESC
 			ideology = autocracy
 			
 			ideas = {
@@ -47,7 +47,7 @@ bookmarks = {
 		}
 
 		FAU = {
-			history = FAUNA_IDOL_WARFARE_DESC
+			history = FAUNA_OMEN_DESC
 			ideology = theocracy
 			
 			ideas = {
@@ -60,7 +60,7 @@ bookmarks = {
 		}
 
 		KRO = {
-			history = KRONII_IDOL_WARFARE_DESC
+			history = KRONII_OMEN_DESC
 			ideology = autocracy
 			
 			ideas = {
@@ -73,7 +73,7 @@ bookmarks = {
 		}
 
 		HOO = {
-			history = MUMEI_IDOL_WARFARE_DESC
+			history = MUMEI_OMEN_DESC
 			ideology = theocracy
 			
 			ideas = {
