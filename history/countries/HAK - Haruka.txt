@@ -32,7 +32,7 @@ set_technology = {
 }
 
 set_popularities = {
-	anarchy = 7
+	anarchy = 0
 	autocracy = 3
 	corporatocracy = 0
 	idolocracy = 17

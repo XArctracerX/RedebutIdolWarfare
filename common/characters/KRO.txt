@@ -25,7 +25,128 @@ characters = {
 	}
 
 	# Ideology #
+	KRO_empty_office_anarchy = {
+		name = "Empty Office"
+		portraits = {
+			army = {
+				#large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				#large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = lawless
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	KRO_ouro_kronii_corporatocracy = {
+		name = "Ouro Kronii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = business
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	KRO_ouro_kronii_idolocracy = {
+		name = "Ouro Kronii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = chatocracy
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	KRO_ouro_kronii_theocracy = {
+		name = "Ouro Kronii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = organised_religion
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	KRO_august_anomaly = {
+		name = "August Anomaly"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_august_anomaly.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_august_anomaly_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_august_anomaly.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_august_anomaly_idea.dds"
+			}
+		}
+		
+		country_leader = {
+		    desc = ""
+			ideology = futurism
+			traits = { }
+			expire = "2020.1.1"
+		}
+
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = KRO_august_anomaly_idea
+			ledger = army
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}	
+	}
+
 	## Advisors ##
+	# Cabinet #
+	# Theorist #
 	## Scientists ##
 	# Nuclear #
 	# Naval #

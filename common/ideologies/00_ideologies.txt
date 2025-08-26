@@ -135,6 +135,7 @@ ideologies = {
 			}
 
 			dodocracy = {
+				can_be_randomly_selected = no
 				color = { 235 205 200 }
 			}
 		}
@@ -171,6 +172,7 @@ ideologies = {
 
 		types = {
 			eldritch_cult = {
+				can_be_randomly_selected = no
 				color = { 128 0 128 }
 			}
 
