@@ -205,7 +205,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				fascism_acceptance = -50
+
 			}
 		}
 		

@@ -952,7 +952,6 @@ technologies = {
 			modifier = {
 				add = 1
 				date > 1943.9.1
-				NOT = { has_government = democratic }
 				num_of_military_factories > 150
 			}
 		}
