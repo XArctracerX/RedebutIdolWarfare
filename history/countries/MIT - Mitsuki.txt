@@ -23,6 +23,9 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = sukhi_mitti_pact
+add_to_faction = KIR
+
 #### Characters ####
 ### Phase One ###
 ## Country Leaders ##

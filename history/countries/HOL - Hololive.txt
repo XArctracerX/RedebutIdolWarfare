@@ -23,6 +23,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_power_balance = {
+    id = HOL_senpai_kouhai_bop
+}
+
 create_faction = hololive_faction
 add_to_faction = HID
 
