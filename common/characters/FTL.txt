@@ -3,15 +3,15 @@ characters = {
 	### Phase One ###
 	## Country Leaders ##
 	# Main #
-	NAL_nalithea = {
-		name = "Nalithea"
+	FTL_feather_fatale = {
+		name = "Feather Fatale"
 		portraits = {
 			army = {
-				large = "gfx/leaders/NAL/portrait_NAL_nalithea.dds"
+				large = "gfx/leaders/FTL/portrait_FTL_feather_fatale.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/NAL/portrait_NAL_nalithea.dds"
+				large = "gfx/leaders/FTL/portrait_FTL_feather_fatale.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}

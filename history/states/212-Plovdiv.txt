@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = NAL
-		add_core_of = NAL
+		owner = FTL
+		add_core_of = FTL
 		
 		victory_points = { #Plovdiv
 			6923 10

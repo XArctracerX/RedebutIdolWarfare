@@ -11,8 +11,8 @@ state={
 	state_category = city
 
 	history={
-		owner = NAL
-		add_core_of = NAL
+		owner = FTL
+		add_core_of = FTL
 
 		victory_points = { #Sofia
 			949 15 

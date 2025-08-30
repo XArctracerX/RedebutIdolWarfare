@@ -171,9 +171,9 @@ QUT = {
 	color_ui = rgb { 60 55 55 }
 }
 
-NAL = {
-	color = rgb { 240 120 120 }
-	color_ui = rgb { 240 120 120 }
+FTL = {
+	color = rgb { 90 40 160 }
+	color_ui = rgb { 90 40 160 }
 }
 
 SQU = {

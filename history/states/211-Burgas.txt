@@ -8,8 +8,8 @@ state={
 	state_category = town
 
 	history={
-		owner = NAL
-		add_core_of = NAL
+		owner = FTL
+		add_core_of = FTL
 		
 		victory_points = { #Varna
 			9783 5

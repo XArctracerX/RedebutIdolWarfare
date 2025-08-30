@@ -4,8 +4,8 @@ state={
 	name="STATE_341"
 
 	history= {
-		owner = NAL
-		add_core_of = NAL
+		owner = FTL
+		add_core_of = FTL
 
 		victory_points = {
 			11842 5

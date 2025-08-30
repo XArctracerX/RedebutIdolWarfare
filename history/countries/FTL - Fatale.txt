@@ -27,7 +27,7 @@ set_politics = {
 ### Phase One ###
 ## Country Leaders ##
 # Main #
-recruit_character = NAL_nalithea
+recruit_character = FTL_feather_fatale
 # Ideology #
 ## Advisors ##
 ## Scientists ##
