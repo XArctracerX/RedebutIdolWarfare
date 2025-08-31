@@ -133,7 +133,7 @@ characters = {
 			cost = 100
 			slot = theorist
 			idea_token = KRO_august_anomaly_idea
-			ledger = army
+			ledger = civilian
 			allowed = {
 				original_tag = KRO
 			}
@@ -146,6 +146,146 @@ characters = {
 
 	## Advisors ##
 	# Cabinet #
+	KRO_mr_endy = {
+		name = "Mr. Endy"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_mr_endy.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_mr_endy_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_mr_endy.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_mr_endy_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = KRO_mr_endy_idea
+			ledger = civilian
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				KRO_bunkeronii_cco
+			}
+		}	
+	}
+
+	KRO_cabbageronii = {
+		name = "Cabbageronii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_cabbageronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_cabbageronii_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_cabbageronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_cabbageronii_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = KRO_cabbageronii_idea
+			ledger = civilian
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				RIW_minister_of_agriculture
+			}
+		}	
+	}
+
+	KRO_boros = {
+		name = "Boros"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_boros.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_boros_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_boros.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_boros_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = KRO_boros_idea
+			ledger = civilian
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				RIW_beloved_mascot
+			}
+		}	
+	}
+
+	KRO_kyou = {
+		name = "Kyou"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_kyou.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_kyou_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_kyou.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_kyou_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = KRO_kyou_idea
+			ledger = civilian
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				RIW_asmr_artist
+			}
+		}	
+	}
+
+	KRO_kooji = {
+		name = "Kooji"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_kooji.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_kooji_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_kooji.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_kooji_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = KRO_kooji_idea
+			ledger = civilian
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				RIW_foreign_minister
+			}
+		}	
+	}
+
 	# Theorist #
 	## Scientists ##
 	# Nuclear #
@@ -154,12 +294,344 @@ characters = {
 	# Land #
 	## Chiefs ##
 	# Army #
+	KRO_clotho_v_melodiam = {
+		name = "Clotho V. Melodiam"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_clotho_v_melodiam.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_clotho_v_melodiam_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_clotho_v_melodiam.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_clotho_v_melodiam_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 125
+			slot = army_chief
+			idea_token = KRO_clotho_v_melodiam_idea
+			ledger = army
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				army_chief_offensive_2
+			}
+		}	
+
+		field_marshal = {
+			traits = { }
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
 	# Navy #
+	KRO_tara_kaminarito = {
+		name = "Tara Kaminatrito"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_tara_kaminarito.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_tara_kaminarito_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_tara_kaminarito.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_tara_kaminarito_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 125
+			slot = navy_chief
+			idea_token = KRO_tara_kaminarito_idea
+			ledger = navy
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				navy_chief_maneuver_2
+			}
+		}	
+
+		navy_leader = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 5
+			coordination_skill = 4
+		}
+	}
+
 	# Air #
+	KRO_kroniicopter = {
+		name = "Kroniicopter"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_kroniicopter.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_kroniicopter_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_kroniicopter.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_kroniicopter_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = KRO_kroniicopter_idea
+			ledger = air
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				air_chief_ground_support_1
+			}
+		}	
+
+		field_marshal = {
+			traits = { }
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
 	## High Command ##
 	# Army #
+	KRO_medusaronii = {
+		name = "Medusaronii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_medusaronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_medusaronii_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_medusaronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_medusaronii_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 75
+			slot = high_command
+			idea_token = KRO_medusaronii_idea
+			ledger = army
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				army_entrenchment_2
+			}
+		}	
+
+		corps_commander = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+	KRO_smollronii = {
+		name = "Smollronii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_smollronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_smollronii_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_smollronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_smollronii_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 50
+			slot = high_command
+			idea_token = KRO_medusaronii_idea
+			ledger = army
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				army_infantry_1
+			}
+		}	
+
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	KRO_alexandria = {
+		name = "Alexandria"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_alexandria.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_alexandria_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_alexandria.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_alexandria_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 75
+			slot = high_command
+			idea_token = KRO_alexandria_idea
+			ledger = army
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				army_logistics_2
+			}
+		}	
+
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+
+	KRO_himemori_hotaru = {
+		name = "Himemori Hotaru"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_himemori_hotaru.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_himemori_hotaru_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_himemori_hotaru.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_himemori_hotaru_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = KRO_himemori_hotaru_idea
+			ledger = army
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				army_artillery_3
+			}
+		}	
+
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
 	# Navy #
 	# Air #
+	KRO_headronii = {
+		name = "Headronii"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_headronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_headronii_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_headronii.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_headronii_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 75
+			slot = high_command
+			idea_token = KRO_headronii_idea
+			ledger = air
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				air_air_combat_training_2
+			}
+		}	
+
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KRO_renna_kosaka = {
+		name = "Renna Kosaka"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_renna_kosaka.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_renna_kosaka_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_renna_kosaka.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_renna_kosaka_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = KRO_renna_kosaka_idea
+			ledger = air
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				air_air_superiority_3
+			}
+		}	
+
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+
 	## Generals ##
 	# Field Marshal #
 	# Corps Commander #

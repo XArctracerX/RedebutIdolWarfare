@@ -1,0 +1,68 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+	### Generic Traits ###
+	RIW_minister_of_agriculture = {
+		random = no
+
+		monthly_population = 0.1
+		supply_consumption_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	RIW_beloved_mascot = {
+		random = no
+
+		stability_factor = 0.15
+		war_support_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	RIW_asmr_artist = {
+		random = no
+
+		consumer_goods_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	RIW_foreign_minister = {
+		random = no
+
+		local_resources_factor = 0.2
+		improve_relations_maintain_cost_factor = -0.05
+		resistance_damage_to_garrison = -0.05
+		trade_opinion_factor = -0.05
+		consumer_goods_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### Canada Traits ###
+	## KRO Traits ##
+	# Starting #
+	KRO_bunkeronii_cco = {
+		random = no
+
+		production_factory_efficiency_gain_factor = 0.1
+		industrial_capacity_factory = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Phase One #
+}

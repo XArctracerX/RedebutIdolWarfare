@@ -1,0 +1,2177 @@
+﻿focus_tree = {
+	id = KRO_phase_one
+	continuous_focus_position = { x = 20 y = 0 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 8
+			tag = KRO
+		}
+	}
+
+	### Phase One ###
+	## Opening ##
+	focus = {
+		id = KRO_the_kroniicopter_has_landed
+		icon = GFX_KRO_the_kroniicopter_has_landed
+		cost = 30
+		x = 14
+		y = 1
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Internal Affairs ##
+	focus = {
+		id = KRO_empironii_internal_affairs
+		icon = GFX_KRO_empironii_internal_affairs
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_the_kroniicopter_has_landed
+		prerequisite = {
+			focus = KRO_the_kroniicopter_has_landed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Fox Immigrants Subpath #
+	focus = {
+		id = KRO_white_fox_immigrants
+		icon = GFX_KRO_white_fox_immigrants
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_empironii_internal_affairs
+		prerequisite = {
+			focus = KRO_empironii_internal_affairs
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_mumeis_fox_sanctuary
+		icon = GFX_KRO_mumeis_fox_sanctuary
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_white_fox_immigrants
+		prerequisite = {
+			focus = KRO_white_fox_immigrants
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Continued Affairs #
+	focus = {
+		id = KRO_address_the_pet_play_allegations
+		icon = GFX_KRO_address_the_pet_play_allegations
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_empironii_internal_affairs
+		prerequisite = {
+			focus = KRO_empironii_internal_affairs
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_the_wardens_eating_habits
+		icon = GFX_KRO_the_wardens_eating_habits
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_address_the_pet_play_allegations
+		prerequisite = {
+			focus = KRO_address_the_pet_play_allegations
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Subway Subpath #
+	focus = {
+		id = KRO_stockpile_sandwiches
+		icon = GFX_KRO_stockpile_sandwiches
+		cost = 30
+		x = -4
+		y = 1
+		relative_position_id = KRO_the_wardens_eating_habits
+		prerequisite = {
+			focus = KRO_the_wardens_eating_habits
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_meatball_marinara
+		icon = GFX_KRO_meatball_marinara
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_stockpile_sandwiches
+		prerequisite = {
+			focus = KRO_stockpile_sandwiches
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_tuna_sub
+		icon = GFX_KRO_tuna_sub
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_stockpile_sandwiches
+		prerequisite = {
+			focus = KRO_stockpile_sandwiches
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_steak_and_cheese
+		icon = GFX_KRO_steak_and_cheese
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = KRO_stockpile_sandwiches
+		prerequisite = {
+			focus = KRO_stockpile_sandwiches
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_liquidize_subways_assets
+		icon = GFX_KRO_liquidize_subways_assets
+		cost = 30
+		x = 0
+		y = 2
+		relative_position_id = KRO_tuna_sub
+		prerequisite = {
+			focus = KRO_meatball_marinara
+		}
+		prerequisite = {
+			focus = KRO_stockpile_sandwiches
+		}
+		prerequisite = {
+			focus = KRO_steak_and_cheese
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Spicy Noodles Subpath #
+	focus = {
+		id = KRO_spicy_noodle_challenge
+		icon = GFX_KRO_spicy_noodle_challenge
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_the_wardens_eating_habits
+		prerequisite = {
+			focus = KRO_the_wardens_eating_habits
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_that_wasnt_so_bad
+		icon = GFX_KRO_that_wasnt_so_bad
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_spicy_noodle_challenge
+		prerequisite = {
+			focus = KRO_spicy_noodle_challenge
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = KRO_one_chip_challenge
+		icon = GFX_KRO_one_chip_challenge
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_that_wasnt_so_bad
+		prerequisite = {
+			focus = KRO_that_wasnt_so_bad
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_ban_the_one_chip_challenge
+		icon = GFX_KRO_ban_the_one_chip_challenge
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_one_chip_challenge
+		prerequisite = {
+			focus = KRO_one_chip_challenge
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Main ##
+	focus = {
+		id = KRO_bunkeronii_incorporated
+		icon = GFX_KRO_bunkeronii_incorporated
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_the_kroniicopter_has_landed
+		prerequisite = {
+			focus = KRO_the_kroniicopter_has_landed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_expand_bunkeronii
+		icon = GFX_KRO_expand_bunkeronii
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_bunkeronii_incorporated
+		prerequisite = {
+			focus = KRO_bunkeronii_incorporated
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_borrow_sapling_labor
+		icon = GFX_KRO_borrow_sapling_labor
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_expand_bunkeronii
+		prerequisite = {
+			focus = KRO_expand_bunkeronii
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_demand_sapling_mine_profits
+		icon = GFX_KRO_borrow_sapling_labor
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_borrow_sapling_labor
+		prerequisite = {
+			focus = KRO_borrow_sapling_labor
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_put_down_piglin_revolt
+		icon = GFX_KRO_put_down_piglin_revolt
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_demand_sapling_mine_profits
+		prerequisite = {
+			focus = KRO_demand_sapling_mine_profits
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_appease_bunkeronii_employees
+		icon = GFX_KRO_appease_bunkeronii_employees
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_demand_sapling_mine_profits
+		prerequisite = {
+			focus = KRO_demand_sapling_mine_profits
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_rapid_promotions
+		icon = GFX_KRO_rapid_promotions
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_put_down_piglin_revolt
+		prerequisite = {
+			focus = KRO_put_down_piglin_revolt
+		}
+		prerequisite = {
+			focus = KRO_appease_bunkeronii_employees
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_hush_money
+		icon = GFX_KRO_hush_money
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_appease_bunkeronii_employees
+		prerequisite = {
+			focus = KRO_appease_bunkeronii_employees
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_faunas_ultimatum
+		icon = GFX_KRO_faunas_ultimatum
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_rapid_promotions
+		prerequisite = {
+			focus = KRO_rapid_promotions
+		}
+		prerequisite = {
+			focus = KRO_hush_money
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Foresty Subpath #
+	focus = {
+		id = KRO_introduce_bunkeronii_berry_farms
+		icon = GFX_KRO_introduce_bunkeronii_berry_farms
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = KRO_expand_bunkeronii
+		prerequisite = {
+			focus = KRO_expand_bunkeronii
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_bunkeronii_lumber
+		icon = GFX_KRO_bunkeronii_lumber
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_introduce_bunkeronii_berry_farms
+		prerequisite = {
+			focus = KRO_introduce_bunkeronii_berry_farms
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Faction ##
+	focus = {
+		id = KRO_the_council
+		icon = GFX_KRO_the_council
+		cost = 30
+		x = 5
+		y = 1
+		relative_position_id = KRO_the_kroniicopter_has_landed
+		prerequisite = {
+			focus = KRO_the_kroniicopter_has_landed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_open_up_to_trade
+		icon = GFX_KRO_open_up_to_trade
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_the_council
+		prerequisite = {
+			focus = KRO_the_council
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_assist_sanas_tower_construction
+		icon = GFX_KRO_open_up_to_trade
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = KRO_the_council
+		prerequisite = {
+			focus = KRO_the_council
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_export_flowers_to_the_hoomans
+		icon = GFX_KRO_export_flowers_to_the_hoomans
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = KRO_open_up_to_trade
+		prerequisite = {
+			focus = KRO_open_up_to_trade
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_import_hooman_berries
+		icon = GFX_KRO_import_hooman_berries
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_open_up_to_trade
+		prerequisite = {
+			focus = KRO_open_up_to_trade
+		}
+		prerequisite = {
+			focus = KRO_assist_sanas_tower_construction
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## War Goals ##
+	focus = {
+		id = KRO_eliminate_false_mother_nature
+		icon = GFX_KRO_eliminate_false_mother_nature
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_bunkeronii_lumber
+		prerequisite = {
+			focus = KRO_bunkeronii_lumber
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_reintegrate_the_orcats_land
+		icon = GFX_KRO_reintegrate_the_orcats_land
+		cost = 30
+		x = 0
+		y = 2
+		relative_position_id = KRO_export_flowers_to_the_hoomans
+		prerequisite = {
+			focus = KRO_export_flowers_to_the_hoomans
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_usurp_the_former_senpai
+		icon = GFX_KRO_usurp_the_former_senpai
+		cost = 30
+		x = 0
+		y = 2
+		relative_position_id = KRO_import_hooman_berries
+		prerequisite = {
+			focus = KRO_import_hooman_berries
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_canada_reunified
+		icon = GFX_KRO_canada_reunified
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_reintegrate_the_orcats_land
+		prerequisite = {
+			focus = KRO_eliminate_false_mother_nature
+		}
+		prerequisite = {
+			focus = KRO_reintegrate_the_orcats_land
+		}
+		prerequisite = {
+			focus = KRO_usurp_the_former_senpai
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_pursue_foreign_time_travelers
+		icon = GFX_KRO_pursue_foreign_time_travelers
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_canada_reunified
+		prerequisite = {
+			focus = KRO_canada_reunified
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Jokeronii ##
+	focus = {
+		id = KRO_leave_the_council
+		icon = GFX_KRO_leave_the_council
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = KRO_faunas_ultimatum
+		prerequisite = {
+			focus = KRO_faunas_ultimatum
+		}
+		prerequisite = {
+			focus = KRO_ban_the_one_chip_challenge
+		}
+		prerequisite = {
+			focus = KRO_liquidize_subways_assets
+		}
+		prerequisite = {
+			focus = KRO_pursue_foreign_time_travelers
+		}
+		mutually_exclusive = {
+			focus = KRO_give_in_to_faunas_demands
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Me, Myself and I Subpath #
+	focus = {
+		id = KRO_me_myself_and_i
+		icon = GFX_KRO_me_myself_and_i
+		cost = 30
+		x = -7
+		y = 1
+		relative_position_id = KRO_leave_the_council
+		prerequisite = {
+			focus = KRO_leave_the_council
+		}
+		mutually_exclusive = {
+			focus = KRO_schedule_a_collab
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_kingdom_of_isolation
+		icon = GFX_KRO_kingdom_of_isolation
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = KRO_me_myself_and_i
+		prerequisite = {
+			focus = KRO_me_myself_and_i
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_make_friends_with_the_mirror
+		icon = GFX_KRO_make_friends_with_the_mirror
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_me_myself_and_i
+		prerequisite = {
+			focus = KRO_me_myself_and_i
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Collab Subpath #
+	focus = {
+		id = KRO_schedule_a_collab
+		icon = GFX_KRO_schedule_a_collab
+		cost = 30
+		x = -3
+		y = 1
+		relative_position_id = KRO_leave_the_council
+		prerequisite = {
+			focus = KRO_leave_the_council
+		}
+		mutually_exclusive = {
+			focus = KRO_me_myself_and_i
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_approach_the_gremlin
+		icon = GFX_KRO_approach_the_gremlin
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = KRO_schedule_a_collab
+		prerequisite = {
+			focus = KRO_schedule_a_collab
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_blue_duo
+		icon = GFX_KRO_blue_duo
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_schedule_a_collab
+		prerequisite = {
+			focus = KRO_schedule_a_collab
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# The Jokeronii Rises #
+	focus = {
+		id = KRO_ignore_chairman_baes_pleas
+		icon = GFX_KRO_ignore_chairman_baes_pleas
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_leave_the_council
+		prerequisite = {
+			focus = KRO_leave_the_council
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_jokeronii_rises
+		icon = GFX_KRO_jokeronii_rises
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_ignore_chairman_baes_pleas
+		prerequisite = {
+			focus = KRO_ignore_chairman_baes_pleas
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# War on Nature Subpath #
+	focus = {
+		id = KRO_prepare_for_the_war_on_nature
+		icon = GFX_KRO_prepare_for_the_war_on_nature
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_jokeronii_rises
+		prerequisite = {
+			focus = KRO_jokeronii_rises
+		}
+		prerequisite = {
+			focus = KRO_kingdom_of_isolation
+			focus = KRO_approach_the_gremlin
+		}
+		prerequisite = {
+			focus = KRO_make_friends_with_the_mirror
+			focus = KRO_blue_duo
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_arm_loyal_kronies
+		icon = GFX_KRO_arm_loyal_kronies
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_prepare_for_the_war_on_nature
+		prerequisite = {
+			focus = KRO_prepare_for_the_war_on_nature
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_bunkeronii_conscripts
+		icon = GFX_KRO_bunkeronii_conscripts
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_prepare_for_the_war_on_nature
+		prerequisite = {
+			focus = KRO_prepare_for_the_war_on_nature
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_take_to_the_seas
+		icon = GFX_KRO_take_to_the_seas
+		cost = 30
+		x = 1s
+		y = 1
+		relative_position_id = KRO_arm_loyal_kronies
+		prerequisite = {
+			focus = KRO_arm_loyal_kronies
+		}
+		prerequisite = {
+			focus = KRO_bunkeronii_conscripts
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Babelronii Subpath #
+	focus = {
+		id = KRO_a_broken_clock
+		icon = GFX_KRO_a_broken_clock
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_jokeronii_rises
+		prerequisite = {
+			focus = KRO_jokeronii_rises
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_tower_of_babel_conspiracy
+		icon = GFX_KRO_tower_of_babel_conspiracy
+		cost = 30
+		x = 0
+		y = 2
+		relative_position_id = KRO_a_broken_clock
+		prerequisite = {
+			focus = KRO_a_broken_clock
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# The Killing Joke #
+	focus = {
+		id = KRO_the_killing_joke
+		icon = GFX_KRO_the_killing_joke
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_take_to_the_seas
+		prerequisite = {
+			focus = KRO_take_to_the_seas
+		}
+		prerequisite = {
+			focus = KRO_tower_of_babel_conspiracy
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_assign_mr_endy_temporary_regency
+		icon = GFX_KRO_assign_mr_endy_temporary_regency
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_the_killing_joke
+		prerequisite = {
+			focus = KRO_the_killing_joke
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Burn the Trees Subpath #
+	focus = {
+		id = KRO_no_tree_unburned
+		icon = GFX_KRO_no_tree_unburned
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_assign_mr_endy_temporary_regency
+		prerequisite = {
+			focus = KRO_assign_mr_endy_temporary_regency
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_continent_wide_wildfires
+		icon = GFX_KRO_continent_wide_wildfires
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_no_tree_unburned
+		prerequisite = {
+			focus = KRO_no_tree_unburned
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Locate the Fauna #
+	focus = {
+		id = KRO_locate_the_keeper
+		icon = GFX_KRO_locate_the_keeper
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_assign_mr_endy_temporary_regency
+		prerequisite = {
+			focus = KRO_assign_mr_endy_temporary_regency
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_time_vs_nature
+		icon = GFX_KRO_time_vs_nature
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_locate_the_keeper
+		prerequisite = {
+			focus = KRO_locate_the_keeper
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Brutal Occupaton Subpath #
+	focus = {
+		id = KRO_merciless_occupation
+		icon = GFX_KRO_merciless_occupation
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = KRO_assign_mr_endy_temporary_regency
+		prerequisite = {
+			focus = KRO_assign_mr_endy_temporary_regency
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_bunkeronii_industrial_state
+		icon = GFX_KRO_bunkeronii_industrial_state
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_merciless_occupation
+		prerequisite = {
+			focus = KRO_merciless_occupation
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	# The End? #
+	focus = {
+		id = KRO_killing_a_concept
+		icon = GFX_KRO_killing_a_concept
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_time_vs_nature
+		prerequisite = {
+			focus = KRO_continent_wide_wildfires
+		}
+		prerequisite = {
+			focus = KRO_time_vs_nature
+		}
+		prerequisite = {
+			focus = KRO_bunkeronii_industrial_state
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## United Council ##
+	focus = {
+		id = KRO_give_in_to_faunas_demands
+		icon = GFX_KRO_give_in_to_faunas_demands
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_faunas_ultimatum
+		prerequisite = {
+			focus = KRO_faunas_ultimatum
+		}
+		prerequisite = {
+			focus = KRO_ban_the_one_chip_challenge
+		}
+		prerequisite = {
+			focus = KRO_liquidize_subways_assets
+		}
+		prerequisite = {
+			focus = KRO_pursue_foreign_time_travelers
+		}
+		mutually_exclusive = {
+			focus = KRO_leave_the_council
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_rights_for_piglins
+		icon = GFX_KRO_rights_for_piglins
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_give_in_to_faunas_demands
+		prerequisite = {
+			focus = KRO_give_in_to_faunas_demands
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_fox_welfare
+		icon = GFX_KRO_fox_welfare
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_rights_for_piglins
+		prerequisite = {
+			focus = KRO_rights_for_piglins
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_adequate_pay_for_bunkeronii_employees
+		icon = GFX_KRO_adequate_pay_for_bunkeronii_employees
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = KRO_give_in_to_faunas_demands
+		prerequisite = {
+			focus = KRO_give_in_to_faunas_demands
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_break_room_accommodations
+		icon = GFX_KRO_break_room_accommodations
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_adequate_pay_for_bunkeronii_employees
+		prerequisite = {
+			focus = KRO_adequate_pay_for_bunkeronii_employees
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_peace_with_nature
+		icon = GFX_KRO_peace_with_nature
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_fox_welfare
+		prerequisite = {
+			focus = KRO_fox_welfare
+		}
+		prerequisite = {
+			focus = KRO_break_room_accommodations
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Against Haachama #
+	focus = {
+		id = KRO_assist_the_war_effort
+		icon = GFX_KRO_assist_the_war_effort
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = KRO_peace_with_nature
+		prerequisite = {
+			focus = KRO_peace_with_nature
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_overseas_anti_haaton_brigades
+		icon = GFX_KRO_overseas_anti_haaton_brigades
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_peace_with_nature
+		prerequisite = {
+			focus = KRO_peace_with_nature
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_defend_the_homeland
+		icon = GFX_KRO_defend_the_homeland
+		cost = 30
+		x = 3
+		y = 1
+		relative_position_id = KRO_peace_with_nature
+		prerequisite = {
+			focus = KRO_peace_with_nature
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Against Hololive #
+	focus = {
+		id = KRO_the_chama_menace
+		icon = GFX_KRO_the_chama_menace
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_overseas_anti_haaton_brigades
+		prerequisite = {
+			focus = KRO_assist_the_war_effort
+		}
+		prerequisite = {
+			focus = KRO_overseas_anti_haaton_brigades
+		}
+		prerequisite = {
+			focus = KRO_defend_the_homeland
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_in_defense_of_australia
+		icon = GFX_KRO_in_defense_of_australia
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = KRO_the_chama_menace
+		prerequisite = {
+			focus = KRO_the_chama_menace
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_take_the_fight_to_the_loyalists
+		icon = GFX_KRO_take_the_fight_to_the_loyalists
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_the_chama_menace
+		prerequisite = {
+			focus = KRO_the_chama_menace
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_the_continous_fight_for_independence
+		icon = GFX_KRO_the_continous_fight_for_independence
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = KRO_the_chama_menace
+		prerequisite = {
+			focus = KRO_the_chama_menace
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_the_idol_threat
+		icon = GFX_KRO_the_idol_threat
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_take_the_fight_to_the_loyalists
+		prerequisite = {
+			focus = KRO_in_defense_of_australia
+		}
+		prerequisite = {
+			focus = KRO_take_the_fight_to_the_loyalists
+		}
+		prerequisite = {
+			focus = KRO_the_continous_fight_for_independence
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_bunkeronii_military_industry_department
+		icon = GFX_KRO_bunkeronii_military_industry_department
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = KRO_the_idol_threat
+		prerequisite = {
+			focus = KRO_the_idol_threat
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_bunkeronii_mercenaries
+		icon = GFX_KRO_bunkeronii_mercenaries
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_bunkeronii_military_industry_department
+		prerequisite = {
+			focus = KRO_bunkeronii_military_industry_department
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_constant_tide_of_time
+		icon = GFX_KRO_constant_tide_of_time
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_the_idol_threat
+		prerequisite = {
+			focus = KRO_the_idol_threat
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_helicopters_to_the_wardens_standards
+		icon = GFX_KRO_helicopters_to_the_wardens_standards
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_constant_tide_of_time
+		prerequisite = {
+			focus = KRO_constant_tide_of_time
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Kronii Gear? #
+	focus = {
+		id = KRO_a_concepts_chains
+		icon = GFX_KRO_a_concepts_chains
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = KRO_bunkeronii_mercenaries
+		prerequisite = {
+			focus = KRO_bunkeronii_mercenaries
+		}
+		prerequisite = {
+			focus = KRO_helicopters_to_the_wardens_standards
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

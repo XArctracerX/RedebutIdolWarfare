@@ -126,21 +126,35 @@ recruit_character = KRO_ouro_kronii_idolocracy
 recruit_character = KRO_ouro_kronii_theocracy
 recruit_character = KRO_august_anomaly
 ## Advisors ##
-## Scientists ##
 # Cabinet #
+recruit_character = KRO_mr_endy
+recruit_character = KRO_cabbageronii
+recruit_character = KRO_boros
+recruit_character = KRO_kyou
+recruit_character = KRO_kooji
 # Theorist #
+## Scientists ##
 # Nuclear #
 # Naval #
 # Air #
 # Land #
 ## Chiefs ##
 # Army #
+recruit_character = KRO_clotho_v_melodiam
 # Navy #
+recruit_character = KRO_tara_kaminarito
 # Air #
+recruit_character = KRO_kroniicopter
 ## High Command ##
 # Army #
+recruit_character = KRO_medusaronii
+recruit_character = KRO_smollronii
+recruit_character = KRO_alexandria
+recruit_character = KRO_himemori_hotaru
 # Navy #
 # Air #
+recruit_character = KRO_headronii
+recruit_character = KRO_renna_kosaka
 ## Generals ##
 # Field Marshal #
 # Corps Commander #
