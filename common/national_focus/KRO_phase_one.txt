@@ -283,7 +283,7 @@
 			focus = KRO_meatball_marinara
 		}
 		prerequisite = {
-			focus = KRO_stockpile_sandwiches
+			focus = KRO_tuna_sub
 		}
 		prerequisite = {
 			focus = KRO_steak_and_cheese
@@ -314,6 +314,9 @@
 		relative_position_id = KRO_the_wardens_eating_habits
 		prerequisite = {
 			focus = KRO_the_wardens_eating_habits
+		}
+		prerequisite = {
+			focus = KRO_mumeis_fox_sanctuary
 		}
 
 		search_filters = {
