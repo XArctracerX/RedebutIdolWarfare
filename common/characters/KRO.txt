@@ -333,7 +333,7 @@ characters = {
 
 	# Navy #
 	KRO_tara_kaminarito = {
-		name = "Tara Kaminatrito"
+		name = "Tara Kaminarito"
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_tara_kaminarito.dds"
@@ -383,7 +383,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 125
 			slot = air_chief
 			idea_token = KRO_kroniicopter_idea
 			ledger = air
@@ -392,7 +392,7 @@ characters = {
 			}
 			
 			traits = {
-				air_chief_ground_support_1
+				air_chief_ground_support_2
 			}
 		}	
 

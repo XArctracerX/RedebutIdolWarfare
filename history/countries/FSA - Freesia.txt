@@ -24,7 +24,7 @@ set_politics = {
 }
 
 set_autonomy = {
-	target = NER
+	target = RAV
 	autonomous_state = autonomy_puppet
 }
 
