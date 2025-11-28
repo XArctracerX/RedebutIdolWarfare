@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
 		name = "Omen"
-		desc = ""
+		desc = "OMEN_DESC"
 		date = 2026.1.1.1
 		picture = "GFX_select_date_omen"
 		default_country = "HOL"
@@ -87,7 +87,7 @@ bookmarks = {
 
 
 		"---" = {
-			history = "IDOL_WARFARE_OTHER_NATIONS"
+			history = "IDOL_WARFARE_OTHER_NATIONS_DESC"
 		}
 
 		effect = {

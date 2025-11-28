@@ -1,0 +1,955 @@
+﻿focus_tree = {
+	id = HOL_phase_one
+	continuous_focus_position = { x = 20 y = 0 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 8
+			tag = HOL
+		}
+	}
+
+	### Phase One ###
+	## Opening ##
+	focus = {
+		id = HOL_shiny_smily_story
+		icon = GFX_HOL_shiny_smily_story
+		cost = 30
+		x = 14
+		y = 1
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Sora Opening ##
+	focus = {
+		id = HOL_assemble_gen_0
+		icon = GFX_HOL_assemble_gen_0
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_shiny_smily_story
+		prerequisite = {
+			focus = HOL_shiny_smily_story
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_yagoos_dream
+		icon = GFX_HOL_yagoos_dream
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_assemble_gen_0
+		prerequisite = {
+			focus = HOL_assemble_gen_0
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Sora Military Path ##
+	focus = {
+		id = HOL_summon_the_knights_of_the_round_table
+		icon = GFX_HOL_summon_the_knights_of_the_round_table
+		cost = 30
+		x = -5
+		y = 1
+		relative_position_id = HOL_yagoos_dream
+		prerequisite = {
+			focus = HOL_yagoos_dream
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_extra_funding_for_oozora_police
+		icon = GFX_HOL_extra_funding_for_oozora_police
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = HOL_summon_the_knights_of_the_round_table
+		prerequisite = {
+			focus = HOL_summon_the_knights_of_the_round_table
+		}
+		mutually_exclusive = {
+			focus = HOL_defund_oozora_police
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_defund_oozora_police
+		icon = GFX_HOL_defund_oozora_police
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOL_summon_the_knights_of_the_round_table
+		prerequisite = {
+			focus = HOL_summon_the_knights_of_the_round_table
+		}
+		mutually_exclusive = {
+			focus = HOL_extra_funding_for_oozora_police
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_flying_the_hololive_flag
+		icon = GFX_HOL_flying_the_hololive_flag
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOL_extra_funding_for_oozora_police
+		prerequisite = {
+			focus = HOL_extra_funding_for_oozora_police
+			focus = HOL_defund_oozora_police
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_a_navy_to_rival_nassau
+		icon = GFX_HOL_a_navy_to_rival_nassau
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_flying_the_hololive_flag
+		prerequisite = {
+			focus = HOL_flying_the_hololive_flag
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_reach_out_to_chloe
+		icon = GFX_HOL_reach_out_to_chloe
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = HOL_a_navy_to_rival_nassau
+		prerequisite = {
+			focus = HOL_a_navy_to_rival_nassau
+		}
+		mutually_exclusive = {
+			focus = HOL_direct_control
+			focus = HOL_indonesian_leadership
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_direct_control
+		icon = GFX_HOL_direct_control
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_a_navy_to_rival_nassau
+		prerequisite = {
+			focus = HOL_a_navy_to_rival_nassau
+		}
+		mutually_exclusive = {
+			focus = HOL_reach_out_to_chloe
+			focus = HOL_indonesian_leadership
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_indonesian_leadership
+		icon = GFX_HOL_indonesian_leadership
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = HOL_a_navy_to_rival_nassau
+		prerequisite = {
+			focus = HOL_a_navy_to_rival_nassau
+		}
+		mutually_exclusive = {
+			focus = HOL_reach_out_to_chloe
+			focus = HOL_direct_control
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Sora Research Path ##
+	focus = {
+		id = HOL_research_department
+		icon = GFX_HOL_research_department
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_yagoos_dream
+		prerequisite = {
+			focus = HOL_yagoos_dream
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_coyote_chemist_labs
+		icon = GFX_HOL_coyote_chemist_labs
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = HOL_research_department
+		prerequisite = {
+			focus = HOL_research_department
+		}
+		mutually_exclusive = {
+			focus = HOL_roboco_robotics
+			focus = HOL_aki_university
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_roboco_robotics
+		icon = GFX_HOL_roboco_robotics
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_research_department
+		prerequisite = {
+			focus = HOL_research_department
+		}
+		mutually_exclusive = {
+			focus = HOL_coyote_chemist_labs
+			focus = HOL_aki_university
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_aki_university
+		icon = GFX_HOL_aki_university
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = HOL_research_department
+		prerequisite = {
+			focus = HOL_research_department
+		}
+		mutually_exclusive = {
+			focus = HOL_coyote_chemist_labs
+			focus = HOL_roboco_robotics
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_a-chan_management
+		icon = GFX_HOL_a-chan_management
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_roboco_robotics
+		prerequisite = {
+			focus = HOL_coyote_chemist_labs
+			focus = HOL_roboco_robotics
+			focus = HOL_aki_university
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Sora Companies Path ##
+	focus = {
+		id = HOL_national_construction_company
+		icon = GFX_HOL_national_construction_company
+		cost = 30
+		x = 6
+		y = 1
+		relative_position_id = HOL_yagoos_dream
+		prerequisite = {
+			focus = HOL_yagoos_dream
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_rebrand_usada_kensetsu
+		icon = GFX_HOL_rebrand_usada_kensetsu
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = HOL_national_construction_company
+		prerequisite = {
+			focus = HOL_national_construction_company
+		}
+		mutually_exclusive = {
+			focus = HOL_adopt_dorobo_kensetsu
+			focus = HOL_stick_with_shiranui_kensetsu
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_adopt_dorobo_kensetsu
+		icon = GFX_HOL_adopt_dorobo_kensetsu
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_national_construction_company
+		prerequisite = {
+			focus = HOL_national_construction_company
+		}
+		mutually_exclusive = {
+			focus = HOL_rebrand_usada_kensetsu
+			focus = HOL_stick_with_shiranui_kensetsu
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_stick_with_shiranui_kensetsu
+		icon = GFX_HOL_stick_with_shiranui_kensetsu
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = HOL_national_construction_company
+		prerequisite = {
+			focus = HOL_national_construction_company
+		}
+		mutually_exclusive = {
+			focus = HOL_rebrand_usada_kensetsu
+			focus = HOL_adopt_dorobo_kensetsu
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_grant_moona_presidential_status
+		icon = GFX_HOL_grant_moona_presidential_status
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_rebrand_usada_kensetsu
+		prerequisite = {
+			focus = HOL_rebrand_usada_kensetsu
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_shady_dealings
+		icon = GFX_HOL_shady_dealings
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_adopt_dorobo_kensetsu
+		prerequisite = {
+			focus = HOL_adopt_dorobo_kensetsu
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_empower_micomet
+		icon = GFX_HOL_empower_micomet
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_stick_with_shiranui_kensetsu
+		prerequisite = {
+			focus = HOL_stick_with_shiranui_kensetsu
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_uber_sheep_delivery_service
+		icon = GFX_HOL_uber_sheep_delivery_service
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_shady_dealings
+		prerequisite = {
+			focus = HOL_grant_moona_presidential_status
+			focus = HOL_shady_dealings
+			focus = HOL_empower_micomet
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_kfp_japan_branch
+		icon = GFX_HOL_kfp_japan_branch
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = HOL_uber_sheep_delivery_service
+		prerequisite = {
+			focus = HOL_uber_sheep_delivery_service
+		}
+		mutually_exclusive = {
+			focus = HOL_watamelon_primacy
+			focus = HOL_tako_eats_partnership
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_watamelon_primacy
+		icon = GFX_HOL_watamelon_primacy
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_uber_sheep_delivery_service
+		prerequisite = {
+			focus = HOL_uber_sheep_delivery_service
+		}
+		mutually_exclusive = {
+			focus = HOL_kfp_japan_branch
+			focus = HOL_tako_eats_partnership
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_tako_eats_partnership
+		icon = GFX_HOL_tako_eats_partnership
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = HOL_uber_sheep_delivery_service
+		prerequisite = {
+			focus = HOL_uber_sheep_delivery_service
+		}
+		mutually_exclusive = {
+			focus = HOL_kfp_japan_branch
+			focus = HOL_watamelon_primacy
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Sora War Path ##
+	focus = {
+		id = HOL_demands_on_the_maldives
+		icon = GFX_HOL_demands_on_the_maldives
+		cost = 30
+		x = -1
+		y = 3
+		relative_position_id = HOL_a-chan_management
+		prerequisite = {
+			focus = HOL_a-chan_management
+		}
+		prerequisite = {
+			focus = HOL_reach_out_to_chloe
+			focus = HOL_direct_control
+			focus = HOL_indonesian_leadership
+		}
+		prerequisite = {
+			focus = HOL_kfp_japan_branch
+			focus = HOL_watamelon_primacy
+			focus = HOL_tako_eats_partnership
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_demands_on_the_pacific
+		icon = GFX_HOL_demands_on_the_pacific
+		cost = 30
+		x = 1
+		y = 3
+		relative_position_id = HOL_a-chan_management
+		prerequisite = {
+			focus = HOL_a-chan_management
+		}
+		prerequisite = {
+			focus = HOL_reach_out_to_chloe
+			focus = HOL_direct_control
+			focus = HOL_indonesian_leadership
+		}
+		prerequisite = {
+			focus = HOL_kfp_japan_branch
+			focus = HOL_watamelon_primacy
+			focus = HOL_tako_eats_partnership
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_stick_the_landing
+		icon = GFX_HOL_stick_the_landing
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOL_demands_on_the_maldives
+		prerequisite = {
+			focus = HOL_demands_on_the_maldives
+		}
+		prerequisite = {
+			focus = HOL_demands_on_the_pacific
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_preemptive_invasion_of_the_haachama_order
+		icon = GFX_HOL_preemptive_invasion_of_the_haachama_order
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = HOL_stick_the_landing
+		prerequisite = {
+			focus = HOL_stick_the_landing
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_war_on_the_council
+		icon = GFX_HOL_war_on_the_council
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOL_stick_the_landing
+		prerequisite = {
+			focus = HOL_stick_the_landing
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOL_bring_back_the_black_wolf
+		icon = GFX_HOL_bring_back_the_black_wolf
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = HOL_stick_the_landing
+		prerequisite = {
+			focus = HOL_stick_the_landing
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
