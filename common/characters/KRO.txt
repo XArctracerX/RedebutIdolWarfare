@@ -19,7 +19,7 @@ characters = {
 		country_leader = {
 		    desc = ""
 			ideology = dictatorship
-			traits = { }
+			traits = { KRO_warden_of_time KRO_ceo_of_bunkeronii_inc }
 			expire = "2020.1.1"
 		}
 	}

@@ -9,6 +9,10 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	export_focus
+	KRO_brutal_leadership
+	KRO_time_travel_outlawed
+	KRO_unstable_alliance
+	KRO_bunkeronii_inc
 }
 
 set_convoys = 44

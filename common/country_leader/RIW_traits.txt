@@ -53,6 +53,26 @@ leader_traits = {
 	### Canada Traits ###
 	## KRO Traits ##
 	# Starting #
+	KRO_warden_of_time = {
+		random = no
+
+		army_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	KRO_ceo_of_bunkeronii_inc = {
+		random = no
+
+		production_speed_bunker_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	KRO_bunkeronii_cco = {
 		random = no
 

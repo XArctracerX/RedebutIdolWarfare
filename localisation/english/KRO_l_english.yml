@@ -5,6 +5,16 @@ KRO:0 "Empironii"
 KRO_DEF:0 "the Empironii"
 KRO_ADJ:0 "Kronie"
 
+#### Ideas ####
+KRO_brutal_leadership:0 "Brutal Leadership"
+  KRO_brutal_leadership_desc:0 ""
+KRO_time_travel_outlawed:0 "Time Travel Outlawed"
+  KRO_time_travel_outlawed_desc:0 ""
+KRO_unstable_alliance:0 "Unstable Alliance"
+  KRO_unstable_alliance_desc:0 ""
+KRO_bunkeronii_inc:0 "Bunkeronii Inc."
+  KRO_bunkeronii_inc_desc:0 ""
+
 #### Focus Tree #### 
 ### Phase One ###
 ## Opening ##
