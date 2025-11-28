@@ -322,7 +322,7 @@ characters = {
 		}	
 
 		field_marshal = {
-			traits = { }
+			traits = { brilliant_strategist }
 			skill = 6
 			attack_skill = 5
 			defense_skill = 4
@@ -360,6 +360,7 @@ characters = {
 		}	
 
 		navy_leader = {
+			traits = { bold blue_water_expert }
 			skill = 3
 			attack_skill = 1
 			defense_skill = 3
@@ -397,7 +398,7 @@ characters = {
 		}	
 
 		field_marshal = {
-			traits = { }
+			traits = { old_guard }
 			skill = 6
 			attack_skill = 5
 			defense_skill = 4
@@ -436,7 +437,7 @@ characters = {
 		}	
 
 		corps_commander = {
-			traits = { }
+			traits = { engineer_officer trait_engineer }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 2
@@ -473,7 +474,7 @@ characters = {
 		}	
 
 		corps_commander = {
-			traits = { }
+			traits = { infantry_officer career_officer }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -510,7 +511,7 @@ characters = {
 		}	
 
 		corps_commander = {
-			traits = { }
+			traits = { logistics_wizard }
 			skill = 3
 			attack_skill = 1
 			defense_skill = 2
@@ -547,7 +548,7 @@ characters = {
 		}	
 
 		corps_commander = {
-			traits = { }
+			traits = { infantry_officer winter_specialist }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -586,7 +587,7 @@ characters = {
 		}	
 
 		corps_commander = {
-			traits = { }
+			traits = { old_guard }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -623,7 +624,7 @@ characters = {
 		}	
 
 		corps_commander = {
-			traits = { }
+			traits = { old_guard winter_specialist }
 			skill = 3
 			attack_skill = 1
 			defense_skill = 2

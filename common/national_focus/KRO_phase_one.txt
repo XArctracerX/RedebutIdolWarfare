@@ -26,7 +26,7 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 150
 		}
 
 		ai_will_do = {
@@ -53,7 +53,8 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.1
 		}
 
 		ai_will_do = {
@@ -133,7 +134,8 @@
 		}
 	
 		completion_reward = {
-
+			add_stability = 0.05
+			add_political_power = -10
 		}
 
 		ai_will_do = {
@@ -296,7 +298,10 @@
 		}
 	
 		completion_reward = {
-
+			army_experience = 100
+			navy_experience = 100
+			air_experience = 100
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -404,7 +409,7 @@
 		}
 	
 		completion_reward = {
-
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -561,7 +566,7 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -590,7 +595,7 @@
 		}
 	
 		completion_reward = {
-
+			add_stability = 0.1
 		}
 
 		ai_will_do = {
@@ -616,7 +621,7 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -803,7 +808,7 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 50
 		}
 
 		ai_will_do = {
@@ -1064,7 +1069,7 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 150
 		}
 
 		ai_will_do = {
@@ -1090,7 +1095,7 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -1707,7 +1712,8 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = -100
+			add_stability = 0.1
 		}
 
 		ai_will_do = {
@@ -1759,7 +1765,8 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = -25
+			add_stability = 0.05
 		}
 
 		ai_will_do = {
@@ -2004,7 +2011,7 @@
 		}
 	
 		completion_reward = {
-
+			add_war_support = 0.25
 		}
 
 		ai_will_do = {
