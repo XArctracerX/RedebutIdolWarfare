@@ -1,18 +1,24 @@
 capital = 328
 
-set_stability = 0.01
-set_war_support = 0.01
+set_stability = 0.60
+set_war_support = 0.20
 
-set_convoys = 50
+add_ideas = {
+	volunteer_only
+	low_economic_mobilisation
+	export_focus
+}
 
-set_research_slots = 1
+set_convoys = 120
+
+set_research_slots = 3
 
 set_popularities = {
-	anarchy = 0
-	autocracy = 0
+	anarchy = 4
+	autocracy = 12
 	corporatocracy = 0
-	idolocracy = 0
-	theocracy = 100
+	idolocracy = 10
+	theocracy = 74
 	technocracy = 0
 }
 
