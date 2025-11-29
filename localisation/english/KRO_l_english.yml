@@ -6,6 +6,7 @@ KRO_DEF:0 "the Empironii"
 KRO_ADJ:0 "Kronie"
 
 #### Ideas ####
+### Starting ###
 KRO_brutal_leadership:0 "Brutal Leadership"
   KRO_brutal_leadership_desc:0 ""
 KRO_time_travel_outlawed:0 "Time Travel Outlawed"
@@ -14,6 +15,45 @@ KRO_unstable_alliance:0 "Unstable Alliance"
   KRO_unstable_alliance_desc:0 ""
 KRO_bunkeronii_inc:0 "Bunkeronii Inc."
   KRO_bunkeronii_inc_desc:0 ""
+### Phase One ###
+# Fox Immigrants Subpath #
+KRO_immigration_crisis:0 "Immigration Crisis"
+  KRO_immigration_crisis_desc:0 ""
+KRO_fox_sanctuary:0 "Fox Sanctuary"
+  KRO_fox_sanctuary_desc:0 ""
+## Main ##
+KRO_bunkeronii_inc_2:0 "Bunkeronii Inc."
+  KRO_bunkeronii_inc_2_desc:0 ""
+KRO_mistreated_sapling_employees:0 "Mistreated Sapling Employees"
+  KRO_mistreated_sapling_employees_desc:0 ""
+KRO_netheronii_mines:0 "Netheronii Mines"
+  KRO_netheronii_mines_desc:0 ""
+KRO_piglin_revolt_crushed:0 "Piglin Revolt Crushed"
+  KRO_piglin_revolt_crushed_desc:0 ""
+KRO_bunkeronii_inc_3:0 "Bunkeronii Inc."
+  KRO_bunkeronii_inc_3_desc:0 ""
+KRO_bunkeronii_employee_payments:0 "Bunkeronii Employee Payments"
+  KRO_bunkeronii_employee_payments_desc:0 ""
+KRO_bunkeronii_inc_4:0 "Bunkeronii Inc."
+  KRO_bunkeronii_inc_4_desc:0 ""
+KRO_bunkeronii_bribes:0 "Bunkeronii Bribes"
+  KRO_bunkeronii_bribes_desc:0 ""
+# Foresty Subpath #
+KRO_bunkeronii_farms:0 "Bunkeronii Farms"
+  KRO_bunkeronii_farms_desc:0 ""
+KRO_bunkeronii_farms_2:0 "Bunkeronii Farms"
+  KRO_bunkeronii_farms_2_desc:0 ""
+## Faction ##
+KRO_council_commitments:0 "Council Commitments"
+  KRO_council_commitments_desc:0 ""
+KRO_empironii_trade_company:0 "Empironii Trade Company"
+  KRO_empironii_trade_company_desc:0 ""
+KRO_sanas_tower_investment:0 "Sana's Tower Investment"
+  KRO_sanas_tower_investment_desc:0 ""
+KRO_empironii_trade_company_2:0 "Empironii Trade Company"
+  KRO_empironii_trade_company_2_desc:0 ""
+KRO_empironii_trade_company_3:0 "Empironii Trade Company"
+  KRO_empironii_trade_company_3_desc:0 ""
 
 #### Focus Tree #### 
 ### Phase One ###

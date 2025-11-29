@@ -496,7 +496,11 @@
 		}
 	
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry
+			}
 		}
 
 		ai_will_do = {
@@ -522,7 +526,16 @@
 		}
 	
 		completion_reward = {
-
+			276 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			276 = {
+				add_extra_state_shared_building_slots = 2
+			}			
 		}
 
 		ai_will_do = {
@@ -548,7 +561,14 @@
 		}
 	
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = KRO_bunkeronii_inc
+				add_idea = KRO_bunkeronii_inc_2
+			}
+			add_timed_idea = {
+				idea = KRO_mistreated_sapling_employees
+				days = 70
+			}
 		}
 
 		ai_will_do = {
@@ -574,7 +594,17 @@
 		}
 	
 		completion_reward = {
-
+			add_ideas = KRO_netheronii_mines
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 682
+			}
+			add_resource = {
+				type = tungsten
+				amount = 12
+				state = 682
+			}
 		}
 
 		ai_will_do = {
@@ -600,7 +630,10 @@
 		}
 	
 		completion_reward = {
-
+			add_timed_idea = {
+				idea = KRO_piglin_revolt_crushed
+				days = 140
+			}
 		}
 
 		ai_will_do = {
@@ -627,6 +660,14 @@
 	
 		completion_reward = {
 			add_political_power = 100
+			swap_ideas = {
+				remove_idea = KRO_bunkeronii_inc_2
+				add_idea = KRO_bunkeronii_inc_3
+			}
+			add_timed_idea = {
+				idea = KRO_bunkeronii_employee_payments
+				days = 100
+			}
 		}
 
 		ai_will_do = {
@@ -655,7 +696,11 @@
 		}
 	
 		completion_reward = {
-			add_stability = 0.1
+			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = KRO_bunkeronii_inc_3
+				add_idea = KRO_bunkeronii_inc_4
+			}
 		}
 
 		ai_will_do = {
@@ -682,6 +727,10 @@
 	
 		completion_reward = {
 			add_political_power = 100
+			add_timed_idea = {
+				idea = KRO_bunkeronii_bribes
+				days = 160
+			}
 		}
 
 		ai_will_do = {
@@ -737,7 +786,7 @@
 		}
 	
 		completion_reward = {
-
+			add_ideas = KRO_bunkeronii_farms
 		}
 
 		ai_will_do = {
@@ -763,7 +812,10 @@
 		}
 	
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = KRO_bunkeronii_farms
+				add_idea = KRO_bunkeronii_farms_2
+			}
 		}
 
 		ai_will_do = {
@@ -790,7 +842,22 @@
 		}
 	
 		completion_reward = {
-
+			add_timed_idea = {
+				idea = KRO_council_commitments
+				days = 60
+			}
+			reverse_add_opinion_modifier = {
+				target = AST
+				modifier = KRO_council_commitments_opinion
+			}
+			reverse_add_opinion_modifier = {
+				target = FAU
+				modifier = KRO_council_commitments_opinion
+			}
+			reverse_add_opinion_modifier = {
+				target = HOO
+				modifier = KRO_council_commitments_opinion
+			}
 		}
 
 		ai_will_do = {
@@ -816,7 +883,7 @@
 		}
 	
 		completion_reward = {
-
+			add_ideas = KRO_empironii_trade_company
 		}
 
 		ai_will_do = {
@@ -842,7 +909,11 @@
 		}
 	
 		completion_reward = {
-
+			add_timed_idea = {
+				idea = KRO_sanas_tower_investment
+				days = 40
+			}
+			AST = { add_political_power = 200 }
 		}
 
 		ai_will_do = {
@@ -853,32 +924,6 @@
 	focus = {
 		id = KRO_export_flowers_to_the_hoomans
 		icon = GFX_KRO_export_flowers_to_the_hoomans
-		cost = 30
-		x = -1
-		y = 1
-		relative_position_id = KRO_open_up_to_trade
-		prerequisite = {
-			focus = KRO_open_up_to_trade
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-		}
-	
-		completion_reward = {
-			add_political_power = 50
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = KRO_import_hooman_berries
-		icon = GFX_KRO_import_hooman_berries
 		cost = 30
 		x = 1
 		y = 1
@@ -897,7 +942,40 @@
 		}
 	
 		completion_reward = {
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = KRO_empironii_trade_company
+				add_idea = KRO_empironii_trade_company_2
+			}
+		}
 
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_import_hooman_berries
+		icon = GFX_KRO_import_hooman_berries
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_export_flowers_to_the_hoomans
+		prerequisite = {
+			focus = KRO_export_flowers_to_the_hoomans
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KRO_empironii_trade_company_2
+				add_idea = KRO_empironii_trade_company_3
+			}
 		}
 
 		ai_will_do = {
@@ -924,7 +1002,10 @@
 		}
 	
 		completion_reward = {
-
+			create_wargoal = {
+				target = HAK
+				type = take_state
+			}
 		}
 
 		ai_will_do = {
@@ -936,34 +1017,8 @@
 		id = KRO_reintegrate_the_orcats_land
 		icon = GFX_KRO_reintegrate_the_orcats_land
 		cost = 30
-		x = 0
-		y = 2
-		relative_position_id = KRO_export_flowers_to_the_hoomans
-		prerequisite = {
-			focus = KRO_export_flowers_to_the_hoomans
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-		}
-	
-		completion_reward = {
-
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = KRO_usurp_the_former_senpai
-		icon = GFX_KRO_usurp_the_former_senpai
-		cost = 30
-		x = 0
-		y = 2
+		x = -2
+		y = 1
 		relative_position_id = KRO_import_hooman_berries
 		prerequisite = {
 			focus = KRO_import_hooman_berries
@@ -976,7 +1031,39 @@
 		}
 	
 		completion_reward = {
+			create_wargoal = {
+				target = SHY
+				type = take_state
+			}
+		}
 
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = KRO_usurp_the_former_senpai
+		icon = GFX_KRO_usurp_the_former_senpai
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = KRO_import_hooman_berries
+		prerequisite = {
+			focus = KRO_import_hooman_berries
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+		}
+	
+		completion_reward = {
+			create_wargoal = {
+				target = MIO
+				type = take_state
+			}
 		}
 
 		ai_will_do = {
@@ -1008,7 +1095,28 @@
 		}
 	
 		completion_reward = {
-
+			add_state_core = 860
+			add_state_core = 863
+			add_state_core = 466
+			add_state_core = 332
+			add_state_core = 866
+			add_state_core = 867
+			add_state_core = 683
+			add_state_core = 1203
+			add_state_core = 101
+			add_state_core = 1212
+			add_state_core = 470
+			add_state_core = 469
+			add_state_core = 865
+			add_state_core = 473
+			add_state_core = 740
+			add_state_core = 739
+			add_state_core = 471
+			add_state_core = 472
+			add_state_core = 864
+			add_state_core = 463
+			add_state_core = 1201
+			add_state_core = 1200
 		}
 
 		ai_will_do = {

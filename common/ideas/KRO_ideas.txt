@@ -61,10 +61,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
+				production_speed_bunker_factor = 0.1
 			}
 	   	}
 		### Phase One Ideas ###
+		# Fox Immigrants Subpath #
 		KRO_immigration_crisis = {
 			allowed = {
 				always = no
@@ -97,5 +98,263 @@ ideas = {
 				recruitable_population_factor = 0.15
 			}
 	   	}
+		## Main ##
+		KRO_bunkeronii_inc_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+	   	}
+
+		KRO_mistreated_sapling_employees = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_weekly = -0.01
+			}
+	   	}
+
+		KRO_netheronii_mines = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.1
+			}
+	   	}
+
+		KRO_piglin_revolt_crushed = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				stability_weekly = 0.015
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+			}
+	   	}
+
+		KRO_bunkeronii_inc_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+			}
+	   	}
+
+		KRO_bunkeronii_employee_payments = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+	   	}
+
+		KRO_bunkeronii_inc_4 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+				army_org = 5
+			}
+	   	}
+
+		KRO_bunkeronii_bribes = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_weekly = 0.004
+			}
+	   	}
+		# Foresty Subpath #
+		KRO_bunkeronii_farms = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population_factor = 0.05
+			}
+	   	}
+
+		KRO_bunkeronii_farms_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population_factor = 0.05
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+	   	}
+		## Faction ##
+		KRO_council_commitments = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.2
+			}
+	   	}
+
+		KRO_empironii_trade_company = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.5
+			}
+	   	}
+
+		KRO_sanas_tower_investment = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.2
+			}
+	   	}
+
+		KRO_empironii_trade_company_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.5
+				consumer_goods_factor = -0.1
+			}
+	   	}
+
+		KRO_empironii_trade_company_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.5
+				consumer_goods_factor = -0.1
+				recruitable_population_factor = 0.1
+			}
+	   	}
+		## War Goals ##
 	}
 }
