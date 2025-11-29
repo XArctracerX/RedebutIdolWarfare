@@ -85,4 +85,56 @@ leader_traits = {
 	}
 
 	# Phase One #
+	KRO_subway_phase = {
+		random = no
+
+		consumer_goods_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	KRO_subway_phase_2 = {
+		random = no
+
+		consumer_goods_factor = 0.05
+		production_speed_industrial_complex_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	KRO_spicyronii = {
+		random = no
+
+		research_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	KRO_spicyronii_2 = {
+		random = no
+
+		research_speed_factor = 0.05
+		army_morale_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	KRO_spicyronii_3 = {
+		random = no
+
+		research_speed_factor = 0.15
+		army_morale_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -81,7 +81,7 @@
 		}
 	
 		completion_reward = {
-
+			add_ideas = KRO_immigration_crisis
 		}
 
 		ai_will_do = {
@@ -107,7 +107,10 @@
 		}
 	
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = KRO_immigration_crisis
+				add_idea = KRO_fox_sanctuary
+			}
 		}
 
 		ai_will_do = {
@@ -161,7 +164,7 @@
 		}
 	
 		completion_reward = {
-
+			add_country_leader_trait = KRO_subway_phase
 		}
 
 		ai_will_do = {
@@ -188,7 +191,10 @@
 		}
 	
 		completion_reward = {
-
+			swap_ruler_traits = {
+				remove = KRO_subway_phase
+				add = KRO_subway_phase_2
+			}
 		}
 
 		ai_will_do = {
@@ -214,7 +220,26 @@
 		}
 	
 		completion_reward = {
-
+			276 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			276 = {
+				add_extra_state_shared_building_slots = 2
+			}			
+			468 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			468 = {
+				add_extra_state_shared_building_slots = 2
+			}			
 		}
 
 		ai_will_do = {
@@ -240,7 +265,16 @@
 		}
 	
 		completion_reward = {
-
+			465 = {
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			465 = {
+				add_extra_state_shared_building_slots = 3
+			}			
 		}
 
 		ai_will_do = {
@@ -266,7 +300,26 @@
 		}
 	
 		completion_reward = {
-
+			276 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			276 = {
+				add_extra_state_shared_building_slots = 2
+			}		
+			682 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			682 = {
+				add_extra_state_shared_building_slots = 1
+			}			
 		}
 
 		ai_will_do = {
@@ -298,6 +351,7 @@
 		}
 	
 		completion_reward = {
+			remove_country_leader_trait = KRO_subway_phase_2
 			army_experience = 100
 			navy_experience = 100
 			air_experience = 100
@@ -331,7 +385,7 @@
 		}
 	
 		completion_reward = {
-
+			add_country_leader_trait = KRO_spicyronii
 		}
 
 		ai_will_do = {
@@ -357,7 +411,10 @@
 		}
 	
 		completion_reward = {
-
+			swap_ruler_traits = {
+				remove = KRO_spicyronii
+				add = KRO_spicyronii_2
+			}
 		}
 
 		ai_will_do = {
@@ -383,7 +440,10 @@
 		}
 	
 		completion_reward = {
-
+			swap_ruler_traits = {
+				remove = KRO_spicyronii_2
+				add = KRO_spicyronii_3
+			}
 		}
 
 		ai_will_do = {

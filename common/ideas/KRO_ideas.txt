@@ -65,6 +65,37 @@ ideas = {
 			}
 	   	}
 		### Phase One Ideas ###
+		KRO_immigration_crisis = {
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population_factor = 0.10
+				stability_factor = -0.1
+			}
+	   	}
+
+		KRO_fox_sanctuary = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recruitable_population_factor = 0.15
+			}
+	   	}
 	}
 }
