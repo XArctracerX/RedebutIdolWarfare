@@ -3,6 +3,8 @@ capital = 522
 set_stability = 0.38
 set_war_support = 0.78
 
+oob = "HAA_start"
+
 add_ideas = {
 	extensive_conscription
 	partial_economic_mobilisation
@@ -12,6 +14,59 @@ add_ideas = {
 set_convoys = 20
 
 set_research_slots = 3
+
+set_technology = {
+	# Infantry #
+	infantry_weapons = 1
+	
+	# Vehicles #
+	tech_trucks = 1
+	motorised_infantry = 1
+
+	# Support #
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+if = {
+	limit = { 
+		not = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		tactical_bomber1 = 1
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+		early_bombs = 1
+		aa_lmg = 1
+		engines_1 = 1
+	}
+}
 
 set_popularities = {
 	anarchy = 0
@@ -27,6 +82,23 @@ set_politics = {
 	last_election = "2025.1.1"
 	election_frequency = 2
 	elections_allowed = no
+}
+
+declare_war_on = {
+	target = AST
+	type = annex_everything
+}
+declare_war_on = {
+	target = FAU
+	type = annex_everything
+}
+declare_war_on = {
+	target = HOO
+	type = annex_everything
+}
+declare_war_on = {
+	target = KRO
+	type = annex_everything
 }
 
 #### Characters ####

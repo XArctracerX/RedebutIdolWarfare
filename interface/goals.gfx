@@ -1,0 +1,29 @@
+spriteTypes = {
+
+	# KRO #
+	SpriteType = {
+		name = "GFX_KRO_bunkeronii_incorporated"
+		texturefile ="gfx/interface/goals/KRO/KRO_bunkeronii_incorporated.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_approach_the_gremlin"
+		texturefile ="gfx/interface/goals/KRO/KRO_approach_the_gremlin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_blue_duo"
+		texturefile ="gfx/interface/goals/KRO/KRO_blue_duo.dds"
+	}
+
+	# Generic #
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/goals/goal_generic_trade.dds"
+	}
+}

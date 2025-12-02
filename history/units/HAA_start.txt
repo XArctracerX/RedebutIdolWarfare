@@ -1,0 +1,160 @@
+﻿division_template = {
+	name = "Haaton Infantry Division"
+
+	division_names_group = HAA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+		recon = { x = 0 y = 1 }  
+	}
+}
+
+division_template = {
+	name = "Hell on Wheels Division"
+
+	division_names_group = HAA_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Tarantula Division"
+
+	division_names_group = HAA_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Haaton Infantry"
+		location = 12948
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 12948
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 2133
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 11013
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 12992
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 2223
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 12936
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 2139
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 2139
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 7481
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haaton Infantry"
+		location = 7481
+		division_template = "Haaton Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haachama Motorised Division"
+		location = 7481
+		division_template = "Hell on Wheels Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Haachama Motorised Division"
+		location = 12992
+		division_template = "Hell on Wheels Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Haachama Motorised Division"
+		location = 11013
+		division_template = "Hell on Wheels Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Haachama Tank Division"
+		location = 12948
+		division_template = "Tarantula Division"
+		start_experience_factor = 0.3
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "HAA"
+		}
+		requested_factories = 2
+		progress = 0.28
+		efficiency = 100
+	}
+}

@@ -433,8 +433,8 @@
 	}
 
 	focus = {
-		id = HOL_a-chan_management
-		icon = GFX_HOL_a-chan_management
+		id = HOL_a_chan_management
+		icon = GFX_HOL_a_chan_management
 		cost = 30
 		x = 0
 		y = 1
@@ -780,9 +780,9 @@
 		cost = 30
 		x = -1
 		y = 3
-		relative_position_id = HOL_a-chan_management
+		relative_position_id = HOL_a_chan_management
 		prerequisite = {
-			focus = HOL_a-chan_management
+			focus = HOL_a_chan_management
 		}
 		prerequisite = {
 			focus = HOL_reach_out_to_chloe
@@ -816,9 +816,9 @@
 		cost = 30
 		x = 1
 		y = 3
-		relative_position_id = HOL_a-chan_management
+		relative_position_id = HOL_a_chan_management
 		prerequisite = {
-			focus = HOL_a-chan_management
+			focus = HOL_a_chan_management
 		}
 		prerequisite = {
 			focus = HOL_reach_out_to_chloe

@@ -64,11 +64,15 @@ bookmarks = {
 			ideology = autocracy
 			
 			ideas = {
-				
+				KRO_bunkeronii_inc
+				KRO_unstable_alliance
+				KRO_time_travel_outlawed
 			}
 
 			focuses = {
-				
+				KRO_bunkeronii_incorporated
+				KRO_the_council
+				KRO_faunas_ultimatum
 			}
 		}
 

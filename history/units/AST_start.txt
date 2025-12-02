@@ -1,0 +1,184 @@
+﻿division_template = {
+	name = "Chaos Division"
+
+	division_names_group = AST_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+		recon = { x = 0 y = 1 }  
+	}
+}
+
+division_template = {
+	name = "Mars Division"
+
+	division_names_group = AST_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }  
+		artillery = { x = 0 y = 1 }  
+	}
+}
+
+division_template = {
+	name = "Council Motorised Division"
+
+	division_names_group = AST_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Council Armour Division"
+
+	division_names_group = AST_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Chaos Infantry"
+		location = 1514
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 5206
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 10955
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 12906
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 7623
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 5138
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 5197
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 1514
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 5206
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chaos Infantry"
+		location = 5197
+		division_template = "Chaos Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Mars Infantry"
+		location = 5138
+		division_template = "Mars Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Mars Infantry"
+		location = 5197
+		division_template = "Mars Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Mars Infantry"
+		location = 10955
+		division_template = "Mars Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Haachama Motorised Division"
+		location = 5206
+		division_template = "Council Motorised Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Haachama Motorised Division"
+		location = 5197
+		division_template = "Council Motorised Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Haachama Motorised Division"
+		location = 1514
+		division_template = "Council Motorised Division"
+		start_experience_factor = 0.3
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "AST"
+		}
+		requested_factories = 3
+		progress = 0.28
+		efficiency = 100
+	}
+}
