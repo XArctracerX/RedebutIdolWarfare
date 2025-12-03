@@ -1,0 +1,423 @@
+﻿### Project: HOPE ###
+shared_focus = {
+	id = IRYS_project_hope
+	icon = GFX_IRYS_project_hope
+	cost = 30
+	x = 35
+	y = 1
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_trust_that_she_is_seiso
+	icon = GFX_IRYS_trust_that_she_is_seiso
+	cost = 30
+	x = -1
+	y = 1
+	relative_position_id = IRYS_project_hope
+	prerequisite = {
+		focus = IRYS_project_hope
+	}
+	mutually_exclusive = {
+		focus = IRYS_expect_the_yabai
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_expect_the_yabai
+	icon = GFX_IRYS_expect_the_yabai
+	cost = 30
+	x = 1
+	y = 1
+	relative_position_id = IRYS_project_hope
+	prerequisite = {
+		focus = IRYS_project_hope
+	}
+	mutually_exclusive = {
+		focus = IRYS_trust_that_she_is_seiso
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_here_comes_hope
+	icon = GFX_IRYS_here_comes_hope
+	cost = 30
+	x = 1
+	y = 1
+	relative_position_id = IRYS_trust_that_she_is_seiso
+	prerequisite = {
+		focus = IRYS_trust_that_she_is_seiso
+		focus = IRYS_expect_the_yabai
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_prepare_for_her_arrival
+	icon = GFX_IRYS_prepare_for_her_arrival
+	cost = 30
+	x = 0
+	y = 1
+	relative_position_id = IRYS_here_comes_hope
+	prerequisite = {
+		focus = IRYS_here_comes_hope
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_acquire_a_variety_of_soda_flavors
+	icon = GFX_IRYS_acquire_a_variety_of_soda_flavors
+	cost = 30
+	x = -2
+	y = 1
+	relative_position_id = IRYS_prepare_for_her_arrival
+	prerequisite = {
+		focus = IRYS_prepare_for_her_arrival
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_shoot_down_santas_sleigh
+	icon = GFX_IRYS_shoot_down_santas_sleigh
+	cost = 30
+	x = 0
+	y = 1
+	relative_position_id = IRYS_prepare_for_her_arrival
+	prerequisite = {
+		focus = IRYS_prepare_for_her_arrival
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_sushi_glory_holes
+	icon = GFX_IRYS_sushi_glory_holes
+	cost = 30
+	x = 2
+	y = 1
+	relative_position_id = IRYS_prepare_for_her_arrival
+	prerequisite = {
+		focus = IRYS_prepare_for_her_arrival
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+shared_focus = {
+	id = IRYS_hope_has_descended
+	icon = GFX_IRYS_hope_has_descended
+	cost = 30
+	x = 0
+	y = 1
+	relative_position_id = IRYS_shoot_down_santas_sleigh
+	prerequisite = {
+		focus = IRYS_acquire_a_variety_of_soda_flavors
+	}
+	prerequisite = {
+		focus = IRYS_shoot_down_santas_sleigh
+	}
+	prerequisite = {
+		focus = IRYS_sushi_glory_holes
+	}
+
+	search_filters = {
+	}
+		
+	available = {
+		NOT = {
+			HOL = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			AST = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HAA = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			KRO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			FAU = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+			HOO = {
+				has_completed_focus = IRYS_hope_has_descended
+			}
+		}
+	}
+	
+	completion_reward = {
+			
+	}
+
+	ai_will_do = {
+		factor = 10
+	}
+}

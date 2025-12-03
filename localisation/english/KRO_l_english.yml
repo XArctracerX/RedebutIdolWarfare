@@ -5,6 +5,9 @@ KRO:0 "Empironii"
 KRO_DEF:0 "the Empironii"
 KRO_ADJ:0 "Kronie"
 
+### Opinion Modifiers ###
+KRO_council_commitments_opinion:0 "Council Commitments"
+
 #### Ideas ####
 ### Starting ###
 KRO_brutal_leadership:0 "Brutal Leadership"

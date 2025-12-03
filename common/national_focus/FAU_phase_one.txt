@@ -1,0 +1,1074 @@
+﻿focus_tree = {
+	id = FAU_phase_one
+	continuous_focus_position = { x = 20 y = 0 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 8
+			tag = FAU
+		}
+	}
+
+	### Shared Focuses###
+	shared_focus = IRYS_project_hope
+
+	### Phase One ###
+	## Opening ##
+	focus = {
+		id = FAU_let_the_yapping_commence
+		icon = GFX_FAU_let_the_yapping_commence
+		cost = 30
+		x = 14
+		y = 1
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_world_tree_seed
+		icon = GFX_FAU_world_tree_seed
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_let_the_yapping_commence
+		prerequisite = {
+			focus = FAU_let_the_yapping_commence
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Environmental Path #
+	focus = {
+		id = FAU_environmentally_friendly_laws
+		icon = GFX_FAU_environmentally_friendly_laws
+		cost = 30
+		x = -5
+		y = 1
+		relative_position_id = FAU_world_tree_seed
+		prerequisite = {
+			focus = FAU_world_tree_seed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_all_animals_are_equal
+		icon = GFX_FAU_all_animals_are_equal
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = FAU_environmentally_friendly_laws
+		prerequisite = {
+			focus = FAU_environmentally_friendly_laws
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_but_some_are_more_equal_than_others
+		icon = GFX_FAU_but_some_are_more_equal_than_others
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_all_animals_are_equal
+		prerequisite = {
+			focus = FAU_all_animals_are_equal
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_welcome_a_rare_creature
+		icon = GFX_FAU_welcome_a_rare_creature
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_but_some_are_more_equal_than_others
+		prerequisite = {
+			focus = FAU_but_some_are_more_equal_than_others
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_outlaw_the_meat_industry
+		icon = GFX_FAU_outlaw_the_meat_industry
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = FAU_all_animals_are_equal
+		prerequisite = {
+			focus = FAU_all_animals_are_equal
+		}
+		prerequisite = {
+			focus = FAU_plant_saplings
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_plant_saplings
+		icon = GFX_FAU_plant_saplings
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = FAU_environmentally_friendly_laws
+		prerequisite = {
+			focus = FAU_environmentally_friendly_laws
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_prevent_forest_fires
+		icon = GFX_FAU_prevent_forest_fires
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_plant_saplings
+		prerequisite = {
+			focus = FAU_plant_saplings
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_welcome_an_old_friend
+		icon = GFX_FAU_welcome_an_old_friend
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_prevent_forest_fires
+		prerequisite = {
+			focus = FAU_prevent_forest_fires
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_forced_veganism
+		icon = GFX_FAU_forced_veganism
+		cost = 30
+		x = 2
+		y = 2
+		relative_position_id = FAU_welcome_a_rare_creature
+		prerequisite = {
+			focus = FAU_welcome_a_rare_creature
+		}
+			prerequisite = {
+			focus = FAU_outlaw_the_meat_industry
+		}
+		prerequisite = {
+			focus = FAU_welcome_an_old_friend
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Main ##
+	focus = {
+		id = FAU_found_faunamart
+		icon = GFX_FAU_found_faunamart
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_world_tree_seed
+		prerequisite = {
+			focus = FAU_world_tree_seed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_faunamart_lottery
+		icon = GFX_FAU_faunamart_lottery
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_found_faunamart
+		prerequisite = {
+			focus = FAU_found_faunamart
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_fund_orphan_charities
+		icon = GFX_FAU_fund_orphan_charities
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_faunamart_lottery
+		prerequisite = {
+			focus = FAU_faunamart_lottery
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# ASMR Subpath #
+	focus = {
+		id = FAU_the_ku100
+		icon = GFX_FAU_the_ku100
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = FAU_fund_orphan_charities
+		prerequisite = {
+			focus = FAU_fund_orphan_charities
+		}
+		mutually_exclusive = {
+			focus = FAU_hair_frustrations
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_mandatory_ear_cleaning
+		icon = GFX_FAU_mandatory_ear_cleaning
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_the_ku100
+		prerequisite = {
+			focus = FAU_the_ku100
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_hair_washing_salons
+		icon = GFX_FAU_hair_washing_salons
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_mandatory_ear_cleaning
+		prerequisite = {
+			focus = FAU_mandatory_ear_cleaning
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Bald Fauna Subpath #
+	focus = {
+		id = FAU_hair_frustrations
+		icon = GFX_FAU_hair_frustrations
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = FAU_fund_orphan_charities
+		prerequisite = {
+			focus = FAU_fund_orphan_charities
+		}
+		mutually_exclusive = {
+			focus = FAU_the_ku100
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_learn_from_bald_tibetan_monks
+		icon = GFX_FAU_learn_from_bald_tibetan_monks
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_hair_frustrations
+		prerequisite = {
+			focus = FAU_hair_frustrations
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_bald_fauna
+		icon = GFX_FAU_bald_fauna
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_learn_from_bald_tibetan_monks
+		prerequisite = {
+			focus = FAU_learn_from_bald_tibetan_monks
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Reduce Path #
+	focus = {
+		id = FAU_reduce
+		icon = GFX_FAU_reduce
+		cost = 30
+		x = 4
+		y = 1
+		relative_position_id = FAU_world_tree_seed
+		prerequisite = {
+			focus = FAU_world_tree_seed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_optimise_speedrun_routes
+		icon = GFX_FAU_optimise_speedrun_routes
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = FAU_reduce
+		prerequisite = {
+			focus = FAU_reduce
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_the_speediest_gamer
+		icon = GFX_FAU_the_speediest_gamer
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = FAU_reduce
+		prerequisite = {
+			focus = FAU_reduce
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Reuse Path #
+	focus = {
+		id = FAU_reuse
+		icon = GFX_FAU_reuse
+		cost = 30
+		x = 8
+		y = 1
+		relative_position_id = FAU_world_tree_seed
+		prerequisite = {
+			focus = FAU_world_tree_seed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_take_council_hand_me_downs
+		icon = GFX_FAU_take_council_hand_me_downs
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = FAU_reuse
+		prerequisite = {
+			focus = FAU_reuse
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_rifle_restoration
+		icon = GFX_FAU_rifle_restoration
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = FAU_reuse
+		prerequisite = {
+			focus = FAU_reuse
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Recycle Path #
+	focus = {
+		id = FAU_recycle
+		icon = GFX_FAU_recycle
+		cost = 30
+		x = 13
+		y = 1
+		relative_position_id = FAU_world_tree_seed
+		prerequisite = {
+			focus = FAU_world_tree_seed
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_rubber_from_old_tyres
+		icon = GFX_FAU_rubber_from_old_tyres
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = FAU_recycle
+		prerequisite = {
+			focus = FAU_recycle
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_steel_from_junkyards
+		icon = GFX_FAU_steel_from_junkyards
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_recycle
+		prerequisite = {
+			focus = FAU_recycle
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_aluminium_from_landfills
+		icon = GFX_FAU_aluminium_from_landfills
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = FAU_recycle
+		prerequisite = {
+			focus = FAU_recycle
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Industry Continued #
+	focus = {
+		id = FAU_avocado_oil_for_fuel
+		icon = GFX_FAU_avocado_oil_for_fuel
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = FAU_take_council_hand_me_downs
+		prerequisite = {
+			focus = FAU_optimise_speedrun_routes
+		}
+		prerequisite = {
+			focus = FAU_the_speediest_gamer
+		}
+		prerequisite = {
+			focus = FAU_take_council_hand_me_downs
+		}
+		prerequisite = {
+			focus = FAU_rifle_restoration
+		}
+		prerequisite = {
+			focus = FAU_rubber_from_old_tyres
+		}
+		prerequisite = {
+			focus = FAU_steel_from_junkyards
+		}
+		prerequisite = {
+			focus = FAU_aluminium_from_landfills
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_learn_from_nature
+		icon = GFX_FAU_learn_from_nature
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_avocado_oil_for_fuel
+		prerequisite = {
+			focus = FAU_avocado_oil_for_fuel
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_ornithology
+		icon = GFX_FAU_ornithology
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = FAU_learn_from_nature
+		prerequisite = {
+			focus = FAU_learn_from_nature
+		}
+		mutually_exclusive = {
+			focus = FAU_ichthyology
+			focus = FAU_dendrology
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_ichthyology
+		icon = GFX_FAU_ichthyology
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_learn_from_nature
+		prerequisite = {
+			focus = FAU_learn_from_nature
+		}
+		mutually_exclusive = {
+			focus = FAU_ornithology
+			focus = FAU_dendrology
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_dendrology
+		icon = GFX_FAU_dendrology
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = FAU_learn_from_nature
+		prerequisite = {
+			focus = FAU_learn_from_nature
+		}
+		mutually_exclusive = {
+			focus = FAU_ornithology
+			focus = FAU_ichthyology
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = FAU_one_with_nature
+		icon = GFX_FAU_one_with_nature
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = FAU_ichthyology
+		prerequisite = {
+			focus = FAU_ornithology
+			focus = FAU_ichthyology
+			focus = FAU_dendrology
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# World Tree Sapling #
+	focus = {
+		id = FAU_world_tree_sapling
+		icon = GFX_FAU_world_tree_sapling
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = FAU_hair_washing_salons
+		prerequisite = {
+			focus = FAU_forced_veganism
+		}
+		prerequisite = {
+			focus = FAU_hair_washing_salons
+			focus = FAU_bald_fauna
+		}
+		prerequisite = {
+			focus = FAU_one_with_nature
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

@@ -9,6 +9,9 @@
 		}
 	}
 
+	### Shared Focuses###
+	shared_focus = IRYS_project_hope
+
 	### Phase One ###
 	## Opening ##
 	focus = {

@@ -4,3 +4,9 @@
 HAA:0 "Haachama Order"
 HAA_DEF:0 "the Haachama Order"
 HAA_ADJ:0 "Haaton"
+
+#### Ideas ####
+### Starting ###
+HAA_godchama:0 "Godchama"
+  HAA_godchama_desc:0 "Godchama"
+### Phase One ###

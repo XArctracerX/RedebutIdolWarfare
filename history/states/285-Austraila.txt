@@ -12,6 +12,7 @@ state={
 	history={
 		owner = AST
 		add_core_of = AST
+		add_core_of = HAA
 		
 		buildings = {
 			infrastructure = 3 #was: 6

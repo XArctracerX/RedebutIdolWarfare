@@ -19,7 +19,7 @@ characters = {
 		country_leader={
 		    desc = ""
 			ideology = dictatorship
-			traits = { }
+			traits = { HAA_godchama }
 			expire = "2020.1.1"
 		}
 	}
