@@ -1,0 +1,33 @@
+add_namespace = FSA_from_other_nations
+
+## From Other Nations ##
+country_event = {
+	id = FSA_from_other_nations.1
+	title = FSA_from_other_nations.1.t
+	desc = FSA_from_other_nations.1.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FSA_from_other_nations.1.a
+
+		leave_faction = yes
+		KRO = {
+			create_faction = boat_goes_pact_faction
+			add_to_faction = FSA
+		}
+
+		ai_chance = {
+		  	base = 50
+		}
+	} 
+
+	option = {
+		name = FSA_from_other_nations.1.b
+
+		ai_chance = {
+		  	base = 50
+		}
+	} 
+}

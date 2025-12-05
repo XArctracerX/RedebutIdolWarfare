@@ -1,0 +1,57 @@
+KRO_bunkeronii_united_provinces = {
+	KRO_form_the_bunkeronii_united_provinces = {
+		icon = GFX_KRO_from_the_bunkeronii_united_provinces
+		available = { 
+			country_exists = KRO
+			has_completed_focus = KRO_killing_a_concept
+		}
+		cost = 100
+		days_remove = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		visible = {
+		    country_exists = KRO
+			has_completed_focus = KRO_killing_a_concept
+		}
+
+		modifier = {
+		}
+
+		complete_effect = {
+			FAU = {
+				every_core_state = {
+					transfer_state_to = BNK
+					add_compliance = 25
+				}
+			}
+			set_autonomy = { 
+				target = BNK
+				autonomy_state = autonomy_integrated_puppet 
+			}
+			retire_character = KRO_mr_endy			
+			hidden_effect = {
+				BNK = {
+					set_politics = {
+						ruling_party = corporatocracy
+						last_election = "2025.1.1"
+						election_frequency = 2
+						elections_allowed = no
+					}
+					set_popularities = {
+						anarchy = 0
+						autocracy = 20
+						corporatocracy = 58
+						idolocracy = 6
+						theocracy = 12
+						technocracy = 4
+					}
+				}				
+			}
+		}
+
+		remove_effect = {
+		}
+	}
+}

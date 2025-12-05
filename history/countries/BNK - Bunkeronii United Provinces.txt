@@ -1,0 +1,73 @@
+capital = 276
+
+set_stability = 0.28
+set_war_support = 0.37
+
+add_ideas = {
+	limited_conscription
+	partial_economic_mobilisation
+	export_focus
+}
+
+set_convoys = 44
+
+set_research_slots = 3
+
+set_technology = {
+	# Infantry #
+	infantry_weapons = 1
+	
+	# Vehicles #
+	tech_trucks = 1
+	motorised_infantry = 1
+
+	# Support #
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+}
+
+set_popularities = {
+	anarchy = 0
+	autocracy = 20
+	corporatocracy = 58
+	idolocracy = 6
+	theocracy = 12
+	technocracy = 4
+}
+
+set_politics = {
+	ruling_party = corporatocracy
+	last_election = "2025.1.1"
+	election_frequency = 2
+	elections_allowed = no
+}
+
+#### Characters ####
+### Phase One ###
+## Country Leaders ##
+recruit_character = BNK_mr_endy
+# Main #
+# Ideology #
+## Advisors ##
+# Cabinet #
+# Theorist #
+## Scientists ##
+# Nuclear #
+# Naval #
+# Air #
+# Land #
+## Chiefs ##
+# Army #
+# Navy #
+# Air #
+## High Command ##
+# Army #
+# Navy #
+# Air #
+## Generals ##
+# Field Marshal #
+# Corps Commander #
+# Admiral #
+### Phase Two ### 

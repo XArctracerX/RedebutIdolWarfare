@@ -1170,4 +1170,8 @@ opinion_modifiers = {
 	KRO_council_commitments_opinion = {
 		value = 80
 	}
+
+	KRO_ignored_our_pleas = {
+		value = -50
+	}
 }

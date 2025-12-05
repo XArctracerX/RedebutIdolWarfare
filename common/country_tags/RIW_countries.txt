@@ -44,6 +44,7 @@ BIJ = "countries/Bijou.txt"
 # North America #
 SHY	= "countries/Shylily.txt"
 KRO	= "countries/Empironii.txt"
+BNK = "countries/Bunkeronii United Provinces.txt"
 HAK	= "countries/Haruka.txt"
 MIO	= "countries/Mio.txt"
 GUH	= "countries/Underworld.txt"

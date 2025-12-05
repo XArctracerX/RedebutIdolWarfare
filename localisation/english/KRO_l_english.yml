@@ -5,8 +5,13 @@ KRO:0 "Empironii"
 KRO_DEF:0 "the Empironii"
 KRO_ADJ:0 "Kronie"
 
+### Factions ###
+boat_goes_pact_faction:0 "Boat Goes Pact"
+blue_alliance_faction:0 "Blue Alliance"
+
 ### Opinion Modifiers ###
 KRO_council_commitments_opinion:0 "Council Commitments"
+KRO_ignored_our_pleas:0 "Ignored our Pleas"
 
 #### Ideas ####
 ### Starting ###
@@ -57,6 +62,16 @@ KRO_empironii_trade_company_2:0 "Empironii Trade Company"
   KRO_empironii_trade_company_2_desc:0 ""
 KRO_empironii_trade_company_3:0 "Empironii Trade Company"
   KRO_empironii_trade_company_3_desc:0 ""
+## Collab Subpath ##
+KRO_collaborative_efforts:0 "Collaborative Efforts"
+  KRO_collaborative_efforts_desc:0 ""
+## War on Nature Subpath ##
+KRO_war_preparations:0 "War Preparations"
+  KRO_war_preparations_desc:0 ""
+KRO_bunkeronii_inc_5:0 "Bunkeronii Inc."
+  KRO_bunkeronii_inc_5_desc:0 ""
+KRO_fleet_production:0 "Fleet Production"
+  KRO_fleet_production_desc:0 ""
 
 #### Focus Tree #### 
 ### Phase One ###
@@ -243,3 +258,56 @@ KRO_helicopters_to_the_wardens_standards:0 "Helicopters to the Wardens Standards
 # Kronii Gear? #
 KRO_a_concepts_chains:0 "A Concepts Chains"
   KRO_a_concepts_chains_desc:0 ""
+
+#### Events #### 
+### Phase One ###
+KRO_phase_one.1.t:0 "Ouro Kronii Addresses the Allegations"
+KRO_phase_one.1.d:0 ""
+KRO_phase_one.1.a:0 ""
+
+KRO_phase_one.2.t:0 "Ouro Kronii no longer a Subway fan?"
+KRO_phase_one.2.d:0 ""
+KRO_phase_one.2.a:0 ""
+
+KRO_phase_one.3.t:0 "Ouro Kronii almost dies to the One Chip Challenge"
+KRO_phase_one.3.d:0 ""
+KRO_phase_one.3.a:0 ""
+
+KRO_phase_one.4.t:0 "Peace Treaty"
+KRO_phase_one.4.d:0 ""
+KRO_phase_one.4.a:0 ""
+
+KRO_phase_one.5.t:0 "Canada reunifed under Ouro Kronii"
+KRO_phase_one.5.d:0 ""
+KRO_phase_one.5.a:0 ""
+
+KRO_phase_one.6.t:0 "Ouro Kronii's threats to Time Traveler Leadership"
+KRO_phase_one.6.d:0 ""
+KRO_phase_one.6.a:0 ""
+
+FSA_from_other_nations.1.t:0 "A Proposal From a Woman?"
+FSA_from_other_nations.1.d:0 ""
+FSA_from_other_nations.1.a:0 ""
+
+ATL_from_other_nations.1.t:0 "The Clock Woman's Suggestion"
+ATL_from_other_nations.1.d:0 ""
+ATL_from_other_nations.1.a:0 ""
+
+KRO_phase_one.7.t:0 "Deal with the Devil"
+KRO_phase_one.7.d:0 ""
+KRO_phase_one.7.a:0 ""
+
+KRO_phase_one.8.t:0 "Mr. Endy Assigned Regent of Empironii"
+KRO_phase_one.8.d:0 ""
+KRO_phase_one.8.a:0 ""
+
+KRO_phase_one.9.t:0 "Chinese Wildfires"
+KRO_phase_one.9.d:0 ""
+KRO_phase_one.9.a:0 ""
+
+#### Decisions ####
+### Bunkeronii United Provinces ###
+KRO_bunkeronii_united_provinces:0 "Bunkeronii United Provinces"
+KRO_bunkeronii_united_provinces_desc:0 ""
+KRO_form_the_bunkeronii_united_provinces:0 "Form the Bunkeronii United Provinces"
+KRO_form_the_bunkeronii_united_provinces_desc:0 ""

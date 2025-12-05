@@ -1,0 +1,155 @@
+add_namespace = KRO_phase_one
+
+## Phase One ##
+country_event = {
+	id = KRO_phase_one.1
+	title = KRO_phase_one.1.t
+	desc = KRO_phase_one.1.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.1.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = KRO_phase_one.2
+	title = KRO_phase_one.2.t
+	desc = KRO_phase_one.2.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.2.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = KRO_phase_one.3
+	title = KRO_phase_one.3.t
+	desc = KRO_phase_one.3.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.3.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = KRO_phase_one.4
+	title = KRO_phase_one.4.t
+	desc = KRO_phase_one.4.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.4.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = KRO_phase_one.5
+	title = KRO_phase_one.5.t
+	desc = KRO_phase_one.5.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.5.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = KRO_phase_one.6
+	title = KRO_phase_one.6.t
+	desc = KRO_phase_one.6.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.6.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = KRO_phase_one.7
+	title = KRO_phase_one.7.t
+	desc = KRO_phase_one.7.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.7.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+news_event = {
+	id = KRO_phase_one.8
+	title = KRO_phase_one.8.t
+	desc = KRO_phase_one.8.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.8.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+news_event = {
+	id = KRO_phase_one.9
+	title = KRO_phase_one.9.t
+	desc = KRO_phase_one.9.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.9.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}

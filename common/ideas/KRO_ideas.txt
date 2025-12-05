@@ -355,6 +355,75 @@ ideas = {
 				recruitable_population_factor = 0.1
 			}
 	   	}
-		## War Goals ##
+		## Collab Subpath ##
+		KRO_collaborative_efforts = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.1
+			}
+	   	}
+
+		## War on Nature Subpath ##
+		KRO_war_preparations = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+	   	}
+
+		KRO_bunkeronii_inc_5 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+				army_org = 5
+				recruitable_population_factor = 0.05
+			}
+	   	}
+
+		KRO_fleet_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+			}
+	   	}
 	}
 }

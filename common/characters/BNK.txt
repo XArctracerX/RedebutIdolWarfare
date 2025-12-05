@@ -1,0 +1,49 @@
+characters = {
+	#### Characters ####
+	### Phase One ###
+	## Country Leaders ##
+	# Main #
+	BNK_mr_endy = {
+		name = "Mr. Endy"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_mr_endy.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_mr_endy_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_mr_endy.dds"
+				small = "gfx/interface/ideas/KRO/portrait_KRO_mr_endy_idea.dds"
+			}
+		}
+
+		country_leader = {
+		    desc = ""
+			ideology = mega_corporation
+			traits = { }
+			expire = "2020.1.1"
+		}
+	}
+
+	# Ideology #
+	## Advisors ##
+	# Cabinet #
+	# Theorist #
+	## Scientists ##
+	# Nuclear #
+	# Naval #
+	# Air #
+	# Land #
+	## Chiefs ##
+	# Army #
+	# Navy #
+	# Air #
+	## High Command ##
+	# Army #
+	# Navy #
+	# Air #
+	## Generals ##
+	# Field Marshal #
+	# Corps Commander #
+	# Admiral #
+	### Phase Two ### 
+}
