@@ -13,7 +13,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-
+				resistance_growth = 0.2
 			}
 	   	}
 
@@ -45,7 +45,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
+			}
+			targeted_modifier = {
+   				 tag = HAA
+   				 attack_bonus_against = -0.1
 			}
 	   	}
 
@@ -423,6 +426,122 @@ ideas = {
 
 			modifier = {
 				industrial_capacity_dockyard = 0.1
+			}
+	   	}
+
+		# Burn the Trees Subpath #
+		KRO_fire_bombing = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.15
+			}
+	   	}
+
+		# Locate the Fauna #
+		KRO_timely_victory = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			targeted_modifier = {
+   				 tag = FAU
+   				 attack_bonus_against = 0.2
+			}
+	   	}
+
+		# Brutal Occupaton Subpath #
+		KRO_occupation_of_china = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				resistance_growth = -0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+	   	}	
+
+		KRO_bunkeronii_inc_6 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+				army_org = 5
+				recruitable_population_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+	   	}
+
+		## United Council ##
+		KRO_fox_welfare_fund = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				add_stability = 0.1
+			}
+	   	}	
+		
+		KRO_bunkeronii_inc_7 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+				army_org = 5
+				army_morale_factor = 0.1
 			}
 	   	}
 	}

@@ -153,3 +153,37 @@ news_event = {
 		}
 	} 
 }
+
+country_event = {
+	id = KRO_phase_one.10
+	title = KRO_phase_one.10.t
+	desc = KRO_phase_one.10.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.10.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = KRO_phase_one.11
+	title = KRO_phase_one.11.t
+	desc = KRO_phase_one.11.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = KRO_phase_one.11.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}

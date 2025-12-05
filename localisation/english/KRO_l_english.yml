@@ -72,6 +72,22 @@ KRO_bunkeronii_inc_5:0 "Bunkeronii Inc."
   KRO_bunkeronii_inc_5_desc:0 ""
 KRO_fleet_production:0 "Fleet Production"
   KRO_fleet_production_desc:0 ""
+# Burn the Trees Subpath #
+KRO_fire_bombing:0 "Fire Bombing"
+  KRO_fire_bombing_desc:0 ""
+# Locate the Fauna #
+KRO_timely_victory:0 "Timely Victory"
+  KRO_timely_victory_desc:0 ""
+# Brutal Occupaton Subpath #
+KRO_occupation_of_china:0 "Occupation of China"
+  KRO_occupation_of_china_desc:0 ""
+KRO_bunkeronii_inc_6:0 "Bunkeronii Inc."
+  KRO_bunkeronii_inc_6_desc:0 ""
+## United Council ##
+KRO_fox_welfare_fund:0 "Fox Welfare Fund"
+  KRO_fox_welfare_fund_desc:0 ""
+KRO_bunkeronii_inc_7:0 "Bunkeronii Inc."
+  KRO_bunkeronii_inc_7_desc:0 ""
 
 #### Focus Tree #### 
 ### Phase One ###
@@ -304,6 +320,14 @@ KRO_phase_one.8.a:0 ""
 KRO_phase_one.9.t:0 "Chinese Wildfires"
 KRO_phase_one.9.d:0 ""
 KRO_phase_one.9.a:0 ""
+
+KRO_phase_one.10.t:0 "Duel in Kirin"
+KRO_phase_one.10.d:0 "Jokeronii: YOU TURNED MUMEI AGAINST ME!\nFauna: You have done that yourself.\nJokeronii: YOU WILL NOT TAKE HER FROM ME!\nFauna: Your anger and your lust for power have already done that. You have allowed this dark Haachama to twist your mind until now... until now you have become the very thing you've sworn to destroy.\nJokeronii: Don't lecture me, Fauna. I see through the lies of the Council. I do not fear the Haachama cooking as you do. I have brought berries, spicy noodles, sandwich smoothies and the one chip challenge to my new Empironii.\nFauna: Your new Empironii?\nJokeronii: Don't make me kill you.\nFauna: Kronii, my allegiance is to the Council—to HoloEN Gen 2!\nJokeronii: If you're not with me, then you're my enemy.\nFauna: Only a Warden deals in absolutes. I will do what I must.\nJokeronii: You will try.\n(Fighting ensues.)\nFauna: I have failed you, Kronii. I have failed you.\nJokeronii: I should've known the Saplings were planning to take over!\nFauna: Kronii, Haachama is evil!\nJokeronii: From my point of view the Council is evil!\nFauna: Then you are lost!\nJokeronii: This is the end for you, my genmate.\n(More fighting.)\nFauna: It's over, Kronii, I have the high ground!\nJokeronii: You underestimate my power...\nFauna: Don't try it.\nJokeronii: AAAAAHH!\n(Kronii's leg gets chopped off.)\nJokeronii: AAAAAAAHHH!!!\nFauna: YOU WERE THE CHOSEN ONE! IT WAS SAID THAT YOU WOULD DESTROY THE HAACHAMA ORDER, NOT JOIN THEM! YOU WERE TO BRING BALANCE TO THE TIMELINE, NOT LEAVE IT IN DARKNESS!\nJokeronii: AAAAAH I HATE YOU!!!\nFauna: You were my genmate, Kronii. I loved you!\n(Kronii bursts into flames.)\nJokeronii: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!!"
+KRO_phase_one.10.a:0 "Absolute cinema."
+
+KRO_phase_one.11.t:0 "Assassination of Ceres Fauna"
+KRO_phase_one.11.d:0 ""
+KRO_phase_one.11.a:0 ""
 
 #### Decisions ####
 ### Bunkeronii United Provinces ###
