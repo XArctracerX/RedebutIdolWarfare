@@ -66,7 +66,6 @@ bookmarks = {
 			ideas = {
 				KRO_bunkeronii_inc
 				KRO_unstable_alliance
-				KRO_time_travel_outlawed
 			}
 
 			focuses = {
