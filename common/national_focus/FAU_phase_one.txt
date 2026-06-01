@@ -29,7 +29,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_political_power = 150
 		}
 
 		ai_will_do = {

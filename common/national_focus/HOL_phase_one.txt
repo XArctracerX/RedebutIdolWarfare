@@ -29,7 +29,7 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -56,7 +56,13 @@
 		}
 	
 		completion_reward = {
-
+			add_political_power = 100
+			add_stability = 0.1
+			add_power_balance_value = {
+				id = HOL_senpai_kouhai_bop
+				value = 0.1
+				tooltip_side = HOL_bop_right_side
+			}
 		}
 
 		ai_will_do = {
@@ -82,7 +88,7 @@
 		}
 	
 		completion_reward = {
-
+			add_war_support = 0.2
 		}
 
 		ai_will_do = {
@@ -832,113 +838,6 @@
 			focus = HOL_kfp_japan_branch
 			focus = HOL_watamelon_primacy
 			focus = HOL_tako_eats_partnership
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-		}
-	
-		completion_reward = {
-
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = HOL_stick_the_landing
-		icon = GFX_HOL_stick_the_landing
-		cost = 30
-		x = 1
-		y = 1
-		relative_position_id = HOL_demands_on_the_maldives
-		prerequisite = {
-			focus = HOL_demands_on_the_maldives
-		}
-		prerequisite = {
-			focus = HOL_demands_on_the_pacific
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-		}
-	
-		completion_reward = {
-
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = HOL_preemptive_invasion_of_the_haachama_order
-		icon = GFX_HOL_preemptive_invasion_of_the_haachama_order
-		cost = 30
-		x = -2
-		y = 1
-		relative_position_id = HOL_stick_the_landing
-		prerequisite = {
-			focus = HOL_stick_the_landing
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-		}
-	
-		completion_reward = {
-
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = HOL_war_on_the_council
-		icon = GFX_HOL_war_on_the_council
-		cost = 30
-		x = 0
-		y = 1
-		relative_position_id = HOL_stick_the_landing
-		prerequisite = {
-			focus = HOL_stick_the_landing
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-		}
-	
-		completion_reward = {
-
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = HOL_bring_back_the_black_wolf
-		icon = GFX_HOL_bring_back_the_black_wolf
-		cost = 30
-		x = 2
-		y = 1
-		relative_position_id = HOL_stick_the_landing
-		prerequisite = {
-			focus = HOL_stick_the_landing
 		}
 
 		search_filters = {

@@ -1,0 +1,6 @@
+ideas = {
+    country = {
+		### Starting Ideas ###
+		### Phase One Ideas ###	
+	}
+}

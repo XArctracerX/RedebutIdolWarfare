@@ -2,6 +2,11 @@ spriteTypes = {
 
 	# KRO #
 	SpriteType = {
+		name = "GFX_KRO_the_kroniicopter_has_landed"
+		texturefile ="gfx/interface/goals/KRO/KRO_the_kroniicopter_has_landed.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_KRO_bunkeronii_incorporated"
 		texturefile ="gfx/interface/goals/KRO/KRO_bunkeronii_incorporated.dds"
 	}
