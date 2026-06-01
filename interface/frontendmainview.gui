@@ -211,12 +211,12 @@ guiTypes = {
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
 		position = { x=-200 y =-200 }
-		show_position = { x = -200 y = 100 }
+		show_position = { x = 350 y = 100 }
 		animation_type = decelerated
 		animation_time = 1000
 		size = { width = 256 height = 768}
-		Orientation = CENTER
-		Origo = center		
+		Orientation = lower_left
+		Origo = lower_left		
 		
 		iconType = {
 			name = "frontend_game_logo"
@@ -264,7 +264,7 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x= 0 y =0}
+		position = { x = 70 y = 0}
 		size = { width = 320 height = 475}
 		Orientation = lower_left
 		Origo = lower_left	
@@ -540,9 +540,9 @@ guiTypes = {
 		
         containerWindowType = {
             name = "first_row"
-			position = { x=-400 y=115 }
-			Orientation = bottom_left
-			Origo = center
+			position = { x=-400 y=30 }
+			Orientation = lower_left
+			Origo = lower_left
 
             ButtonType = {
                 name = "homepage_button"
@@ -581,9 +581,9 @@ guiTypes = {
         }
         containerWindowType = {
             name = "second_row"
-			position = { x=-535 y=110 }
-			Orientation = CENTER
-			Origo = center
+			position = { x=-415 y=65 }
+			Orientation = lower_left
+			Origo = lower_left
             ButtonType = {
                 name = "bluesky_button"
                 position = { x=0 y=0 }
