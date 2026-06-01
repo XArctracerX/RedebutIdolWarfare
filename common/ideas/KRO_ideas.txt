@@ -17,22 +17,6 @@ ideas = {
 			}
 	   	}
 
-		KRO_time_travel_outlawed = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				
-			}
-	   	}
-
 		KRO_unstable_alliance = {
 			allowed = {
 				always = no

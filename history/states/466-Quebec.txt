@@ -2,6 +2,7 @@ state={
 	id=466
 	name="STATE_466"
 	resources={
+		coal = 4
 		aluminium = 4.000
 		chromium = 3
 	}

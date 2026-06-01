@@ -1088,7 +1088,7 @@
 		icon = GFX_KRO_canada_reunified
 		cost = 30
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = KRO_reintegrate_the_orcats_land
 		prerequisite = {
 			focus = KRO_eliminate_false_mother_nature
@@ -1129,53 +1129,8 @@
 			add_state_core = 463
 			add_state_core = 1201
 			add_state_core = 1200
+			add_state_core = 861
 			country_event = KRO_phase_one.5
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = KRO_pursue_foreign_time_travelers
-		icon = GFX_KRO_pursue_foreign_time_travelers
-		cost = 30
-		x = 0
-		y = 1
-		relative_position_id = KRO_canada_reunified
-		prerequisite = {
-			focus = KRO_canada_reunified
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-		}
-	
-		completion_reward = {
-			create_wargoal = {
-				target = AME
-				type = take_state
-				expire = 0
-			}
-			create_wargoal = {
-				target = SAU
-				type = take_state
-				expire = 0
-			}
-			create_wargoal = {
-				target = VTX
-				type = take_state
-				expire = 0
-			}
-			create_wargoal = {
-				target = GAN
-				type = take_state
-				expire = 0
-			}
-			country_event = KRO_phase_one.6
 		}
 
 		ai_will_do = {
@@ -1201,7 +1156,7 @@
 			focus = KRO_liquidize_subways_assets
 		}
 		prerequisite = {
-			focus = KRO_pursue_foreign_time_travelers
+			focus = KRO_canada_reunified
 		}
 		mutually_exclusive = {
 			focus = KRO_give_in_to_faunas_demands
@@ -2254,7 +2209,7 @@
 			focus = KRO_liquidize_subways_assets
 		}
 		prerequisite = {
-			focus = KRO_pursue_foreign_time_travelers
+			focus = KRO_canada_reunified
 		}
 		mutually_exclusive = {
 			focus = KRO_leave_the_council
