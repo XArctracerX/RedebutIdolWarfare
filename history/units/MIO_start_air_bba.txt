@@ -1,0 +1,8 @@
+﻿air_wings = {
+    473 = {
+        small_plane_airframe_0 = {
+            owner = "MIO"
+            amount = 98
+        }
+    }
+}

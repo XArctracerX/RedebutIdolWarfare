@@ -1,0 +1,35 @@
+﻿air_wings = {
+    276 = {
+        small_plane_airframe_0 = {
+            owner = "KRO"
+            amount = 100
+        }
+    }
+}
+
+air_wings = {
+    276 = {
+        small_plane_airframe_0 = {
+            owner = "KRO"
+            amount = 91
+        }
+    }
+}
+
+air_wings = {
+    276 = {
+        small_plane_airframe_0 = {
+            owner = "KRO"
+            amount = 76
+        }
+    }
+}
+
+air_wings = {
+    276 = {
+        medium_plane_airframe_0 = {
+            owner = "KRO"
+            amount = 40
+        }
+    }
+}

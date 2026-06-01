@@ -1,0 +1,36 @@
+﻿air_wings = {
+    276 = {
+        fighter_equipment_0 = {
+            owner = "KRO"
+            amount = 100
+        }
+    }
+}
+
+air_wings = {
+    276 = {
+        fighter_equipment_0 = {
+            owner = "KRO"
+            amount = 91
+        }
+    }
+}
+
+air_wings = {
+    276 = {
+        fighter_equipment_0 = {
+            owner = "KRO"
+            amount = 76
+        }
+    }
+}
+
+air_wings = {
+    276 = {
+        tac_bomber_equipment_1 = {
+            owner = "KRO"
+            amount = 40
+        }
+    }
+}
+
