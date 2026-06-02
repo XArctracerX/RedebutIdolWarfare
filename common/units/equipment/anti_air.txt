@@ -40,7 +40,7 @@ equipments = {
 	}
 
 	anti_air_equipment_1 = {
-		year = 1936
+		year = 2026
 
 		archetype = anti_air_equipment
 		priority = 80
@@ -48,7 +48,7 @@ equipments = {
 	}
 	
 	anti_air_equipment_2 = {
-		year = 1940
+		year = 2030
 
 		archetype = anti_air_equipment
 		parent = anti_air_equipment_1
@@ -67,7 +67,7 @@ equipments = {
 	}
 	
 	anti_air_equipment_3 = {
-		year = 1943
+		year = 2033
 
 		archetype = anti_air_equipment
 		parent = anti_air_equipment_2

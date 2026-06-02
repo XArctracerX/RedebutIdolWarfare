@@ -8,7 +8,7 @@ faction_template_generic = {
 		always = no # Fallback template, should not be selectable 
 	}
 	available = {
-		has_government = council
+		has_government = idolocracy
 	}
 
 	goals = {
@@ -60,7 +60,7 @@ faction_template_generic_dominance = {
 
 }
 
-# Defensive council Faction Type
+# Defensive idolocracy Faction Type
 faction_template_defensive_democratic = {
 	name = defensive_democratic_faction
 	manifest = faction_manifest_defense_of_democracy
@@ -71,7 +71,7 @@ faction_template_defensive_democratic = {
 		always = yes 
 	}
 	available = {
-		has_government = council
+		has_government = idolocracy
 	}
 
 	goals = {
@@ -107,7 +107,7 @@ faction_template_anti_communist = {
 		always = yes 
 	}
 	available = {
-		NOT = { has_government = terrorist }
+		NOT = { has_government = anarchy }
 	}
 
 	goals = {
@@ -134,7 +134,7 @@ faction_template_anti_communist = {
 	
 }
 
-# Suppression of criminal
+# Suppression of technocracy
 faction_template_anti_fascist = {
 	name = bulwark_pact_faction
 	manifest = faction_manifest_suppress_regional_fascism
@@ -143,14 +143,14 @@ faction_template_anti_fascist = {
 	visible = {
 		always = yes 
 		any_other_country = {
-			has_government = criminal
+			has_government = technocracy
 			is_on_same_continent_as = ROOT
 		}
 	}
 	available = {
-		NOT = { has_government = criminal }
+		NOT = { has_government = technocracy }
 		any_other_country = {
-			has_government = criminal
+			has_government = technocracy
 			is_on_same_continent_as = ROOT
 		}
 	}
@@ -186,14 +186,14 @@ faction_template_regional_anti_communist = {
 	visible = {
 		always = yes 
 		any_other_country = {
-			has_government = terrorist
+			has_government = anarchy
 			is_on_same_continent_as = ROOT
 		}
 	}
 	available = {
-		NOT = { has_government = terrorist }
+		NOT = { has_government = anarchy }
 		any_other_country = {
-			has_government = terrorist
+			has_government = anarchy
 			is_on_same_continent_as = ROOT
 		}
 	}
@@ -229,14 +229,14 @@ faction_template_regional_anti_democratic = {
 	visible = {
 		always = yes 
 		any_other_country = {
-			has_government = council
+			has_government = idolocracy
 			is_on_same_continent_as = ROOT
 		}
 	}
 	available = {
-		NOT = { has_government = council }
+		NOT = { has_government = idolocracy }
 		any_other_country = {
-			has_government = council
+			has_government = idolocracy
 			is_on_same_continent_as = ROOT
 		}
 	}
@@ -269,8 +269,8 @@ faction_template_regional = {
 	# color = { 255 0 255 }
 	can_leader_join_other_factions = yes
 	visible = {
-		NOT = { has_government = terrorist }
-		NOT = { has_government = criminal }
+		NOT = { has_government = anarchy }
+		NOT = { has_government = technocracy }
 		NOT = { capital_scope = { is_on_continent = europe } } # There is a European one so no need to use the generic one there
 	}
 
@@ -309,7 +309,7 @@ faction_template_world_revolution = {
 		always = yes 
 	}
 	available = {
-		has_government = terrorist 
+		has_government = anarchy 
 	}
 
 	goals = {
@@ -479,12 +479,12 @@ faction_template_european_unity = {
 			is_on_continent = europe
 		}
 		NOT = {
-			has_government = criminal 
+			has_government = technocracy 
 		}
 	}
 	available = {
 		NOT = {
-			has_government = criminal 
+			has_government = technocracy 
 		}
 	}
 	
@@ -518,7 +518,7 @@ faction_template_european_dominance = {
 		capital_scope = {
 			is_on_continent = europe
 		}
-		has_government = criminal
+		has_government = technocracy
 	}
 	
 	goals = {
@@ -550,7 +550,7 @@ faction_template_european_dominance_monarchist = {
 		capital_scope = {
 			is_on_continent = europe
 		}
-		has_government = monarchy
+		has_government = autocracy
 	}
 	
 	goals = {

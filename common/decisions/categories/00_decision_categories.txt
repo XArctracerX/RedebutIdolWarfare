@@ -532,7 +532,7 @@ nato_decisions = {
 		always = yes
 	}
 	visible = {
-		date > 1944.1.1
+		date > 2034.1.1
 	}
 	priority = 100
 }

@@ -11,22 +11,22 @@
 joining_rule_non_fascist = {
 	type = joining_rules
 	visible = {
-		NOT = { has_government = criminal }
+		NOT = { has_government = technocracy }
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			add = 1
-			NOT = { has_government = criminal }
+			NOT = { has_government = technocracy }
 		}
 		modifier = {
 			add = 1
-			has_government = terrorist
+			has_government = anarchy
 		}
 	}
 	trigger = {
 		NOT = {
-			has_government = criminal
+			has_government = technocracy
 		}
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
@@ -38,22 +38,22 @@ joining_rule_non_fascist = {
 joining_rule_non_democratic = {
 	type = joining_rules
 	visible = {
-		NOT = { has_government = council }
+		NOT = { has_government = idolocracy }
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			add = 1
-			NOT = { has_government = council }
+			NOT = { has_government = idolocracy }
 		}
 		modifier = {
 			add = 1
-			has_government = criminal
+			has_government = technocracy
 		}
 	}
 	trigger = {
 		NOT = {
-			has_government = council 
+			has_government = idolocracy 
 		}
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
@@ -65,17 +65,17 @@ joining_rule_non_democratic = {
 joining_rule_non_communist = {
 	type = joining_rules
 	visible = {
-		NOT = { has_government = terrorist }
+		NOT = { has_government = anarchy }
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			add = 1
-			NOT = { has_government = terrorist }
+			NOT = { has_government = anarchy }
 		}
 		modifier = {
 			add = 1
-			has_government = criminal
+			has_government = technocracy
 		}
 	}
 	available = {
@@ -86,7 +86,7 @@ joining_rule_non_communist = {
 			NOT = {
 				any_enemy_country = {
 					is_major = yes
-					has_government = criminal
+					has_government = technocracy
 				}
 			}
 		}
@@ -96,7 +96,7 @@ joining_rule_non_communist = {
 	}
 	trigger = {
 		NOT = {
-			has_government = terrorist 
+			has_government = anarchy 
 		}
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
@@ -111,10 +111,10 @@ joining_rule_fascist_only = {
 		base = 0
 	}
 	available = {
-		has_government = criminal
+		has_government = technocracy
 	}
 	trigger = {
-		has_government = criminal
+		has_government = technocracy
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
 			has_government = FROM
@@ -128,12 +128,12 @@ joining_rule_democratic_non_aligned = {
 		base = 0
 	}
 	available = {
-		has_government = council
+		has_government = idolocracy
 	}
 	trigger = {
 		OR = {
-			has_government = council
-			has_government = monarchy
+			has_government = idolocracy
+			has_government = autocracy
 		}
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
@@ -158,10 +158,10 @@ joining_rule_communist_only = {
 		base = 0
 	}
 	available = {
-		has_government = terrorist
+		has_government = anarchy
 	}
 	trigger = {
-		has_government = terrorist
+		has_government = anarchy
 		IF = {
 			limit = { NOT = { has_rule = can_join_opposite_factions } }
 			has_government = FROM
@@ -226,7 +226,7 @@ joining_rule_has_no_war = {
 		base = 0
 		modifier = {
 			add = 3
-			has_government = monarchy
+			has_government = autocracy
 			has_war = no 
 		}
 	}
@@ -245,8 +245,8 @@ joining_rule_has_no_offensive_war = {
 		modifier = {
 			add = 2
 			OR = {
-				has_government = council
-				has_government = monarchy
+				has_government = idolocracy
+				has_government = autocracy
 			}
 		}
 	}
@@ -274,7 +274,7 @@ joining_rule_neighbors_only = {
 		base = 0
 		modifier = {
 			add = 1
-			has_government = monarchy
+			has_government = autocracy
 			has_war = no 
 		}
 	}

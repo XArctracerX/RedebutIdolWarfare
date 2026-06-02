@@ -12,7 +12,7 @@ dismissal_rule_world_tension = {
 		base = 0
 		modifier = {  
 			add = 1
-			has_government = council
+			has_government = idolocracy
 			is_faction_leader = yes 
 		}
 	}
@@ -27,7 +27,7 @@ dismissal_rule_offensive_war = {
 		base = 0
 		modifier = {  
 			add = 1
-			has_government = monarchy
+			has_government = autocracy
 			is_faction_leader = yes 
 		}
 	}
@@ -49,64 +49,64 @@ dismissal_rule_offensive_war = {
 
 dismissal_rule_ideology_not_democratic = {
 	type = dismissal_rules
-	visible = { has_government = council }
+	visible = { has_government = idolocracy }
 	ai_will_do = {
 		base = 0
 	}
 
 	dismiss_member_trigger = {
 		NOT = {
-			has_government = council 
+			has_government = idolocracy 
 		}
 	}
 }
 
 dismissal_rule_ideology_not_communism = {
 	type = dismissal_rules
-	visible = { has_government = terrorist }
+	visible = { has_government = anarchy }
 	ai_will_do = {
 		base = 0
 	}
 
 	dismiss_member_trigger = {
 		NOT = {
-			has_government = terrorist 
+			has_government = anarchy 
 		}
 	}
 }
 
 dismissal_rule_ideology_communist = {
 	type = dismissal_rules
-	visible = { NOT = { has_government = terrorist } }
+	visible = { NOT = { has_government = anarchy } }
 	ai_will_do = {
 		base = 0
 	}
 
 	dismiss_member_trigger = {
-		has_government = terrorist
+		has_government = anarchy
 	}
 }
 
 dismissal_rule_ideology_fascist = {
 	type = dismissal_rules
-	visible = { NOT = { has_government = criminal } }
+	visible = { NOT = { has_government = technocracy } }
 	ai_will_do = {
 		base = 0
 	}
 
 	dismiss_member_trigger = {
-		has_government = criminal
+		has_government = technocracy
 	}
 }
 
 dismissal_rule_ideology_democratic = {
 	type = dismissal_rules
-	visible = { NOT = { has_government = council } }
+	visible = { NOT = { has_government = idolocracy } }
 	ai_will_do = {
 		base = 0
 	}
 
 	dismiss_member_trigger = {
-		has_government = council
+		has_government = idolocracy
 	}
 }

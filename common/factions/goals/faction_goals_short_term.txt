@@ -29,7 +29,7 @@ faction_goal_one_germany = {
 	}
 	cancel = { 
 		FROM = {
-			NOT = { has_government = criminal }
+			NOT = { has_government = technocracy }
 		}
 	}
 	completed = {
@@ -447,7 +447,7 @@ faction_goal_coastal_security = {
 		base = 1
 		modifier = {
 			add = 4 # Mid game prio
-			date > 1940.1.1
+			date > 2030.1.1
 		}
 	}
 }
@@ -497,7 +497,7 @@ faction_goal_coastal_security = {
 #		base = 1
 #		modifier = {
 #			add = 1
-#			date < 1940.1.1
+#			date < 2030.1.1
 #		}
 #	}
 #}
@@ -510,12 +510,12 @@ faction_goal_stall_the_fascist_threat = {
 	allowed = {
 	}
 	visible = {
-		date < 1938.6.1
+		date < 2028.6.1
 	}
 	completed = {
 		OR = {
 			AND = {
-				date > 1939.1.1
+				date > 2029.1.1
 				NOT = { has_global_flag = scw_over }
 			}
 			AND = {
@@ -1037,11 +1037,11 @@ faction_goal_preemptive_strike_on_fascism = {
 	visible = {
 		FROM = {
 			NOT = {
-				has_government = criminal
+				has_government = technocracy
 			}
 			NOT = {
 				any_enemy_country = {
-					has_government = criminal
+					has_government = technocracy
 				}
 			}
 		}
@@ -1053,7 +1053,7 @@ faction_goal_preemptive_strike_on_fascism = {
 		any_allied_country = {
 			has_offensive_war = yes
 			any_enemy_country = {
-				has_government = criminal
+				has_government = technocracy
 			}
 		}
 	}
@@ -1087,23 +1087,23 @@ faction_goal_war_on_communism = {
 	visible = {
 		FROM = {
 			NOT = {
-				has_government = terrorist
+				has_government = anarchy
 			}
 		}
 		any_country = {
-			has_government = terrorist
+			has_government = anarchy
 			is_on_same_continent_as = FROM
 		}
 	}
 	completed = {
 		OR = {
 			any_enemy_country = {
-				has_government = terrorist
+				has_government = anarchy
 				is_on_same_continent_as = ROOT
 			}
 			any_allied_country = {
 				any_enemy_country = {
-					has_government = terrorist
+					has_government = anarchy
 					is_on_same_continent_as = PREV
 				}
 			}
@@ -1133,23 +1133,23 @@ faction_goal_war_on_democracy = {
 	visible = {
 		FROM = {
 			NOT = {
-				has_government = council
+				has_government = idolocracy
 			}
 		}
 		any_country = {
-			has_government = council
+			has_government = idolocracy
 			is_on_same_continent_as = FROM
 		}
 	}
 	completed = {
 		OR = {
 			any_enemy_country = {
-				has_government = council
+				has_government = idolocracy
 				is_on_same_continent_as = ROOT
 			}
 			any_allied_country = {
 				any_enemy_country = {
-					has_government = council
+					has_government = idolocracy
 					is_on_same_continent_as = PREV
 				}
 			}

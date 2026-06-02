@@ -1,7 +1,7 @@
 equipments = {
 
 	motorized_equipment = {
-		year = 1936
+		year = 2026
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment		
@@ -35,7 +35,7 @@ equipments = {
 	}
 
 	motorized_equipment_0 = { # Introducing WW1 style trucks
-		year = 1936
+		year = 2026
 
 		archetype = motorized_equipment
 		priority = 30
@@ -45,7 +45,7 @@ equipments = {
 	}
 
 	motorized_equipment_1 = {
-		year = 1936
+		year = 2026
 
 		archetype = motorized_equipment
 		parent = motorized_equipment_0
@@ -54,7 +54,7 @@ equipments = {
 
 
 	motorbike_equipment = {
-		year = 1938
+		year = 2028
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment

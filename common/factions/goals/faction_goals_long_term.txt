@@ -278,7 +278,7 @@ faction_goal_align_china = {
 		base = 1
 		modifier = {
 			add = 9 # Early game prio
-			date < 1941.1.1
+			date < 2031.1.1
 		}
 	}
 }
@@ -352,7 +352,7 @@ faction_goal_contain_japanese_expansion_asia = {
 		
 	}
 	visible = {
-		date > 1940.1.1
+		date > 2030.1.1
 		collection_size = {
 			input = {
 				input = collection:country_and_all_subjects_controlled_non_core_states
@@ -434,7 +434,7 @@ faction_goal_eastern_european_security = {
 		base = 0
 		modifier = {
 			add = 1
-			date > 1938.1.1
+			date > 2028.1.1
 		}
 	}
 }
@@ -486,7 +486,7 @@ faction_goal_disarm_aggression_central_powers = {
 	group = FOCUS_FILTER_POLITICAL_CHARACTER
 	visible = {
 		FROM = {
-			has_government = council
+			has_government = idolocracy
 		}
 	}
 	completed = {
@@ -530,7 +530,7 @@ faction_goal_rule_the_waves = {
 	available = {
 		FROM = {
 			OR = {
-				NOT = { has_government = council }
+				NOT = { has_government = idolocracy }
 			}
 		}
 	}
@@ -965,7 +965,7 @@ faction_goal_the_atomic_race = {
 	group = FOCUS_FILTER_RESEARCH
 	category = long_term
 	visible = {
-		date > 1940.1.1
+		date > 2030.1.1
 	}
 	completed = {
 		custom_override_tooltip = {
@@ -1041,7 +1041,7 @@ faction_goal_defeat_of_communism = {
 				operators = {
 					faction_members
 					limit = {
-						has_government = terrorist
+						has_government = anarchy
 					}
 				}
 				name = FACTION
@@ -1072,7 +1072,7 @@ faction_goal_defeat_of_communism = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = terrorist
+				ideology = anarchy
 				popularity = -0.15
 			}
 			add_political_power = 100
@@ -1093,7 +1093,7 @@ faction_goal_defeat_of_fascism = {
 				operators = {
 					faction_members
 					limit = {
-						has_government = criminal
+						has_government = technocracy
 					}
 				}
 				name = FACTION
@@ -1123,7 +1123,7 @@ faction_goal_defeat_of_fascism = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = criminal
+				ideology = technocracy
 				popularity = -0.15
 			}
 			add_political_power = 100
@@ -1145,8 +1145,8 @@ faction_goal_defeat_of_anti_fascists = {
 					faction_members
 					limit = {
 						OR = {
-							has_government = criminal
-							has_government = council
+							has_government = technocracy
+							has_government = idolocracy
 						}
 					}
 				}
@@ -1177,7 +1177,7 @@ faction_goal_defeat_of_anti_fascists = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = criminal
+				ideology = technocracy
 				popularity = 0.2
 			}
 			add_political_power = 100
@@ -1188,7 +1188,7 @@ faction_goal_defeat_of_anti_fascists = {
 		modifier = { 
 			add = 1 # If war with communists you probably hate them
 			any_enemy_country = {
-				has_government = terrorist
+				has_government = anarchy
 			}
 		}
 	}
@@ -1208,8 +1208,8 @@ faction_goal_defeat_of_anti_communists = {
 					faction_members
 					limit = {
 						OR = {
-							has_government = criminal
-							has_government = council
+							has_government = technocracy
+							has_government = idolocracy
 						}
 					}
 				}
@@ -1240,7 +1240,7 @@ faction_goal_defeat_of_anti_communists = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = terrorist
+				ideology = anarchy
 				popularity = 0.2
 			}
 			add_political_power = 100
@@ -1251,7 +1251,7 @@ faction_goal_defeat_of_anti_communists = {
 		modifier = { 
 			add = 1 # If war with communists you probably hate them
 			any_enemy_country = {
-				has_government = terrorist
+				has_government = anarchy
 			}
 		}
 	}
@@ -1269,7 +1269,7 @@ faction_goal_the_red_tide = {
 	visible = {
 		FROM = {
 			is_major = yes
-			has_government = terrorist
+			has_government = anarchy
 		}
 	}
 	completed = {

@@ -93,7 +93,7 @@ ideas = {
 				}
 				modifier = {
 					has_war = no
-					date < 1937.6.1
+					date < 2027.6.1
 					factor = 0
 				}
    			}
@@ -133,7 +133,7 @@ ideas = {
 				
 				modifier = {
 					add = 80
-					date < 1937.1.1
+					date < 2027.1.1
 					NOT = { 
 						OR = {
 							has_idea = war_economy 
@@ -397,12 +397,12 @@ ideas = {
 				modifier = {
 					factor = 300
 
-					date > 1943.1.1 # at this point we can probably cash in on rubber lack in the world
+					date > 2033.1.1 # at this point we can probably cash in on rubber lack in the world
 				}
 
 				modifier = {
 					factor = 400
-					date > 1941.6.1
+					date > 2031.6.1
 				}
 
 				# Oil for hitlers oil throne!

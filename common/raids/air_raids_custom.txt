@@ -526,7 +526,7 @@ types = {
 		    }
 		    modifier = {
 		    	factor = 0
-		    	date < 1943.1.1
+		    	date < 2033.1.1
 		    }
 		}
 
@@ -1458,7 +1458,7 @@ types = {
 		    }
 		    modifier = {
 		    	factor = 0
-		    	date < 1940.1.1
+		    	date < 2030.1.1
 		    }
 		}
 

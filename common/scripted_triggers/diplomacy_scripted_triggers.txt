@@ -891,7 +891,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_38_DESC
-			date > 1938.1.1
+			date > 2028.1.1
 		}
 	}
 	if = {
@@ -903,7 +903,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_39_DESC
-			date > 1939.1.1
+			date > 2029.1.1
 		}
 	}
 	if = {
@@ -915,7 +915,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_40_DESC
-			date > 1940.1.1
+			date > 2030.1.1
 		}
 	}
 }

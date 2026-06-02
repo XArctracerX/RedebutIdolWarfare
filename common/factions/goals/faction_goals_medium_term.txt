@@ -138,10 +138,10 @@ faction_goal_guardians_of_peace = {
 	category = medium_term
 	group = FOCUS_FILTER_CONSOLIDATION
 	visible = {
-		date < 1939.1.1
+		date < 2029.1.1
 		FROM = {
-			NOT = { has_government = criminal }
-			NOT = { has_government = terrorist }
+			NOT = { has_government = technocracy }
+			NOT = { has_government = anarchy }
 			NOT = { has_country_flag = guardians_of_peace_been_at_war_flag }
 		}
 	}
@@ -154,7 +154,7 @@ faction_goal_guardians_of_peace = {
 		}
 	}
 	completed = {
-		date > 1938.12.31
+		date > 2028.12.31
 		NOT = { has_country_flag = guardians_of_peace_been_at_war_flag }
 		all_allied_country = {
 			NOT = { has_country_flag = guardians_of_peace_been_at_war_flag }
@@ -172,7 +172,7 @@ faction_goal_guardians_of_peace = {
 		base = 0
 		modifier = {
 			add = 1
-			has_government = council
+			has_government = idolocracy
 		}
 	}
 }
@@ -193,7 +193,7 @@ faction_goal_the_northern_mandate = {
 	}
 	visible = {
 		FROM = {
-			has_government = criminal
+			has_government = technocracy
 		}
 	}
 	available = {
@@ -228,7 +228,7 @@ faction_goal_the_southern_mandate = {
 	}
 	visible = {
 		FROM = {
-			has_government = criminal
+			has_government = technocracy
 		}
 	}
 	available = {
@@ -263,7 +263,7 @@ faction_goal_the_greater_game = {
 	}
 	visible = {
 		FROM = {
-			has_government = criminal
+			has_government = technocracy
 		}
 	}
 	available = {
@@ -397,7 +397,7 @@ faction_goal_secure_the_oil_supply = {
 		base = 1
 		modifier = {
 			add = 9 # Mid game prio
-			date > 1941.1.1
+			date > 2031.1.1
 		}
 	}
 }
@@ -436,7 +436,7 @@ faction_goal_indifference_is_a_threat = {
 		every_faction_member = {
 			add_political_power = 50
 			add_popularity = {
-				ideology = terrorist
+				ideology = anarchy
 				popularity = 0.05
 			}
 		}
@@ -951,7 +951,7 @@ faction_goal_industrial_expansion = {
 		}
 		modifier = {
 			add = 1 # Prioritize more earlier on - more pay-off
-			date < 1938.1.1
+			date < 2028.1.1
 		}
 	}
 }
@@ -1013,8 +1013,8 @@ faction_goal_industrial_research = {
 		}
 		modifier = {
 			add = 1 # Prioritize during build up, but not too early
-			date > 1938.1.1
-			date < 1941.1.1
+			date > 2028.1.1
+			date < 2031.1.1
 		}
 	}
 }
@@ -1067,7 +1067,7 @@ faction_goal_a_military_base = {
 		base = 0
 		modifier = {
 			add = 1
-			date > 1938.1.1
+			date > 2028.1.1
 		}
 		modifier = {
 			add = 1

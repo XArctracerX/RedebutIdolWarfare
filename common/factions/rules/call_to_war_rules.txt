@@ -8,7 +8,7 @@ call_to_war_rule_faction_leader_only = {
 		modifier = { 
 			add = 2
 			is_faction_leader = yes
-			NOT = { has_government = council }
+			NOT = { has_government = idolocracy }
 		}
 	}
 	modifier = {
@@ -44,7 +44,7 @@ guarantee_threat_reduction_15 = {
 		base = 0
 		modifier = { 
 			add = 2
-			has_government = council
+			has_government = idolocracy
 		}
 	}
 	modifier = {

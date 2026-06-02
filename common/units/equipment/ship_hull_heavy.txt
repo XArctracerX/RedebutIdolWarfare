@@ -303,7 +303,7 @@ equipments = {
 
 	ship_hull_heavy_2 = {
 		abbreviation = "hcd"
-		year = 1936
+		year = 2026
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -369,7 +369,7 @@ equipments = {
 
 	ship_hull_heavy_3 = {
 		abbreviation = "hce"
-		year = 1940
+		year = 2030
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -435,7 +435,7 @@ equipments = {
 
 	ship_hull_heavy_4 = {
 		abbreviation = "hcf"
-		year = 1944
+		year = 2034
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -501,7 +501,7 @@ equipments = {
 	}
 	ship_hull_heavy_modern = {
 		abbreviation = "hcf"
-		year = 1954
+		year = 2044
 		archetype = ship_hull_heavy
 		model = ship_hull_modern_super_battleship
 		priority = 1500
@@ -574,7 +574,7 @@ equipments = {
 
 	ship_hull_super_heavy_1 = {
 		abbreviation = "hcg"
-		year = 1940
+		year = 2030
 
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -779,7 +779,7 @@ equipments = {
 	}
 	
 	battleship_2 = {
-		year = 1936
+		year = 2026
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -833,7 +833,7 @@ equipments = {
 	}
 	
 	battleship_3 = {
-		year = 1940
+		year = 2030
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -888,7 +888,7 @@ equipments = {
 	}
 	
 	battleship_4 = {
-		year = 1944
+		year = 2034
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -944,7 +944,7 @@ equipments = {
 
 
 	SH_battleship_1 = {
-		year = 1936
+		year = 2026
 		visual_level = 0
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -1065,7 +1065,7 @@ equipments = {
 	}
 	
 	SH_battleship_2 = {
-		year = 1944
+		year = 2034
 		visual_level = 0
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -1243,7 +1243,7 @@ equipments = {
 	}
 	
 	battle_cruiser_2 = {
-		year = 1940
+		year = 2030
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1600
@@ -1297,7 +1297,7 @@ equipments = {
 	}
 
 	modern_battleship = {
-		year = 1954
+		year = 2044
 		visual_level = 1
 		archetype = ship_hull_heavy
 		model = ship_hull_modern_super_battleship

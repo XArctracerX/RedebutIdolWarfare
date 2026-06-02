@@ -3,7 +3,7 @@
 equipments = {
 
 	armored_car_equipment = {
-		year = 1939
+		year = 2029
 	
 		is_archetype = yes
 		is_buildable = no
@@ -93,7 +93,7 @@ equipments = {
 	}
 
 	armored_car_equipment_2 = {
-		year = 1941
+		year = 2031
 		
 		archetype = armored_car_equipment
 		parent = armored_car_equipment_1
@@ -127,7 +127,7 @@ equipments = {
 
 	armored_car_at_equipment = {
 		#should be closer to a tank than an AT tank/SPG
-		year = 1941
+		year = 2031
 
 		archetype = armored_car_equipment
 		parent = armored_car_equipment_2

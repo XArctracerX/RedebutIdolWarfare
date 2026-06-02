@@ -51,7 +51,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2030
 		
 		folder = {
 			name = bba_air_techs_folder
@@ -80,7 +80,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 2035
 		
 		folder = {
 			name = bba_air_techs_folder
@@ -180,7 +180,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 2026
 
 		folder = {
 			name = bba_air_techs_folder
@@ -212,22 +212,22 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2028.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "2030.1.1"
 			}
 		}
 	}
@@ -259,7 +259,7 @@ technologies = {
 		}				
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 2030
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 6 }
@@ -290,22 +290,22 @@ technologies = {
 
 			modifier = {
 				factor = 1.2
-				date > "1941.1.1"
+				date > "2031.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1942.1.1"
+				date > "2032.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2033.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1944.1.1"
+				date > "2034.1.1"
 			}
 		}
 	}
@@ -334,7 +334,7 @@ technologies = {
 			}
 		}		
 		research_cost = 2
-		start_year = 1944
+		start_year = 2034
 
 		folder = {
 			name = bba_air_techs_folder
@@ -365,22 +365,22 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "2035.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2036.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "2037.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1948.1.1"
+				date > "2038.1.1"
 			}
 		}
 	}
@@ -407,7 +407,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 2035
 
 		folder = {
 			name = bba_air_techs_folder
@@ -447,7 +447,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 2040
 		
 		categories = {
 			light_air
@@ -513,7 +513,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2026
 
 		folder = {
 			name = bba_air_techs_folder
@@ -535,7 +535,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1936.1.1"
+				date > "2026.1.1"
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -547,13 +547,13 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1938.1.1"
+				date > "2028.1.1"
 			}
 			
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1940.1.1"
+				date > "2030.1.1"
 			}
 		}
 	}
@@ -577,7 +577,7 @@ technologies = {
 			}
 		}		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2030
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 2 y = 6 }
@@ -598,7 +598,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1940.1.1"
+				date > "2030.1.1"
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -610,13 +610,13 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1941.1.1"
+				date > "2031.1.1"
 			}
 			
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1944.1.1"
+				date > "2034.1.1"
 			}
 		}
 	}
@@ -640,7 +640,7 @@ technologies = {
 			}
 		}
 		research_cost = 2
-		start_year = 1944
+		start_year = 2034
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 2 y = 8 }
@@ -661,7 +661,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1944.1.1"
+				date > "2034.1.1"
 			}
 			modifier = {
 				has_deployed_air_force_size = {
@@ -673,7 +673,7 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				is_major = yes
-				date > "1945.1.1"
+				date > "2035.1.1"
 			}
 		}
 	}
@@ -695,7 +695,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 2035
 		
 		folder = {
 			name = bba_air_techs_folder
@@ -770,7 +770,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2026
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 4 }
@@ -820,7 +820,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2030
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 6 }
@@ -852,7 +852,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 2034
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 8 }
@@ -887,7 +887,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 2035
 
 		folder = {
 			name = bba_air_techs_folder
@@ -986,7 +986,7 @@ technologies = {
 		}
 			
 		research_cost = 1
-		start_year = 1940
+		start_year = 2030
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1023,7 +1023,7 @@ technologies = {
 		}
 			
 		research_cost = 1
-		start_year = 1936
+		start_year = 2026
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1092,7 +1092,7 @@ technologies = {
 		}
 			
 		research_cost = 1
-		start_year = 1936
+		start_year = 2026
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1134,7 +1134,7 @@ technologies = {
 		}
 			
 		research_cost = 1
-		start_year = 1940
+		start_year = 2030
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1176,7 +1176,7 @@ technologies = {
 		}
 			
 		research_cost = 1
-		start_year = 1944
+		start_year = 2034
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1275,7 +1275,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1939
+		start_year = 2029
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1295,15 +1295,15 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				date > "1937.1.1"
+				date > "2027.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1938.1.1"
+				date > "2028.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1939.1.1"
+				date > "2029.1.1"
 				factor = 3
 			}
 			modifier = {
@@ -1323,7 +1323,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1939
+		start_year = 2029
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1362,7 +1362,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1939
+		start_year = 2029
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1412,7 +1412,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 2033
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1453,7 +1453,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 2035
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1549,15 +1549,15 @@ technologies = {
 				factor = 0
 			}
 			modifier = {
-				date > "1937.1.1"
+				date > "2027.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1938.1.1"
+				date > "2028.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1939.1.1"
+				date > "2029.1.1"
 				factor = 3
 			}
 		}
@@ -1579,7 +1579,7 @@ technologies = {
 			}
 		}		
 		research_cost = 1
-		start_year = 1936
+		start_year = 2026
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1615,15 +1615,15 @@ technologies = {
 				factor = 0
 			}
 			modifier = {
-				date > "1937.1.1"
+				date > "2027.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1938.1.1"
+				date > "2028.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1939.1.1"
+				date > "2029.1.1"
 				factor = 3
 			}
 		}
@@ -1645,7 +1645,7 @@ technologies = {
 			}
 		}		
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 2030
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1681,15 +1681,15 @@ technologies = {
 				factor = 0
 			}
 			modifier = {
-				date > "1941.1.1"
+				date > "2031.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1942.1.1"
+				date > "2032.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1943.1.1"
+				date > "2033.1.1"
 				factor = 3
 			}
 		}
@@ -1706,7 +1706,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 2034
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1742,15 +1742,15 @@ technologies = {
 				factor = 0
 			}
 			modifier = {
-				date > "1943.1.1"
+				date > "2033.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1944.1.1"
+				date > "2034.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1945.1.1"
+				date > "2035.1.1"
 				factor = 3
 			}
 		}
@@ -1766,7 +1766,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 2026
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1796,15 +1796,15 @@ technologies = {
 				factor = 0
 			}
 			modifier = {
-				date > "1937.1.1"
+				date > "2027.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1938.1.1"
+				date > "2028.1.1"
 				factor = 1.5
 			}
 			modifier = {
-				date > "1939.1.1"
+				date > "2029.1.1"
 				factor = 3
 			}
 		}
@@ -1823,7 +1823,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 2026
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1854,7 +1854,7 @@ technologies = {
 		}
 				
 		research_cost = 1.5 #Carrier Variant
-		start_year = 1944
+		start_year = 2034
 
 		# only from focus!!! #####
 		allow = {
@@ -1890,7 +1890,7 @@ technologies = {
 		is_special_project_tech = yes
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 2035
 		
 		folder = {
 			name = bba_air_techs_folder
@@ -1943,7 +1943,7 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 		research_cost = 1.75
-		start_year = 1942
+		start_year = 2032
 
 		folder = {
 			name = bba_air_techs_folder
@@ -1985,7 +1985,7 @@ technologies = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 2034
 
 		folder = {
 			name = bba_air_techs_folder
@@ -2025,7 +2025,7 @@ technologies = {
 		is_special_project_tech = yes
 
 		research_cost = 1.75
-		start_year = 1946
+		start_year = 2036
 
 		folder = {
 			name = bba_air_techs_folder

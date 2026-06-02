@@ -151,7 +151,7 @@ equipments = {
 
 	ship_hull_carrier_1 = {
 		abbreviation = "haa"
-		year = 1936
+		year = 2026
 		visual_level = 1
 		visual_tech_level_addition = 2
 		archetype = ship_hull_carrier
@@ -168,7 +168,7 @@ equipments = {
 
 	ship_hull_carrier_2 = {
 		abbreviation = "hab"
-		year = 1940
+		year = 2030
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -231,7 +231,7 @@ equipments = {
 
 	ship_hull_carrier_3 = {
 		abbreviation = "hac"
-		year = 1944
+		year = 2034
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -303,7 +303,7 @@ equipments = {
 	#MODERN CARRIER
 	ship_hull_carrier_modern = {
 		abbreviation = "hacm"
-		year = 1948
+		year = 2038
 		visual_level = 1
 		archetype = ship_hull_carrier
 		model = ship_hull_super_carrier
@@ -382,7 +382,7 @@ equipments = {
 	#MEGA CARRIER - ICE CARRIER - HABAKKUK
 	ship_hull_mega_carrier = {
 		abbreviation = "hamc"
-		year = 1944
+		year = 2034
 		visual_level = 1
 		model = ship_hull_ice_carrier
 		archetype = ship_hull_carrier
@@ -552,7 +552,7 @@ equipments = {
 	#ESCORT CARRIER
 	ship_hull_escort_carrier = {
 		abbreviation = "hacve"
-		year = 1936
+		year = 2026
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -722,7 +722,7 @@ equipments = {
 	}
 
 	carrier_2 = {
-		year = 1936
+		year = 2026
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -811,7 +811,7 @@ equipments = {
 	}
 
 	carrier_3 = {
-		year = 1940
+		year = 2030
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -858,7 +858,7 @@ equipments = {
 	}
 
 	carrier_4 = {
-		year = 1944
+		year = 2034
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -905,7 +905,7 @@ equipments = {
 	}
 
 	modern_carrier = {
-		year = 1954
+		year = 2044
 		visual_level = 1
 		archetype = ship_hull_carrier
 		model = ship_hull_super_carrier
@@ -1030,7 +1030,7 @@ equipments = {
 
 	mega_carrier = {
 		abbreviation = "had"
-		year = 1944
+		year = 2034
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -1138,7 +1138,7 @@ equipments = {
 		manpower = 6000
 	}
 	escort_carrier = {
-		year = 1936
+		year = 2026
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
