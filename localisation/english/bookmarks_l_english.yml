@@ -1,6 +1,7 @@
 ﻿l_english:
 
 BM_HISTORY_TITLE:0 "World History"
+COUNTRY_SELECTION_CHARACTER_DESC: "$NAME|Y$ \n$TRAITS_DESC|$"
 
 ### Omen ###
 OMEN_DESC:0 "In the year 2025, VTuber lore was manifested into reality by each and every fan worldwide. The avatars of VTubers began to rise up in every part of the world, chaos ensuing. With their unimaginable power, not a single government on Earth could maintain their leadership. Some regions of the world were luckier than others with benevolent VTubers leading them, but others were quickly occupied by cruel and ill intentioned monsters. Those at the whims of the VTuber craze can only hope that their idols won't bring destruction."

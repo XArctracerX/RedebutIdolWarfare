@@ -1,0 +1,18 @@
+add_namespace = WRD
+
+country_event = {  
+	id = WRD.1
+	title = WRD.1.t
+	desc = WRD.1.d
+	#picture =
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	option = {
+		name = WRD.1.a
+		ai_chance = {
+			factor = 100
+		}
+		#country_event = WRD.2
+	}
+} 
