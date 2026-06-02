@@ -1,22 +1,10 @@
-equipments = {equipments
+equipments = {
 
 	ship_hull_cruiser = {
 		year = 1922
 
 		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
+
 		}
 
 		is_archetype = yes

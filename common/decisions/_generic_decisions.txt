@@ -6,14 +6,6 @@ political_actions = {
 		priority = 10
 		available = {
 			has_stability < 1.0
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
 		}
 
 		visible = {
@@ -44,34 +36,6 @@ political_actions = {
 				add = 1
 				has_stability < 0.6
 				has_political_power > 155 #Spend on other things first
-			}
-			modifier = {
-				factor = 0
-				original_tag = SPR
-				NOT = { has_global_flag = spanish_civil_war }
-			}
-			modifier = {
-				factor = 0 
-				tag = ICE
-				has_completed_focus = ICE_not_our_king
-				NOT = { has_completed_focus = ICE_break_with_the_crown }
-			}
-			modifier = {
-				factor = 0 
-				tag = GER
-				has_completed_focus = GER_oppose_hitler_ww
-				NOT = { 
-					OR = {
-						has_completed_focus = GER_the_peoples_victory 
-						has_completed_focus = GER_monarchist_sentiment 
-					}
-				}
-			}
-			modifier = {
-				add = 1000
-				has_stability < 0.76
-				original_tag = SWE
-				has_idea = SWE_hungershield
 			}
 		}
 	}
@@ -138,10 +102,6 @@ economy_decisions = {
 			modifier = {
 				add = 1
 				has_stability > 0.74
-				NOT = {
-					original_tag = SWE
-					has_idea = SWE_hungershield
-				}
 			}
 		}
 
@@ -163,23 +123,6 @@ propaganda_efforts = {
 		available = {
 			NOT = { has_country_flag = war_propaganda_campaign_running }
 			has_war_support < 0.5
-			
-			if = {
-				limit = {
-					tag = SPR
-					has_dlc = "La Resistance"
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			if = {
-				limit = {
-					original_tag = SPR
-					has_dlc = "La Resistance"
-				}
-				has_global_flag = scw_over
-			}
 		}
 
 		visible = {
@@ -533,32 +476,9 @@ war_measures = {
 
         available = {
             has_war = yes
-            OR = {
-                AND = {
-                    has_government = democratic
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = communism
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = fascism
-                    OR = {
-                        has_war_support > 0.89
-                        surrender_progress > 0
-                    }
-                }
-                AND = {
-                    has_government = neutrality
-                    has_war_support > 0.84
-                    has_stability > 0.7
-                }
-            }
         }
         visible = {
             has_war = yes
-            NOT = { tag = SPC }
         }
 
         fire_only_once = no
@@ -576,12 +496,6 @@ war_measures = {
 			modifier = {
 				has_political_power < 100
 				factor = 0 #use as pp dump
-			}
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
 			}
 		}
 
@@ -624,17 +538,6 @@ war_measures = {
 
 		allowed = {
 			has_dlc = "Arms Against Tyranny"
-			NOT = {
-				OR = {
-					tag = ENG #has a focus
-					tag = USA #has a focus
-					tag = SOV #has a focus
-					tag = JAP #has a focus
-					tag = AST #has a focus
-					tag = FRA #has a focus
-					tag = GER #has a focus
-				}
-			}
 		}
 
 		available = {
@@ -643,43 +546,6 @@ war_measures = {
 		visible = {
 			is_major = yes
 			date > 1940.1.1
-			IF = {
-				limit = {
-					has_dlc = "Trial of Allegiance"
-				}
-				NOT = {
-					OR = {
-						tag = CHL #has a focus
-						tag = BRA #has a focus
-						tag = ARG #has a focus
-						tag = URG #has a focus
-						tag = PAR #has a focus
-					}
-				}
-			}
-			IF = {
-				limit = {
-            		has_dlc = "Graveyard of Empires"
-				}
-				NOT = {
-					OR = {
-						tag = PER #has a focus
-						tag = IRQ #has a focus
-						tag = RAJ #has a focus
-					}
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-				}
-				NOT = {
-					OR = {
-						tag = BEL #has a focus
-						tag = COG #has a focus
-					}
-				}
-			}
 			PHI_SEA = no
 		}
 
@@ -695,22 +561,6 @@ war_measures = {
 			modifier = {
 				factor = 0
 				is_major = no
-			}
-			modifier = {
-				factor = 0
-				original_tag = CHI 
-				amount_taken_ideas = {
-					amount < 1
-					slots = {
-						army_chief
-					}
-				}
-				amount_taken_ideas = {
-					amount < 2
-					slots = {
-						high_command
-					}
-				}
 			}
 			modifier = {
 				factor = 0
@@ -912,169 +762,6 @@ economy_decisions = {
 			}
 		}
     }
-}
-
-generic_purchase_old_ships_category = {
-	purchase_ships_eng = {
-		cost = 50
-		icon = GFX_decision_generic_naval
-		fire_only_once = no
-		visible = {
-			has_country_flag = generic_purchase_old_ships_flag
-			ENG = { 
-				NOT = { 
-					has_country_flag = sold_ships_to_us@ROOT
-					has_country_flag = negotiating_ship_purchase_flag@ROOT 
-				}
-			}
-			NOT = { has_war_with = ENG}
-		}
-		available = {
-			NOT = {
-				ENG = {
-					OR = {
-						has_civil_war = yes
-						has_capitulated = yes
-						has_opinion = {
-							target = FROM
-							value < 30
-						}
-					}					
-				}
-			}
-			
-		}
-		days_remove = 14
-		remove_effect = {
-			ENG = {
-				country_event = {
-					id = generic_purchase_ships_events.01
-					hours = 1
-				}
-				set_country_flag = negotiating_ship_purchase_flag@ROOT
-			}			
-		}
-	}
-	purchase_ships_sov = {
-		cost = 50
-		icon = GFX_decision_generic_naval
-		fire_only_once = no
-		visible = {
-			has_country_flag = generic_purchase_old_ships_flag
-			SOV = { 
-					has_country_flag = sold_ships_to_us@ROOT
-					has_country_flag = negotiating_ship_purchase_flag@ROOT 
-			}
-
-			NOT = { has_war_with = SOV}
-		}
-		available = {
-			NOT = {
-				SOV = {
-					OR = {
-						has_civil_war = yes
-						has_capitulated = yes
-						has_opinion = {
-							target = FROM
-							value < 30
-						}
-					}					
-				}
-			}
-			
-		}
-		days_remove = 14
-		remove_effect = {
-			SOV = {
-				country_event = {
-					id = generic_purchase_ships_events.01
-					hours = 1
-				}
-				set_country_flag = negotiating_ship_purchase_flag@ROOT
-			}
-		}
-	}
-	purchase_ships_ger = {
-		cost = 50
-		icon = GFX_decision_generic_naval
-		fire_only_once = no
-		visible = {
-			has_country_flag = generic_purchase_old_ships_flag
-			GER = { 
-				NOT = { 
-					has_country_flag = sold_ships_to_us@ROOT
-					has_country_flag = negotiating_ship_purchase_flag@ROOT
-				}
-
-			}
-			NOT = { has_war_with = GER}
-		}
-		available = {
-			NOT = {
-				GER = {
-					OR = {
-						has_civil_war = yes
-						has_capitulated = yes
-						has_opinion = {
-							target = FROM
-							value < 30
-						}
-					}					
-				}
-			}
-			
-		}
-		days_remove = 14
-		remove_effect = {
-			GER = {
-				country_event = {
-					id = generic_purchase_ships_events.01
-					hours = 1
-				}
-				set_country_flag = negotiating_ship_purchase_flag@ROOT
-			}
-		}
-	}
-	purchase_ships_usa = {
-		cost = 50
-		icon = GFX_decision_generic_naval
-		fire_only_once = no
-		visible = {
-			has_country_flag = generic_purchase_old_ships_flag
-			USA = { 
-				NOT = { 
-					has_country_flag = sold_ships_to_us@ROOT
-					has_country_flag = negotiating_ship_purchase_flag@ROOT  
-				}
-			}
-			NOT = { has_war_with = USA}
-		}
-		available = {
-			NOT = {
-				USA = {
-					OR = {
-						has_civil_war = yes
-						has_capitulated = yes
-						has_opinion = {
-							target = FROM
-							value < 30
-						}
-					}					
-				}
-			}
-			
-		}
-		days_remove = 14
-		remove_effect = {
-			USA = {
-				country_event = {
-					id = generic_purchase_ships_events.01
-					hours = 1
-				}
-				set_country_flag = negotiating_ship_purchase_flag@ROOT
-			}
-		}
-	}
 }
 
 generic_refit_civilian_ships_category = {
