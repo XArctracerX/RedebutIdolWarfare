@@ -8,11 +8,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
 		
@@ -30,11 +30,11 @@ characters = {
 		portraits = {
 			army = {
 				#large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
 				#large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
 		
@@ -51,11 +51,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
 		
@@ -72,11 +72,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
 		
@@ -93,11 +93,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_ouro_kronii.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				#small = "gfx/interface/advisors/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
 		
@@ -114,11 +114,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_august_anomaly.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_august_anomaly_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_august_anomaly_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_august_anomaly.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_august_anomaly_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_august_anomaly_idea.dds"
 			}
 		}
 		
@@ -151,11 +151,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_mr_endy.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_mr_endy_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_mr_endy_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_mr_endy.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_mr_endy_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_mr_endy_idea.dds"
 			}
 		}
 
@@ -179,11 +179,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_cabbageronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_cabbageronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_cabbageronii_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_cabbageronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_cabbageronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_cabbageronii_idea.dds"
 			}
 		}
 
@@ -207,11 +207,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_boros.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_boros_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_boros_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_boros.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_boros_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_boros_idea.dds"
 			}
 		}
 
@@ -235,11 +235,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_kyou.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_kyou_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kyou_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_kyou.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_kyou_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kyou_idea.dds"
 			}
 		}
 
@@ -263,11 +263,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_kooji.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_kooji_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kooji_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_kooji.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_kooji_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kooji_idea.dds"
 			}
 		}
 
@@ -299,11 +299,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_clotho_v_melodiam.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_clotho_v_melodiam_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_clotho_v_melodiam_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_clotho_v_melodiam.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_clotho_v_melodiam_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_clotho_v_melodiam_idea.dds"
 			}
 		}
 
@@ -337,11 +337,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_tara_kaminarito.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_tara_kaminarito_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_tara_kaminarito_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_tara_kaminarito.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_tara_kaminarito_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_tara_kaminarito_idea.dds"
 			}
 		}
 
@@ -375,11 +375,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_kroniicopter.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_kroniicopter_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kroniicopter_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_kroniicopter.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_kroniicopter_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kroniicopter_idea.dds"
 			}
 		}
 
@@ -414,11 +414,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_medusaronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_medusaronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_medusaronii_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_medusaronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_medusaronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_medusaronii_idea.dds"
 			}
 		}
 
@@ -451,11 +451,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_smollronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_smollronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_smollronii_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_smollronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_smollronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_smollronii_idea.dds"
 			}
 		}
 
@@ -488,11 +488,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_alexandria.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_alexandria_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_alexandria_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_alexandria.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_alexandria_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_alexandria_idea.dds"
 			}
 		}
 
@@ -525,11 +525,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_himemori_hotaru.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_himemori_hotaru_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_himemori_hotaru_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_himemori_hotaru.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_himemori_hotaru_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_himemori_hotaru_idea.dds"
 			}
 		}
 
@@ -564,11 +564,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_headronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_headronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_headronii_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_headronii.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_headronii_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_headronii_idea.dds"
 			}
 		}
 
@@ -601,11 +601,11 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/KRO/portrait_KRO_renna_kosaka.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_renna_kosaka_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_renna_kosaka_idea.dds"
 			}
 			civilian = {
 				large = "gfx/leaders/KRO/portrait_KRO_renna_kosaka.dds"
-				small = "gfx/interface/ideas/KRO/portrait_KRO_renna_kosaka_idea.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_renna_kosaka_idea.dds"
 			}
 		}
 
