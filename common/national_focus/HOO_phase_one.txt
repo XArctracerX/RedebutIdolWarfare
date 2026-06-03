@@ -1,0 +1,917 @@
+﻿focus_tree = {
+	id = HOO_phase_one
+	continuous_focus_position = { x = 20 y = 0 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 8
+			tag = HOO
+		}
+	}
+
+	### Shared Focuses###
+	shared_focus = IRYS_project_hope
+
+	### Phase One ###
+	## Opening ##
+	focus = {
+		id = HOO_a_new_start
+		icon = GFX_HOO_a_new_start
+		cost = 30
+		x = 14
+		y = 1
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Theme Parks Path ##
+	focus = {
+		id = HOO_open_new_theme_parks
+		icon = GFX_HOO_open_new_theme_parks
+		cost = 30
+		x = -4
+		y = 1
+		relative_position_id = HOO_a_new_start
+		prerequisite = {
+			focus = HOO_a_new_start
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_the_ultimate_theme_park
+		icon = GFX_HOO_the_ultimate_theme_park
+		cost = 30
+		x = -4
+		y = 1
+		relative_position_id = HOO_open_new_theme_parks
+		prerequisite = {
+			focus = HOO_open_new_theme_parks
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_print_advertisement_posters
+		icon = GFX_HOO_print_advertisement_posters
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_the_ultimate_theme_park
+		prerequisite = {
+			focus = HOO_the_ultimate_theme_park
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_destroy_all_printers
+		icon = GFX_HOO_destroy_all_printers
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = HOO_print_advertisement_posters
+		prerequisite = {
+			focus = HOO_print_advertisement_posters
+		}
+		mutually_exclusive = {
+			focus = HOO_truce_with_printers
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_recover_from_the_failed_theme_park
+		icon = GFX_HOO_recover_from_the_failed_theme_park
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_destroy_all_printers
+		prerequisite = {
+			focus = HOO_destroy_all_printers
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_truce_with_printers
+		icon = GFX_HOO_truce_with_printers
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOO_print_advertisement_posters
+		prerequisite = {
+			focus = HOO_print_advertisement_posters
+		}
+		mutually_exclusive = {
+			focus = HOO_destroy_all_printers
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_commence_the_grand_opening
+		icon = GFX_HOO_commence_the_grand_opening
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_truce_with_printers
+		prerequisite = {
+			focus = HOO_truce_with_printers
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Moomin Subpath ##
+	focus = {
+		id = HOO_its_moomin_time
+		icon = GFX_HOO_its_moomin_time
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_open_new_theme_parks
+		prerequisite = {
+			focus = HOO_open_new_theme_parks
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_embrace_emo_culture
+		icon = GFX_HOO_embrace_emo_culture
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = HOO_its_moomin_time
+		prerequisite = {
+			focus = HOO_its_moomin_time
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_verbally_abuse_citizens
+		icon = GFX_HOO_verbally_abuse_citizens
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOO_its_moomin_time
+		prerequisite = {
+			focus = HOO_its_moomin_time
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	## Center Path ##
+	focus = {
+		id = HOO_fuel_berry_addiction
+		icon = GFX_HOO_fuel_berry_addiction
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_a_new_start
+		prerequisite = {
+			focus = HOO_a_new_start
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_berries_in_every_field
+		icon = GFX_HOO_berries_in_every_field
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_fuel_berry_addiction
+		prerequisite = {
+			focus = HOO_fuel_berry_addiction
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_machine_labour
+		icon = GFX_HOO_machine_labour
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = HOO_berries_in_every_field
+		prerequisite = {
+			focus = HOO_berries_in_every_field
+		}
+		mutually_exclusive = {
+			focus = HOO_human_labour
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_human_labour
+		icon = GFX_HOO_human_labour
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOO_berries_in_every_field
+		prerequisite = {
+			focus = HOO_berries_in_every_field
+		}
+		mutually_exclusive = {
+			focus = HOO_machine_labour
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_what_was_i_doing
+		icon = GFX_HOO_what_was_i_doing
+		cost = 30
+		x = -1
+		y = 2
+		relative_position_id = HOO_machine_labour
+		prerequisite = {
+			focus = HOO_machine_labour
+		}
+		prerequisite = {
+			focus = HOO_human_labour
+		}
+		prerequisite = {
+			focus = HOO_embrace_emo_culture
+		}
+		prerequisite = {
+
+			focus = HOO_verbally_abuse_citizens
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Right Path ##
+	focus = {
+		id = HOO_read_ancient_books
+		icon = GFX_HOO_read_ancient_books
+		cost = 30
+		x = 4
+		y = 1
+		relative_position_id = HOO_a_new_start
+		prerequisite = {
+			focus = HOO_a_new_start
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_explore_ancient_tombs
+		icon = GFX_HOO_explore_ancient_tombs
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = HOO_read_ancient_books
+		prerequisite = {
+			focus = HOO_read_ancient_books
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_rebuild_the_gardens_of_babylon
+		icon = GFX_HOO_rebuild_the_gardens_of_babylon
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_explore_ancient_tombs
+		prerequisite = {
+			focus = HOO_explore_ancient_tombs
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_berries_of_babylon
+		icon = GFX_HOO_berries_of_babylon
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_rebuild_the_gardens_of_babylon
+		prerequisite = {
+			focus = HOO_rebuild_the_gardens_of_babylon
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_forbidden_knowledge
+		icon = GFX_HOO_forbidden_knowledge
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOO_read_ancient_books
+		prerequisite = {
+			focus = HOO_read_ancient_books
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_use_old_torture_methods
+		icon = GFX_HOO_use_old_torture_methods
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_forbidden_knowledge
+		prerequisite = {
+			focus = HOO_forbidden_knowledge
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_craving_for_more_knowledge
+		icon = GFX_HOO_craving_for_more_knowledge
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_use_old_torture_methods
+		prerequisite = {
+			focus = HOO_use_old_torture_methods
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_all_roads_lead_to_the_romance_empire
+		icon = GFX_HOO_all_roads_lead_to_the_romance_empire
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOO_berries_of_babylon
+		prerequisite = {
+			focus = HOO_berries_of_babylon
+		}
+		prerequisite = {
+			focus = HOO_craving_for_more_knowledge
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_request_research_rights_from_justice
+		icon = GFX_HOO_request_research_rights_from_justice
+		cost = 30
+		x = -2
+		y = 1
+		relative_position_id = HOO_all_roads_lead_to_the_romance_empire
+		prerequisite = {
+			focus = HOO_all_roads_lead_to_the_romance_empire
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_research_stonehenge
+		icon = GFX_HOO_research_stonehenge
+		cost = 30
+		x = -1
+		y = 1
+		relative_position_id = HOO_request_research_rights_from_justice
+		prerequisite = {
+			focus = HOO_request_research_rights_from_justice
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_research_the_colloseum
+		icon = GFX_HOO_research_the_colloseum
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOO_request_research_rights_from_justice
+		prerequisite = {
+			focus = HOO_request_research_rights_from_justice
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_take_the_great_pyramids
+		icon = GFX_HOO_take_the_great_pyramids
+		cost = 30
+		x = 1
+		y = 1
+		relative_position_id = HOO_research_stonehenge
+		prerequisite = {
+			focus = HOO_research_stonehenge
+		}
+		prerequisite = {
+			focus = HOO_research_the_colloseum
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_introduce_the_s_in_not
+		icon = GFX_HOO_introduce_the_s_in_not
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = HOO_all_roads_lead_to_the_romance_empire
+		prerequisite = {
+			focus = HOO_all_roads_lead_to_the_romance_empire
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_research_greek_wonders
+		icon = GFX_HOO_research_greek_wonders
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_introduce_the_s_in_not
+		prerequisite = {
+			focus = HOO_introduce_the_s_in_not
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_assist_in_capture_of_mr_vortex
+		icon = GFX_HOO_assist_in_capture_of_mr_vortex
+		cost = 30
+		x = 0
+		y = 1
+		relative_position_id = HOO_research_greek_wonders
+		prerequisite = {
+			focus = HOO_research_greek_wonders
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = HOO_research_egyptian_wonders
+		icon = GFX_HOO_research_egyptian_wonders
+		cost = 30
+		x = 2
+		y = 1
+		relative_position_id = HOO_take_the_great_pyramids
+		prerequisite = {
+			focus = HOO_take_the_great_pyramids
+		}
+		prerequisite = {
+			focus = HOO_assist_in_capture_of_mr_vortex
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Google Capstone ##
+	focus = {
+		id = HOO_i_need_to_google_something
+		icon = GFX_HOO_i_need_to_google_something
+		cost = 30
+		x = -6
+		y = 1
+		relative_position_id = HOO_research_egyptian_wonders
+		prerequisite = {
+			focus = HOO_recover_from_the_failed_theme_park
+			focus = HOO_commence_the_grand_opening
+		}
+		prerequisite = {
+			focus = HOO_what_was_i_doing
+		}
+		prerequisite = {
+			focus = HOO_research_egyptian_wonders
+		}
+
+		search_filters = {
+		}
+		
+		available = {
+
+		}
+	
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	## Remembering Chain ##
+
+
+}
