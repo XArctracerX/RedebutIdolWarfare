@@ -62,7 +62,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_world_tree_seed
 		}
 
 		ai_will_do = {
@@ -90,7 +90,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_stability = 0.1
+			add_ideas = FAU_environmentally_friendly_laws
 		}
 
 		ai_will_do = {

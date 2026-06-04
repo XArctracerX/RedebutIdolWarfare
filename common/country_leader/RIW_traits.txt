@@ -241,4 +241,17 @@ leader_traits = {
 			factor = 1
 		}
 	}	
+
+	### China Traits ###
+	## FAU Traits ##
+	# Starting #
+	FAU_keeper_of_nature = {
+		random = no
+
+		terrain_penalty_reduction = 0.3
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -7,8 +7,38 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+		name = "GFX_KRO_white_fox_immigrants"
+		texturefile ="gfx/interface/goals/KRO/KRO_white_fox_immigrants.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_meatball_marinara"
+		texturefile ="gfx/interface/goals/KRO/KRO_meatball_marinara.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_tuna_sub"
+		texturefile ="gfx/interface/goals/KRO/KRO_tuna_sub.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_steak_and_cheese"
+		texturefile ="gfx/interface/goals/KRO/KRO_steak_and_cheese.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_KRO_bunkeronii_incorporated"
 		texturefile ="gfx/interface/goals/KRO/KRO_bunkeronii_incorporated.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_expand_bunkeronii"
+		texturefile ="gfx/interface/goals/KRO/KRO_expand_bunkeronii.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_the_council"
+		texturefile ="gfx/interface/goals/KRO/KRO_the_council.dds"
 	}
 
 	SpriteType = {

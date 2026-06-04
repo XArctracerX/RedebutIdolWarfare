@@ -2,5 +2,37 @@ ideas = {
     country = {
 		### Starting Ideas ###
 		### Phase One Ideas ###	
+		# Opening #
+		FAU_world_tree_seed = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 0.5
+			}
+	   	}
+
+		FAU_environmentally_friendly_laws = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.1
+			}
+	   	}
 	}
 }
