@@ -65,7 +65,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				recruitable_population_factor = 0.10
+				conscription = 0.10
 				stability_factor = -0.1
 			}
 	   	}
@@ -82,7 +82,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				recruitable_population_factor = 0.15
+				conscription = 0.15
 			}
 	   	}
 		## Main ##
@@ -238,7 +238,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				recruitable_population_factor = 0.05
+				conscription = 0.05
 			}
 	   	}
 
@@ -254,7 +254,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				recruitable_population_factor = 0.05
+				conscription = 0.05
 				production_speed_buildings_factor = 0.1
 				production_factory_max_efficiency_factor = 0.1
 			}
@@ -339,7 +339,7 @@ ideas = {
 			modifier = {
 				trade_opinion_factor = 0.5
 				consumer_goods_factor = -0.1
-				recruitable_population_factor = 0.1
+				conscription = 0.1
 			}
 	   	}
 		## Collab Subpath ##
@@ -393,7 +393,7 @@ ideas = {
 				industrial_capacity_factory = 0.1
 				stability_factor = 0.05
 				army_org = 5
-				recruitable_population_factor = 0.05
+				conscription = 0.05
 			}
 	   	}
 
@@ -486,7 +486,7 @@ ideas = {
 				industrial_capacity_factory = 0.1
 				stability_factor = 0.05
 				army_org = 5
-				recruitable_population_factor = 0.05
+				conscription = 0.05
 				production_factory_max_efficiency_factor = 0.05
 			}
 	   	}
