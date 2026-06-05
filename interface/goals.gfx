@@ -42,6 +42,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_KRO_rapid_promotions"
+		texturefile ="gfx/interface/goals/KRO/KRO_rapid_promotions.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_KRO_the_council"
 		texturefile ="gfx/interface/goals/KRO/KRO_the_council.dds"
 	}
