@@ -37,6 +37,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_KRO_put_down_piglin_revolt"
+		texturefile ="gfx/interface/goals/KRO/KRO_put_down_piglin_revolt.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_KRO_the_council"
 		texturefile ="gfx/interface/goals/KRO/KRO_the_council.dds"
 	}
@@ -49,6 +54,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_KRO_blue_duo"
 		texturefile ="gfx/interface/goals/KRO/KRO_blue_duo.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_ignore_chairman_baes_pleas"
+		texturefile ="gfx/interface/goals/KRO/KRO_ignore_chairman_baes_pleas.dds"
 	}
 
 	# Generic #
