@@ -66,6 +66,11 @@ spriteTypes = {
 		texturefile ="gfx/interface/goals/KRO/KRO_ignore_chairman_baes_pleas.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_KRO_take_to_the_seas"
+		texturefile ="gfx/interface/goals/KRO/KRO_take_to_the_seas.dds"
+	}
+
 	# Generic #
 	SpriteType = {
 		name = "GFX_goal_unknown"
