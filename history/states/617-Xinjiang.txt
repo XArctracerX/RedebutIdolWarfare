@@ -22,6 +22,7 @@ state={
 	manpower=1080500
 	resources={
 		oil=1 # Dushanzi oil fiel, can be developed but should disappear or at least reduced to 1 if Sinkiang abandon Soviet Union
+		coal = 4
 	}	
 	buildings_max_level_factor=1.000
 	state_category=rural
