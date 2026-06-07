@@ -69,5 +69,220 @@ ideas = {
 				stability_factor = 0.1
 			}
 	   	}
+
+		FAU_animal_rights = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				cavalry_attack_factor = 0.1
+				cavalry_defence_factor = 0.1
+				stability_factor = 0.05
+			}
+	   	}
+
+		FAU_vegan_nation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_factor = 0.05
+				stability_factor = -0.1
+				supply_consumption_factor = 0.1
+			}
+	   	}
+
+		FAU_world_tree_seed = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 10
+			}
+	   	}
+
+		FAU_orphanage_funding = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.1
+			}
+	   	}
+
+		FAU_thriving_asmr_industry = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				support_equipment_design_cost_factor = 0.1
+			}
+	   	}
+
+		FAU_clean_ears = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				coordination_bonus = 0.1
+				land_reinforce_rate = 0.1
+				tech_signal_company_cost_factor = 0.2
+			}
+	   	}
+
+		FAU_well_groomed_army = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				max_organisation = 0.1
+				planning_speed = 0.1
+			}
+	   	}
+
+		FAU_cursed_asmr_streams = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				enemy_attrition = 0.1
+			}
+	   	}
+
+		FAU_world_tree_sapling = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+	   	}
+
+		FAU_clean_fuel = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+		
+			}
+	   	}
+
+		FAU_funny_fish_farm = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_cost_dockyard_factor = 0.1
+			}
+	   	}
+
+		FAU_ornothilogy = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			
+			}
+	   	}
+
+		FAU_dendrology = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			max_dig_in = 1
+			}
+	   	}
 	}
 }
