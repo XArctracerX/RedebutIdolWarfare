@@ -3,6 +3,7 @@
         small_plane_airframe_0 = {
             owner = "KRO"
             amount = 100
+            version_name = "Fighteronii"
         }
     }
 }
@@ -12,6 +13,7 @@ air_wings = {
         small_plane_airframe_0 = {
             owner = "KRO"
             amount = 91
+            version_name = "Fighteronii"
         }
     }
 }
@@ -21,6 +23,7 @@ air_wings = {
         small_plane_airframe_0 = {
             owner = "KRO"
             amount = 76
+            version_name = "Fighteronii"
         }
     }
 }
@@ -30,6 +33,7 @@ air_wings = {
         medium_plane_airframe_0 = {
             owner = "KRO"
             amount = 40
+            version_name = "Bomberonii"
         }
     }
 }

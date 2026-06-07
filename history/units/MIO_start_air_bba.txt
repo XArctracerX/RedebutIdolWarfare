@@ -3,6 +3,7 @@
         small_plane_airframe_0 = {
             owner = "MIO"
             amount = 98
+            version_name = "Pigeon"
         }
     }
 }
