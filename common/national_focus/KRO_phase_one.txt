@@ -839,7 +839,7 @@
 		id = KRO_the_council
 		icon = GFX_KRO_the_council
 		cost = 30
-		x = 5
+		x = 4
 		y = 1
 		relative_position_id = KRO_the_kroniicopter_has_landed
 		prerequisite = {
@@ -880,7 +880,7 @@
 		id = KRO_open_up_to_trade
 		icon = GFX_KRO_open_up_to_trade
 		cost = 30
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = KRO_the_council
 		prerequisite = {
@@ -906,7 +906,7 @@
 		id = KRO_assist_sanas_tower_construction
 		icon = GFX_KRO_open_up_to_trade
 		cost = 30
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = KRO_the_council
 		prerequisite = {
@@ -1029,7 +1029,7 @@
 		id = KRO_reintegrate_the_orcats_land
 		icon = GFX_KRO_reintegrate_the_orcats_land
 		cost = 30
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = KRO_import_hooman_berries
 		prerequisite = {
@@ -1059,12 +1059,16 @@
 		id = KRO_usurp_the_former_senpai
 		icon = GFX_KRO_usurp_the_former_senpai
 		cost = 30
-		x = 0
+		x = -1
 		y = 1
-		relative_position_id = KRO_import_hooman_berries
+		relative_position_id = KRO_reintegrate_the_orcats_land
 		prerequisite = {
-			focus = KRO_import_hooman_berries
+			focus = KRO_reintegrate_the_orcats_land
 		}
+		prerequisite = {
+			focus = KRO_eliminate_false_mother_nature
+		}
+
 
 		search_filters = {
 		}
@@ -1090,14 +1094,8 @@
 		icon = GFX_KRO_canada_reunified
 		cost = 30
 		x = 0
-		y = 2
-		relative_position_id = KRO_reintegrate_the_orcats_land
-		prerequisite = {
-			focus = KRO_eliminate_false_mother_nature
-		}
-		prerequisite = {
-			focus = KRO_reintegrate_the_orcats_land
-		}
+		y = 1
+		relative_position_id = KRO_usurp_the_former_senpai
 		prerequisite = {
 			focus = KRO_usurp_the_former_senpai
 		}
