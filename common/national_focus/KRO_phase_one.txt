@@ -1099,11 +1099,20 @@
 		prerequisite = {
 			focus = KRO_usurp_the_former_senpai
 		}
-
+		
 		search_filters = {
 		}
 		
 		available = {
+			NOT = {
+				country_exists = SHY
+			}
+			NOT = {
+				country_exists = HAK
+			}		
+			NOT = {
+				country_exists = MIO
+			}		
 		}
 	
 		completion_reward = {
