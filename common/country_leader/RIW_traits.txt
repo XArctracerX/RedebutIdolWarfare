@@ -254,4 +254,50 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	FAU_pacifist = {
+		random = no
+
+		war_support_factor = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Phase One #
+	FAU_pacifist = {
+		random = no
+
+		war_support_factor = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	FAU_enlightened = {
+		random = no
+
+		out_of_supply_factor =  0.2
+		supply_consumption_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	FAU_bald_fauna = {
+		random = no
+
+		war_support_factor = 0.2
+		stability_factor = -0.2
+		acclimatization_hot_climate_gain_factor = 0.1
+		army_speed_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 }

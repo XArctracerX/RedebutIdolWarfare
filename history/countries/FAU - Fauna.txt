@@ -6,9 +6,12 @@ set_war_support = 0.20
 oob = "FAU_start"
 
 add_ideas = {
-	volunteer_only
-	low_economic_mobilisation
-	export_focus
+	disarmed_nation
+	civilian_economy
+	free_trade
+	FAU_happy_population
+	FAU_pollution_preventer
+	FAU_environmentally_friendly_laws
 }
 
 set_convoys = 120

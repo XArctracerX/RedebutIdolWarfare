@@ -19,6 +19,40 @@ ideas = {
 			}
 	   	}
 
+		FAU_pollution_preventer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = -0.5
+			}
+	   	}
+
+
+		FAU_happy_population = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.3
+				stability_factor = 0.15
+			}
+	   	}
+
 		FAU_environmentally_friendly_laws = {
 			allowed = {
 				always = no
@@ -31,7 +65,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				local_resources_factor = 0.1
+				local_resources_factor = -0.1
+				stability_factor = 0.1
 			}
 	   	}
 	}

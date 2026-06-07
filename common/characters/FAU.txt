@@ -19,7 +19,7 @@ characters = {
 		country_leader={
 		    desc = ""
 			ideology = spiritualism
-			traits = { FAU_keeper_of_nature }
+			traits = { FAU_keeper_of_nature FAU_pacifist }
 			expire = "2020.1.1"
 		}
 	}
