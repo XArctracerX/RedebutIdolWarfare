@@ -1,0 +1,105 @@
+KRO_historical = {
+	name = "Empironii historical plan"
+	desc = ""
+
+	allowed = {
+		original_tag = KRO
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = KRO_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = KRO_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = KRO_ai_behavior
+				option = HISTORICAL
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+
+		# 2026
+		KRO_the_kroniicopter_has_landed							
+		KRO_bunkeronii_incorporated					
+		KRO_empironii_internal_affairs				
+		KRO_address_the_pet_play_allegations		
+		KRO_the_council		
+		KRO_white_fox_immigrants		
+		KRO_mumeis_fox_sanctuary	
+		KRO_expand_bunkeronii		
+		KRO_assist_sanas_tower_construction		
+		IRYS_project_hope
+		KRO_open_up_to_trade
+		KRO_export_flowers_to_the_hoomans		
+
+		# 2027
+		KRO_introduce_bunkeronii_berry_farms
+		KRO_bunkeronii_lumber
+		IRYS_expect_the_yabai
+		KRO_import_hooman_berries
+		KRO_reintegrate_the_orcats_land
+		KRO_the_wardens_eating_habits
+		KRO_stockpile_sandwiches
+		KRO_meatball_marinara
+		KRO_eliminate_false_mother_nature
+		KRO_tuna_sub
+		KRO_steak_and_cheese
+		KRO_spicy_noodle_challenge
+
+		# 2028
+		KRO_that_wasnt_so_bad
+		IRYS_here_comes_hope
+		KRO_liquidize_subways_assets
+		KRO_borrow_sapling_labor
+		KRO_demand_sapling_mine_profits
+		KRO_put_down_piglin_revolt
+		KRO_appease_bunkeronii_employees
+		KRO_usurp_the_former_senpai
+		KRO_one_chip_challenge
+		KRO_ban_the_one_chip_challenge
+		KRO_rapid_promotions
+		KRO_hush_money
+
+		# 2029
+		KRO_canada_reunified
+		KRO_faunas_ultimatum
+					
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
