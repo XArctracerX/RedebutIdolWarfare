@@ -118,8 +118,6 @@
 	
 		completion_reward = {
 			add_ideas = FAU_animal_rights
-			add_stability = 0.05
-		
 		}
 
 		ai_will_do = {
@@ -147,7 +145,10 @@
 	
 		completion_reward = {
 			add_political_power = 100
-		#modify all animals are equal +10% div org
+			swap_ideas = {
+				remove_idea = FAU_animal_rights
+				add_idea = FAU_animal_rights_2
+			}
 		}
 
 		ai_will_do = {
@@ -204,8 +205,8 @@
 		}
 	
 		completion_reward = {
-			add_stability = -0.1
-			add_political_power = 50
+			add_stability = -0.05
+			add_political_power = 150
 		}
 
 		ai_will_do = {
@@ -232,7 +233,10 @@
 		}
 	
 		completion_reward = {
-			#modify idea special forces defence
+			swap_ideas = {
+				remove_idea = FAU_environmentally_friendly_laws
+				add_idea = FAU_environmentally_friendly_laws_2
+			}
 		}
 
 		ai_will_do = {
@@ -259,7 +263,10 @@
 		}
 	
 		completion_reward = {
-			#timed idea
+			add_timed_idea = {
+				idea = FAU_wildfire_precautions
+				days = 100
+			}
 		}
 
 		ai_will_do = {
@@ -286,7 +293,7 @@
 		}
 	
 		completion_reward = {
-			recruit_character = FAU_faendel
+			recruit_character = FAU_faendal
 		}
 
 		ai_will_do = {
@@ -319,7 +326,7 @@
 		}
 	
 		completion_reward = {
-			add_ideas = FAU_forced_veganism
+			add_ideas = FAU_vegan_nation
 		}
 
 		ai_will_do = {
@@ -347,7 +354,7 @@
 		}
 	
 		completion_reward = {
-			#infratstucture and insustrial concern
+			add_ideas = FAU_faunamart
 		}
 
 		ai_will_do = {
@@ -397,11 +404,10 @@
 		}
 		
 		available = {
-			add_ideas = FAU_orphanage_funding
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_orphanage_funding
 		}
 
 		ai_will_do = {
@@ -432,7 +438,6 @@
 		}
 	
 		completion_reward = {
-			add_political_power = 50
 			add_ideas = FAU_thriving_asmr_industry
 		}
 
@@ -520,7 +525,6 @@
 		}
 	
 		completion_reward = {
-			add_political_power = 50
 			add_ideas = FAU_cursed_asmr_streams
 		}
 
@@ -604,11 +608,7 @@
 		}
 	
 		completion_reward = {
-			add_ideas = FAU_reduce
-			swap_ideass = {
-				remove = FAU_happy_population
-				add = FAU_happy_population_2
-			}
+			add_ideas = FAU_reduce	
 		}
 
 		ai_will_do = {
@@ -1081,7 +1081,9 @@
 		}
 	
 		completion_reward = {
-			
+			army_experience = 50
+			navy_experience = 50
+			air_experience = 50
 		}
 
 		ai_will_do = {
@@ -1116,7 +1118,10 @@
 		}
 	
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = FAU_world_tree_seed
+				add_idea = FAU_world_tree_sapling
+			}
 		}
 
 		ai_will_do = {

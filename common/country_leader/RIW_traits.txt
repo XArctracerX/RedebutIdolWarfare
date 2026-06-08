@@ -276,16 +276,6 @@ leader_traits = {
 	}
 
 	# Phase One #
-	FAU_pacifist = {
-		random = no
-
-		war_support_factor = -0.2
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	FAU_enlightened = {
 		random = no
 

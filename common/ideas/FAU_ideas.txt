@@ -2,8 +2,8 @@ ideas = {
     country = {
 		### Starting Ideas ###
 		### Phase One Ideas ###	
-		# Opening #
-		FAU_world_tree_seed = {
+		# Starting #
+		FAU_happy_population = {
 			allowed = {
 				always = no
 			}
@@ -15,7 +15,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				special_forces_cap = 0.2
+				consumer_goods_factor = 0.3
+				stability_factor = 0.15
 			}
 	   	}
 
@@ -35,8 +36,8 @@ ideas = {
 			}
 	   	}
 
-
-		FAU_happy_population = {
+		# Starting #
+		FAU_world_tree_seed = {
 			allowed = {
 				always = no
 			}
@@ -48,8 +49,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.3
-				stability_factor = 0.15
+				special_forces_cap = 0.2
 			}
 	   	}
 
@@ -84,7 +84,61 @@ ideas = {
 			modifier = {
 				cavalry_attack_factor = 0.1
 				cavalry_defence_factor = 0.1
-				stability_factor = 0.05
+				stability_factor = 0.1
+			}
+	   	}
+
+		FAU_animal_rights_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				cavalry_attack_factor = 0.1
+				cavalry_defence_factor = 0.1
+				stability_factor = 0.1
+				army_org = 5
+			}
+	   	}
+
+		FAU_environmentally_friendly_laws_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = -0.1
+				stability_factor = 0.1
+				special_forces_defence_factor = 0.1
+			}
+	   	}
+
+		FAU_wildfire_precautions = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+				production_speed_supply_node_factor = 0.15
 			}
 	   	}
 
@@ -100,25 +154,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				training_time_factor = 0.05
-				stability_factor = -0.1
-				supply_consumption_factor = 0.1
-			}
-	   	}
-
-		FAU_world_tree_seed = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				special_forces_cap = 10
+				training_time_factor = -0.1
+				stability_factor = -0.05
+				supply_consumption_factor = -0.1
 			}
 	   	}
 
@@ -150,7 +188,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				support_equipment_design_cost_factor = 0.1
+				support_equipment_design_cost_factor = -0.1
 			}
 	   	}
 
@@ -168,7 +206,6 @@ ideas = {
 			modifier = {
 				coordination_bonus = 0.1
 				land_reinforce_rate = 0.1
-				tech_signal_company_cost_factor = 0.2
 			}
 	   	}
 
@@ -184,7 +221,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				max_organisation = 0.1
+				army_org= 5
+				army_morale_factor = 0.1
 				planning_speed = 0.1
 			}
 	   	}
@@ -202,38 +240,6 @@ ideas = {
 
 			modifier = {
 				enemy_attrition = 0.1
-			}
-	   	}
-
-		FAU_world_tree_sapling = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				
-			}
-	   	}
-
-		FAU_happy_population_2 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				consumer_goods_factor = 0.15
 			}
 	   	}
 
@@ -271,7 +277,7 @@ ideas = {
 			}
 	   	}
 
-	FAU_recycle = {
+		FAU_recycle = {
 			allowed = {
 				always = no
 			}
@@ -300,7 +306,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-		
+				fuel_gain_factor = 0.15
 			}
 	   	}
 
@@ -351,5 +357,50 @@ ideas = {
 			max_dig_in = 1
 			}
 	   	}
+
+		FAU_world_tree_sapling = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 0.3
+				special_forces_defence_factor = 0.1
+				special_forces_attack_factor = 0.1
+			}
+	   	}
+	}
+
+	industrial_concern = {
+		FAU_faunamart = { 
+
+			allowed = {
+				original_tag = FAU
+			}
+
+			available = {
+				
+			}
+
+			visible = {
+
+			}
+
+			research_bonus = {
+
+			}
+		
+			traits = {  } 
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
 	}
 }
