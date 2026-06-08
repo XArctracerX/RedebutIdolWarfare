@@ -15,7 +15,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				special_forces_cap = 0.5
+				special_forces_cap = 0.2
 			}
 	   	}
 
@@ -218,6 +218,73 @@ ideas = {
 
 			modifier = {
 				
+			}
+	   	}
+
+		FAU_happy_population_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+	   	}
+
+		FAU_reduce = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+	   	}
+
+		FAU_reuse = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				trade_laws_cost_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+	   	}
+
+	FAU_recycle = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_lack_of_resource_penalty_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
 			}
 	   	}
 

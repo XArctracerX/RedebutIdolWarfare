@@ -604,7 +604,11 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_reduce
+			swap_ideass = {
+				remove = FAU_happy_population
+				add = FAU_happy_population_2
+			}
 		}
 
 		ai_will_do = {
@@ -686,7 +690,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_reuse
 		}
 
 		ai_will_do = {
@@ -768,7 +772,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_recycle
 		}
 
 		ai_will_do = {
