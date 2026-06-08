@@ -51,7 +51,9 @@ bookmarks = {
 			ideology = theocracy
 			
 			ideas = {
-				
+				FAU_happy_population
+				FAU_pollution_preventer
+				FAU_environmentally_friendly_laws
 			}
 
 			focuses = {

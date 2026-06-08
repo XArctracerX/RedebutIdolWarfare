@@ -265,6 +265,16 @@ leader_traits = {
 		}
 	}
 
+	FAU_environmentally_friendly = {
+		random = no
+
+		fuel_gain_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	# Phase One #
 	FAU_pacifist = {
 		random = no

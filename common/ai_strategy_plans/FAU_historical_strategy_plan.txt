@@ -1,0 +1,104 @@
+FAU_historical = {
+	name = "Forest of Fauna historical plan"
+	desc = ""
+
+	allowed = {
+		original_tag = FAU
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = FAU_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = FAU_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = FAU_ai_behavior
+				option = HISTORICAL
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+
+		# 2026
+		FAU_let_the_yapping_commence	
+		FAU_world_tree_seed
+		FAU_environmentally_friendly_laws
+		FAU_reduce
+		FAU_found_faunamart
+		FAU_faunamart_lottery
+		FAU_reuse
+		FAU_rifle_restoration	
+		FAU_recycle
+		IRYS_project_hope		
+		FAU_plant_saplings
+		FAU_prevent_forest_fires
+
+		# 2027
+		FAU_all_animals_are_equal
+		FAU_outlaw_the_meat_industry
+		FAU_optimise_speedrun_routes
+		FAU_the_speediest_gamer
+		FAU_fund_orphan_charities
+		FAU_take_council_hand_me_downs
+		FAU_steel_from_junkyards
+		FAU_the_ku100
+		FAU_but_some_are_more_equal_than_others
+		FAU_welcome_a_rare_creature
+		FAU_welcome_an_old_friend
+
+		# 2028
+		IRYS_trust_that_she_is_seiso
+		FAU_rubber_from_old_tyres
+		FAU_aluminium_from_landfills
+		FAU_avocado_oil_for_fuel
+		FAU_learn_from_nature
+		FAU_mandatory_ear_cleaning
+		FAU_hair_washing_salons
+		FAU_forced_veganism
+		FAU_dendrology
+		FAU_one_with_nature
+		FAU_world_tree_sapling
+
+
+		# 2029
+		
+
+					
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
