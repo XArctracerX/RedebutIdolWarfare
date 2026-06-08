@@ -421,7 +421,7 @@
 			focus = FAU_fund_orphan_charities
 		}
 		mutually_exclusive = {
-			focus = FAU_hair_frustrations
+			focus = FAU_cursed_asmr
 		}
 
 		search_filters = {
@@ -798,7 +798,7 @@
 				add_resource = {
 				type = rubber
 				amount = 4
-				state = 917
+				state = 604
 			}
 		}
 
@@ -829,7 +829,7 @@
 			add_resource = {
 				type = steel
 				amount = 14
-				state = 917
+				state = 622
 			}
 		}
 
@@ -860,7 +860,7 @@
 				add_resource = {
 				type = aluminium
 				amount = 6
-				state = 917
+				state = 756
 			}
 		}
 
