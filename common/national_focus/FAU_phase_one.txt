@@ -117,7 +117,9 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_animal_rights
+			add_stability = 0.05
+		
 		}
 
 		ai_will_do = {
@@ -144,7 +146,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_political_power = 100
+		#modify all animals are equal +10% div org
 		}
 
 		ai_will_do = {
@@ -171,7 +174,7 @@
 		}
 	
 		completion_reward = {
-			
+			recruit_character = FAU_not_pickle
 		}
 
 		ai_will_do = {
@@ -201,7 +204,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_stability = -0.1
+			add_political_power = 50
 		}
 
 		ai_will_do = {
@@ -228,7 +232,7 @@
 		}
 	
 		completion_reward = {
-			
+			#modify idea special forces defence
 		}
 
 		ai_will_do = {
@@ -255,7 +259,7 @@
 		}
 	
 		completion_reward = {
-			
+			#timed idea
 		}
 
 		ai_will_do = {
@@ -282,7 +286,7 @@
 		}
 	
 		completion_reward = {
-			
+			recruit_character = FAU_faendel
 		}
 
 		ai_will_do = {
@@ -315,7 +319,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_forced_veganism
 		}
 
 		ai_will_do = {
@@ -343,7 +347,7 @@
 		}
 	
 		completion_reward = {
-			
+			#infratstucture and insustrial concern
 		}
 
 		ai_will_do = {
@@ -393,7 +397,7 @@
 		}
 		
 		available = {
-
+			add_ideas = FAU_orphanage_funding
 		}
 	
 		completion_reward = {
@@ -428,7 +432,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_political_power = 50
+			add_ideas = FAU_thriving_asmr_industry
 		}
 
 		ai_will_do = {
@@ -455,7 +460,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_clean_ears
 		}
 
 		ai_will_do = {
@@ -482,7 +487,9 @@
 		}
 	
 		completion_reward = {
-			
+			add_stability = 0.1
+			add_political_power = 50
+			add_ideas = FAU_well_groomed_army
 		}
 
 		ai_will_do = {
@@ -492,8 +499,8 @@
 
 	# Bald Fauna Subpath #
 	focus = {
-		id = FAU_hair_frustrations
-		icon = GFX_FAU_hair_frustrations
+		id = FAU_cursed_asmr
+		icon = GFX_FAU_cursed_asmr
 		cost = 30
 		x = 1
 		y = 1
@@ -513,7 +520,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_political_power = 50
+			add_ideas = FAU_cursed_asmr_streams
 		}
 
 		ai_will_do = {
@@ -527,9 +535,9 @@
 		cost = 30
 		x = 0
 		y = 1
-		relative_position_id = FAU_hair_frustrations
+		relative_position_id = FAU_cursed_asmr
 		prerequisite = {
-			focus = FAU_hair_frustrations
+			focus = FAU_cursed_asmr
 		}
 
 		search_filters = {
@@ -540,7 +548,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_country_leader_trait = FAU_enlightened
 		}
 
 		ai_will_do = {
@@ -567,7 +575,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_country_leader_trait = FAU_bald_fauna
+			#change leader portrait too
 		}
 
 		ai_will_do = {
@@ -786,7 +795,11 @@
 		}
 	
 		completion_reward = {
-			
+				add_resource = {
+				type = rubber
+				amount = 4
+				state = 917
+			}
 		}
 
 		ai_will_do = {
@@ -813,7 +826,11 @@
 		}
 	
 		completion_reward = {
-			
+			add_resource = {
+				type = steel
+				amount = 14
+				state = 917
+			}
 		}
 
 		ai_will_do = {
@@ -840,7 +857,11 @@
 		}
 	
 		completion_reward = {
-			
+				add_resource = {
+				type = aluminium
+				amount = 6
+				state = 917
+			}
 		}
 
 		ai_will_do = {
@@ -886,7 +907,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_clean_fuel
 		}
 
 		ai_will_do = {
@@ -913,7 +934,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -944,7 +965,14 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_ornothilogy
+			add_tech_bonus = {
+				#name = x
+				bonus = 1
+    			uses = 3
+    			category = plane_modules_tech
+			}
+			air_experience = 50
 		}
 
 		ai_will_do = {
@@ -975,7 +1003,20 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_funny_fish_farm
+			add_tech_bonus = {
+				#name = x
+				bonus = 1
+    			uses = 3
+    			category = ship_modules_tech
+			}
+			add_tech_bonus = {
+				#name = x
+				bonus = 1
+    			uses = 1
+    			category = naval_equipment
+			}
+			navy_experience = 50
 		}
 
 		ai_will_do = {
@@ -1006,7 +1047,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_dendrology
+			army_experience = 50
 		}
 
 		ai_will_do = {
