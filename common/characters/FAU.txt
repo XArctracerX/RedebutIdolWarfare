@@ -17,15 +17,56 @@ characters = {
 		}
 		
 		country_leader={
-		    desc = ""
-			ideology = spiritualism
-			traits = { FAU_keeper_of_nature FAU_pacifist }
-			expire = "2020.1.1"
-		}
+            desc = ""
+            ideology = spiritualism
+            traits = { FAU_keeper_of_nature FAU_pacifist }
+            expire = "2020.1.1"
+        }		
 	}
 
 	# Ideology #
 	## Advisors ##
+	FAU_nimu = {
+		name = "Nimu"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		FAU_creeper_of_nature = {
+		name = "Creeper of Nature"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+
+		FAU_sapling = {
+		name = "Sapling"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
+		
+		
 	## Scientists ##
 	# Nuclear #
 	# Naval #
@@ -33,9 +74,48 @@ characters = {
 	# Land #
 	## Chiefs ##
 	# Army #
+	FAU_not_pickle = {
+		name = "Not Pickle"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
 	# Navy #
 	# Air #
+	FAU_rorokaili_yumi = {
+		name = "Rorokaili Yumi"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
 	## High Command ##
+	FAU_faendal = {
+		name = "Faendal"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
+				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+			}
+		}
+		
 	# Army #
 	# Navy #
 	# Air #
