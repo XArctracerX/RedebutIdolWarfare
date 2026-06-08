@@ -38,6 +38,21 @@ characters = {
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
+
+		advisor = {
+			cost = 125
+			slot = political_advisor
+			idea_token = FAU_nimu
+			ledger = civilian
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+			
+			}
+		}	
+	}
 		
 		FAU_creeper_of_nature = {
 		name = "Creeper of Nature"
@@ -51,6 +66,21 @@ characters = {
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
+	
+		advisor = {
+			cost = 125
+			slot = political_advisor
+			idea_token = FAU_creeper_of_nature
+			ledger = civilian
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+			
+			}
+		}	
+	}
 
 		FAU_sapling = {
 		name = "Sapling"
@@ -65,6 +95,20 @@ characters = {
 			}
 		}
 		
+		advisor = {
+			cost = 125
+			slot = political_advisor
+			idea_token = FAU_faendal
+			ledger = civilian
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+			
+			}
+		}	
+	}
 		
 		
 	## Scientists ##
@@ -86,6 +130,21 @@ characters = {
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
+
+		advisor = {
+			cost = 125
+			slot = army_chief
+			idea_token = FAU_not_pickle
+			ledger = army
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+			
+			}
+		}	
+	}
 		
 	# Navy #
 	# Air #
@@ -101,9 +160,27 @@ characters = {
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
+
+		advisor = {
+			cost = 125
+			slot = air_chief
+			idea_token = FAU_rorokaili_yumi
+			ledger = air
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+			
+			}
+		}	
+	}
 		
 	## High Command ##
-	FAU_faendal = {
+
+		
+	# Army #
+		FAU_faendal = {
 		name = "Faendal"
 		portraits = {
 			army = {
@@ -115,8 +192,20 @@ characters = {
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
-		
-	# Army #
+			advisor = {
+			cost = 125
+			slot = high_command
+			idea_token = FAU_faendal
+			ledger = army
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+			
+			}
+		}	
+	}
 	# Navy #
 	# Air #
 	## Generals ##
