@@ -51,8 +51,7 @@ ideas = {
 				production_speed_bunker_factor = 0.1
 			}
 	   	}
-		### Phase One Ideas ###
-		# Fox Immigrants Subpath #
+
 		KRO_immigration_crisis = {
 			allowed = {
 				always = no
@@ -69,7 +68,8 @@ ideas = {
 				stability_factor = -0.1
 			}
 	   	}
-
+		### Phase One Ideas ###
+		# Fox Immigrants Subpath #
 		KRO_fox_sanctuary = {
 			allowed = {
 				always = no
@@ -238,7 +238,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.05
+				mobilization_speed = 0.3
 			}
 	   	}
 
@@ -254,7 +254,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.05
+				supply_consumption_factor = 0.15
+				mobilization_speed = 0.3
 				production_speed_buildings_factor = 0.1
 				production_factory_max_efficiency_factor = 0.1
 			}

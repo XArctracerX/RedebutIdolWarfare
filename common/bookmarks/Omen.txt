@@ -66,10 +66,11 @@ bookmarks = {
 			ideas = {
 				KRO_bunkeronii_inc
 				KRO_unstable_alliance
+				KRO_immigration_crisis
 			}
 
 			focuses = {
-				KRO_bunkeronii_incorporated
+				KRO_white_fox_immigrants
 				KRO_the_council
 				KRO_faunas_ultimatum
 			}

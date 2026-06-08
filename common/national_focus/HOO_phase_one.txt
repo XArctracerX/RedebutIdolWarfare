@@ -424,15 +424,12 @@
 		relative_position_id = HOO_machine_labour
 		prerequisite = {
 			focus = HOO_machine_labour
-		}
-		prerequisite = {
 			focus = HOO_human_labour
 		}
 		prerequisite = {
 			focus = HOO_embrace_emo_culture
 		}
 		prerequisite = {
-
 			focus = HOO_verbally_abuse_citizens
 		}
 

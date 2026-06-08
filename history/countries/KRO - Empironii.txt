@@ -12,6 +12,7 @@ add_ideas = {
 	KRO_brutal_leadership
 	KRO_unstable_alliance
 	KRO_bunkeronii_inc
+	KRO_immigration_crisis
 }
 
 set_convoys = 44
