@@ -11,7 +11,6 @@ add_ideas = {
 	free_trade
 	FAU_happy_population
 	FAU_pollution_preventer
-	FAU_environmentally_friendly
 }
 
 set_convoys = 120
