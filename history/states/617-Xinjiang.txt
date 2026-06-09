@@ -7,9 +7,8 @@ state={
 		add_core_of = FAU
 		
 		buildings = {
-			infrastructure = 2 #was 3
-			industrial_complex = 2
-			air_base = 1 #Soviet usage of Aircraft in the area means that there was some pre 1936 air field in exstience.
+			infrastructure = 2
+			air_base = 1
 		}
 		victory_points = {
 			4709 5
@@ -21,7 +20,7 @@ state={
 	}
 	manpower=1080500
 	resources={
-		oil=1 # Dushanzi oil fiel, can be developed but should disappear or at least reduced to 1 if Sinkiang abandon Soviet Union
+		oil=1
 		coal = 4
 	}	
 	buildings_max_level_factor=1.000
