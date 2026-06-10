@@ -78,6 +78,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/FAU/FAU_let_the_yapping_commence.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_FAU_ornithology"
+		texturefile = "gfx/interface/goals/FAU/FAU_ornithology.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FAU_ichthyology"
+		texturefile = "gfx/interface/goals/FAU/FAU_ichthyology.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FAU_dendrology"
+		texturefile = "gfx/interface/goals/FAU/FAU_dendrology.dds"
+	}
+
 	# Generic #
 	SpriteType = {
 		name = "GFX_goal_unknown"
