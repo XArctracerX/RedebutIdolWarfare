@@ -70,6 +70,13 @@ spriteTypes = {
 		name = "GFX_KRO_take_to_the_seas"
 		texturefile ="gfx/interface/goals/KRO/KRO_take_to_the_seas.dds"
 	}
+	
+	# FAU #
+
+	SpriteType = {
+		name = "GFX_FAU_let_the_yapping_commence"
+		texturefile = "gfx/interface/goals/FAU/FAU_let_the_yapping_commence.dds"
+	}
 
 	# Generic #
 	SpriteType = {
@@ -77,8 +84,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_unknown.dds"
 	}
 
+
 	SpriteType = {
 		name = "GFX_goal_generic_trade"
 		texturefile = "gfx/interface/goals/goal_generic_trade.dds"
 	}
+
+
 }
