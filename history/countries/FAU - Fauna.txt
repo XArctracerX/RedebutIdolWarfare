@@ -96,10 +96,14 @@ set_politics = {
 recruit_character = FAU_ceres_fauna
 # Ideology #
 ## Advisors ##
+recruit_character = FAU_nimu
+recruit_character = FAU_creeper_of_nature
+recruit_character = FAU_sapling
 ## Scientists ##
 # Nuclear #
 # Naval #
 # Air #
+recruit_character = FAU_rorokaili_yumi
 # Land #
 ## Chiefs ##
 # Army #
