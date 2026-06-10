@@ -30,12 +30,12 @@ characters = {
 		name = "Nimu"
 		portraits = {
 			army = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_nimu.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_nimu_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_nimu.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_nimu_idea.dds"
 			}
 		}
 
@@ -58,12 +58,12 @@ characters = {
 		name = "Creeper of Nature"
 		portraits = {
 			army = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_creeper_of_nature.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_creeper_of_nature_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_creeper_of_nature.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_creeper_of_nature_idea.dds"
 			}
 		}
 	
@@ -86,12 +86,12 @@ characters = {
 		name = "Sapling"
 		portraits = {
 			army = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_sapling.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_sapling_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_sapling.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_sapling_idea.dds"
 			}
 		}
 		
@@ -122,12 +122,12 @@ characters = {
 		name = "Not Pickle"
 		portraits = {
 			army = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_not_pickle.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_not_pickle_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_not_pickle.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_not_pickle_idea.dds"
 			}
 		}
 
@@ -152,12 +152,12 @@ characters = {
 		name = "Rorokaili Yumi"
 		portraits = {
 			army = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_rorokaili_yumi.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_rorokaili_yumi_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_rorokaili_yumi.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_rorokaili_yumi_idea.dds"
 			}
 		}
 
@@ -184,12 +184,12 @@ characters = {
 		name = "Faendal"
 		portraits = {
 			army = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_faendal.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_faendal_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/FAU/portrait_FAU_ceres_fauna.dds"
-				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
+				large = "gfx/leaders/FAU/portrait_FAU_faendal.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_faendal_idea.dds"
 			}
 		}
 			advisor = {
@@ -202,7 +202,7 @@ characters = {
 			}
 			
 			traits = {
-			
+				
 			}
 		}	
 	}
