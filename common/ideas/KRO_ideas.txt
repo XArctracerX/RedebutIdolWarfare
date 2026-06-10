@@ -64,7 +64,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.10
+				conscription = 0.05
 				stability_factor = -0.1
 			}
 	   	}
@@ -82,7 +82,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.15
+				conscription = 0.1
 			}
 	   	}
 		## Main ##
@@ -254,10 +254,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				supply_consumption_factor = 0.15
+				supply_consumption_factor = -0.1
 				mobilization_speed = 0.3
-				production_speed_buildings_factor = 0.1
-				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
 			}
 	   	}
 		## Faction ##
@@ -322,7 +322,7 @@ ideas = {
 
 			modifier = {
 				trade_opinion_factor = 0.5
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 			}
 	   	}
 
@@ -340,7 +340,7 @@ ideas = {
 			modifier = {
 				trade_opinion_factor = 0.5
 				consumer_goods_factor = -0.1
-				conscription = 0.1
+				conscription = 0.05
 			}
 	   	}
 		## Collab Subpath ##

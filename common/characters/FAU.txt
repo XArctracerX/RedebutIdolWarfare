@@ -40,7 +40,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = political_advisor
 			idea_token = FAU_nimu
 			ledger = civilian
@@ -49,7 +49,7 @@ characters = {
 			}
 			
 			traits = {
-			RIW_beloved_mascot 
+				RIW_beloved_mascot 
 			}
 		}	
 	}
@@ -68,7 +68,7 @@ characters = {
 		}
 	
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = political_advisor
 			idea_token = FAU_creeper_of_nature
 			ledger = civilian
@@ -77,7 +77,7 @@ characters = {
 			}
 			
 			traits = {
-			prince_of_terror 
+				prince_of_terror 
 			}
 		}	
 	}
@@ -96,26 +96,109 @@ characters = {
 		}
 		
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = political_advisor
-			idea_token = FAU_faendal
+			idea_token = FAU_sapling
 			ledger = civilian
 			allowed = {
 				original_tag = FAU
 			}
 			
 			traits = {
-			
+				economist
 			}
 		}	
 	}
+
+		FAU_Clover = {
+		name = "Clover"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_clover.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_clover_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_clover.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_clover_idea.dds"
+			}
+		}
 		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = FAU_clover
+			ledger = civilian
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+				popular_figurehead
+			}
+		}	
+	}
+
+		FAU_snail = {
+		name = "Snail"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_snail.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_snail_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_snail.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_snail_idea.dds"
+			}
+		}
+		
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = FAU_snail
+			ledger = civilian
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+				silent_workhorse
+			}
+		}	
+	}
 		
 	## Scientists ##
 	# Nuclear #
 	# Naval #
 	# Air #
 	# Land #
+	## Theorists ##
+		FAU_long_fauna = {
+		name = "Long Fauna"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_long_fauna.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_long_fauna_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_long_fauna.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_long_fauna_idea.dds"
+			}
+		}
+		
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = FAU_long_fauna
+			ledger = civilian
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}	
+	}
 	## Chiefs ##
 	# Army #
 	FAU_not_pickle = {
@@ -132,7 +215,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = army_chief
 			idea_token = FAU_not_pickle
 			ledger = army
@@ -141,9 +224,18 @@ characters = {
 			}
 			
 			traits = {
-			
+				army_chief_reform_2
 			}
 		}	
+
+		field_marshal = {
+			traits = { harsh_leader }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 3
+		}
 	}
 		
 	# Navy #
@@ -162,7 +254,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = air_chief
 			idea_token = FAU_rorokaili_yumi
 			ledger = air
@@ -171,7 +263,7 @@ characters = {
 			}
 			
 			traits = {
-			
+				air_close_air_support_2
 			}
 		}	
 	}
@@ -193,7 +285,7 @@ characters = {
 			}
 		}
 			advisor = {
-			cost = 125
+			cost = 100
 			slot = high_command
 			idea_token = FAU_faendal
 			ledger = army
@@ -205,6 +297,15 @@ characters = {
 				
 			}
 		}	
+
+		corps_commander = {
+			traits = { ranger trickster }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+		}
 	}
 	# Navy #
 	# Air #

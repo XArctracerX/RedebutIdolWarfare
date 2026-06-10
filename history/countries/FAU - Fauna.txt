@@ -105,12 +105,14 @@ recruit_character = FAU_snail
 # Nuclear #
 # Naval #
 # Air #
-recruit_character = FAU_rorokaili_yumi
 # Land #
+## Theorists ##
+recruit_character = FAU_long_fauna
 ## Chiefs ##
 # Army #
 # Navy #
 # Air #
+recruit_character = FAU_rorokaili_yumi
 ## High Command ##
 # Army #
 # Navy #

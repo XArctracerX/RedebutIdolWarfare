@@ -130,7 +130,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = theorist
 			idea_token = KRO_august_anomaly_idea
 			ledger = civilian
@@ -160,7 +160,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = political_advisor
 			idea_token = KRO_mr_endy_idea
 			ledger = civilian
@@ -188,7 +188,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = political_advisor
 			idea_token = KRO_cabbageronii_idea
 			ledger = civilian
@@ -216,7 +216,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = political_advisor
 			idea_token = KRO_boros_idea
 			ledger = civilian
@@ -244,7 +244,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = political_advisor
 			idea_token = KRO_kyou_idea
 			ledger = civilian
@@ -272,7 +272,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 150
 			slot = political_advisor
 			idea_token = KRO_kooji_idea
 			ledger = civilian
@@ -308,7 +308,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = army_chief
 			idea_token = KRO_clotho_v_melodiam_idea
 			ledger = army
@@ -346,7 +346,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = navy_chief
 			idea_token = KRO_tara_kaminarito_idea
 			ledger = navy
@@ -384,7 +384,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 125
+			cost = 150
 			slot = air_chief
 			idea_token = KRO_kroniicopter_idea
 			ledger = air
@@ -423,7 +423,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 75
+			cost = 100
 			slot = high_command
 			idea_token = KRO_medusaronii_idea
 			ledger = army
@@ -462,7 +462,7 @@ characters = {
 		advisor = {
 			cost = 50
 			slot = high_command
-			idea_token = KRO_medusaronii_idea
+			idea_token = KRO_smollroni_idea
 			ledger = army
 			allowed = {
 				original_tag = KRO
@@ -497,7 +497,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 75
+			cost = 100
 			slot = high_command
 			idea_token = KRO_alexandria_idea
 			ledger = army
@@ -534,7 +534,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 200
 			slot = high_command
 			idea_token = KRO_himemori_hotaru_idea
 			ledger = army
@@ -573,7 +573,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 75
+			cost = 100
 			slot = high_command
 			idea_token = KRO_headronii_idea
 			ledger = air
@@ -610,7 +610,7 @@ characters = {
 		}
 
 		advisor = {
-			cost = 100
+			cost = 200
 			slot = high_command
 			idea_token = KRO_renna_kosaka_idea
 			ledger = air

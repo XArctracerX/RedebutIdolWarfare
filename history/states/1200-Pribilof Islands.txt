@@ -11,11 +11,11 @@ state={
 		
 		buildings = {
 			infrastructure = 0
-			# 13230 = {
-			# 	naval_base = 3
-			# }
+			13230 = {
+				naval_base = 1
+			}
 		}
 	}
 	
-	provinces={ 13230}
+	provinces={ 13230 }
 }
