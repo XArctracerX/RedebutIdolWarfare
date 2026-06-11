@@ -7,7 +7,66 @@ FAU_ADJ:0 "Sapling"
 
 #### Ideas ####
 ### Starting ###
+FAU_happy_population:0 "Happy Population"
+  FAU_happy_population_desc:0 ""
+FAU_pollution_preventer:0 "Pollution Preventor"
+  FAU_pollution_preventer_desc:0 ""
 ### Phase One ###
+## Opening ##
+FAU_world_tree_seed:0 "World Tree Seed"
+  FAU_world_tree_seed_desc:0 ""
+## Environmental Path ##
+FAU_environmentally_friendly_laws:0 "Environmentally Friendly Laws"
+  FAU_environmentally_friendly_laws_desc:0 ""
+FAU_animal_rights:0 "Animal Rights"
+  FAU_animal_rights_desc:0 ""
+FAU_animal_rights_2:0 "Animal Rights"
+  FAU_animal_rights_2_desc:0 ""
+FAU_environmentally_friendly_laws_2:0 "Environmentally Friendly Laws"
+  FAU_environmentally_friendly_laws_2_desc:0 ""
+FAU_wildfire_precautions:0 "Wildfire Precautions"
+  FAU_wildfire_precautions_desc:0 ""
+FAU_vegan_nation:0 "Vegan Nation"
+  FAU_vegan_nation_desc:0 ""
+## Main ##
+FAU_orphanage_funding:0 "Orphanage Funding"
+  FAU_orphanage_funding_desc:0 ""
+## ASMR Subpath ##
+FAU_thriving_asmr_industry:0 "Thriving ASMR Industry"
+  FAU_thriving_asmr_industry_desc:0 ""
+FAU_clean_ears:0 "Clean Ears"
+  FAU_clean_ears_desc:0 ""
+FAU_well_groomed_army:0 "Well Groomed Army"
+  FAU_well_groomed_army_desc:0 ""
+## Bald Fauna Subpath ##
+FAU_cursed_asmr_streams:0 "Cursed ASMR Streams"
+  FAU_cursed_asmr_streams_desc:0 ""
+## Reduce Path ##
+FAU_reduce:0 "Reduce"
+  FAU_reduce_desc:0 ""
+## Reuse Path ##
+FAU_reuse:0 "Reuse"
+  FAU_reuse_desc:0 ""
+## Recycle Path ##
+FAU_recycle:0 "Recycle"
+  FAU_recycle_desc:0 ""
+## Industry Continued ##
+FAU_clean_fuel:0 "Clean Fuel"
+  FAU_clean_fuel_desc:0 ""
+FAU_funny_fish_farm:0 "Funny Fish Farm""
+  FAU_funny_fish_farm_desc:0 "
+FAU_ornothilogy:0 "Ornithology"
+  FAU_ornothilogy_desc:0 ""
+FAU_dendrology:0 "Dendrology"
+  FAU_dendrology_desc:0 ""
+## World Tree Sapling ##
+FAU_world_tree_sapling:0 "World Tree Sapling"
+  FAU_world_tree_sapling_desc:0 ""
+
+#### Industrial Concerns ####
+FAU_faunamart:0 "FaunaMart"
+  FAU_faunamart_desc:0 ""
+
 
 #### Focus Tree #### 
 ### Phase One ###
