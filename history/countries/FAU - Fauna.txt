@@ -115,6 +115,9 @@ recruit_character = FAU_long_fauna
 recruit_character = FAU_rorokaili_yumi
 ## High Command ##
 # Army #
+recruit_character = FAU_buffy
+recruit_character = FAU_smol_fauna
+recruit_character = FAU_faunya
 # Navy #
 # Air #
 ## Generals ##
