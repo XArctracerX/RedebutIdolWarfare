@@ -27,7 +27,7 @@ set_politics = {
 ### Phase One ###
 ## Country Leaders ##
 # Main #
-recruit_character = GAN_gantei_doumeki
+recruit_character = GAN_gantai_doumeki
 # Ideology #
 ## Advisors ##
 ## Scientists ##

@@ -3,15 +3,15 @@ characters = {
 	### Phase One ###
 	## Country Leaders ##
 	# Main #
-	GAN_gantei_doumeki = {
-		name = "Gantei Doumeki"
+	GAN_gantai_doumeki = {
+		name = "Gantai Doumeki"
 		portraits = {
 			army = {
-				large = "gfx/leaders/GAN/portrait_GAN_gantei_doumeki.dds"
+				large = "gfx/leaders/GAN/portrait_GAN_gantai_doumeki.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/GAN/portrait_GAN_gantei_doumeki.dds"
+				large = "gfx/leaders/GAN/portrait_GAN_gantai_doumeki.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
