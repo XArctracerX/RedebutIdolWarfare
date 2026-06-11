@@ -4,11 +4,16 @@ state={
 	manpower=1
 
 	state_category = wasteland
-	impassable = yes
 
 	history={
 		owner = MIO
 		add_core_of = MIO
+		buildings = {
+			infrastructure = 0
+			13230 = {
+				naval_base = 1
+			}
+		}
 	}
 	
 	provinces={ 13228 }
