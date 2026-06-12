@@ -8,8 +8,8 @@ state={
 	state_category = large_town
 
 	history={
-		owner = SAU
-		add_core_of = SAU
+		owner = ETH
+		add_core_of = ETH
 		
 		victory_points = {
 			3671 10
