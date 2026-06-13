@@ -1,0 +1,55 @@
+﻿l_english:
+### Difficulty Settings ###
+### Ai Behavior ###
+
+### News Events ###
+RULE_GROUP_NEWS_EVENTS:0 "News Events
+## City Falls ##
+
+### Fun Game Rules ###
+# Canon #
+CANONICAL:0 "Canon Content"
+CANONICAL_TEXT:0 "Canon Content"
+CANONICAL_DESC:0 ""
+
+RULE_OPTION_FREE:0 "Allowed"
+
+### Sandbox ###
+## Tooltips ##
+RULE_ALLOW_WARGOALS_TT:0 "§RCan only manually justify wargoals by having the national spirit to do so, or through focuses.§!"
+# Mil and Naval Access #
+RULE_ALLOW_MILITARY_ACCESS_SAME_FACTION_TT:0 "§RCan only allow military access to faction members.§!"
+RULE_ALLOW_MILITARY_ACCESS_DISALLOWED_TT:0 "§RCan only allow military access by having the national spirit to do so, or through focuses.§!"
+RULE_OFFER_MILITARY_ACCESS_SAME_FACTION_TT:0 "§RCan only offer military access to faction members.§!"
+RULE_OFFER_MILITARY_ACCESS_DISALLOWED_TT:0 "§RCan only offer military access by having the national spirit to do so, or through focuses.§!"
+RULE_ALLOW_DOCKING_RIGHTS_SAME_FACTION_TT:0 "§RCan only allow naval access to faction members.§!"
+RULE_ALLOW_DOCKING_RIGHTS_DISALLOWED_TT:0 "§RCan only allow naval access by having the national spirit to do so, or through focuses.§!"
+RULE_OFFER_DOCKING_RIGHTS_SAME_FACTION_TT:0 "§RCan only offer naval access to faction members.§!"
+RULE_OFFER_DOCKING_RIGHTS_DISALLOWED_TT:0 "§RCan only offer naval access by having the national spirit to do so, or through focuses.§!"
+# Release Nations #
+RULE_RELEASE_NATION_TT:0 "§RCan only release nations by having the national spirit to do so, or through focuses.§!"
+# License Production #
+RULE_ALLOW_LICENSING_SAME_FACTION_TT:0 "§RCan only request equipment licenses from faction members.§!"
+RULE_ALLOW_LICENSING_DISALLOWED_TT:0 "§RCan only request equipment licenses by having the national spirit to do so, or through focuses.§!"
+# Lend Lease #
+RULE_ALLOW_LEND_LEASE_DISALLOWED_TT:0 "§RCan only lend lease to faction members.§!"
+RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT:0 "§RCan only lend lease by having the national spirit to do so, or through focuses.§!"
+# Volunteers #
+RULE_VOLUNTEERS_DISALLOWED_TT:0 "§RCan only send volunteers by having the national spirit to do so, or through focuses.§!"
+# Guarantee #
+RULE_GUARANTEE_DISALLOWED_TT:0 "§RCan only guarantee nations by having the national spirit to do so, or through focuses.§!"
+RULE_GUARANTEE_SAME_FACTION_TT:0 "§RCan only guarantee faction members.§!"
+# Revoke Guarantee #
+RULE_REVOKED_GUARANTEE_DISALLOWED_TT:0 "§RCan only revoke guarantees by having the national spirit to do so, or through focuses.§!"
+# Join Faction #
+RULE_JOIN_FACTION_DISALLOWED_TT:0 "§RCan only join factions by having the national spirit to do so, or through focuses.§!"
+RULE_OFFER_FACTION_DISALLOWED_TT:0 "§RCan only invite to faction by having the national spirit to do so, or through focuses.§!"
+# Leave faction #
+RULE_LEAVE_FACTION_DISALLOWED_TT:0 "§RCan only leave faction by having the national spirit to do so, or through focuses.§!"
+RULE_KICK_FACTION_DISALLOWED_TT:0 "§RCan only kick from faction by having the national spirit to do so, or through focuses.§!"
+# Take Faction #
+RULE_TAKE_FACTION_DISALLOWED_TT:0 "§RCan only take over faction by having the national spirit to do so, or through focuses.§!"
+# Call Ally #
+RULE_CALL_ALLY_DISALLOWED_TT:0 "§RCan only call allies to war by having the national spirit to do so, or through focuses.§!"
+# Join Ally #
+RULE_JOIN_ALLY_DISALLOWED_TT:0 "§RCan only join allies war by having the national spirit to do so, or through focuses.§!"

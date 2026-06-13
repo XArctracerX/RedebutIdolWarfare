@@ -21,275 +21,356 @@
 #	}
 # }
 
+ ##  ##   #   #  ###  ###   ##  #   #
+#   #  #  ##  #  #  # #  # #  #  # #
+ #  ####  # # #  #  # ###  #  #   #
+  # #  #  #  ##  #  # #  # #  #  # #
+##  #  #  #   #  ###  ###   ##  #   #
+
 allow_wargoals = {
-	name = "RULE_ALLOW_WARGOALS"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	name = "RULE_ALLOW_MANUAL_WARGOALS"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_wargoals"
-	option = {
-		name = "ALWAYS_FREE"
-		text = RULE_OPTION_ALWAYS_FREE
-		desc = "RULE_ALLOW_WARGOALS_ALWAYS_FREE_DESC"
-	}
 	default = {
-		name = "LIMITED"
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_ALLOW_WARGOALS_LIMITED_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_MANUAL_WARGOALS_DEFAULT_DESC"
 	}
 	option = {
-		name = "FREE_25"
-		text = RULE_OPTION_FREE_25
-		desc = "RULE_ALLOW_WARGOALS_FREE_25_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_MANUAL_WARGOALS_DISALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = "FREE_50"
-		text = RULE_OPTION_FREE_50
-		desc = "RULE_ALLOW_WARGOALS_FREE_50_DESC"
-	}
-	option = {
-		name = "FREE_75"
-		text = RULE_OPTION_FREE_75
-		desc = "RULE_ALLOW_WARGOALS_FREE_75_DESC"
-	}
-	option = {
-		name = "FREE_100"
-		text = RULE_OPTION_FREE_100
-		desc = "RULE_ALLOW_WARGOALS_FREE_100_DESC"
-	}
-	option = {
-		name = "FOCUSES_ONLY"
-		text = RULE_OPTION_FOCUSES_ONLY
-		desc = "RULE_ALLOW_WARGOALS_FOCUSES_ONLY_DESC"
-	}
-	option = {
-		name = "FOCUSES_ONLY_UNTIL_38"
-		text = RULE_OPTION_FOCUSES_ONLY_38
-		desc = "RULE_ALLOW_WARGOALS_FOCUSES_ONLY_38_DESC"
-	}
-	option = {
-		name = "FOCUSES_ONLY_UNTIL_39"
-		text = RULE_OPTION_FOCUSES_ONLY_39
-		desc = "RULE_ALLOW_WARGOALS_FOCUSES_ONLY_39_DESC"
-	}
-	option = {
-		name = "FOCUSES_ONLY_UNTIL_40"
-		text = RULE_OPTION_FOCUSES_ONLY_40
-		desc = "RULE_ALLOW_WARGOALS_FOCUSES_ONLY_40_DESC"
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_MANUAL_WARGOALS_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 }
+
 allow_access = {
-	name = "RULE_ALLOW_MILITARY_ACCESS"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	name = "RULE_ALLOW_MILITARY_AND_NAVAL_ACCESS"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_military_access_docking_rights"
 	default = {
-		name = "FREE"
-		text = RULE_OPTION_FREE
-		desc = "RULE_ALLOW_ACCESS_FREE_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_MILITARY_AND_NAVAL_ACCESS_DEFAULT_DESC"
 	}
 	option = {
-		name = "SAME_IDEOLOGY"
-		text = "RULE_OPTION_SAME_IDEOLOGY"
-		desc = "RULE_ALLOW_ACCESS_SAME_IDEOLOGY_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_MILITARY_AND_NAVAL_ACCESS_DISALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = "BLOCKED"
-		text = RULE_OPTION_BLOCKED
-		desc = "RULE_ALLOW_ACCESS_BLOCKED_DESC"
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_MILITARY_AND_NAVAL_ACCESS_ALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED_WITH_FACTION"
+		text = "ALLOWED_WITH_FACTION"
+		desc = "RULE_ALLOW_MILITARY_AND_NAVAL_ACCESS_ALLOWED_FACTION_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_release_nations = {
 	name = "RULE_ALLOW_RELEASE_NATIONS"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_release_nations"
 	default = {
-		name = "FREE"
-		text = RULE_OPTION_FREE
-		desc = "RULE_ALLOW_RELEASE_NATIONS_FREE_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_RELEASE_NATIONS_DEFAULT_DESC"
 	}
 	option = {
-		name = "PEACE_ONLY"
-		text = "RULE_OPTION_PEACE_ONLY"
-		desc = "RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_RELEASE_NATIONS_DISALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = "BLOCKED"
-		text = RULE_OPTION_BLOCKED
-		desc = "RULE_ALLOW_RELEASE_NATIONS_BLOCKED_DESC"
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_RELEASE_NATIONS_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_licensing = {
 	name = "RULE_ALLOW_LICENSING"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	required_dlc = "Death or Dishonor"
 	icon = "GFX_production_licenses"
-	option = {
-		name = "FREE"
-		text = "RULE_OPTION_FREE"
-		desc = "RULE_ALLOW_LICENSING_FREE_DESC"
+	default = {
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_LICENSING_DEFAULT_DESC"
 	}
 	option = {
-		name = SAME_IDEOLOGY
-		text = "RULE_OPTION_SAME_IDEOLOGY"
-		desc = "RULE_ALLOW_LICENSING_SAME_IDEOLOGY_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_LICENSING_DISALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = SAME_FACTION
-		text = "RULE_OPTION_SAME_FACTION"
-		desc = "RULE_ALLOW_LICENSING_SAME_FACTION_DESC"
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_LICENSING_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = BLOCKED
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_LICENSING_BLOCKED_DESC"
+		name = "ALLOWED_WITH_FACTION"
+		text = "ALLOWED_WITH_FACTION"
+		desc = "RULE_ALLOW_LICENSING_FACTION_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_lend_lease = {
 	name = "RULE_ALLOW_LEND_LEASE"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_lend_lease"
-	option = {
-		name = "FREE"
-		text = "RULE_OPTION_FREE"
-		desc = "RULE_ALLOW_LEND_LEASE_FREE_DESC"
-	}
 	default = {
-		name = "LIMITED"
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_ALLOW_LEND_LEASE_LIMITED_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_LEND_LEASE_DEFAULT_DESC"
 	}
 	option = {
-		name = SAME_IDEOLOGY
-		text = "RULE_OPTION_SAME_IDEOLOGY"
-		desc = "RULE_ALLOW_LEND_LEASE_SAME_IDEOLOGY_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_LEND_LEASE_DISALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = SAME_FACTION
-		text = "RULE_OPTION_SAME_FACTION"
-		desc = "RULE_ALLOW_LEND_LEASE_SAME_FACTION_DESC"
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_LEND_LEASE_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = BLOCKED
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_LEND_LEASE_BLOCKED_DESC"
+		name = "ALLOWED_WITH_FACTION"
+		text = "ALLOWED_WITH_FACTION"
+		desc = "RULE_ALLOW_LEND_LEASE_FACTION_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_volunteers = {
 	name = "RULE_ALLOW_VOLUNTEERS"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_volunteers"
-	option = {
-		name = "ALWAYS_FREE"
-		text = "RULE_OPTION_FREE"
-		desc = "RULE_ALLOW_VOLUNTEERS_FREE_DESC"
-	}
 	default = {
-		name = "LIMITED"
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_ALLOW_VOLUNTEERS_LIMITED_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_VOLUNTEERS_DEFAULT_DESC"
 	}
 	option = {
-		name = SAME_IDEOLOGY
-		text = "RULE_OPTION_SAME_IDEOLOGY"
-		desc = "RULE_ALLOW_VOLUNTEERS_SAME_IDEOLOGY_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_VOLUNTEERS_DISALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = BLOCKED
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_VOLUNTEERS_BLOCKED_DESC"
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_VOLUNTEERS_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_guarantees = {
 	name = "RULE_ALLOW_GUARANTEES"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_guarantee_independence"
-	option = {
-		name = "ALWAYS_FREE"
-		text = "RULE_OPTION_FREE"
-		desc = "RULE_ALLOW_GUARANTEES_FREE_DESC"
-	}
 	default = {
-		name = "LIMITED"
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_ALLOW_GUARANTEES_LIMITED_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_GUARANTEES_DEFAULT_DESC"
 	}
 	option = {
-		name = SAME_IDEOLOGY
-		text = "RULE_OPTION_SAME_IDEOLOGY"
-		desc = "RULE_ALLOW_GUARANTEES_SAME_IDEOLOGY_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_GUARANTEES_DISALLOWED_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = BLOCKED
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_GUARANTEES_BLOCKED_DESC"
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_GUARANTEES_ALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED_WITH_FACTION"
+		text = "ALLOWED_WITH_FACTION"
+		desc = "RULE_ALLOW_GUARANTEES_FACTION_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_revoke_guarantees = {
 	name = "RULE_ALLOW_REVOKE_GUARANTEES"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_revoke_guarantees"
 	default = {
-		name = "ALLOWED"
-		text = "RULE_OPTION_ALLOWED"
-		desc = "RULE_ALLOW_REVOKE_GUARANTEES_ALLOWED_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_REVOKE_GUARANTEES_DEFAULT_DESC"
 	}
 	option = {
-		name = "BLOCKED"
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_REVOKE_GUARANTEES_BLOCKED_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_REVOKE_GUARANTEES_DISALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_REVOKE_GUARANTEES_ALLOWED_DESC"
+		allow_achievements = yes
+	}
+}
+
+allow_join_faction = {
+	name = "RULE_ALLOW_JOIN_FACTION"
+	group = "RULE_GROUP_SANDBOX"
+	icon = "GFX_leave_faction"
+	default = {
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_JOIN_FACTION_DEFAULT_DESC"
+	}
+	option = {
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_JOIN_FACTION_DISALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_JOIN_FACTION_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_leave_faction = {
 	name = "RULE_ALLOW_LEAVE_FACTION"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_leave_faction"
 	default = {
-		name = "ALLOWED"
-		text = "RULE_OPTION_ALLOWED"
-		desc = "RULE_ALLOW_LEAVE_FACTION_ALLOWED_DESC"
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_LEAVE_FACTION_DEFAULT_DESC"
 	}
 	option = {
-		name = "BLOCKED"
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_LEAVE_FACTION_BLOCKED_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_LEAVE_FACTION_DISALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_LEAVE_FACTION_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_kick_faction = {
 	name = "RULE_ALLOW_KICK_FACTION"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_kick_from_faction"
-	option = {
-		name = "ALLOWED"
-		text = "RULE_OPTION_ALLOWED"
-		desc = "RULE_ALLOW_KICK_FACTION_ALLOWED_DESC"
+	default = {
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_KICK_FACTION_DEFAULT_DESC"
 	}
 	option = {
-		name = "BLOCKED"
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_KICK_FACTION_BLOCKED_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_KICK_FACTION_DISALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_KICK_FACTION_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 }
 
 allow_take_over_faction = {
 	name = "RULE_ALLOW_TAKE_OVER_FACTION"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
-	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_SANDBOX"
 	icon = "GFX_take_over_faction_leadership"
-	option = {
-		name = "ALLOWED"
-		text = "RULE_OPTION_ALLOWED"
-		desc = "RULE_ALLOW_TAKE_OVER_FACTION_ALLOWED_DESC"
+	default = {
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_TAKE_OVER_FACTION_DEFAULT_DESC"
 	}
 	option = {
-		name = "BLOCKED"
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_TAKE_OVER_FACTION_BLOCKED_DESC"
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_TAKE_OVER_FACTION_DISALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_TAKE_OVER_FACTION_ALLOWED_DESC"
+		allow_achievements = yes
+	}
+}
+
+allow_callying_allies = {
+	name = "RULE_ALLOW_CALLYING_ALLIES"
+	group = "RULE_GROUP_SANDBOX"
+	icon = "GFX_take_over_faction_leadership"
+	default = {
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_CALLYING_ALLIES_DEFAULT_DESC"
+	}
+	option = {
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_CALLYING_ALLIES_DISALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_CALLYING_ALLIES_ALLOWED_DESC"
+		allow_achievements = yes
+	}
+}
+
+allow_joining_allies = {
+	name = "RULE_ALLOW_JOINING_ALLIES"
+	group = "RULE_GROUP_SANDBOX"
+	icon = "GFX_take_over_faction_leadership"
+	default = {
+		name = "RULE_OPTION_DEFAULT"
+		text = RULE_OPTION_DEFAULT
+		desc = "RULE_ALLOW_JOINING_ALLIES_DEFAULT_DESC"
+	}
+	option = {
+		name = "DISALLOWED"
+		text = "DISALLOWED"
+		desc = "RULE_ALLOW_JOINING_ALLIES_DISALLOWED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "ALLOWED"
+		text = "ALLOWED"
+		desc = "RULE_ALLOW_JOINING_ALLIES_ALLOWED_DESC"
+		allow_achievements = yes
 	}
 }
 
@@ -314,7 +395,7 @@ allow_coups = {
 		desc = "RULE_ALLOW_COUPS_AI_ONLY_DESC"
 		allow_achievements = yes
 	}
-	option = {
+	default = {
 		name = BLOCKED
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_COUPS_BLOCKED_DESC"
@@ -341,7 +422,7 @@ allow_party_boosting = {
 		text = "RULE_OPTION_PLAYER_ONLY"
 		desc = "RULE_ALLOW_PARTY_BOOSTING_PLAYER_ONLY_DESC"
 	}
-	option = {
+	default = {
 		name = BLOCKED
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_PARTY_BOOSTING_BLOCKED_DESC"
@@ -478,23 +559,6 @@ maximum_fort_level = {
 	}
 }
 
-allow_scorched_earth = {
-	name = "RULE_ALLOW_SCORCHED_EARTH"
-	group = "RULE_GROUP_GAMEPLAY"
-	icon = "GFX_scorched_earth"
-	required_dlc = "No Step Back"
-	option = {
-		name = yes
-		text = "RULE_OPTION_ALLOWED"
-		desc = "RULE_ALLOW_SCORCHED_EARTH_ALLOWED_DESC"
-	}
-	option = {
-		name = no
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_SCORCHED_EARTH_BLOCKED_DESC"
-	}
-}
-
 ###  ###  ## ###  ##  ###   ##  #  # 
 #  # #   #   #   #  # #  # #  # #  # 
 ###  ##   #  ##  #### ###  #    #### 
@@ -531,182 +595,9 @@ allow_scorched_earth = {
 #	}
 #}
 
- ##   ##  #  # #  # ### ###  #   #      ## ###  ###  ##  ### ### ###  ##      ###  #  # #   ###  ## 
-#  # #  # #  # ## #  #  #  #  # #      #   #  # #   #  #  #  #    #  #  #     #  # #  # #   #   #   
-#    #  # #  # # ##  #  ###    #        #  ###  ##  #     #  ##   #  #        ###  #  # #   ##   #  
-#  # #  # #  # #  #  #  #  #   #         # #    #   #  #  #  #    #  #  #     #  # #  # #   #     # 
- ##   ##   ##  #  #  #  #  #   #       ##  #    ###  ##  ### #   ###  ##      #  #  ##  ### ### ##  
-
-
-
-#GER_faction_soviets = {
-#	name = "RULE_GER_FACTION_SOVIETS"
-#	group = "RULE_GROUP_COUNTRY_SPECIFIC"
-#	default = {
-#		name = yes
-#		text = "RULE_OPTION_ALLOWED"
-#		desc = "RULE_GER_FACTION_SOVIETS_YES_DESC"
-#	}
-#	option = {
-#		name = no
-#		text = "RULE_OPTION_BLOCKED"
-#		desc = "RULE_GER_FACTION_SOVIETS_NO_DESC"
-#	}
-#}
-#
-#allow_ideology_change_USA = {
-#	name = "RULE_ALLOW_IDEOLOGY_CHANGE_USA"
-#	required_dlc = "Man the Guns"
-#	group = "RULE_GROUP_COUNTRY_SPECIFIC"
-#	default = {
-#		name = FREE
-#		text = "RULE_OPTION_FREE"
-#		desc = "RULE_ALLOW_IDEOLOGY_CHANGE_USA_FREE_DESC"
-#	}
-#	option = {
-#		name = COMMUNIST_ONLY
-#		text = "RULE_OPTION_COMMUNIST_ONLY"
-#		desc = "RULE_ALLOW_IDEOLOGY_CHANGE_USA_COMMUNIST_ONLY_DESC"
-#	}
-#	option = {
-#		name = FASCIST_ONLY
-#		text = "RULE_OPTION_FASCIST_ONLY"
-#		desc = "RULE_ALLOW_IDEOLOGY_CHANGE_USA_FASCIST_ONLY_DESC"
-#	}
-#	option = {
-#		name = BLOCKED
-#		text = "RULE_OPTION_BLOCKED"
-#		desc = "RULE_ALLOW_IDEOLOGY_CHANGE_USA_BLOCKED_DESC"
-#	}
-#}
-
-
-
  ##  ###     ###  ### #  #  ##  #   # ###  ##  ###  
 #  #  #      #  # #   #  # #  # #   #  #  #  # #  # 
 ####  #      ###  ##  #### ####  # #   #  #  # ###  
 #  #  #      #  # #   #  # #  #  # #   #  #  # #  # 
 #  # ###     ###  ### #  # #  #   #   ###  ##  #  # 
 
-KRO_ai_behavior = {
-	name = "KRO_AI_BEHAVIOR"
-	group = "RULE_GROUP_AI_BEHAVIOR"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_AI_DESC"
-	}
-	option = {
-		name = HISTORICAL
-		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_OPTION_HISTORICAL_KRO_AI_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = RANDOM
-		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_OPTION_RANDOM_AI_DESC"
-	}
-}
-
-FAU_ai_behavior = {
-	name = "FAU_AI_BEHAVIOR"
-	group = "RULE_GROUP_AI_BEHAVIOR"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_AI_DESC"
-	}
-	option = {
-		name = HISTORICAL
-		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_OPTION_HISTORICAL_FAU_AI_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = RANDOM
-		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_OPTION_RANDOM_AI_DESC"
-	}
-}
-
- #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
- #     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 
- #     #   #       #        #           #        #      #   # #   #  #        #       
- #     #   #        #####   #####       #        #      #   #  #  #  #  ####   #####  
- #     #   #             #  #           #        #      #   #   # #  #     #        # 
- #     #   #       #     #  #           #        #      #   #    ##  #     #  #     # 
-  #####   ###       #####   #######     #        #     ###  #     #   #####    #####  
-
-
-obsolete_focus_branches_visibility = {
-	name = "OBSOLETE_FOCUS_BRANCHES_VISIBILITY"
-	group = "RULE_GROUP_GENERAL_UI"
-	default = {
-		name = HIDE
-		text = "RULE_OPTION_HIDE"
-		desc = "RULE_OPTION_HIDE_DESC"
-	}
-	option = {
-		name = SHOW
-		text = "RULE_OPTION_SHOW"
-		desc = "RULE_OPTION_SHOW_DESC_DESC"
-		allow_achievements = yes
-	}
-}
-
- ##  ###  #   ## ###      ##  ##  #  ##  ###
- # # #   # # #   #       #   #   # # # # #
- ##  ##  ### #   ##       #  #   # # ##  ##
- #   #   # # #   #         # #   # # # # #
- #   ### # #  ## ###     ##   ##  #  # # ###
-
-peace_score_to_overlord = {
-	name = "PEACE_SCORE_TO_OVERLORD"
-	group = "RULE_GROUP_PEACE_SCORE"
-	default = {
-		name = YES
-		text = "RULE_OPTION_YES"
-		desc = "RULE_OPTION_PEACE_SCORE_TO_OVERLORD_YES_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = NO
-		text = "RULE_OPTION_NO"
-		desc = "RULE_OPTION_PEACE_SCORE_TO_OVERLORD_NO_DESC"
-	}
-}
-
-peace_score_to_faction_leader = {
-	name = "PEACE_SCORE_TO_FACTION_LEADER"
-	group = "RULE_GROUP_PEACE_SCORE"
-	option = {
-		name = YES
-		text = "RULE_OPTION_YES"
-		desc = "RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_YES_DESC"
-		allow_achievements = yes
-	}
-	default = {
-		name = NO
-		text = "RULE_OPTION_NO"
-		desc = "RULE_OPTION_PEACE_SCORE_TO_FACTION_LEADER_NO_DESC"
-	}
-}
-
-peace_score_reset_low_scores = {
-	name = "PEACE_SCORE_RESET_LOW_SCORES"
-	group = "RULE_GROUP_PEACE_SCORE"
-	option = {
-		name = YES
-		text = "RULE_OPTION_YES"
-		desc = "RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_YES_DESC"
-		allow_achievements = yes
-	}
-	default = {
-		name = NO
-		text = "RULE_OPTION_NO"
-		desc = "RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC"
-	}
-}
-
-#We could add stuff for political advisor visibility filters here too, in the future

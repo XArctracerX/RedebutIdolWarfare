@@ -30,22 +30,72 @@
 #			}
 #		}
 
-# This specifically overrides the rule check as to whether or not you can guarantee other ideologies
-DIPLOMACY_GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME_TRIGGER = {
-	NOT = {
-		has_game_rule = {
-			rule = allow_guarantees
-			option = LIMITED
-		}
-	}
-}
-
-DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
+DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_guarantees
-				option = ALWAYS_FREE
+				rule = allow_wargoals
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			#tooltip = RULE_ALLOW_WARGOALS_TT
+			always = yes
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_WARGOALS_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_wargoals
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+DIPLOMACY_MILACC_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_MILITARY_ACCESS_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = ALLOWED
 			}
 		}
 		always = yes
@@ -53,49 +103,157 @@ DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_guarantees
-				option = LIMITED
-			}
-		}
-		always = yes # Handled by game logic.
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_guarantees
-				option = SAME_IDEOLOGY
+				rule = allow_access
+				option = ALLOWED_WITH_FACTION
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_GUARANTEES_SAME_IDEOLOGY_TOOLTIP
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_guarantees
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_GUARANTEES_BLOCKED_TOOLTIP
-			always = no
+			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_FACTION_TT
+			is_in_faction_with = FROM
 		}
 	}
 }
 
-DIPLOMACY_REVOKE_GUARANTEE_ENABLE_TRIGGER = {
+DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_revoke_guarantees
-				option = BLOCKED
+				rule = allow_access
+				option = RULE_OPTION_DEFAULT
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_REVOKE_GUARANTEES_BLOCKED_TOOLTIP
+			tooltip = RULE_OFFER_MILITARY_ACCESS_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_OFFER_MILITARY_ACCESS_DISALLOWED_TT
 			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = ALLOWED_WITH_FACTION
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_OFFER_MILITARY_ACCESS_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+}
+
+DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_DOCKING_RIGHTS_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = ALLOWED_WITH_FACTION
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_DOCKING_RIGHTS_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+}
+
+DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_OFFER_DOCKING_RIGHTS_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_OFFER_DOCKING_RIGHTS_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_access
+				option = ALLOWED_WITH_FACTION
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_OFFER_DOCKING_RIGHTS_SAME_FACTION_TT
+			is_in_faction_with = FROM
 		}
 	}
 }
@@ -105,675 +263,67 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 		limit = {
 			has_game_rule = {
 				rule = allow_release_nations
-				option = FREE
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_RELEASE_NATION_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_release_nations
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_RELEASE_NATION_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_release_nations
+				option = ALLOWED
 			}
 		}
 		always = yes
 	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Man the Guns"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_BRITAIN_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Death or Dishonor"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_YUGOSLAVIA_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			has_dlc = "By Blood Alone"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_ETHIOPIA_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			has_dlc = "Trial of Allegiance"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_CHILE_TOOLTIP
-		}
-	}
-	IF = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			has_dlc = "Trial of Allegiance"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_QUEBEC_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_GERMAN_CONSTITUENT_STATES_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_TRANSYLVANIA_TOOLTIP
-		}
-	}
-	IF = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NO_SLOVAKIA_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_POLAND_DANZIG_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_COSSACK_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_POLAND_KASHUBIA_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_POLAND_SILESIA_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			has_dlc = "Death or Dishonor"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_ITALY_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_ETHIOPIA_COMPLIANCE_TOOLTIP
-			NOT = {
-				all_of_scopes = {
-					array = ITA_initial_ethiopian_states
-					compliance > 70
-				}
-			}
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_game_rule = {
-					rule = allow_release_nations
-					option = FREE
-				}
-				has_game_rule = {
-					rule = allow_release_nations
-					option = PEACE_ONLY
-				}
-			}
-			has_dlc = "By Blood Alone"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_ITALY_PAP_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "La Resistance"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SPAIN_TOOLTIP
-			has_global_flag = scw_over
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "La Resistance"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_ANARCHIST_SPAIN_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-			has_dlc = "Man the Guns"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_BRITAIN_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-			has_dlc = "La Resistance"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SPAIN_TOOLTIP
-			has_global_flag = scw_over
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = PEACE_ONLY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Battle for the Bosporus"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_KURDISTAN_TOOLTIP
-		}
-	}
+}
 
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Battle for the Bosporus"
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_KURDISTAN_TOOLTIP
-		}
-	}
-
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Graveyard of Empires"
-			
-			is_subject = no
-			NOT = { has_country_flag = RAJ_allow_release_states }
-			
-		}
-
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_RAJ_TOOLTIP
-		}
-	}
-
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_release_nations
-				option = FREE
-			}
-			has_dlc = "Graveyard of Empires"
-		}
-	}
-}
-DIPLOMACY_MILACC_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = FREE
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_BLOCKED_TT
-			always = no
-		}
-	}
-}
-DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = FREE
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_BLOCKED_TT
-			always = no
-		}
-	}
-}
-DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = FREE
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_BLOCKED_TT
-			always = no
-		}
-	}
-}
-DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = FREE
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_access
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_MILITARY_ACCESS_BLOCKED_TT
-			always = no
-		}
-	}
-}
-DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = FREE
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = LIMITED
-			}
-		}
-		always = yes #handled by game logic, see above
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LEND_LEASE_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = SAME_FACTION
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
-			is_in_faction_with = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LEND_LEASE_BLOCKED_TT
-			always = no
-		}
-	}
-}
-DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = FREE
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = LIMITED
-			}
-		}
-		always = yes #handled by game logic, see above
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LEND_LEASE_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = SAME_FACTION
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
-			is_in_faction_with = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_lend_lease
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LEND_LEASE_BLOCKED_TT
-			always = no
-		}
-	}
-}
 DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
 				rule = allow_licensing
-				option = FREE
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_licensing
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_LICENSING_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_licensing
+				option = ALLOWED
 			}
 		}
 		always = yes
@@ -782,19 +332,7 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 		limit = {
 			has_game_rule = {
 				rule = allow_licensing
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LICENSING_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_licensing
-				option = SAME_FACTION
+				option = ALLOWED_WITH_FACTION
 			}
 		}
 		custom_trigger_tooltip = {
@@ -802,25 +340,38 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 			is_in_faction_with = FROM
 		}
 	}
+}
+
+DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_licensing
-				option = BLOCKED
+				rule = allow_lend_lease
+				option = RULE_OPTION_DEFAULT
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LICENSING_BLOCKED_TT
-			always = no
+			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
+			is_in_faction_with = FROM
 		}
 	}
-}
-DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_wargoals
-				option = ALWAYS_FREE
+				rule = allow_lend_lease
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_LEND_LEASE_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_lend_lease
+				option = ALLOWED
 			}
 		}
 		always = yes
@@ -828,8 +379,47 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_wargoals
-				option = LIMITED
+				rule = allow_lend_lease
+				option = ALLOWED_WITH_FACTION
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+}
+
+DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_lend_lease
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_lend_lease
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_LEND_LEASE_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_lend_lease
+				option = ALLOWED
 			}
 		}
 		always = yes
@@ -837,88 +427,449 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_wargoals
-				option = FREE_25
-			}
-		}
-		threat>0.24
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_wargoals
-				option = FREE_50
-			}
-		}
-		threat>0.49
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_wargoals
-				option = FREE_75
-			}
-		}
-		threat>0.74
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_wargoals
-				option = FREE_100
-			}
-		}
-		threat>0.99
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_wargoals
-				option = FOCUSES_ONLY
+				rule = allow_lend_lease
+				option = ALLOWED_WITH_FACTION
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_WARGOALS_BLOCKED_TT
+			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+}
+
+DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_volunteers
+				option = RULE_OPTION_DEFAULT
+			}	
+			has_rule = can_send_volunteers	
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_volunteers
+				option = RULE_OPTION_DEFAULT
+			}	
+			NOT = {
+				has_rule = can_send_volunteers
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_VOLUNTEERS_DISALLOWED_TT
+			always = no
+		}
+	}
+	
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_volunteers
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_VOLUNTEERS_DISALLOWED_TT
 			always = no
 		}
 	}
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_wargoals
-				option = FOCUSES_ONLY_UNTIL_38
+				rule = allow_volunteers
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+# This specifically overrides the rule check as to whether or not you can guarantee other ideologies
+DIPLOMACY_GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_guarantees
+				option = RULE_OPTION_DEFAULT
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_38_DESC
-			date > 2028.1.1
+			tooltip = RULE_GUARANTEE_DISALLOWED_TT
+			always = no
 		}
 	}
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_wargoals
-				option = FOCUSES_ONLY_UNTIL_39
+				rule = allow_volunteers
+				option = DISALLOWED
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_39_DESC
-			date > 2029.1.1
+			tooltip = RULE_GUARANTEE_DISALLOWED_TT
+			always = no
 		}
 	}
 	if = {
 		limit = {
 			has_game_rule = {
-				rule = allow_wargoals
-				option = FOCUSES_ONLY_UNTIL_40
+				rule = allow_guarantees
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_guarantees
+				option = ALLOWED_WITH_FACTION
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_WARGOALS_FOCUSES_ONLY_40_DESC
-			date > 2030.1.1
+			tooltip = RULE_GUARANTEE_SAME_FACTION_TT
+			is_in_faction_with = FROM
 		}
 	}
 }
+
+DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_guarantees
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_GUARANTEE_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_volunteers
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_GUARANTEE_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_guarantees
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_guarantees
+				option = ALLOWED_WITH_FACTION
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_GUARANTEE_SAME_FACTION_TT
+			is_in_faction_with = FROM
+		}
+	}
+}
+
+DIPLOMACY_REVOKE_GUARANTEE_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_revoke_guarantees
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_REVOKED_GUARANTEE_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_revoke_guarantees
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_REVOKED_GUARANTEE_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_revoke_guarantees
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+DIPLOMACY_JOIN_FACTION_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_join_faction
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_JOIN_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_join_faction
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_JOIN_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_join_faction
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+
+DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_join_faction
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_OFFER_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_join_faction
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_OFFER_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_join_faction
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_leave_faction
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_LEAVE_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_leave_faction
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_LEAVE_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_leave_faction
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_kick_faction
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_KICK_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_kick_faction
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_KICK_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_kick_faction
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_take_over_faction
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_TAKE_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_take_over_faction
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_TAKE_FACTION_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_take_over_faction
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_callying_allies
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_callying_allies
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_CALL_ALLY_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_callying_allies
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_joining_allies
+				option = RULE_OPTION_DEFAULT
+			}
+		}
+		always = yes
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_joining_allies
+				option = DISALLOWED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_JOIN_ALLY_DISALLOWED_TT
+			always = no
+		}
+	}
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_joining_allies
+				option = ALLOWED
+			}
+		}
+		always = yes
+	}
+}
+
+#La Resistance
+
 DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 	if = {
 		limit = {
@@ -966,6 +917,7 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 		}
 	}
 }
+
 DIPLOMACY_STAGE_COUP_ENABLE_TRIGGER = {
 	if = {
 		limit = {
@@ -1001,232 +953,3 @@ DIPLOMACY_STAGE_COUP_ENABLE_TRIGGER = {
 		}
 	}
 }
-DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_leave_faction
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_LEAVE_FACTION_BLOCKED_TOOLTIP
-			always = no
-		}
-	}
-}
- DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_take_over_faction
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ASSUME_LEADERSHIP_BLOCKED_TOOLTIP
-			always = no
-		}
-	}
-}
-DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_kick_faction
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_KICK_FROM_FACTION_BLOCKED_TOOLTIP
-			always = no
-		}
-	}
-}
-DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_volunteers
-				option = ALWAYS_FREE
-			}
-		}
-		always = yes
-		
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_volunteers
-				option = LIMITED
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_volunteers
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_VOLUNTEERS_SAME_IDEOLOGY_TT
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_volunteers
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_VOLUNTEERS_BLOCKED_TT
-			always = no
-		}
-	}
-}
-
-game_weight_can_add_fascist = {
-	
-}
-
-game_weight_can_add_democratic = {
-	
-}
-
-game_weight_can_add_unaligned = {
-	
-}
-
-game_weight_can_add_communist = {
-	
-}
-
-DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
-	if = { 
-		limit = {
-			NOT = { has_global_flag = ethiopia_recognized_flag }
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = LON_NON_INTERFERENCE_RESOLUTION_JOIN
-			always = no
-		}
-	}
-	if = { 
-		limit = {
-			FROM = { NOT = { has_war_with_non_exiled_country = yes } }
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_NON_GIE_JOIN
-			always = no
-		}
-	}
-	if = { 
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-			ROOT = {
-				has_idea = neutrality_idea
-				is_subject = yes 
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = ICELAND_HAS_DECLARED_NEUTRALITY_JOIN
-			always = no
-		}
-	}
-	if = { 
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-			ROOT = {
-				has_country_flag = DEN_is_protectorate_flag
-				is_subject = yes 
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = DENMARK_IS_A_PUPPET_JOIN
-			always = no
-		}
-	}
-}
-DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
-	if = { 
-		limit = {
-			NOT = { has_global_flag = ethiopia_recognized_flag }
-			
-		}
-		custom_trigger_tooltip = {
-			tooltip = LON_NON_INTERFERENCE_RESOLUTION_CALL
-			always = no
-		}
-	}
-	if = { 
-		limit = {
-			NOT = { has_war_with_non_exiled_country = yes } 
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_NON_GIE_CALL
-			always = no
-		}
-	}
-	if = { 
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-			FROM = {
-				has_idea = neutrality_idea
-				is_subject = yes 
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = ICELAND_HAS_DECLARED_NEUTRALITY_CALL
-			always = no
-		}
-	}
-	if = { 
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-			FROM = {
-				has_country_flag = DEN_is_protectorate_flag
-				is_subject = yes 
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = DENMARK_IS_A_PUPPET_CALL
-			always = no
-		}
-	}
-}
-DIPLOMACY_JOIN_FACTION_ENABLE_TRIGGER = {
-	if = { 
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-			has_country_flag = DEN_is_protectorate_flag
-			is_subject = yes 
-
-		}
-		custom_trigger_tooltip = {
-			tooltip = DENMARK_IS_A_PUPPET_FACTION
-			always = no
-		}
-	}
-}
-DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER = {
-	if = { 
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-			FROM = {
-				has_country_flag = DEN_is_protectorate_flag
-				is_subject = yes 
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = DENMARK_IS_A_PUPPET_FACTION
-			always = no
-		}
-	}
-}
-
-
