@@ -16,7 +16,7 @@
 	## Opening ##
 	focus = {
 		id = HOL_shiny_smily_story
-		icon = GFX_HOL_shiny_smily_story
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 14
 		y = 1
@@ -46,7 +46,7 @@
 	## Sora Opening ##
 	focus = {
 		id = HOL_assemble_gen_0
-		icon = GFX_HOL_assemble_gen_0
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -78,7 +78,7 @@
 
 	focus = {
 		id = HOL_yagoos_dream
-		icon = GFX_HOL_yagoos_dream
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -105,7 +105,7 @@
 	## Sora Military Path ##
 	focus = {
 		id = HOL_summon_the_knights_of_the_round_table
-		icon = GFX_HOL_summon_the_knights_of_the_round_table
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -5
 		y = 1
@@ -131,7 +131,7 @@
 
 	focus = {
 		id = HOL_extra_funding_for_oozora_police
-		icon = GFX_HOL_extra_funding_for_oozora_police
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -160,7 +160,7 @@
 
 	focus = {
 		id = HOL_defund_oozora_police
-		icon = GFX_HOL_defund_oozora_police
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -189,7 +189,7 @@
 
 	focus = {
 		id = HOL_flying_the_hololive_flag
-		icon = GFX_HOL_flying_the_hololive_flag
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -216,7 +216,7 @@
 
 	focus = {
 		id = HOL_a_navy_to_rival_nassau
-		icon = GFX_HOL_a_navy_to_rival_nassau
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -242,7 +242,7 @@
 
 	focus = {
 		id = HOL_reach_out_to_chloe
-		icon = GFX_HOL_reach_out_to_chloe
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -272,7 +272,7 @@
 
 	focus = {
 		id = HOL_direct_control
-		icon = GFX_HOL_direct_control
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -302,7 +302,7 @@
 
 	focus = {
 		id = HOL_indonesian_leadership
-		icon = GFX_HOL_indonesian_leadership
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -333,7 +333,7 @@
 	## Sora Research Path ##
 	focus = {
 		id = HOL_research_department
-		icon = GFX_HOL_research_department
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -359,7 +359,7 @@
 
 	focus = {
 		id = HOL_coyote_chemist_labs
-		icon = GFX_HOL_coyote_chemist_labs
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -389,7 +389,7 @@
 
 	focus = {
 		id = HOL_roboco_robotics
-		icon = GFX_HOL_roboco_robotics
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -419,7 +419,7 @@
 
 	focus = {
 		id = HOL_aki_university
-		icon = GFX_HOL_aki_university
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -449,7 +449,7 @@
 
 	focus = {
 		id = HOL_a_chan_management
-		icon = GFX_HOL_a_chan_management
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -478,7 +478,7 @@
 	## Sora Companies Path ##
 	focus = {
 		id = HOL_national_construction_company
-		icon = GFX_HOL_national_construction_company
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 6
 		y = 1
@@ -504,7 +504,7 @@
 
 	focus = {
 		id = HOL_rebrand_usada_kensetsu
-		icon = GFX_HOL_rebrand_usada_kensetsu
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -534,7 +534,7 @@
 
 	focus = {
 		id = HOL_adopt_dorobo_kensetsu
-		icon = GFX_HOL_adopt_dorobo_kensetsu
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -564,7 +564,7 @@
 
 	focus = {
 		id = HOL_stick_with_shiranui_kensetsu
-		icon = GFX_HOL_stick_with_shiranui_kensetsu
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -594,7 +594,7 @@
 
 	focus = {
 		id = HOL_grant_moona_presidential_status
-		icon = GFX_HOL_grant_moona_presidential_status
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -620,7 +620,7 @@
 
 	focus = {
 		id = HOL_shady_dealings
-		icon = GFX_HOL_shady_dealings
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -646,7 +646,7 @@
 
 	focus = {
 		id = HOL_empower_micomet
-		icon = GFX_HOL_empower_micomet
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -672,7 +672,7 @@
 
 	focus = {
 		id = HOL_uber_sheep_delivery_service
-		icon = GFX_HOL_uber_sheep_delivery_service
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -700,7 +700,7 @@
 
 	focus = {
 		id = HOL_kfp_japan_branch
-		icon = GFX_HOL_kfp_japan_branch
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -730,7 +730,7 @@
 
 	focus = {
 		id = HOL_watamelon_primacy
-		icon = GFX_HOL_watamelon_primacy
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -760,7 +760,7 @@
 
 	focus = {
 		id = HOL_tako_eats_partnership
-		icon = GFX_HOL_tako_eats_partnership
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -791,7 +791,7 @@
 	## Sora War Path ##
 	focus = {
 		id = HOL_demands_on_the_maldives
-		icon = GFX_HOL_demands_on_the_maldives
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 3
@@ -827,7 +827,7 @@
 
 	focus = {
 		id = HOL_demands_on_the_pacific
-		icon = GFX_HOL_demands_on_the_pacific
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 3

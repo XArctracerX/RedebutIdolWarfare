@@ -16,7 +16,7 @@
 	## Opening ##
 	focus = {
 		id = HOO_a_new_start
-		icon = GFX_HOO_a_new_start
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 14
 		y = 1
@@ -45,7 +45,7 @@
 	## Theme Parks Path ##
 	focus = {
 		id = HOO_open_new_theme_parks
-		icon = GFX_HOO_open_new_theme_parks
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -4
 		y = 1
@@ -71,7 +71,7 @@
 
 	focus = {
 		id = HOO_the_ultimate_theme_park
-		icon = GFX_HOO_the_ultimate_theme_park
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -4
 		y = 1
@@ -97,7 +97,7 @@
 
 	focus = {
 		id = HOO_print_advertisement_posters
-		icon = GFX_HOO_print_advertisement_posters
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -123,7 +123,7 @@
 
 	focus = {
 		id = HOO_destroy_all_printers
-		icon = GFX_HOO_destroy_all_printers
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -152,7 +152,7 @@
 
 	focus = {
 		id = HOO_recover_from_the_failed_theme_park
-		icon = GFX_HOO_recover_from_the_failed_theme_park
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -178,7 +178,7 @@
 
 	focus = {
 		id = HOO_truce_with_printers
-		icon = GFX_HOO_truce_with_printers
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -207,7 +207,7 @@
 
 	focus = {
 		id = HOO_commence_the_grand_opening
-		icon = GFX_HOO_commence_the_grand_opening
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -234,7 +234,7 @@
 	## Moomin Subpath ##
 	focus = {
 		id = HOO_its_moomin_time
-		icon = GFX_HOO_its_moomin_time
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -260,7 +260,7 @@
 
 	focus = {
 		id = HOO_embrace_emo_culture
-		icon = GFX_HOO_embrace_emo_culture
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -286,7 +286,7 @@
 
 	focus = {
 		id = HOO_verbally_abuse_citizens
-		icon = GFX_HOO_verbally_abuse_citizens
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -313,7 +313,7 @@
 	## Center Path ##
 	focus = {
 		id = HOO_fuel_berry_addiction
-		icon = GFX_HOO_fuel_berry_addiction
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -339,7 +339,7 @@
 
 	focus = {
 		id = HOO_berries_in_every_field
-		icon = GFX_HOO_berries_in_every_field
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -365,7 +365,7 @@
 
 	focus = {
 		id = HOO_machine_labour
-		icon = GFX_HOO_machine_labour
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -394,7 +394,7 @@
 
 	focus = {
 		id = HOO_human_labour
-		icon = GFX_HOO_human_labour
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -423,7 +423,7 @@
 
 	focus = {
 		id = HOO_what_was_i_doing
-		icon = GFX_HOO_what_was_i_doing
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 2
@@ -457,7 +457,7 @@
 	## Right Path ##
 	focus = {
 		id = HOO_read_ancient_books
-		icon = GFX_HOO_read_ancient_books
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 4
 		y = 1
@@ -483,7 +483,7 @@
 
 	focus = {
 		id = HOO_explore_ancient_tombs
-		icon = GFX_HOO_explore_ancient_tombs
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -509,7 +509,7 @@
 
 	focus = {
 		id = HOO_rebuild_the_gardens_of_babylon
-		icon = GFX_HOO_rebuild_the_gardens_of_babylon
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -535,7 +535,7 @@
 
 	focus = {
 		id = HOO_berries_of_babylon
-		icon = GFX_HOO_berries_of_babylon
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -561,7 +561,7 @@
 
 	focus = {
 		id = HOO_forbidden_knowledge
-		icon = GFX_HOO_forbidden_knowledge
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -587,7 +587,7 @@
 
 	focus = {
 		id = HOO_use_old_torture_methods
-		icon = GFX_HOO_use_old_torture_methods
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -613,7 +613,7 @@
 
 	focus = {
 		id = HOO_craving_for_more_knowledge
-		icon = GFX_HOO_craving_for_more_knowledge
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -639,7 +639,7 @@
 
 	focus = {
 		id = HOO_all_roads_lead_to_the_romance_empire
-		icon = GFX_HOO_all_roads_lead_to_the_romance_empire
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -668,7 +668,7 @@
 
 	focus = {
 		id = HOO_request_research_rights_from_justice
-		icon = GFX_HOO_request_research_rights_from_justice
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -694,7 +694,7 @@
 
 	focus = {
 		id = HOO_research_stonehenge
-		icon = GFX_HOO_research_stonehenge
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -720,7 +720,7 @@
 
 	focus = {
 		id = HOO_research_the_colloseum
-		icon = GFX_HOO_research_the_colloseum
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -746,7 +746,7 @@
 
 	focus = {
 		id = HOO_take_the_great_pyramids
-		icon = GFX_HOO_take_the_great_pyramids
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -775,7 +775,7 @@
 
 	focus = {
 		id = HOO_introduce_the_s_in_not
-		icon = GFX_HOO_introduce_the_s_in_not
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -801,7 +801,7 @@
 
 	focus = {
 		id = HOO_research_greek_wonders
-		icon = GFX_HOO_research_greek_wonders
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -827,7 +827,7 @@
 
 	focus = {
 		id = HOO_assist_in_capture_of_mr_vortex
-		icon = GFX_HOO_assist_in_capture_of_mr_vortex
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -853,7 +853,7 @@
 
 	focus = {
 		id = HOO_research_egyptian_wonders
-		icon = GFX_HOO_research_egyptian_wonders
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -883,7 +883,7 @@
 	## Google Capstone ##
 	focus = {
 		id = HOO_i_need_to_google_something
-		icon = GFX_HOO_i_need_to_google_something
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -6
 		y = 1

@@ -40,7 +40,7 @@
 	## Internal Affairs ##
 	focus = {
 		id = KRO_empironii_internal_affairs
-		icon = GFX_KRO_empironii_internal_affairs
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -94,7 +94,7 @@
 
 	focus = {
 		id = KRO_mumeis_fox_sanctuary
-		icon = GFX_KRO_mumeis_fox_sanctuary
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -124,7 +124,7 @@
 	# Continued Affairs #
 	focus = {
 		id = KRO_address_the_pet_play_allegations
-		icon = GFX_KRO_address_the_pet_play_allegations
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -152,7 +152,7 @@
 
 	focus = {
 		id = KRO_the_wardens_eating_habits
-		icon = GFX_KRO_the_wardens_eating_habits
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -370,7 +370,7 @@
 	# Spicy Noodles Subpath #
 	focus = {
 		id = KRO_spicy_noodle_challenge
-		icon = GFX_KRO_spicy_noodle_challenge
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -399,7 +399,7 @@
 
 	focus = {
 		id = KRO_that_wasnt_so_bad
-		icon = GFX_KRO_that_wasnt_so_bad
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -550,7 +550,7 @@
 
 	focus = {
 		id = KRO_borrow_sapling_labor
-		icon = GFX_KRO_borrow_sapling_labor
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -583,7 +583,7 @@
 
 	focus = {
 		id = KRO_demand_sapling_mine_profits
-		icon = GFX_KRO_borrow_sapling_labor
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -648,7 +648,7 @@
 
 	focus = {
 		id = KRO_appease_bunkeronii_employees
-		icon = GFX_KRO_appease_bunkeronii_employees
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -779,7 +779,7 @@
 	# Foresty Subpath #
 	focus = {
 		id = KRO_introduce_bunkeronii_berry_farms
-		icon = GFX_KRO_introduce_bunkeronii_berry_farms
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -876,7 +876,7 @@
 
 	focus = {
 		id = KRO_open_up_to_trade
-		icon = GFX_KRO_open_up_to_trade
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -902,7 +902,7 @@
 
 	focus = {
 		id = KRO_assist_sanas_tower_construction
-		icon = GFX_KRO_open_up_to_trade
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -932,7 +932,7 @@
 
 	focus = {
 		id = KRO_export_flowers_to_the_hoomans
-		icon = GFX_KRO_export_flowers_to_the_hoomans
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -965,7 +965,7 @@
 
 	focus = {
 		id = KRO_import_hooman_berries
-		icon = GFX_KRO_import_hooman_berries
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -995,7 +995,7 @@
 	## War Goals ##
 	focus = {
 		id = KRO_eliminate_false_mother_nature
-		icon = GFX_KRO_eliminate_false_mother_nature
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1025,7 +1025,7 @@
 
 	focus = {
 		id = KRO_reintegrate_the_orcats_land
-		icon = GFX_KRO_reintegrate_the_orcats_land
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1055,7 +1055,7 @@
 
 	focus = {
 		id = KRO_usurp_the_former_senpai
-		icon = GFX_KRO_usurp_the_former_senpai
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -1089,7 +1089,7 @@
 
 	focus = {
 		id = KRO_canada_reunified
-		icon = GFX_KRO_canada_reunified
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1148,7 +1148,7 @@
 	## Jokeronii ##
 	focus = {
 		id = KRO_leave_the_council
-		icon = GFX_KRO_leave_the_council
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -1219,7 +1219,7 @@
 	# Me, Myself and I Subpath #
 	focus = {
 		id = KRO_me_myself_and_i
-		icon = GFX_KRO_me_myself_and_i
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -7
 		y = 1
@@ -1275,7 +1275,7 @@
 
 	focus = {
 		id = KRO_kingdom_of_isolation
-		icon = GFX_KRO_kingdom_of_isolation
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -1309,7 +1309,7 @@
 
 	focus = {
 		id = KRO_make_friends_with_the_mirror
-		icon = GFX_KRO_make_friends_with_the_mirror
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -1337,7 +1337,7 @@
 	# Collab Subpath #
 	focus = {
 		id = KRO_schedule_a_collab
-		icon = GFX_KRO_schedule_a_collab
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -3
 		y = 1
@@ -1464,7 +1464,7 @@
 
 	focus = {
 		id = KRO_jokeronii_rises
-		icon = GFX_KRO_jokeronii_rises
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1491,7 +1491,7 @@
 	# War on Nature Subpath #
 	focus = {
 		id = KRO_prepare_for_the_war_on_nature
-		icon = GFX_KRO_prepare_for_the_war_on_nature
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -1541,7 +1541,7 @@
 
 	focus = {
 		id = KRO_arm_loyal_kronies
-		icon = GFX_KRO_arm_loyal_kronies
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -1570,7 +1570,7 @@
 
 	focus = {
 		id = KRO_bunkeronii_conscripts
-		icon = GFX_KRO_bunkeronii_conscripts
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1637,7 +1637,7 @@
 	# Babelronii Subpath #
 	focus = {
 		id = KRO_a_broken_clock
-		icon = GFX_KRO_a_broken_clock
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1666,7 +1666,7 @@
 
 	focus = {
 		id = KRO_tower_of_babel_conspiracy
-		icon = GFX_KRO_tower_of_babel_conspiracy
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 2
@@ -1702,7 +1702,7 @@
 	# The Killing Joke #
 	focus = {
 		id = KRO_the_killing_joke
-		icon = GFX_KRO_the_killing_joke
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -1734,7 +1734,7 @@
 
 	focus = {
 		id = KRO_assign_mr_endy_temporary_regency
-		icon = GFX_KRO_assign_mr_endy_temporary_regency
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1774,7 +1774,7 @@
 	# Burn the Trees Subpath #
 	focus = {
 		id = KRO_no_tree_unburned
-		icon = GFX_KRO_no_tree_unburned
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -1800,7 +1800,7 @@
 
 	focus = {
 		id = KRO_continent_wide_wildfires
-		icon = GFX_KRO_continent_wide_wildfires
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2043,7 +2043,7 @@
 	# Locate the Fauna #
 	focus = {
 		id = KRO_locate_the_keeper
-		icon = GFX_KRO_locate_the_keeper
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2072,7 +2072,7 @@
 
 	focus = {
 		id = KRO_time_vs_nature
-		icon = GFX_KRO_time_vs_nature
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2103,7 +2103,7 @@
 	# Brutal Occupaton Subpath #
 	focus = {
 		id = KRO_merciless_occupation
-		icon = GFX_KRO_merciless_occupation
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -2137,7 +2137,7 @@
 
 	focus = {
 		id = KRO_bunkeronii_industrial_state
-		icon = GFX_KRO_bunkeronii_industrial_state
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2167,7 +2167,7 @@
 	# The End? #
 	focus = {
 		id = KRO_killing_a_concept
-		icon = GFX_KRO_killing_a_concept
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2207,7 +2207,7 @@
 	## United Council ##
 	focus = {
 		id = KRO_give_in_to_faunas_demands
-		icon = GFX_KRO_give_in_to_faunas_demands
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -2254,7 +2254,7 @@
 
 	focus = {
 		id = KRO_rights_for_piglins
-		icon = GFX_KRO_rights_for_piglins
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2281,7 +2281,7 @@
 
 	focus = {
 		id = KRO_fox_welfare
-		icon = GFX_KRO_fox_welfare
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2310,7 +2310,7 @@
 
 	focus = {
 		id = KRO_adequate_pay_for_bunkeronii_employees
-		icon = GFX_KRO_adequate_pay_for_bunkeronii_employees
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -2337,7 +2337,7 @@
 
 	focus = {
 		id = KRO_break_room_accommodations
-		icon = GFX_KRO_break_room_accommodations
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2366,7 +2366,7 @@
 
 	focus = {
 		id = KRO_peace_with_nature
-		icon = GFX_KRO_peace_with_nature
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -2397,7 +2397,7 @@
 	# Against Haachama #
 	focus = {
 		id = KRO_assist_the_war_effort
-		icon = GFX_KRO_assist_the_war_effort
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -2428,7 +2428,7 @@
 
 	focus = {
 		id = KRO_overseas_anti_haaton_brigades
-		icon = GFX_KRO_overseas_anti_haaton_brigades
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -2454,7 +2454,7 @@
 
 	focus = {
 		id = KRO_defend_the_homeland
-		icon = GFX_KRO_defend_the_homeland
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 3
 		y = 1
@@ -2481,7 +2481,7 @@
 	# Against Hololive #
 	focus = {
 		id = KRO_the_chama_menace
-		icon = GFX_KRO_the_chama_menace
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2513,7 +2513,7 @@
 
 	focus = {
 		id = KRO_in_defense_of_australia
-		icon = GFX_KRO_in_defense_of_australia
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -2539,7 +2539,7 @@
 
 	focus = {
 		id = KRO_take_the_fight_to_the_loyalists
-		icon = GFX_KRO_take_the_fight_to_the_loyalists
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2565,7 +2565,7 @@
 
 	focus = {
 		id = KRO_the_continous_fight_for_independence
-		icon = GFX_KRO_the_continous_fight_for_independence
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -2591,7 +2591,7 @@
 
 	focus = {
 		id = KRO_the_idol_threat
-		icon = GFX_KRO_the_idol_threat
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2623,7 +2623,7 @@
 
 	focus = {
 		id = KRO_bunkeronii_military_industry_department
-		icon = GFX_KRO_bunkeronii_military_industry_department
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -2649,7 +2649,7 @@
 
 	focus = {
 		id = KRO_bunkeronii_mercenaries
-		icon = GFX_KRO_bunkeronii_mercenaries
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2675,7 +2675,7 @@
 
 	focus = {
 		id = KRO_constant_tide_of_time
-		icon = GFX_KRO_constant_tide_of_time
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -2701,7 +2701,7 @@
 
 	focus = {
 		id = KRO_helicopters_to_the_wardens_standards
-		icon = GFX_KRO_helicopters_to_the_wardens_standards
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -2728,7 +2728,7 @@
 	# Kronii Gear? #
 	focus = {
 		id = KRO_a_concepts_chains
-		icon = GFX_KRO_a_concepts_chains
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1

@@ -45,7 +45,7 @@
 
 	focus = {
 		id = FAU_world_tree_seed
-		icon = GFX_FAU_world_tree_seed
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -73,7 +73,7 @@
 	# Environmental Path #
 	focus = {
 		id = FAU_environmentally_friendly_laws
-		icon = GFX_FAU_environmentally_friendly_laws
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -5
 		y = 1
@@ -100,7 +100,7 @@
 
 	focus = {
 		id = FAU_all_animals_are_equal
-		icon = GFX_FAU_all_animals_are_equal
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -127,7 +127,7 @@
 
 	focus = {
 		id = FAU_but_some_are_more_equal_than_others
-		icon = GFX_FAU_but_some_are_more_equal_than_others
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -158,7 +158,7 @@
 
 	focus = {
 		id = FAU_welcome_a_rare_creature
-		icon = GFX_FAU_welcome_a_rare_creature
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -185,7 +185,7 @@
 
 	focus = {
 		id = FAU_outlaw_the_meat_industry
-		icon = GFX_FAU_outlaw_the_meat_industry
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -216,7 +216,7 @@
 
 	focus = {
 		id = FAU_plant_saplings
-		icon = GFX_FAU_plant_saplings
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -246,7 +246,7 @@
 
 	focus = {
 		id = FAU_prevent_forest_fires
-		icon = GFX_FAU_prevent_forest_fires
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -276,7 +276,7 @@
 
 	focus = {
 		id = FAU_welcome_an_old_friend
-		icon = GFX_FAU_welcome_an_old_friend
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -303,7 +303,7 @@
 
 	focus = {
 		id = FAU_forced_veganism
-		icon = GFX_FAU_forced_veganism
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 2
@@ -337,7 +337,7 @@
 	## Main ##
 	focus = {
 		id = FAU_found_faunamart
-		icon = GFX_FAU_found_faunamart
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -364,7 +364,7 @@
 
 	focus = {
 		id = FAU_faunamart_lottery
-		icon = GFX_FAU_faunamart_lottery
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -391,7 +391,7 @@
 
 	focus = {
 		id = FAU_fund_orphan_charities
-		icon = GFX_FAU_fund_orphan_charities
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -418,7 +418,7 @@
 	# ASMR Subpath #
 	focus = {
 		id = FAU_the_ku100
-		icon = GFX_FAU_the_ku100
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -448,7 +448,7 @@
 
 	focus = {
 		id = FAU_mandatory_ear_cleaning
-		icon = GFX_FAU_mandatory_ear_cleaning
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -475,7 +475,7 @@
 
 	focus = {
 		id = FAU_hair_washing_salons
-		icon = GFX_FAU_hair_washing_salons
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -505,7 +505,7 @@
 	# Bald Fauna Subpath #
 	focus = {
 		id = FAU_cursed_asmr
-		icon = GFX_FAU_cursed_asmr
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -535,7 +535,7 @@
 
 	focus = {
 		id = FAU_learn_from_bald_tibetan_monks
-		icon = GFX_FAU_learn_from_bald_tibetan_monks
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -562,7 +562,7 @@
 
 	focus = {
 		id = FAU_bald_fauna
-		icon = GFX_FAU_bald_fauna
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -591,7 +591,7 @@
 	# Reduce Path #
 	focus = {
 		id = FAU_reduce
-		icon = GFX_FAU_reduce
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 4
 		y = 1
@@ -618,7 +618,7 @@
 
 	focus = {
 		id = FAU_optimise_speedrun_routes
-		icon = GFX_FAU_optimise_speedrun_routes
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -645,7 +645,7 @@
 
 	focus = {
 		id = FAU_the_speediest_gamer
-		icon = GFX_FAU_the_speediest_gamer
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -673,7 +673,7 @@
 	# Reuse Path #
 	focus = {
 		id = FAU_reuse
-		icon = GFX_FAU_reuse
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 8
 		y = 1
@@ -700,7 +700,7 @@
 
 	focus = {
 		id = FAU_take_council_hand_me_downs
-		icon = GFX_FAU_take_council_hand_me_downs
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
@@ -727,7 +727,7 @@
 
 	focus = {
 		id = FAU_rifle_restoration
-		icon = GFX_FAU_rifle_restoration
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -755,7 +755,7 @@
 	# Recycle Path #
 	focus = {
 		id = FAU_recycle
-		icon = GFX_FAU_recycle
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 13
 		y = 1
@@ -782,7 +782,7 @@
 
 	focus = {
 		id = FAU_rubber_from_old_tyres
-		icon = GFX_FAU_rubber_from_old_tyres
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -2
 		y = 1
@@ -813,7 +813,7 @@
 
 	focus = {
 		id = FAU_steel_from_junkyards
-		icon = GFX_FAU_steel_from_junkyards
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -844,7 +844,7 @@
 
 	focus = {
 		id = FAU_aluminium_from_landfills
-		icon = GFX_FAU_aluminium_from_landfills
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 2
 		y = 1
@@ -876,7 +876,7 @@
 	# Industry Continued #
 	focus = {
 		id = FAU_avocado_oil_for_fuel
-		icon = GFX_FAU_avocado_oil_for_fuel
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
@@ -921,7 +921,7 @@
 
 	focus = {
 		id = FAU_learn_from_nature
-		icon = GFX_FAU_learn_from_nature
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1062,7 +1062,7 @@
 
 	focus = {
 		id = FAU_one_with_nature
-		icon = GFX_FAU_one_with_nature
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
@@ -1094,7 +1094,7 @@
 	# World Tree Sapling #
 	focus = {
 		id = FAU_world_tree_sapling
-		icon = GFX_FAU_world_tree_sapling
+		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 1
 		y = 1
