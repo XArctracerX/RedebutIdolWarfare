@@ -1,0 +1,62 @@
+spriteTypes = {
+
+	# KRO #
+	SpriteType = {
+		name = "GFX_KRO_the_kroniicopter_has_landed_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_the_kroniicopter_has_landed.dds"
+		 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_the_kroniicopter_has_landed.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_the_kroniicopter_has_landed.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+	}	
+
+	# FAU #
+	SpriteType = {
+		name = "GFX_FAU_let_the_yapping_commence_shine"
+		texturefile ="gfx/interface/goals/FAU/FAU_let_the_yapping_commence.dds"
+		 animation = {
+            animationmaskfile = gfx/interface/goals/FAU/FAU_let_the_yapping_commence.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/FAU/FAU_let_the_yapping_commence.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+	}	
+}
