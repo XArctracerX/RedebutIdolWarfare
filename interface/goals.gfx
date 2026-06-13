@@ -1,5 +1,11 @@
 spriteTypes = {
 
+	# Debug #
+	SpriteType = {
+		name = "GFX_debug_kizuna_ai"
+		texturefile ="gfx/interface/goals/debug_kizuna_ai.dds"
+	}		
+
 	# KRO #
 	SpriteType = {
 		name = "GFX_KRO_the_kroniicopter_has_landed"
