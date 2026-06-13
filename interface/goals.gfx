@@ -58,6 +58,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_KRO_hush_money"
+		texturefile ="gfx/interface/goals/KRO/KRO_hush_money.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_KRO_the_council"
 		texturefile ="gfx/interface/goals/KRO/KRO_the_council.dds"
 	}
