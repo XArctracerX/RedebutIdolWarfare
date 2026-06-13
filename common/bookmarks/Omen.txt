@@ -4,8 +4,11 @@ bookmarks = {
 		desc = "OMEN_DESC"
 		date = 2026.1.1.1
 		picture = "GFX_select_date_omen"
+		
 		default_country = "KRO"
 		default = yes
+
+		filters = { new_content continent }
 
 		HOL = {
 			history = HOLOLIVE_OMEN_DESC

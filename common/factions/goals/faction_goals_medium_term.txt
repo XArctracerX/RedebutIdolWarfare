@@ -367,7 +367,7 @@ faction_goal_secure_the_oil_supply = {
 					operators =  { faction_members }
 					name = FACTION
 			}
-			resource = liquid_dust
+			resource = oil
 			amount > 199
 		}
 	}
@@ -378,7 +378,7 @@ faction_goal_secure_the_oil_supply = {
 			visible_when_empty = yes
 			limit = {
 				has_resources_in_country = {
-					resource = liquid_dust
+					resource = oil
 					amount > 69
 				}
 			}

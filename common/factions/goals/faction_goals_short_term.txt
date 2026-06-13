@@ -1320,7 +1320,7 @@ faction_goal_develop_mexican_oil = {
 				}
 			}
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 4
 			}
 		}
@@ -1382,7 +1382,7 @@ faction_goal_develop_curacao_oil = {
 		add_faction_power_projection = 100
 		695 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 14
 			}
 		}
@@ -1455,7 +1455,7 @@ faction_goal_develop_venezuelan_oil = {
 				}
 			}
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 8
 			}
 		}
@@ -1799,7 +1799,7 @@ faction_goal_develop_ploiesti_oil_fields = {
 		add_faction_power_projection = 100
 		46 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 14
 			}
 		}
@@ -1878,13 +1878,13 @@ faction_goal_develop_baku_oil_fields = {
 				}
 			}
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 4
 			}
 		}
 		229 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 14
 			}
 		}
@@ -1956,19 +1956,19 @@ faction_goal_develop_iraqi_oil = {
 		add_faction_power_projection = 100
 		291 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 6
 			}
 		}
 		676 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 4
 			}
 		}
 		1010 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 2
 			}
 		}
@@ -2040,19 +2040,19 @@ faction_goal_develop_persian_oil = {
 		add_faction_power_projection = 100
 		411 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 6
 			}
 		}
 		412 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 4
 			}
 		}
 		413 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 8
 			}
 		}
@@ -2318,7 +2318,7 @@ faction_goal_develop_malayan_riches = {
 		add_faction_power_projection = 100
 		333 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 2
 			}
 			add_resource = {
@@ -2425,7 +2425,7 @@ faction_goal_develop_malayan_riches = {
 							operators =  { faction_members }
 							name = FACTION
 					}
-					resource = liquid_dust
+					resource = oil
 					amount < 30
 					extracted = yes  # (optional, default: no) checks extracted amount instead of country balance
 				}
@@ -2480,7 +2480,7 @@ faction_goal_develop_malayan_riches = {
 							operators =  { faction_members }
 							name = FACTION
 					}
-					resource = liquid_dust
+					resource = oil
 					amount < 10
 					extracted = yes  # (optional, default: no) checks extracted amount instead of country balance
 				}
@@ -2544,7 +2544,7 @@ faction_goal_develop_indonesian_riches = {
 		add_faction_power_projection = 100
 		334 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 3
 			}
 			add_resource = {
@@ -2554,7 +2554,7 @@ faction_goal_develop_indonesian_riches = {
 		}
 		335 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 4
 			}
 			add_resource = {
@@ -2570,7 +2570,7 @@ faction_goal_develop_indonesian_riches = {
 		}
 		672 = {
 			add_resource = {
-			    type = liquid_dust
+			    type = oil
 			    amount = 5
 			}
 			add_resource = {
@@ -2650,7 +2650,7 @@ faction_goal_develop_indonesian_riches = {
 							operators =  { faction_members }
 							name = FACTION
 					}
-					resource = liquid_dust
+					resource = oil
 					amount < 30
 					extracted = yes  # (optional, default: no) checks extracted amount instead of country balance
 				}
@@ -2705,7 +2705,7 @@ faction_goal_develop_indonesian_riches = {
 							operators =  { faction_members }
 							name = FACTION
 					}
-					resource = liquid_dust
+					resource = oil
 					amount < 10
 					extracted = yes  # (optional, default: no) checks extracted amount instead of country balance
 				}
