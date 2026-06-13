@@ -609,7 +609,7 @@ peoples_war = {
     xp_type = army
 
     available = {
-        has_government = BR_socialism
+        has_government = anarchy
     }
     visible = {
         has_dlc = "No Compromise, No Surrender"

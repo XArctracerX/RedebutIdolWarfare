@@ -1,5 +1,7 @@
 spriteTypes = {
 
+    # Debug #
+
 	# KRO #
 	SpriteType = {
 		name = "GFX_KRO_the_kroniicopter_has_landed_shine"
@@ -62,7 +64,7 @@ spriteTypes = {
         legacy_lazy_load = no
 	}	
 
-    #GENERIC#
+    # GENERIC #
     SpriteType = {
 		name = "GFX_FAU_ornithology_shine"
 		texturefile ="gfx/interface/goals/FAU/FAU_ornithology.dds"

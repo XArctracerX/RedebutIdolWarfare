@@ -23,6 +23,12 @@
 
 		search_filters = {
 		}
+
+		allow_branch = {
+            hidden_trigger = {
+                is_debug = yes
+            }
+        }
 		
 		available = {
 

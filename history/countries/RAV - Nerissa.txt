@@ -23,6 +23,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+#FSA = {
+    #set_autonomy = {
+        #target = RAV
+        #autonomous_state = autonomy_puppet
+    #}
+#}
+
 #### Characters ####
 ### Phase One ###
 ## Country Leaders ##
