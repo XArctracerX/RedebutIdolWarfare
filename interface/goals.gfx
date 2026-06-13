@@ -17,6 +17,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_KRO_one_chip_challenge"
+		texturefile ="gfx/interface/goals/KRO/KRO_one_chip_challenge.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_KRO_ban_the_one_chip_challenge"
 		texturefile ="gfx/interface/goals/KRO/KRO_ban_the_one_chip_challenge.dds"
 	}
@@ -34,6 +39,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_KRO_steak_and_cheese"
 		texturefile ="gfx/interface/goals/KRO/KRO_steak_and_cheese.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_liquidize_subways_assets"
+		texturefile ="gfx/interface/goals/KRO/KRO_liquidize_subway_assets.dds"
 	}
 
 	SpriteType = {
@@ -69,6 +79,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_KRO_the_council"
 		texturefile ="gfx/interface/goals/KRO/KRO_the_council.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_KRO_faunas_ultimatum"
+		texturefile ="gfx/interface/goals/KRO/KRO_faunas_ultimatum.dds"
 	}
 
 	SpriteType = {
