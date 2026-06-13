@@ -34,7 +34,7 @@ focus_tree = {
 
 	focus = {
 		id = GENERIC_teach_fans_how_to_sail
-		icon = GFX_GENERIC_teach_fans_how_to_sail
+		icon = GFX_FAU_ornithology
 		x = -10
 		y = 0
 		cost = 70
