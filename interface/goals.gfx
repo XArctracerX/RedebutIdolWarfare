@@ -32,6 +32,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_KRO_bunkeronii_lumber"
+		texturefile ="gfx/interface/goals/KRO/KRO_bunkeronii_lumber.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_KRO_expand_bunkeronii"
 		texturefile ="gfx/interface/goals/KRO/KRO_expand_bunkeronii.dds"
 	}
