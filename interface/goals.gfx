@@ -21,6 +21,10 @@ spriteTypes = {
 		texturefile ="gfx/interface/goals/KRO/KRO_ban_the_one_chip_challenge.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_KRO_stockpile_sandwiches"
+		texturefile ="gfx/interface/goals/KRO/KRO_stockpile_sandwiches.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_KRO_tuna_sub"
