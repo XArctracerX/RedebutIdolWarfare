@@ -144,7 +144,7 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = GENERIC_azure_lane_sponsorship
+		id = GENERIC_azur_lane_sponsorship
 		icon = GFX_FAU_ornithology
 		cost = 30
 		x = 0
@@ -174,14 +174,14 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = GENERIC_azure_lane_partnership
+		id = GENERIC_azur_lane_partnership
 		icon = GFX_FAU_ornithology
 		cost = 30
 		x = 0
 		y = 1
-		relative_position_id = GENERIC_azure_lane_sponsorship
+		relative_position_id = GENERIC_azur_lane_sponsorship
 		prerequisite = {
-			focus = GENERIC_azure_lane_sponsorship
+			focus = GENERIC_azur_lane_sponsorship
 			focus = GENERIC_stream_snipers_II
 		}
 		mutually_exclusive = {
