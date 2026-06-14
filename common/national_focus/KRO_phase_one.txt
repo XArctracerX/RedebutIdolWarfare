@@ -370,7 +370,7 @@
 	# Spicy Noodles Subpath #
 	focus = {
 		id = KRO_spicy_noodle_challenge
-		icon = GFX_debug_kizuna_ai
+		icon = GFX_KRO_spicy_noodle_challenge
 		cost = 30
 		x = 0
 		y = 1
@@ -583,7 +583,7 @@
 
 	focus = {
 		id = KRO_demand_sapling_mine_profits
-		icon = GFX_debug_kizuna_ai
+		icon = GFX_KRO_demand_sapling_mine_profits
 		cost = 30
 		x = 0
 		y = 1
