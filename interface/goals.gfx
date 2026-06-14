@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile ="gfx/interface/goals/KRO/KRO_white_fox_immigrants.dds"
 	}
 
+	SpriteType = {
+	name = "GFX_KRO_the_wardens_eating_habits"
+	texturefile ="gfx/interface/goals/KRO/KRO_the_wardens_eating_habits.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_KRO_spicy_noodle_challenge"
