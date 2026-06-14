@@ -33,6 +33,8 @@ set_technology = {
 
 	# Artillery #
 	gw_artillery = 1
+
+
 }
 if = {
 	limit = {
@@ -56,6 +58,7 @@ if = {
 	limit = { 
 		not = { has_dlc = "By Blood Alone" }
 	}
+	set_air_oob = FAU_start_air_legacy
 	set_technology = {
 		early_fighter = 1
 		fighter1 = 1
@@ -63,7 +66,9 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_dlc = "By Blood Alone" 
+}
+	set_air_oob = FAU_start_air_bba
 	set_technology = {
 		iw_small_airframe = 1
 		iw_medium_airframe = 1
@@ -125,3 +130,19 @@ recruit_character = FAU_faunya
 # Corps Commander #
 # Admiral #
 ### Phase Two ###
+
+
+if = {
+	limit = { has_dlc = "By Blood Alone" } 
+	### Plane Variants ###
+	# Small Airframes #
+	create_equipment_variant = {
+		name = "Air Protector" 
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+}

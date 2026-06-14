@@ -1,0 +1,9 @@
+air_wings = {
+    608 = {
+        small_plane_airframe_0 = {
+            owner = "FAU"
+            amount = 100
+            version_name = "Air Protector"
+        }
+    }
+}
