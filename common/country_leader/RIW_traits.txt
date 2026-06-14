@@ -299,4 +299,27 @@ leader_traits = {
 		}
 	}
 
+
+	FAU_speedrunner = {
+		random = no
+
+		repair_speed_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		research_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	FAU_speedrun_router = {
+		random = no
+
+		planning_speed = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 }

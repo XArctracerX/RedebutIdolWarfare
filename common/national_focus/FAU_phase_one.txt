@@ -635,7 +635,8 @@
 		}
 	
 		completion_reward = {
-			
+			add_country_leader_trait = FAU_speedrun_router
+	
 		}
 
 		ai_will_do = {
@@ -662,7 +663,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_country_leader_trait = FAU_speedrunner
 		}
 
 		ai_will_do = {
@@ -717,7 +718,22 @@
 		}
 	
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 100
+			}
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment
+				amount = 100
+			}
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 100
+			}
 		}
 
 		ai_will_do = {
@@ -744,7 +760,7 @@
 		}
 	
 		completion_reward = {
-			
+			add_ideas = FAU_careful_hands
 		}
 
 		ai_will_do = {

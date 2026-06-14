@@ -257,8 +257,10 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.1
 				production_factory_max_efficiency_factor = 0.1
+			
 			}
 	   	}
+
 
 		FAU_reuse = {
 			allowed = {
@@ -275,7 +277,7 @@ ideas = {
 				trade_laws_cost_factor = -0.1
 				production_factory_max_efficiency_factor = 0.1
 			}
-	   	}
+		   	}
 
 		FAU_recycle = {
 			allowed = {
@@ -294,6 +296,24 @@ ideas = {
 			}
 	   	}
 
+	
+		FAU_careful_hands = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				equipment_conversion_speed = 0.2
+				refit_speed = 0.2
+			}
+		   	}
+
 		FAU_clean_fuel = {
 			allowed = {
 				always = no
@@ -307,6 +327,7 @@ ideas = {
 
 			modifier = {
 				fuel_gain_factor = 0.15
+				factory_energy_consumption = -0.05
 			}
 	   	}
 
