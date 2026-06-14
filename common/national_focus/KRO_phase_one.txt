@@ -550,7 +550,7 @@
 
 	focus = {
 		id = KRO_borrow_sapling_labor
-		icon = GFX_debug_kizuna_ai
+		icon = GFX_KRO_borrow_sapling_labor
 		cost = 30
 		x = 0
 		y = 1
