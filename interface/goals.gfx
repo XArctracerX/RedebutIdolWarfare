@@ -17,6 +17,13 @@ spriteTypes = {
 		texturefile ="gfx/interface/goals/KRO/KRO_white_fox_immigrants.dds"
 	}
 
+
+	SpriteType = {
+		name = "GFX_KRO_spicy_noodle_challenge"
+		texturefile ="gfx/interface/goals/KRO/KRO_spicy_noodle_challenge.dds"
+	}
+
+
 	SpriteType = {
 		name = "GFX_KRO_meatball_marinara"
 		texturefile ="gfx/interface/goals/KRO/KRO_meatball_marinara.dds"
@@ -55,6 +62,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_KRO_bunkeronii_incorporated"
 		texturefile ="gfx/interface/goals/KRO/KRO_bunkeronii_incorporated.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_borrow_sapling_labor"
+		texturefile ="gfx/interface/goals/KRO/KRO_borrow_sapling_labor.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_KRO_demand_sapling_mine_profits"
+		texturefile ="gfx/interface/goals/KRO/KRO_demand_sapling_mine_profits.dds"
 	}
 
 	SpriteType = {
