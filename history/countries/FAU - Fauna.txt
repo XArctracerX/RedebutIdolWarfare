@@ -137,7 +137,7 @@ if = {
 	### Plane Variants ###
 	# Small Airframes #
 	create_equipment_variant = {
-		name = "Air Protector" 
+		name = "Bush Warbler" 
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
