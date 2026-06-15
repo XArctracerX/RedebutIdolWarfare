@@ -97,8 +97,9 @@ AIV	= "countries/Aivori.txt"
 DAE	= "countries/Miridae.txt"
 INO	= "countries/Inowi.txt"
 MEW	= "countries/Meowly.txt"
-FUW	= "countries/Fuwawa.txt"
+FUW	= "countries/Fuwawa.txt"	
 MOC	= "countries/Mococo.txt"
+KAT	= "countries/Katterina.txt"
 
 # Middle-East #
 HOO	= "countries/Hooman Civilization.txt"

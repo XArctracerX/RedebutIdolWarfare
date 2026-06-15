@@ -5,8 +5,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = BOT
-		add_core_of = BOT
+		owner = KAT
+		add_core_of = KAT
 		
 		buildings = {
 			infrastructure = 1

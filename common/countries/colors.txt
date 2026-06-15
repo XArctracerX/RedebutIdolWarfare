@@ -460,6 +460,11 @@ MOC = {
 	color_ui = rgb { 255 165 210 }
 }
 
+KAT = {
+	color = rgb { 70 10 190 }
+	color_ui = rgb { 70 10 190 }
+}
+
 # Middle-East #
 HOO = {
 	color = rgb { 135 85 75 }
