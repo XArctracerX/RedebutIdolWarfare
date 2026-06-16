@@ -1,8 +1,8 @@
 generic_naval_invasion_support = {
     objective_type = naval_invasion_support
 
-    min_priority = 4
-    max_priority = 14
+    min_priority = 12
+    max_priority = 26
 }
 
 generic_mine_sweeping = {
