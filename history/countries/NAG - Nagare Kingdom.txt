@@ -9,10 +9,10 @@ set_research_slots = 1
 
 set_popularities = {
 	anarchy = 0
-	autocracy = 0
+	autocracy = 100
 	corporatocracy = 0
 	idolocracy = 0
-	theocracy = 100
+	theocracy = 0
 	technocracy = 0
 }
 
