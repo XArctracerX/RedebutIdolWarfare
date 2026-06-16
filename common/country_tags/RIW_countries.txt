@@ -104,6 +104,7 @@ ARI	= "countries/aritai.txt"
 
 # Middle-East #
 HOO	= "countries/Hooman Civilization.txt"
+NAG	= "countries/Nagare Kingdom.txt"
 
 # Oceania #
 AST	= "countries/Australia.txt"

@@ -476,6 +476,11 @@ HOO = {
 	color_ui = rgb { 135 85 75 }
 }
 
+NAG = {
+	color = rgb { 198 229 70 }
+	color_ui = rgb { 198 229 70 }
+}
+
 # Oceania #
 AST = {
 	color = rgb { 250 30 15 }

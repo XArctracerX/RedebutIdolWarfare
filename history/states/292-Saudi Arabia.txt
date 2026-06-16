@@ -4,8 +4,8 @@ state={
 	
 
 	history={
-		owner = HOO
-		add_core_of = HOO
+		owner = NAG
+		add_core_of = NAG
 		
 		buildings = {
 			infrastructure = 2
