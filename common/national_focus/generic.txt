@@ -26,7 +26,7 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	initial_show_position = {
-		focus = industrial_effort
+		focus = GENERIC_teach_fans_how_to_fight
 	}
 
 	#shared_focus = HABSBURG_part_of_something_bigger
@@ -183,36 +183,6 @@ focus_tree = {
 		prerequisite = {
 			focus = GENERIC_azur_lane_sponsorship
 			focus = GENERIC_stream_snipers_II
-		}
-		mutually_exclusive = {
-			
-		}
-
-		search_filters = {
-		}
-		
-		available = {
-
-		}
-	
-		completion_reward = {
-		
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}	
-
-	focus = {
-		id = GENERIC_oshi_fleet
-		icon = GFX_debug_kizuna_ai
-		cost = 30
-		x = 0
-		y = 1
-		relative_position_id = GENERIC_teach_fans_how_to_sail
-		prerequisite = {
-			focus = GENERIC_teach_fans_how_to_sail
 		}
 		mutually_exclusive = {
 			
@@ -423,11 +393,10 @@ focus = {
 		y = 1
 		relative_position_id = GENERIC_naval_air_branch
 		prerequisite = {
-	
 			focus = GENERIC_naval_air_branch
 		}
 		mutually_exclusive = {
-			focus = GENERIC_reward_toxic_fans
+			focus = GENERIC_encourage_responsible_fans
 		}
 
 		search_filters = {
