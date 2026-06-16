@@ -3,22 +3,22 @@ characters = {
 	### Phase One ###
 	## Country Leaders ##
 	# Main #
-	MEW_meowly = {
-		name = "Meowly"
+	RAE_hara_rae_sol = {
+		name = "Hara Rae Sol"
 		portraits = {
 			army = {
-				large = "gfx/leaders/MEW/portrait_MEW_meowly.dds"
+				large = "gfx/leaders/RAE/portrait_RAE_hara_rae_sol.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/MEW/portrait_MEW_meowly.dds"
+				large = "gfx/leaders/RAE/portrait_RAE_hara_rae_sol.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
 		
 		country_leader={
 		    desc = ""
-			ideology = chatocracy
+			ideology = organised_religion
 			traits = { }
 			expire = "2020.1.1"
 		}

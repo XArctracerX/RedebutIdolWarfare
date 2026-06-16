@@ -445,9 +445,9 @@ INO = {
 	color_ui = rgb { 115 130 80 }
 }
 
-MEW = {
-	color = rgb { 175 20 85 }
-	color_ui = rgb { 175 20 85 }
+RAE = {
+	color = rgb { 148 0 2 }
+	color_ui = rgb { 148 0 2 }
 }
 
 FUW = {
