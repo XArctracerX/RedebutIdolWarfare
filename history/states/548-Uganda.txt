@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = BOT
-		add_core_of = BOT
+		owner = ARI
+		add_core_of = ARI
 		
 		buildings = {
 			infrastructure = 2

@@ -6,8 +6,8 @@ state = {
 	state_category = pastoral
 	
 	history = {
-		owner = BOT
-		add_core_of = BOT
+		owner = ARI
+		add_core_of = ARI
 		
 		victory_points = {
 		 	12941 1 

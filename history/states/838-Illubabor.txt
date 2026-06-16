@@ -5,8 +5,8 @@ state={
 		rubber=2.000
 	}
 	history={
-		owner = BOT
-		add_core_of = BOT
+		owner = DAE
+		add_core_of = DAE
 		
 		buildings = {
 

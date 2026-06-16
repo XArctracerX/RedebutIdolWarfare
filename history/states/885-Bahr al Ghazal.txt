@@ -3,8 +3,8 @@ state={
 	name = "STATE_885" # Bahr al Ghazal
 	state_category = pastoral
 	history = {
-		owner = BOT
-		add_core_of = BOT
+		owner = DAE
+		add_core_of = DAE
 		
 		victory_points = {
 			1953 1

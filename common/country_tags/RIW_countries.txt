@@ -100,6 +100,7 @@ MEW	= "countries/Meowly.txt"
 FUW	= "countries/Fuwawa.txt"	
 MOC	= "countries/Mococo.txt"
 KAT	= "countries/Katterina.txt"
+ARI	= "countries/aritai.txt"
 
 # Middle-East #
 HOO	= "countries/Hooman Civilization.txt"

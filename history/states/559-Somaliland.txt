@@ -10,8 +10,8 @@ state=
 	state_category = rural
 	
 	history={
-		owner = BOT
-		add_core_of = BOT
+		owner = ARI
+		add_core_of = ARI
 
 		victory_points = {
 			12991 3 

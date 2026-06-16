@@ -436,8 +436,8 @@ AIV = {
 }
 
 DAE = {
-	color = rgb { 210 155 105 }
-	color_ui = rgb { 210 155 105 }
+	color = rgb { 255 214 114 }
+	color_ui = rgb { 255 214 114 }
 }
 
 INO = {
@@ -461,8 +461,13 @@ MOC = {
 }
 
 KAT = {
-	color = rgb { 70 10 190 }
-	color_ui = rgb { 70 10 190 }
+	color = rgb { 226 173 103 }
+	color_ui = rgb { 226 173 103 }
+}
+
+ARI = {
+	color = rgb { 171 220 254 }
+	color_ui = rgb { 171 220 254 }
 }
 
 # Middle-East #
