@@ -8,11 +8,11 @@ set_convoys = 50
 set_research_slots = 1
 
 set_popularities = {
-	anarchy = 16
+	anarchy = 17
 	autocracy = 16
 	corporatocracy = 17
 	idolocracy = 17
-	theocracy = 17
+	theocracy = 16
 	technocracy = 17
 }
 
