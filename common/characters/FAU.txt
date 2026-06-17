@@ -54,7 +54,7 @@ characters = {
 		}	
 	}
 		
-		FAU_creeper_of_nature = {
+	FAU_creeper_of_nature = {
 		name = "Creeper of Nature"
 		portraits = {
 			army = {
@@ -82,7 +82,7 @@ characters = {
 		}	
 	}
 
-		FAU_sapling = {
+	FAU_sapling = {
 		name = "Sapling"
 		portraits = {
 			army = {
@@ -110,7 +110,7 @@ characters = {
 		}	
 	}
 
-		FAU_Clover = {
+	FAU_Clover = {
 		name = "Clover"
 		portraits = {
 			army = {
@@ -138,7 +138,7 @@ characters = {
 		}	
 	}
 
-		FAU_snail = {
+	FAU_snail = {
 		name = "Snail"
 		portraits = {
 			army = {
@@ -172,7 +172,7 @@ characters = {
 	# Air #
 	# Land #
 	## Theorists ##
-		FAU_long_fauna = {
+	FAU_long_fauna = {
 		name = "Long Fauna"
 		portraits = {
 			army = {
@@ -272,7 +272,7 @@ characters = {
 
 		
 	# Army #
-		FAU_faendal = {
+	FAU_faendal = {
 		name = "Faendal"
 		portraits = {
 			army = {
@@ -294,7 +294,7 @@ characters = {
 			}
 			
 			traits = {
-				
+				army_logistics_2
 			}
 		}	
 
@@ -307,6 +307,115 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+
+	FAU_buffy = {
+		name = "Buffy"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_buffy.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_buffy_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_buffy.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_buffy_idea.dds"
+			}
+		}
+			advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = FAU_buffy
+			ledger = army
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+				army_commando_2
+			}
+		}	
+
+		corps_commander = {
+			traits = { commando trait_reckless }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	FAU_faunya = {
+		name = "Faunya"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_faunya.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_faunya_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_faunya.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_faunya_idea.dds"
+			}
+		}
+			advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = FAU_faunya
+			ledger = army
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+				army_concealment_2
+			}
+		}	
+
+		corps_commander = {
+			traits = { harsh_leader trickster }
+			skill = 4
+			attack_skill = 6
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+
+	FAU_smol_fauna = {
+		name = "Smol Fauna"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_smol_fauna.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_smol_fauna_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_smol_fauna.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_smol_fauna_idea.dds"
+			}
+		}
+			advisor = {
+			cost = 50
+			slot = high_command
+			idea_token = FAU_smol_fauna
+			ledger = army
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+				army_infantry_1
+			}
+		}	
+
+		corps_commander = {
+			traits = { infantry_officer career_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
 	# Navy #
 	# Air #
 	## Generals ##
