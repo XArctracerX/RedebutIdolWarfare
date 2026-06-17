@@ -31,6 +31,7 @@ spriteTypes = {
         legacy_lazy_load = no
 	}	
 
+
 	# KRO #
 	SpriteType = {
 		name = "GFX_KRO_the_kroniicopter_has_landed_shine"
@@ -61,6 +62,730 @@ spriteTypes = {
         }
         legacy_lazy_load = no
 	}	
+
+
+SpriteType = {
+		name = "GFX_KRO_white_fox_immigrants_shine_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_white_fox_immigrants.dds"
+            	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_white_fox_immigrants.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_white_fox_immigrants.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+	name = "GFX_KRO_the_wardens_eating_habits_shine"
+	texturefile ="gfx/interface/goals/KRO/KRO_the_wardens_eating_habits.dds"
+    	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_the_wardens_eating_habits.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_the_wardens_eating_habits.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_spicy_noodle_challenge_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_spicy_noodle_challenge.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_spicy_noodle_challenge.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_spicy_noodle_challenge.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+
+	SpriteType = {
+		name = "GFX_KRO_meatball_marinara_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_meatball_marinara.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_meatball_marinara.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_meatball_marinara.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_one_chip_challenge_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_one_chip_challenge.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_one_chip_challenge.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_one_chip_challenge.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_ban_the_one_chip_challenge_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_ban_the_one_chip_challenge.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_ban_the_one_chip_challenge.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_ban_the_one_chip_challenge.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_stockpile_sandwiches_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_stockpile_sandwiches.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_stockpile_sandwiches.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_stockpile_sandwiches.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_tuna_sub_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_tuna_sub.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_tuna_sub.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_tuna_sub.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_steak_and_cheese_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_steak_and_cheese.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_steak_and_cheese.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_steak_and_cheese.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_liquidize_subways_assets_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_liquidize_subway_assets.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_liquidize_subway_assets.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_liquidize_subway_assets.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_bunkeronii_incorporated_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_bunkeronii_incorporated.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_bunkeronii_incorporated.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_bunkeronii_incorporated.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_borrow_sapling_labor_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_borrow_sapling_labor.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_borrow_sapling_labor.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_borrow_sapling_labor.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+
+	SpriteType = {
+		name = "GFX_KRO_demand_sapling_mine_profits_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_demand_sapling_mine_profits.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_demand_sapling_mine_profits.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_demand_sapling_mine_profits.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_bunkeronii_lumber_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_bunkeronii_lumber.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_bunkeronii_lumber.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_bunkeronii_lumber.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_expand_bunkeronii_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_expand_bunkeronii.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_expand_bunkeronii.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_expand_bunkeronii.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_put_down_piglin_revolt_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_put_down_piglin_revolt.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_put_down_piglin_revolt.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_put_down_piglin_revolt.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_rapid_promotions_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_rapid_promotions.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_rapid_promotions.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_rapid_promotions.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_hush_money_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_hush_money.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_hush_money.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_hush_money.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_the_council_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_the_council.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_the_council.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_the_council.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+
+	SpriteType = {
+		name = "GFX_KRO_faunas_ultimatum_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_faunas_ultimatum.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_faunas_ultimatum.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_faunas_ultimatum.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_approach_the_gremlin_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_approach_the_gremlin.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_approach_the_gremlin.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_approach_the_gremlin.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_blue_duo_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_blue_duo.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_blue_duo.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_blue_duo.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_ignore_chairman_baes_pleas_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_ignore_chairman_baes_pleas.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_ignore_chairman_baes_pleas.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_ignore_chairman_baes_pleas.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_KRO_take_to_the_seas_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_take_to_the_seas.dds"
+        	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_take_to_the_seas.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_take_to_the_seas.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
 
 	# FAU #
 	SpriteType = {
