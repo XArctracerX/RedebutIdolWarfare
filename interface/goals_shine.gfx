@@ -94,6 +94,36 @@ SpriteType = {
         legacy_lazy_load = no
 	}
 
+SpriteType = {
+	name = "GFX_KRO_address_the_pet_play_allegations_shine"
+	texturefile ="gfx/interface/goals/KRO/KRO_address_the_petplay_allegations.dds"
+     animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_address_the_petplay_allegations.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_address_the_petplay_allegations.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
 	SpriteType = {
 	name = "GFX_KRO_the_wardens_eating_habits_shine"
 	texturefile ="gfx/interface/goals/KRO/KRO_the_wardens_eating_habits.dds"
@@ -623,6 +653,36 @@ SpriteType = {
         }
         animation = {
             animationmaskfile = gfx/interface/goals/KRO/KRO_the_council.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+	}
+
+    SpriteType = {
+		name = "GFX_KRO_usurp_the_former_senpai_shine"
+		texturefile ="gfx/interface/goals/KRO/KRO_usurp_the_former_senpai.dds"
+         	 animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_usurp_the_former_senpai.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/KRO/KRO_usurp_the_former_senpai.dds # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
