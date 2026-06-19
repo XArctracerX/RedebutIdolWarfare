@@ -165,6 +165,13 @@ spriteTypes = {
 	}
 
 	# FAU RIGHT PATH #
+	
+	SpriteType = {
+		name = "GFX_FAU_avocado_oil_for_fuel"
+		texturefile = "gfx/interface/goals/FAU/FAU_avocado_oil_for_fuel.dds"
+	}
+
+
 	SpriteType = {
 		name = "GFX_FAU_ornithology"
 		texturefile = "gfx/interface/goals/FAU/FAU_ornithology.dds"

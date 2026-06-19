@@ -892,7 +892,7 @@
 	# Industry Continued #
 	focus = {
 		id = FAU_avocado_oil_for_fuel
-		icon = GFX_debug_kizuna_ai
+		icon = GFX_FAU_avocado_oil_for_fuel
 		cost = 30
 		x = 1
 		y = 1
