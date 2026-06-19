@@ -153,6 +153,19 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_FAU_world_tree_seed"
+		texturefile = "gfx/interface/goals/FAU/FAU_world_tree_seed.dds"
+	}
+
+
+	# FAU LEFT PATH #
+	SpriteType = {
+		name = "GFX_FAU_plant_saplings"
+		texturefile = "gfx/interface/goals/FAU/FAU_plant_saplings.dds"
+	}
+
+	# FAU RIGHT PATH #
+	SpriteType = {
 		name = "GFX_FAU_ornithology"
 		texturefile = "gfx/interface/goals/FAU/FAU_ornithology.dds"
 	}
