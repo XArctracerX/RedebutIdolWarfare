@@ -326,8 +326,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				fuel_gain_factor = 0.15
-				factory_energy_consumption = -0.05
+				fuel_gain_factor = 0.1
+				production_oil_factor = 0.1
 			}
 	   	}
 
@@ -343,7 +343,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_cost_dockyard_factor = -0.1
+				experience_gain_navy = 0.05
 			}
 	   	}
 

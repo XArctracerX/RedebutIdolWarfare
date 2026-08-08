@@ -264,6 +264,7 @@ leader_traits = {
 		}
 	}
 
+	# Phase One #
 	FAU_environmentally_friendly = {
 		random = no
 
@@ -274,7 +275,6 @@ leader_traits = {
 		}
 	}
 
-	# Phase One #
 	FAU_enlightened = {
 		random = no
 

@@ -1036,7 +1036,6 @@
     			uses = 1
     			category = naval_equipment
 			}
-			navy_experience = 50
 		}
 
 		ai_will_do = {
