@@ -61,6 +61,7 @@ if = {
 		early_light_cruiser = 1
 		early_heavy_cruiser = 1
 		early_submarine = 1
+		transport = 1
 	}
 }
 if = {
@@ -79,6 +80,7 @@ if = {
 		basic_torpedo = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
+		mtg_transport = 1
 	}
 }
 if = {
