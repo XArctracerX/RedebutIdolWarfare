@@ -1,0 +1,69 @@
+ideas = {
+    country = {
+		### Ideas ###	
+		IRYS_project_hope_investments = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+	   	}
+
+		IRYS_rising_hope = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				resistance_decay = 0.1
+			}
+	   	}
+
+		IRYS_anti_santa_defence_fund = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_anti_air_building_factor = 0.1
+			}
+	   	}
+
+		IRYS_sushi_glory_hole_fund = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.15
+			}
+	   	}
+	}
+}

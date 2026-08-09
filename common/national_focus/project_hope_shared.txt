@@ -39,7 +39,10 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			add_timed_idea = {
+				idea = IRYS_project_hope_investments
+				days = 140
+			}
 	}
 
 	ai_will_do = {
@@ -88,7 +91,7 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			add_stability = 0.05
 	}
 
 	ai_will_do = {
@@ -137,7 +140,7 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			add_war_support = 0.05			
 	}
 
 	ai_will_do = {
@@ -184,7 +187,10 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			add_timed_idea = {
+				idea = IRYS_rising_hope
+				days = 70
+			}
 	}
 
 	ai_will_do = {
@@ -230,7 +236,18 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 250
+			}
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 100
+			}
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment
+				amount = 50
+			}
 	}
 
 	ai_will_do = {
@@ -276,7 +293,9 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			army_experience = 50
+			navy_experience = 50
+			air_experience = 50			
 	}
 
 	ai_will_do = {
@@ -322,7 +341,10 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			add_timed_idea = {
+				idea = IRYS_anti_santa_defence_fund
+				days = 100
+			}
 	}
 
 	ai_will_do = {
@@ -368,7 +390,10 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+			add_timed_idea = {
+				idea = IRYS_sushi_glory_hole_fund
+				days = 100
+			}			
 	}
 
 	ai_will_do = {

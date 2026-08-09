@@ -1,5 +1,16 @@
 ﻿l_english:
 
+#### Ideas ####
+IRYS_project_hope_investments:0 "Project: HOPE Investments"
+  IRYS_project_hope_investments_desc:0 ""
+IRYS_rising_hope:0 "Rising Hope"
+  IRYS_rising_hope_desc:0 ""
+IRYS_anti_santa_defence_fund:0 "Anti-Santa Defence Fund"
+  IRYS_anti_santa_defence_fund_desc:0 ""
+IRYS_sushi_glory_hole_fund:0 "Sushi Glory Hole Fund"
+  IRYS_sushi_glory_hole_fund_desc:0 ""
+
+
 #### Focus Tree #### 
 IRYS_project_hope:0 "Project: HOPE"
   IRYS_project_hope_desc:0 ""
