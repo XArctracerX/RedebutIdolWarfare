@@ -43,13 +43,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 25
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
+			navy_experience = 50
 		}
 	}
 
@@ -75,7 +69,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			add_ideas = GENERIC_stream_sniping_flotillas
 		}
 
 		ai_will_do = {
@@ -105,7 +99,10 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			swap_ideas = {
+				remove_idea = GENERIC_stream_sniping_flotillas
+				add_idea = GENERIC_stream_sniping_flotillas_2
+			}
 		}
 
 		ai_will_do = {
@@ -135,7 +132,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			add_ideas = GENERIC_strengthened_fleet
 		}
 
 		ai_will_do = {
@@ -165,7 +162,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			add_ideas = GENERIC_azur_lane_sponsorship_idea
 		}
 
 		ai_will_do = {
@@ -196,7 +193,10 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			swap_ideas = {
+				remove_idea = GENERIC_azur_lane_sponsorship_idea
+				add_idea = GENERIC_azur_lane_partnership_idea
+			}
 		}
 
 		ai_will_do = {
@@ -226,7 +226,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			add_ideas = GENERIC_supa_funded_capital_ships
 		}
 
 		ai_will_do = {
@@ -256,7 +256,10 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			swap_ideas = {
+				remove_idea = GENERIC_supa_funded_capital_ships
+				add_idea = GENERIC_akasupa_funded_capital_ships
+			}
 		}
 
 		ai_will_do = {
@@ -286,7 +289,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			air_experience = 50
 		}
 
 		ai_will_do = {
@@ -316,7 +319,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-		
+			add_ideas = GENERIC_bomber_focused_brand_idea
 		}
 
 		ai_will_do = {
@@ -347,7 +350,18 @@ focus = {
 		}
 	
 		completion_reward = {
-		
+			add_tech_bonus = {
+				#name = x
+				bonus = 1
+    			uses = 2
+    			category = ship_modules_tech
+			}
+			add_tech_bonus = {
+				#name = x
+				bonus = 1
+    			uses = 2
+    			category = plane_modules_tech
+			}
 		}
 
 		ai_will_do = {
@@ -377,7 +391,11 @@ focus = {
 		}
 	
 		completion_reward = {
-		
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = 
+			}
 		}
 
 		ai_will_do = {
@@ -500,7 +518,7 @@ focus = {
 		}
 	
 		completion_reward = {
-		
+			army_experience = 50
 		}
 
 		ai_will_do = {

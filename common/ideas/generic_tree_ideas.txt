@@ -1,0 +1,170 @@
+ideas = {
+    country = {
+		### Ideas ###
+		GENERIC_stream_sniping_flotillas = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				naval_torpedo_screen_penetration_factor = 0.1
+				naval_torpedo_hit_chance_factor = 0.1
+			}
+	   	}
+
+		GENERIC_stream_sniping_flotillas_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				naval_torpedo_screen_penetration_factor = 0.1
+				naval_torpedo_hit_chance_factor = 0.1
+				navy_submarine_attack_factor = 0.1
+			}
+	   	}
+
+		GENERIC_strengthened_fleet = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				navy_screen_attack_factor = 0.2
+			}
+	   	}
+
+		GENERIC_azur_lane_sponsorship_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+			}
+	   	}
+
+		GENERIC_azur_lane_partnership_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+				navy_max_range_factor = 0.1
+				navy_fuel_consumption_factor = -0.1
+			}
+	   	}
+
+		GENERIC_supa_funded_capital_ships = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				navy_capital_ship_defence_factor = 0.1
+			}
+	   	}
+
+		GENERIC_akasupa_funded_capital_ships = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				navy_capital_ship_defence_factor = 0.1
+				navy_capital_ship_attack_factor = 0.1
+			}
+	   	}
+
+		GENERIC_bomber_focused_brand_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.5
+			}
+	   	}
+
+		GENERIC_responsible_fanbase = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+	   	}
+
+		GENERIC_toxic_fanbase = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+	   	}
+	}
+}
