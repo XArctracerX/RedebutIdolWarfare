@@ -584,7 +584,12 @@ focus = {
 		}
 	
 		completion_reward = {
-		
+		add_tech_bonus = {
+			bonus = 0.2
+			uses = 1
+			category = cat_special_forces_generic
+			}
+		special_forces_cap = 0.1
 		}
 
 		ai_will_do = {
@@ -651,6 +656,11 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_tech_bonus ={
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
 		
 		}
 
@@ -684,6 +694,11 @@ focus = {
 		}
 	
 		completion_reward = {
+		#add_tech_bonus = {
+		#	bonus = 1.5
+		#	uses = 1
+		#	category =  
+		#	}
 		
 		}
 
@@ -717,7 +732,11 @@ focus = {
 		}
 	
 		completion_reward = {
-		
+		add_tech_bonus = {
+			bonus = 1.5
+			uses = 1
+			category = armor
+			}
 		}
 
 		ai_will_do = {
