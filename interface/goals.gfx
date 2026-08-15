@@ -163,6 +163,12 @@ spriteTypes = {
 		name = "GFX_FAU_plant_saplings"
 		texturefile = "gfx/interface/goals/FAU/FAU_plant_saplings.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_FAU_Environmentally_Friendly_laws"
+		texturefile = "gfx/interface/goals/FAU/FAU_Environmentally_Friendly_Laws.dds"
+	}
+
 
 	# FAU RIGHT PATH #
 	

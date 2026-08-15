@@ -73,7 +73,7 @@
 	# Environmental Path #
 	focus = {
 		id = FAU_environmentally_friendly_laws
-		icon = GFX_debug_kizuna_ai
+		icon = GFX_FAU_Environmentally_Friendly_laws
 		cost = 30
 		x = -5
 		y = 1
