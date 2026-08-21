@@ -1,23 +1,5 @@
-﻿search_filter_prios = {
-	FOCUS_FILTER_POLITICAL = 1010
-	
-	FOCUS_FILTER_RESEARCH = 522
-	
-	FOCUS_FILTER_INDUSTRY = 509
-
-	FOCUS_FILTER_BALANCE_OF_POWER = 200
-	FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
-	FOCUS_FILTER_PROPAGANDA = 110
-	FOCUS_FILTER_MISSIOLINI = 110
-	FOCUS_FILTER_ARMY_XP = 103
-	FOCUS_FILTER_NAVY_XP = 102
-	FOCUS_FILTER_AIR_XP = 101
-
-}
-
-focus_tree = {
+﻿focus_tree = {
 	id = generic_focus
-	
 	country = {
 		factor = 1
 	}
@@ -29,21 +11,27 @@ focus_tree = {
 		focus = GENERIC_teach_fans_how_to_fight
 	}
 
-	#shared_focus = HABSBURG_part_of_something_bigger
-
-
 	focus = {
 		id = GENERIC_teach_fans_how_to_sail
 		icon = GFX_debug_kizuna_ai
+		cost = 30
 		x = -10
 		y = 0
-		cost = 70
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
+		search_filters = {
+		}
+
+		available = {
+		}
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
 			navy_experience = 50
+		}
+
+		ai_will_do = {
+			factor = 10
 		}
 	}
 
@@ -57,15 +45,11 @@ focus_tree = {
 		prerequisite = {
 			focus = GENERIC_teach_fans_how_to_sail
 		}
-		mutually_exclusive = {
-			
-		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -87,15 +71,11 @@ focus_tree = {
 		prerequisite = {
 			focus = GENERIC_stream_snipers_I
 		}
-		mutually_exclusive = {
-			
-		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -120,15 +100,11 @@ focus_tree = {
 		prerequisite = {
 			focus = GENERIC_teach_fans_how_to_sail
 		}
-		mutually_exclusive = {
-			
-		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -150,15 +126,11 @@ focus_tree = {
 		prerequisite = {
 			focus = GENERIC_oshi_fleet
 		}
-		mutually_exclusive = {
-			
-		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -174,22 +146,20 @@ focus_tree = {
 		id = GENERIC_azur_lane_partnership
 		icon = GFX_debug_kizuna_ai
 		cost = 30
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = GENERIC_azur_lane_sponsorship
 		prerequisite = {
 			focus = GENERIC_azur_lane_sponsorship
-			focus = GENERIC_stream_snipers_II
 		}
-		mutually_exclusive = {
-			
+		prerequisite = {
+			focus = GENERIC_stream_snipers_II
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -214,15 +184,11 @@ focus_tree = {
 		prerequisite = {
 			focus = GENERIC_teach_fans_how_to_sail
 		}
-		mutually_exclusive = {
-			
-		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -244,15 +210,11 @@ focus_tree = {
 		prerequisite = {
 			focus = GENERIC_supa_ships
 		}
-		mutually_exclusive = {
-			
-		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -273,19 +235,11 @@ focus_tree = {
 		cost = 30
 		x = -2
 		y = 0
-		
-		prerequisite = {
-	
-		}
-		mutually_exclusive = {
-			
-		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -315,7 +269,6 @@ focus_tree = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -327,7 +280,7 @@ focus_tree = {
 		}
 	}	
 
-focus = {
+	focus = {
 		id = GENERIC_naval_air_branch
 		icon = GFX_debug_kizuna_ai
 		cost = 30
@@ -336,17 +289,15 @@ focus = {
 		relative_position_id = GENERIC_bomber_focused_brand
 		prerequisite = {
 			focus = GENERIC_bomber_focused_brand
-			focus = GENERIC_supa_ships
 		}
-		mutually_exclusive = {
-			
+		prerequisite = {
+			focus = GENERIC_supa_ships
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -387,14 +338,12 @@ focus = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				cost_reduction = 0.5
 				uses = 1
-				category = 
 			}
 		}
 
@@ -421,11 +370,9 @@ focus = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -441,7 +388,6 @@ focus = {
 		y = 1
 		relative_position_id = GENERIC_teach_fans_how_to_fly
 		prerequisite = {
-	
 			focus = GENERIC_teach_fans_how_to_fly
 		}
 		mutually_exclusive = {
@@ -452,11 +398,9 @@ focus = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -472,22 +416,16 @@ focus = {
 		y = 1
 		relative_position_id = GENERIC_fighter_focused_brand
 		prerequisite = {
-	
 			focus = GENERIC_fighter_focused_brand
-		}
-		mutually_exclusive = {
-		
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -502,19 +440,10 @@ focus = {
 		x = 6
 		y = 0
 
-		prerequisite = {
-	
-	
-		}
-		mutually_exclusive = {
-		
-		}
-
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
@@ -532,26 +461,18 @@ focus = {
 		cost = 30
 		x = -2
 		y = 1
-
 		relative_position_id = GENERIC_teach_fans_how_to_fight
-
 		prerequisite = {
-		focus = GENERIC_teach_fans_how_to_fight
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_teach_fans_how_to_fight
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -565,31 +486,24 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_endurance_streams
-
 		prerequisite = {
-		focus = GENERIC_endurance_streams
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_endurance_streams
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_tech_bonus = {
-			bonus = 0.2
-			uses = 1
-			category = cat_special_forces_generic
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cat_special_forces_generic
 			}
-		special_forces_cap = 0.1
+			special_forces_cap = 0.1
 		}
 
 		ai_will_do = {
@@ -603,27 +517,21 @@ focus = {
 		cost = 30
 		x = -2
 		y = 1
-
 		relative_position_id = GENERIC_high_tier_fans
-
 		prerequisite = {
-		focus = GENERIC_high_tier_fans
-		focus = GENERIC_foster_a_supportive_community
-	
+			focus = GENERIC_high_tier_fans
 		}
-		mutually_exclusive = {
-		
+		prerequisite = {
+			focus = GENERIC_foster_a_supportive_community
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -637,31 +545,23 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_teach_fans_how_to_fight
-
 		prerequisite = {
 		focus = GENERIC_teach_fans_how_to_fight
-	
-		}
-		mutually_exclusive = {
-		
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
 			add_tech_bonus ={
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = artillery
 			}
-		
 		}
 
 		ai_will_do = {
@@ -675,31 +575,18 @@ focus = {
 		cost = 30
 		x = 2
 		y = 1
-
 		relative_position_id = GENERIC_teach_fans_how_to_fight
-
 		prerequisite = {
-		focus = GENERIC_teach_fans_how_to_fight
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_teach_fans_how_to_fight
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		#add_tech_bonus = {
-		#	bonus = 1.5
-		#	uses = 1
-		#	category =  
-		#	}
-		
 		}
 
 		ai_will_do = {
@@ -713,29 +600,25 @@ focus = {
 		cost = 30
 		x = -1
 		y = 1
-
 		relative_position_id = GENERIC_give_driving_lessons_to_fans
 		prerequisite = {
-		focus = GENERIC_bombard_antis
-		focus = GENERIC_give_driving_lessons_to_fans
-	
+			focus = GENERIC_bombard_antis
 		}
-		mutually_exclusive = {
-		
+		prerequisite = {
+			focus = GENERIC_give_driving_lessons_to_fans
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_tech_bonus = {
-			bonus = 1.5
-			uses = 1
-			category = armor
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = armor
 			}
 		}
 
@@ -744,33 +627,27 @@ focus = {
 		}
 	}	
 
-		focus = {
+	focus = {
 		id = GENERIC_ask_hearts_of_iron_players_for_ideas
 		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = -1
 		y = 1
-
 		relative_position_id = GENERIC_enlist_world_of_tanks_players
-
 		prerequisite = {
-		focus = GENERIC_enlist_world_of_tanks_players
-		focus = GENERIC_high_tier_fans
-	
+			focus = GENERIC_enlist_world_of_tanks_players
 		}
-		mutually_exclusive = {
-		
+		prerequisite = {
+			focus = GENERIC_high_tier_fans
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -784,26 +661,18 @@ focus = {
 		cost = 30
 		x = 1
 		y = 1
-
 		relative_position_id = GENERIC_enlist_world_of_tanks_players
-
 		prerequisite = {
-		focus = GENERIC_enlist_world_of_tanks_players
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_enlist_world_of_tanks_players
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -811,27 +680,20 @@ focus = {
 		}
 	}	
 
-		focus = {
+	focus = {
 		id = GENERIC_idol_industry
 		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 12
 		y = 0
 
-
-		mutually_exclusive = {
-		
-		}
-
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -845,27 +707,23 @@ focus = {
 		cost = 30
 		x = -2
 		y = 1
-
 		relative_position_id = GENERIC_idol_industry
-
 		prerequisite = {
-		focus = GENERIC_idol_industry
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_idol_industry
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_offsite_building = { type = arms_factory level = 2 }
-		production_factory_max_efficiency_factor = 0.05
+			add_offsite_building = { 
+				type = arms_factory
+				level = 2
+			}
+			production_factory_max_efficiency_factor = 0.05
 		}
 
 		ai_will_do = {
@@ -879,26 +737,22 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_penlight_factories_I
-
 		prerequisite = {
-		focus = GENERIC_penlight_factories_I
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_penlight_factories_I
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = {
+				type = arms_factory
+				level = 2
+			}
 		}
 
 		ai_will_do = {
@@ -906,33 +760,28 @@ focus = {
 		}
 	}	
 
-focus = {
+	focus = {
 		id = GENERIC_penlight_factories_III
 		icon = GFX_debug_kizuna_ai
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_penlight_factories_II
-
 		prerequisite = {
-		focus = GENERIC_penlight_factories_II
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_penlight_factories_II
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_offsite_building = { type = arms_factory level = 2 }
-		
+			add_offsite_building = {
+				type = arms_factory
+				level = 2
+			}
 		}
 
 		ai_will_do = {
@@ -946,27 +795,21 @@ focus = {
 		cost = 30
 		x = 1
 		y = 1
-
 		relative_position_id = GENERIC_stream_racing_games
-
 		prerequisite = {
-		focus = GENERIC_penlight_factories_III
-		focus = GENERIC_stream_racing_games
-	
+			focus = GENERIC_penlight_factories_III
 		}
-		mutually_exclusive = {
-		
+		prerequisite = {
+			focus = GENERIC_stream_racing_games
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -980,28 +823,22 @@ focus = {
 		cost = 30
 		x = 2
 		y = 1
-
 		relative_position_id = GENERIC_idol_industry
-
 		prerequisite = {
-		focus = GENERIC_idol_industry
-	
-	
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_idol_industry
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_offsite_building = { type = industrial_complex  level = 1 }
-			
+			add_offsite_building = {
+				type = industrial_complex
+				level = 2
+			}
 		}
 
 		ai_will_do = {
@@ -1015,28 +852,22 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_merch_factories_I
-
 		prerequisite = {
-		focus = GENERIC_merch_factories_I
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_merch_factories_I
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_offsite_building = { type = industrial_complex 
-		level = 2 
+			add_offsite_building = {
+				type = industrial_complex 
+				level = 2 
 			}
-		consumer_goods_factor = -0.05
 		}
 
 		ai_will_do = {
@@ -1050,25 +881,22 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_merch_factories_II
-
 		prerequisite = {
-		focus = GENERIC_merch_factories_II
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_merch_factories_II
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_offsite_building = { type = industrial_complex  level = 3 }
+			add_offsite_building = { 
+				type = industrial_complex
+				level = 2
+			}
 		}
 
 		ai_will_do = {
@@ -1083,19 +911,14 @@ focus = {
 		x = 20
 		y = 0
 
-		mutually_exclusive = {
-		
-		}
-
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_political_power = 100
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -1109,25 +932,18 @@ focus = {
 		cost = 30
 		x = -4
 		y = 1
-
 		relative_position_id = GENERIC_arrange_fan_meetups
-
 		prerequisite = {
-		focus = GENERIC_arrange_fan_meetups
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_arrange_fan_meetups
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1141,25 +957,18 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_hold_concerts
-
 		prerequisite = {
-		focus = GENERIC_hold_concerts
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_hold_concerts
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1173,26 +982,19 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_prevent_the_spread_of_misinformation
-
 		prerequisite = {
-		focus = GENERIC_prevent_the_spread_of_misinformation
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_prevent_the_spread_of_misinformation
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_research_slot = 1
-		research_speed_factor = 0.05
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -1206,26 +1008,22 @@ focus = {
 		cost = 30
 		x = -1
 		y = 1
-
 		relative_position_id = GENERIC_create_a_wiki
-
 		prerequisite = {
-		focus = GENERIC_create_a_wiki
-		focus = GENERIC_merch_factories_III
+			focus = GENERIC_create_a_wiki
 		}
-		mutually_exclusive = {
-		
+		prerequisite = {
+			focus = GENERIC_merch_factories_III
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_research_slot = 1
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -1239,25 +1037,21 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_arrange_fan_meetups
-
 		prerequisite = {
-		focus = GENERIC_arrange_fan_meetups
+			focus = GENERIC_arrange_fan_meetups
 		}
 		mutually_exclusive = {
-		focus = GENERIC_organise_collabs
+			focus = GENERIC_organise_collabs
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1271,25 +1065,21 @@ focus = {
 		cost = 30
 		x = -2
 		y = 1
-
 		relative_position_id = GENERIC_focus_on_solo_streams
-
 		prerequisite = {
-		focus = GENERIC_focus_on_solo_streams
+			focus = GENERIC_focus_on_solo_streams
 		}
 		mutually_exclusive = {
-		focus = GENERIC_maintain_a_friendly_social_media_presence
+			focus = GENERIC_maintain_a_friendly_social_media_presence
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1303,25 +1093,18 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_fortify_against_antis
-
 		prerequisite = {
-		focus = GENERIC_fortify_against_antis
-		}
-		mutually_exclusive = {
-		
+			focus = GENERIC_fortify_against_antis
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1335,24 +1118,18 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_commission_nsfw_art
-
 		prerequisite = {
-		focus = GENERIC_commission_nsfw_art }
-		mutually_exclusive = {
-		
+			focus = GENERIC_commission_nsfw_art
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1366,24 +1143,21 @@ focus = {
 		cost = 30
 		x = 2
 		y = 1
-
 		relative_position_id = GENERIC_focus_on_solo_streams
-
 		prerequisite = {
-		focus = GENERIC_focus_on_solo_streams }
+			focus = GENERIC_focus_on_solo_streams
+		}
 		mutually_exclusive = {
-		focus = GENERIC_fortify_against_antis
+			focus = GENERIC_fortify_against_antis
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1397,25 +1171,18 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_maintain_a_friendly_social_media_presence
-
 		prerequisite = {
-		focus = GENERIC_maintain_a_friendly_social_media_presence 
-	}
-		mutually_exclusive = {
-		
+			focus = GENERIC_maintain_a_friendly_social_media_presence 
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1429,24 +1196,18 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_commission_sfw_art
 		prerequisite = {
-		focus = GENERIC_commission_sfw_art
-	}
-		mutually_exclusive = {
-		
+			focus = GENERIC_commission_sfw_art
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1460,25 +1221,21 @@ focus = {
 		cost = 30
 		x = 4
 		y = 1
-
 		relative_position_id = GENERIC_arrange_fan_meetups
-
 		prerequisite = {
-		focus = GENERIC_arrange_fan_meetups
-	}
+			focus = GENERIC_arrange_fan_meetups
+		}
 		mutually_exclusive = {
-		focus = GENERIC_focus_on_solo_streams
+			focus = GENERIC_focus_on_solo_streams
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		
 		}
 
 		ai_will_do = {
@@ -1492,25 +1249,18 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_organise_collabs
-
 		prerequisite = {
-		focus = GENERIC_organise_collabs
-	}
-		mutually_exclusive = {
-		
+			focus = GENERIC_organise_collabs
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
-		completion_reward = {
-		
+		completion_reward = {		
 		}
 
 		ai_will_do = {
@@ -1524,25 +1274,20 @@ focus = {
 		cost = 30
 		x = 0
 		y = 1
-
 		relative_position_id = GENERIC_assist_the_kaigai_niki
-
 		prerequisite = {
-		focus = GENERIC_assist_the_kaigai_niki
-	}
-		mutually_exclusive = {
-		
+			focus = GENERIC_assist_the_kaigai_niki
 		}
+
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-		add_war_support = 0.1
+			add_war_support = 0.1
 		}
 
 		ai_will_do = {
@@ -1556,25 +1301,18 @@ focus = {
 		cost = 30
 		x = 2
 		y = 1
-
 		relative_position_id = GENERIC_assist_the_kaigai_niki
-
 		prerequisite = {
-		focus = GENERIC_assist_the_kaigai_niki
-	}
-		mutually_exclusive = {
-		
+			focus = GENERIC_assist_the_kaigai_niki
 		}
 
 		search_filters = {
 		}
 		
 		available = {
-
 		}
 	
-		completion_reward = {
-		
+		completion_reward = {		
 		}
 
 		ai_will_do = {

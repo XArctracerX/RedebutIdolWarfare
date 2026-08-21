@@ -25,7 +25,6 @@
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
