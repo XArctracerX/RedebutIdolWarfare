@@ -445,7 +445,7 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-			
+		recruit_character = IRYS_irys
 	}
 
 	ai_will_do = {

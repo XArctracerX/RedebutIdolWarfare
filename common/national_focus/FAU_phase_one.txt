@@ -350,11 +350,19 @@
 		}
 		
 		available = {
-
 		}
 	
 		completion_reward = {
-			add_ideas = FAU_faunamart
+			328 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			328 = {
+				add_extra_state_shared_building_slots = 2
+			}			
 		}
 
 		ai_will_do = {
@@ -580,7 +588,9 @@
 	
 		completion_reward = {
 			add_country_leader_trait = FAU_bald_fauna
-			#change leader portrait too
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/FAU/portrait_FAU_bald_fauna.dds"
+			}
 		}
 
 		ai_will_do = {

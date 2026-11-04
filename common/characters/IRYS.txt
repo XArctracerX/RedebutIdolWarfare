@@ -1,0 +1,48 @@
+characters = {
+	#### Characters ####
+	### Phase One ###
+	## Country Leaders ##
+	# Main #
+	# Ideology #
+	## Advisors ##
+	## Scientists ##
+	# Nuclear #
+	# Naval #
+	# Air #
+	# Land #
+	## Chiefs ##
+	# Army #
+	# Navy #
+	# Air #
+	## High Command ##
+	# Army #
+	# Navy #
+	# Air #
+	## Generals ##
+	# Field Marshal #
+	IRYS_irys = {
+		name = "IRyS"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRYS/portrait_IRYS_irys.dds"
+				small = "gfx/interface/advisors/IRYS/portrait_IRYS_irys.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/IRYS/portrait_IRYS_irys.dds"
+				small = "gfx/interface/advisors/IRYS/portrait_IRYS_irys.dds"
+			}
+		}
+
+		field_marshal = {
+			traits = { politically_connected media_personality }
+			skill = 7
+			attack_skill = 7
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}	
+	# Corps Commander #
+	# Admiral #
+	### Phase Two ### 
+}
