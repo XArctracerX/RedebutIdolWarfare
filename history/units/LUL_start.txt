@@ -1,0 +1,93 @@
+﻿division_template = {
+	name = "Lassoo Cavalry"
+
+	division_names_group = LUL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {  
+		recon = { x = 0 y = 1 }  
+	}
+}
+
+division_template = {
+	name = "Lassoo Rangers"
+
+	division_names_group = LUL_INF_01
+
+	regiments = {
+		infantry = {x = 0 y = 0}
+		infantry = {x = 0 y = 1}
+		infantry = {x = 1 y = 0}
+		infantry = {x = 1 y = 1}
+	}
+}
+
+units = {
+	division = {
+		name = "Lassoo Cavalry"
+		location = 853
+		division_template = "Lassoo Cavalry"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Lassoo Cavalry"
+		location = 4816
+		division_template = "Lassoo Cavalry"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Lassoo Cavalry"
+		location = 4742
+		division_template = "Lassoo Cavalry"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Lassoo Cavalry"
+		location = 7756
+		division_template = "Lassoo Cavalry"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Lassoo Rangers"
+		location = 8115
+		division_template = "Lassoo Rangers"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Lassoo Rangers"
+		location = 1972
+		division_template = "Lassoo Rangers"
+		start_experience_factor = 0.4
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "LUL"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type =  support_equipment
+			creator = "LUL"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}
