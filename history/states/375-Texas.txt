@@ -10,6 +10,8 @@ state={
 	resources={
 		oil=316 # was: 320 in Vanilla. Small nerf due to Eastern oil wells being put on the map in Rt56
 		aluminium=50 # was: 96
+		steel = 6 #added some steel because she starts with none
+		rubber = 2 #added some rubber because she starts with none
 	}
 
 
@@ -19,7 +21,8 @@ state={
 
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 9
+			industrial_complex = 6
+			arms_factory = 3
 			fuel_silo = 1 #added for obvious reasons
 			air_base = 3
 			10337 = {
