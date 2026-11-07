@@ -1,0 +1,75 @@
+﻿
+division_template = {
+	name = "Dragooneers"
+
+	division_names_group = DOK_INF_01
+
+	regiments = {
+		infantry = {x = 0 y = 0}
+		infantry = {x = 0 y = 1}
+		infantry = {x = 1 y = 0}
+		infantry = {x = 1 y = 1}
+	}
+
+}
+
+units = {
+	division = {
+		name = "Dragooneers"
+		location = 7315
+		division_template = "Dragooneers"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dragooneers"
+		location = 4747
+		division_template = "Dragooneers"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dragooneers"
+		location = 1414
+		division_template = "Dragooneers"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dragooneers"
+		location = 7845
+		division_template = "Dragooneers"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dragooneers"
+		location = 7315
+		division_template = "Dragooneers"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Dragooneers"
+		location = 10602
+		division_template = "Dragooneers"
+		start_experience_factor = 0.4
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "DOK"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type =  support_equipment
+			creator = "DOK"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}
