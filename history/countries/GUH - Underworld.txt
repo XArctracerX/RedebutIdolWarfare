@@ -28,16 +28,16 @@ set_technology = {
 
 
 set_popularities = {
-	anarchy = 25
+	anarchy = 15
 	autocracy = 15
-	corporatocracy = 15
-	idolocracy = 30
+	corporatocracy = 30
+	idolocracy = 25
 	theocracy = 10
 	technocracy = 5
 }
 
 set_politics = {
-	ruling_party = idolocracy
+	ruling_party = corporatocracy
 	last_election = "2025.1.1"
 	election_frequency = 2
 	elections_allowed = no

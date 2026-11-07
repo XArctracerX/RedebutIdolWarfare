@@ -47,6 +47,8 @@ FAU_reduce:0 "Reduce"
 ## Reuse Path ##
 FAU_reuse:0 "Reuse"
   FAU_reuse_desc:0 ""
+FAU_careful_hands:0 "Careful Hands"
+  FAU_careful_hands_desc:0 ""
 ## Recycle Path ##
 FAU_recycle:0 "Recycle"
   FAU_recycle_desc:0 ""

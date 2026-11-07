@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Lassoo Cavalry"
+	name = "Lasso Cavalry"
 
 	division_names_group = LUL_CAV_01
 
@@ -19,7 +19,7 @@
 }
 
 division_template = {
-	name = "Lassoo Rangers"
+	name = "Lasso Rangers"
 
 	division_names_group = LUL_INF_01
 
@@ -33,37 +33,37 @@ division_template = {
 
 units = {
 	division = {
-		name = "Lassoo Cavalry"
+		name = "Lasso Cavalry"
 		location = 853
-		division_template = "Lassoo Cavalry"
+		division_template = "Lasso Cavalry"
 		start_experience_factor = 0.4
 	}
 	division = {
-		name = "Lassoo Cavalry"
+		name = "Lasso Cavalry"
 		location = 4816
-		division_template = "Lassoo Cavalry"
+		division_template = "Lasso Cavalry"
 		start_experience_factor = 0.4
 	}
 	division = {
-		name = "Lassoo Cavalry"
+		name = "Lasso Cavalry"
 		location = 4742
-		division_template = "Lassoo Cavalry"
+		division_template = "Lasso Cavalry"
 		start_experience_factor = 0.4
 	}
 	division = {
-		name = "Lassoo Cavalry"
+		name = "Lasso Cavalry"
 		location = 7756
-		division_template = "Lassoo Cavalry"
+		division_template = "Lasso Cavalry"
 		start_experience_factor = 0.4
 	}
 	division = {
-		name = "Lassoo Rangers"
+		name = "Lasso Rangers"
 		location = 8115
-		division_template = "Lassoo Rangers"
+		division_template = "Lasso Rangers"
 		start_experience_factor = 0.4
 	}
 	division = {
-		name = "Lassoo Rangers"
+		name = "Lasso Rangers"
 		location = 1972
 		division_template = "Lassoo Rangers"
 		start_experience_factor = 0.4
