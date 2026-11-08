@@ -6,10 +6,10 @@
 		task_force = {
 			name = "Sapling Squadron"
 			location = 7014
-			ship = { name = "CFS Perfection" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FAU version_name = "Canberra Class" } } }
-			ship = { name = "CFS Meatball Marina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
-			ship = { name = "CFS Tuna Sub" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
-			ship = { name = "CFS Steak and Cheese" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Golden Apple" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FAU version_name = "Canberra Class" } } }
+			ship = { name = "CFS Marlin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Sunfish" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Beluga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
 			# Destroyers #
 			ship = { name = "CFS Stuart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
 			ship = { name = "CFS Vampire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
@@ -36,7 +36,7 @@
 		task_force = {
 			name = "Sapling Squadron"
 			location = 7014
-			ship = { name = "CFS Steak and Cheese" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Dolphin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
 			# Destroyers #
 			ship = { name = "CFS Vampire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
 			ship = { name = "CFS Vendetta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }

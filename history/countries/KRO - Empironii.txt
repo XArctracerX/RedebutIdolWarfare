@@ -141,6 +141,8 @@ recruit_character = KRO_cabbageronii
 recruit_character = KRO_boros
 recruit_character = KRO_kyou
 recruit_character = KRO_kooji
+recruit_character = KRO_sally
+recruit_character = KRO_kegg
 # Theorist #
 ## Scientists ##
 # Nuclear #

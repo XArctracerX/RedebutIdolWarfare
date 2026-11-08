@@ -6,10 +6,10 @@
 		task_force = {
 			name = "Sapling Squadron"
 			location = 7014
-			ship = { name = "CFS Perfection" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "London Class" } } }
-			ship = { name = "CFS Meatball Marina" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FAU version_name = "Sydney Class" } } }
-			ship = { name = "CFS Tuna Sub" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "Town Class" } } }
-			ship = { name = "CFS Steak and Cheese" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "Town Class" } } }
+			ship = { name = "CFS Golden Apple" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "London Class" } } }
+			ship = { name = "CFS Marlin" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FAU version_name = "Sydney Class" } } }
+			ship = { name = "CFS Sunfish" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "Town Class" } } }
+			ship = { name = "CFS Beluga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "Town Class" } } }
 			# Destroyers #
 			ship = { name = "CFS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FAU version_name = "V/W Class" } } }
 			ship = { name = "CFS Vendetta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FAU version_name = "V/W Class" } } }
@@ -36,7 +36,7 @@
 		task_force = {
 			name = "Sapling Squadron"
 			location = 7014
-			ship = { name = "CFS Steak and Cheese" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "Town Class" } } }
+			ship = { name = "CFS Dolphin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FAU version_name = "Town Class" } } }
 			# Destroyers #
 			ship = { name = "CFS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FAU version_name = "V/W Class" } } }
 			ship = { name = "CFS Vendetta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FAU version_name = "V/W Class" } } }

@@ -286,6 +286,62 @@ characters = {
 		}	
 	}
 
+	KRO_sally = {
+		name = "Sally"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_sally.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_sally_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_sally.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_sally_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = KRO_sally_idea
+			ledger = civilian
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				RIW_loyal_right_hand
+			}
+		}	
+	}
+
+	KRO_kegg = {
+		name = "Kegg"
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRO/portrait_KRO_kegg.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kegg_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/KRO/portrait_KRO_kegg.dds"
+				small = "gfx/interface/advisors/KRO/portrait_KRO_kegg_idea.dds"
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = KRO_kegg_idea
+			ledger = civilian
+			allowed = {
+				original_tag = KRO
+			}
+			
+			traits = {
+				RIW_rightful_heir
+			}
+		}	
+	}
+
 	# Theorist #
 	## Scientists ##
 	# Nuclear #
