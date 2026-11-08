@@ -1,0 +1,50 @@
+﻿units = {
+	##### Naval OOB #####
+	fleet = {
+		name = "Sapling Navy"			
+		naval_base = 7014
+		task_force = {
+			name = "Sapling Squadron"
+			location = 7014
+			ship = { name = "CFS Perfection" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FAU version_name = "Canberra Class" } } }
+			ship = { name = "CFS Meatball Marina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Tuna Sub" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Steak and Cheese" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			# Destroyers #
+			ship = { name = "CFS Stuart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vampire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vendetta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Voyager" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Waterhen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Stuart 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vampire 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vendetta 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Voyager 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Waterhen 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vern 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Stuart 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vampire 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vendetta 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Voyager 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Waterhen 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vern 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Stuart 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vampire 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vendetta 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+		}				
+		task_force = {
+			name = "Sapling Squadron"
+			location = 7014
+			ship = { name = "CFS Steak and Cheese" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FAU } } }
+			# Destroyers #
+			ship = { name = "CFS Vampire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vendetta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Voyager" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Waterhen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+			ship = { name = "CFS Vern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAU } } }
+		}				
+	}
+}
+
+

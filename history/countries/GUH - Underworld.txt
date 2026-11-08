@@ -42,6 +42,7 @@ set_politics = {
 	election_frequency = 2
 	elections_allowed = no
 }
+
 #### Characters ####
 ### Phase One ###
 ## Country Leaders ##

@@ -1,0 +1,172 @@
+add_namespace = FAU_phase_one
+
+## Phase One ##
+country_event = {
+	id = FAU_phase_one.1
+	title = FAU_phase_one.1.t
+	desc = FAU_phase_one.1.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.1.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.2
+	title = FAU_phase_one.2.t
+	desc = FAU_phase_one.2.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.2.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.3
+	title = FAU_phase_one.3.t
+	desc = FAU_phase_one.3.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.3.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.4
+	title = FAU_phase_one.4.t
+	desc = FAU_phase_one.4.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.4.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.5
+	title = FAU_phase_one.5.t
+	desc = FAU_phase_one.5.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.5.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.6
+	title = FAU_phase_one.6.t
+	desc = FAU_phase_one.6.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.6.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.7
+	title = FAU_phase_one.7.t
+	desc = FAU_phase_one.7.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.7.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.8
+	title = FAU_phase_one.8.t
+	desc = FAU_phase_one.8.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.8.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.9
+	title = FAU_phase_one.9.t
+	desc = FAU_phase_one.9.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.9.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}
+
+country_event = {
+	id = FAU_phase_one.10
+	title = FAU_phase_one.10.t
+	desc = FAU_phase_one.10.d
+  
+	fire_only_once = yes
+	is_triggered_only = yes
+  
+	option = {
+		name = FAU_phase_one.10.a
+
+		ai_chance = {
+		  	base = 100
+		}
+	} 
+}

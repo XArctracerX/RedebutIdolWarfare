@@ -74,9 +74,9 @@ FAU_faunamart:0 "FaunaMart"
 ### Phase One ###
 ## Opening ##
 FAU_let_the_yapping_commence:0 "Let the Yapping Commence"
-  FAU_let_the_yapping_commence_desc:0 ""
+  FAU_let_the_yapping_commence_desc:0 "Since the very first life appeared on Earth, the Keeper of Nature has been a gentle guide for evolution. She has nurtured every living thing, from single cell organisms to intelligent primates. Through her extensive care, humans stand as the dominant species on Earth, but nature has suffered for it. The Keeper of Nature must step in once more and redirect humans towards the path of harmony before it’s too late."
 FAU_world_tree_seed:0 "World Tree Seed"
-  FAU_world_tree_seed_desc:0 ""
+  FAU_world_tree_seed_desc:0 "Humanity has become so far detached from nature that many don’t know the beauty of it. They need to be shown that beauty, but like all things in nature, it will take time. From every seed, a beautiful plant will bloom, and the World Tree will be no different. One day, it will tower above the clouds, serving as a beacon to humanity’s coexistence with nature."
 # Environmental Path #
 FAU_environmentally_friendly_laws:0 "Environmentally Friendly Laws"
   FAU_environmentally_friendly_laws_desc:0 ""
@@ -156,3 +156,45 @@ FAU_one_with_nature:0 "One with Nature"
 # World Tree Sapling #
 FAU_world_tree_sapling:0 "World Tree Sapling"
   FAU_world_tree_sapling_desc:0 ""
+
+#### Events #### 
+### Phase One ###
+FAU_phase_one.1.t:0 ""
+FAU_phase_one.1.d:0 ""
+FAU_phase_one.1.a:0 ""
+
+FAU_phase_one.2.t:0 ""
+FAU_phase_one.2.d:0 ""
+FAU_phase_one.2.a:0 ""
+
+FAU_phase_one.3.t:0 ""
+FAU_phase_one.3.d:0 ""
+FAU_phase_one.3.a:0 ""
+
+FAU_phase_one.4.t:0 ""
+FAU_phase_one.4.d:0 ""
+FAU_phase_one.4.a:0 ""
+
+FAU_phase_one.5.t:0 ""
+FAU_phase_one.5.d:0 ""
+FAU_phase_one.5.a:0 ""
+
+FAU_phase_one.6.t:0 ""
+FAU_phase_one.6.d:0 ""
+FAU_phase_one.6.a:0 ""
+
+FAU_phase_one.7.t:0 ""
+FAU_phase_one.7.d:0 ""
+FAU_phase_one.7.a:0 ""
+
+FAU_phase_one.8.t:0 ""
+FAU_phase_one.8.d:0 ""
+FAU_phase_one.8.a:0 ""
+
+FAU_phase_one.9.t:0 ""
+FAU_phase_one.9.d:0 ""
+FAU_phase_one.9.a:0 ""
+
+FAU_phase_one.10.t:0 ""
+FAU_phase_one.10.d:0 ""
+FAU_phase_one.10.a:0 ""
