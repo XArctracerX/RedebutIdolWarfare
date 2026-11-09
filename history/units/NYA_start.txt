@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Nyacolytes"
+
+	division_names_group = NYA_INF_01
+
+	regiments = {
+		infantry= { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {  
+		recon = { x = 0 y = 1 } 
+	}
+}
+
+units = {
+	division = {
+		name = "Nyacolytes"
+		location = 957
+		division_template = "Nyacolytes"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nyacolytes"
+		location = 11904
+		division_template = "Nyacolytes"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nyacolytes"
+		location = 10559
+		division_template = "Nyacolytes"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nyacolytes"
+		location = 7786
+		division_template = "Nyacolytes"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nyacolytes"
+		location = 7832
+		division_template = "Nyacolytes"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nyacolytes"
+		location = 7725
+		division_template = "Nyacolytes"
+		start_experience_factor = 0.4
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "NYA"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type =  support_equipment
+			creator = "NYA"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}
