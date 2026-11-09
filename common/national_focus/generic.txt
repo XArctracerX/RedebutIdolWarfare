@@ -665,6 +665,7 @@
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_hoi4_player_feedback
 		}
 
 		ai_will_do = {
@@ -690,6 +691,7 @@
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_racing_game_pro
 		}
 
 		ai_will_do = {
@@ -711,6 +713,7 @@
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_idol_industry_idea
 		}
 
 		ai_will_do = {
@@ -827,6 +830,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_pettan_roads_idea
 		}
 
 		ai_will_do = {
@@ -961,6 +965,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_idol_concerts
 		}
 
 		ai_will_do = {
@@ -986,6 +991,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_preventing_misinformation
 		}
 
 		ai_will_do = {
@@ -1069,6 +1075,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_solo_streamer
 		}
 
 		ai_will_do = {
@@ -1097,6 +1104,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_fortifications_against_antis
 		}
 
 		ai_will_do = {
@@ -1122,6 +1130,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_nsfw_art_commissions
 		}
 
 		ai_will_do = {
@@ -1147,6 +1156,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_strict_moderators
 		}
 
 		ai_will_do = {
@@ -1175,6 +1185,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_friendly_social_media_presence
 		}
 
 		ai_will_do = {
@@ -1200,6 +1211,8 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_stability = 0.05
+			add_ideas = GENERIC_sfw_art_commissions
 		}
 
 		ai_will_do = {
@@ -1225,6 +1238,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_diplomatic_moderators
 		}
 
 		ai_will_do = {
@@ -1253,6 +1267,7 @@ focus = {
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_collabs
 		}
 
 		ai_will_do = {
@@ -1277,7 +1292,11 @@ focus = {
 		available = {
 		}
 	
-		completion_reward = {		
+		completion_reward = {	
+			swap_ideas = {
+				remove_idea = GENERIC_collabs
+				add_idea = GENERIC_collabs_2
+			}	
 		}
 
 		ai_will_do = {
@@ -1329,7 +1348,8 @@ focus = {
 		available = {
 		}
 	
-		completion_reward = {		
+		completion_reward = {	
+			add_ideas = GENERIC_fps_streamer	
 		}
 
 		ai_will_do = {

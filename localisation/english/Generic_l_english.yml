@@ -1,6 +1,7 @@
 ﻿l_english:
 
 ### Ideas ###
+## Navy ##
 GENERIC_stream_sniping_flotillas:0 "Stream Sniping Flotillas"
   GENERIC_stream_sniping_flotillas_desc:0 ""
 GENERIC_stream_sniping_flotillas_2:0 "Stream Sniping Flotillas"
@@ -15,6 +16,7 @@ GENERIC_supa_funded_capital_ships:0 "Supa Funded Capital Ships"
   GENERIC_supa_funded_capital_ships_desc:0 ""
 GENERIC_akasupa_funded_capital_ships:0 "Akasupa Funded Capital Ships"
   GENERIC_akasupa_funded_capital_ships_desc:0 ""
+## Air ##
 GENERIC_bomber_focused_brand_idea:0 "Bomber Focused Brand"
   GENERIC_bomber_focused_brand_idea_desc:0 ""
 GENERIC_responsible_fanbase:0 "Responsible Fanbase"
@@ -25,13 +27,47 @@ GENERIC_fighter_focused_brand_idea:0 "Fighter Focused Brand"
   GENERIC_fighter_focused_brand_idea_desc:0 ""
 GENERIC_supportive_fanbase:0 "Supportive Fanbase"
   GENERIC_supportive_fanbase_desc:0 ""
+## Army ##
 GENERIC_endurance_streams_idea:0 "Endurance Streams"
   GENERIC_endurance_streams_idea_desc:0 ""
 GENERIC_high_tier_fans_idea:0 "High Tier Fans"
   GENERIC_high_tier_fans_idea_desc:0 ""
 GENERIC_enhanced_artillery:0 "Enhanced Artillery"
   GENERIC_enhanced_artillery_desc:0 ""
-
+GENERIC_hoi4_player_feedback:0 "Hoi4 Player Feedback"
+  GENERIC_hoi4_player_feedback_desc:0 ""
+GENERIC_racing_game_pro:0 "Racing Game Pro"
+  GENERIC_racing_game_pro_desc:0 ""
+## Industry ##
+GENERIC_idol_industry_idea:0 "Idol Industry"
+  GENERIC_idol_industry_idea_desc:0 ""
+GENERIC_pettan_roads_idea:0 "Pettan Roads"
+  GENERIC_pettan_roads_idea_desc:0 ""
+## Politics ##
+GENERIC_idol_concerts:0 "Idol Concerts"
+  GENERIC_idol_concerts_desc:0 ""
+GENERIC_preventing_misinformation:0 "Preventing Misinformation"
+  GENERIC_preventing_misinformation_desc:0 ""
+GENERIC_solo_streamer:0 "Solo Streamer"
+  GENERIC_solo_streamer_desc:0 ""
+GENERIC_fortifications_against_antis:0 "Fortifications Against Antis"
+  GENERIC_fortifications_against_antis_desc:0 ""
+GENERIC_nsfw_art_commissions:0 "NSFW Art Commissions"
+  GENERIC_nsfw_art_commissions_desc:0 ""
+GENERIC_strict_moderators:0 "Strict Moderators"
+  GENERIC_strict_moderators_desc:0 ""
+GENERIC_friendly_social_media_presence:0 "Friendly Social Media Presence"
+  GENERIC_friendly_social_media_presence_desc:0 ""
+GENERIC_sfw_art_commissions:0 "SFW Art Commissions"
+  GENERIC_sfw_art_commissions_desc:0 ""
+GENERIC_diplomatic_moderators:0 "Diplomatic Moderators"
+  GENERIC_diplomatic_moderators_desc:0 ""
+GENERIC_collabs:0 "Collabs"
+  GENERIC_collabs_desc:0 ""
+GENERIC_collabs_2:0 "Collabs"
+  GENERIC_collabs_2_desc:0 ""
+GENERIC_fps_streamer:0 "FPS Streamer"
+  GENERIC_fps_streamer_desc:0 ""
 
 ### Focus Tree ###
 ## Navy ##

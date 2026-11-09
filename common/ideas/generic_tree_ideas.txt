@@ -1,6 +1,7 @@
 ideas = {
     country = {
 		### Ideas ###
+		## Navy ##
 		GENERIC_stream_sniping_flotillas = {
 			allowed = {
 				always = no
@@ -118,7 +119,7 @@ ideas = {
 				navy_capital_ship_attack_factor = 0.1
 			}
 	   	}
-
+		## Air ##
 		GENERIC_bomber_focused_brand_idea = {
 			allowed = {
 				always = no
@@ -198,7 +199,7 @@ ideas = {
 				fighter_aircraft_track_mastery_gain_factor = 0.1
 			}
 	   	}
-
+		## Army ##
 		GENERIC_endurance_streams_idea = {
 			allowed = {
 				always = no
@@ -244,6 +245,281 @@ ideas = {
 
 			modifier = {
 				army_artillery_defence_factor = 0.1
+			}
+	   	}
+
+		GENERIC_hoi4_player_feedback = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				land_doctrine_cost_factor = -0.15
+			}
+	   	}
+
+		GENERIC_racing_game_pro = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_speed_factor = 0.1
+			}
+	   	}
+		## Industry ##
+		GENERIC_idol_industry_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.3
+			}
+	   	}
+
+		GENERIC_pettan_roads_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.2
+			}
+	   	}
+		## Politics ##
+		GENERIC_idol_concerts = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.03
+			}
+	   	}		
+
+		GENERIC_preventing_misinformation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+	   	}
+
+		GENERIC_solo_streamer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.1
+			}
+	   	}
+
+		GENERIC_fortifications_against_antis = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.2
+			}
+	   	}
+
+		GENERIC_nsfw_art_commissions = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_factor = -0.15
+			}
+	   	}
+
+
+		GENERIC_nsfw_art_commissions = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_factor = -0.15
+				mobilization_laws_cost_factor = -0.1
+			}
+	   	}
+
+		GENERIC_strict_moderators = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				high_command_cost_factor = -0.15
+			}
+	   	}
+
+		GENERIC_friendly_social_media_presence = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				opinion_gain_monthly_factor = 0.5
+			}
+	   	}
+
+		GENERIC_sfw_art_commissions = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_defence_factor = 0.1
+			}
+	   	}
+
+		GENERIC_diplomatic_moderators = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_advisor_cost_factor = -0.15
+			}
+	   	}
+
+		GENERIC_collabs = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.3
+			}
+	   	}
+
+		GENERIC_collabs_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.3
+				send_volunteer_factor = 0.3
+			}
+	   	}
+
+		GENERIC_fps_streamer = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				experience_gain_army = 0.03
 			}
 	   	}
 	}
