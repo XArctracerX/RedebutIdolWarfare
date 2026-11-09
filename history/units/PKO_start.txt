@@ -1,0 +1,85 @@
+﻿division_template = {
+	name = "Nousagi"
+
+	division_names_group = PKO_INF_01
+
+	regiments = {
+		infantry= { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		artillery = { x = 3 y = 2 }
+	}
+	support = {  
+		recon = { x = 0 y = 1 }
+		anti_air = {x = 0 y = 0}
+	}
+}
+
+units = {
+	division = {
+		name = "Nousagi"
+		location = 1319
+		division_template = "Nousagi"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nousagi"
+		location = 7404
+		division_template = "Nousagi"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nousagi"
+		location = 12260
+		division_template = "Nousagi"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nousagi"
+		location = 10496
+		division_template = "Nousagi"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nousagi"
+		location = 5009
+		division_template = "Nousagi"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Nousagi"
+		location = 12898
+		division_template = "Nousagi"
+		start_experience_factor = 0.4
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "PKO"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type =  support_equipment
+			creator = "PKO"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}
