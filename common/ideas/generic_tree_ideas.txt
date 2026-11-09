@@ -131,7 +131,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				air_strategic_bomber_bombing_factor = 0.5
+				air_strategic_bomber_bombing_factor = 0.3
 			}
 	   	}
 
@@ -147,7 +147,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
+				strike_aircraft_track_mastery_gain_factor = 0.1
 			}
 	   	}
 
@@ -163,7 +163,87 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
+				medium_aircraft_track_mastery_gain_factor = 0.1
+			}
+	   	}
+
+		GENERIC_fighter_focused_brand_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				air_superiority_bonus_in_combat = 0.3
+			}
+	   	}
+
+		GENERIC_supportive_fanbase = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				fighter_aircraft_track_mastery_gain_factor = 0.1
+			}
+	   	}
+
+		GENERIC_endurance_streams_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_strength_factor = 0.05
+			}
+	   	}
+
+		GENERIC_high_tier_fans_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				special_forces_cap = 0.2
+			}
+	   	}
+
+		GENERIC_enhanced_artillery = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_artillery_defence_factor = 0.1
 			}
 	   	}
 	}

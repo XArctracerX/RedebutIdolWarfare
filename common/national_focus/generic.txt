@@ -341,10 +341,7 @@
 		}
 	
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.5
-				uses = 1
-			}
+			add_ideas = GENERIC_responsible_fanbase
 		}
 
 		ai_will_do = {
@@ -373,6 +370,7 @@
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_toxic_fanbase
 		}
 
 		ai_will_do = {
@@ -401,6 +399,7 @@
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_fighter_focused_brand_idea
 		}
 
 		ai_will_do = {
@@ -426,6 +425,7 @@
 		}
 	
 		completion_reward = {
+			add_ideas = GENERIC_supportive_fanbase
 		}
 
 		ai_will_do = {
@@ -473,6 +473,12 @@
 		}
 	
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = support_tech
+			}
+			add_ideas = GENERIC_endurance_streams_idea
 		}
 
 		ai_will_do = {
@@ -503,7 +509,7 @@
 				uses = 1
 				category = cat_special_forces_generic
 			}
-			special_forces_cap = 0.1
+			add_ideas = GENERIC_high_tier_fans_idea
 		}
 
 		ai_will_do = {
@@ -532,6 +538,11 @@
 		}
 	
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 3
+				uses = 1
+				category = para_tech
+			}
 		}
 
 		ai_will_do = {
@@ -562,6 +573,7 @@
 				uses = 1
 				category = artillery
 			}
+			add_ideas = GENERIC_enhanced_artillery
 		}
 
 		ai_will_do = {
@@ -587,6 +599,11 @@
 		}
 	
 		completion_reward = {
+			add_tech_bonus ={
+				bonus = 1
+				uses = 2
+				category = motorized_equipment
+			}
 		}
 
 		ai_will_do = {
@@ -617,7 +634,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = armor
 			}
 		}

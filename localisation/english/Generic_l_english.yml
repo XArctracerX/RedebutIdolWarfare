@@ -1,6 +1,37 @@
 ﻿l_english:
 
 ### Ideas ###
+GENERIC_stream_sniping_flotillas:0 "Stream Sniping Flotillas"
+  GENERIC_stream_sniping_flotillas_desc:0 ""
+GENERIC_stream_sniping_flotillas_2:0 "Stream Sniping Flotillas"
+  GENERIC_stream_sniping_flotillas_2_desc:0 ""
+GENERIC_strengthened_fleet:0 "Strengthened Fleet"
+  GENERIC_strengthened_fleet_desc:0 ""
+GENERIC_azur_lane_sponsorship_idea:0 "Azur Lane Sponsorship"
+  GENERIC_azur_lane_sponsorship_idea_desc:0 ""
+GENERIC_azur_lane_partnership_idea:0 "Azur Lane Partnership"
+  GENERIC_azur_lane_partnership_idea_desc:0 ""
+GENERIC_supa_funded_capital_ships:0 "Supa Funded Capital Ships"
+  GENERIC_supa_funded_capital_ships_desc:0 ""
+GENERIC_akasupa_funded_capital_ships:0 "Akasupa Funded Capital Ships"
+  GENERIC_akasupa_funded_capital_ships_desc:0 ""
+GENERIC_bomber_focused_brand_idea:0 "Bomber Focused Brand"
+  GENERIC_bomber_focused_brand_idea_desc:0 ""
+GENERIC_responsible_fanbase:0 "Responsible Fanbase"
+  GENERIC_responsible_fanbase_desc:0 ""
+GENERIC_toxic_fanbase:0 "Toxic Fanbase"
+  GENERIC_toxic_fanbase_desc:0 ""
+GENERIC_fighter_focused_brand_idea:0 "Fighter Focused Brand"
+  GENERIC_fighter_focused_brand_idea_desc:0 ""
+GENERIC_supportive_fanbase:0 "Supportive Fanbase"
+  GENERIC_supportive_fanbase_desc:0 ""
+GENERIC_endurance_streams_idea:0 "Endurance Streams"
+  GENERIC_endurance_streams_idea_desc:0 ""
+GENERIC_high_tier_fans_idea:0 "High Tier Fans"
+  GENERIC_high_tier_fans_idea_desc:0 ""
+GENERIC_enhanced_artillery:0 "Enhanced Artillery"
+  GENERIC_enhanced_artillery_desc:0 ""
+
 
 ### Focus Tree ###
 ## Navy ##
