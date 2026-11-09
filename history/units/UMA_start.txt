@@ -1,0 +1,89 @@
+﻿division_template = {
+	name = "Umamusume Squad"
+
+	division_names_group = UMA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+		cavalry = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+		cavalry = { x = 3 y = 2 }
+		cavalry = { x = 3 y = 3 }
+	}
+	support = {  
+		recon = { x = 0 y = 1 } 
+		field_hospital = {x = 0 y = 0} 
+	}
+}
+
+units = {
+	division = {
+		name = "Umamusume Squad"
+		location = 4801
+		division_template = "Umamusume Squad"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Umamusume Squad"
+		location = 4801
+		division_template = "Umamusume Squad"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Umamusume Squad"
+		location = 7881
+		division_template = "Umamusume Squad"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Umamusume Squad"
+		location = 4732
+		division_template = "Umamusume Squad"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Umamusume Squad"
+		location = 12614
+		division_template = "Umamusume Squad"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Umamusume Squad"
+		location = 4697
+		division_template = "Umamusume Squad"
+		start_experience_factor = 0.4
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "UMA"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type =  support_equipment
+			creator = "UMA"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}
