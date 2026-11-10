@@ -1,7 +1,7 @@
 add_namespace = FAU_phase_one
 
 ## Phase One ##
-country_event = {
+news_event = {
 	id = FAU_phase_one.1
 	title = FAU_phase_one.1.t
 	desc = FAU_phase_one.1.d

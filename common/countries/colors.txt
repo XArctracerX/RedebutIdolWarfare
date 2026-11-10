@@ -186,9 +186,9 @@ FRK = {
 	color_ui = rgb { 250 145 150 }
 }
 
-AZU = {
-	color = rgb { 135 0 60 }
-	color_ui = rgb { 135 0 60 }
+MAI = {
+	color = rgb { 255 178 205 }
+	color_ui = rgb { 255 178 205 }
 }
 
 KYU = {

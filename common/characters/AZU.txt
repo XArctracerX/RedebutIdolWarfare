@@ -3,15 +3,15 @@ characters = {
 	### Phase One ###
 	## Country Leaders ##
 	# Main #
-	AZU_azumi_nakano = {
-		name = "Azumi Nakano"
+	MAI_maifumi = {
+		name = "Maifumi"
 		portraits = {
 			army = {
-				large = "gfx/leaders/AZU/portrait_AZU_azumi_nakano.dds"
+				large = "gfx/leaders/MAI/portrait_MAI_maifumi.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/AZU/portrait_AZU_azumi_nakano.dds"
+				large = "gfx/leaders/MAI/portrait_MAI_maifumi.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}

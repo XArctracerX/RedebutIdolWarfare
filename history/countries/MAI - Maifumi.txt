@@ -27,7 +27,7 @@ set_politics = {
 ### Phase One ###
 ## Country Leaders ##
 # Main #
-recruit_character = AZU_azumi_nakano
+recruit_character = MAI_maifumi
 # Ideology #
 ## Advisors ##
 ## Scientists ##

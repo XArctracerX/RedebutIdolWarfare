@@ -10,8 +10,8 @@ state={
 	state_category = city
 
 	history={
-		owner = AZU
-		add_core_of = AZU
+		owner = MAI
+		add_core_of = MAI
 		
 		victory_points = {
 			3569 20

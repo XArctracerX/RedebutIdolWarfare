@@ -159,13 +159,13 @@ FAU_world_tree_sapling:0 "World Tree Sapling"
 
 #### Events #### 
 ### Phase One ###
-FAU_phase_one.1.t:0 ""
-FAU_phase_one.1.d:0 ""
-FAU_phase_one.1.a:0 ""
+FAU_phase_one.1.t:0 "World Tree Planted"
+FAU_phase_one.1.d:0 "Ceres Fauna, Keeper of Nature, greeted thousands of her fans in Kirin today as she announced the official planting ceremony of the World Tree. This event marked a new era in the eyes of Saplings all over the world. Many have pledged their utmost allegiance to Mother Nature, vowing to restore Earth to its former glory. Fauna has repeatedly expressed her dismay with environmental pollution and the World Tree is in her words, the first step to healing the destruction that humanity caused. It is expected that the World Tree will grow over time to be taller than any manmade structure."
+FAU_phase_one.1.a:0 "Can’t hate on that."
 
-FAU_phase_one.2.t:0 ""
-FAU_phase_one.2.d:0 ""
-FAU_phase_one.2.a:0 ""
+FAU_phase_one.2.t:0 "Mother Nature Plays Favorites"
+FAU_phase_one.2.d:0 "Today at 13:00 local time, Fauna was seen outside a high-rise complex next to a large cube covered by a black sheet. As a crane lifted the sheet off the cube, sounds of disgust were heard through the crowd and Fauna covered her mouth as if to vomit. What was revealed was a glass box full to the brim with cockroaches and grasshoppers. After taking a while to slow her heart rate, Fauna announced to onlookers that this would be the first example made in regards to the new extermination laws. Towards the end of her declaration of war against cockroaches and grasshoppers, flames appeared under the cube and Fauna laughed maniacally while the insects scrambled in desperation. Her laughing was cut short as she winced and squirmed at the disgusting noises of insects jumping against glass."
+FAU_phase_one.2.a:0 "Who gave her permission to use fire?"
 
 FAU_phase_one.3.t:0 ""
 FAU_phase_one.3.d:0 ""

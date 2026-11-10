@@ -1378,7 +1378,7 @@ SQU = {
 	}
 }
 
-AZU = {
+MAI = {
 	male = {
 		names = { 
 			Aritomo
