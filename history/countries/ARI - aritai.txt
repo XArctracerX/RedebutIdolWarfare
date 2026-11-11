@@ -5,7 +5,7 @@ set_war_support = 0.01
 
 set_convoys = 50
 
-set_research_slots = 1
+set_research_slots = 3
 
 set_popularities = {
 	anarchy = 0
