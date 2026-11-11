@@ -1,0 +1,16 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_KRO_address_the_pet_play_allegations"
+		texturefile = "gfx/event_pictures/report_event_KRO_address_the_pet_play_allegations.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KRO_canada_reunified"
+		texturefile = "gfx/event_pictures/report_event_KRO_canada_reunified.dds"
+	}
+
+}
+
+
+
