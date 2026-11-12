@@ -1155,7 +1155,6 @@
 				remove_idea = FAU_world_tree_seed
 				add_idea = FAU_world_tree_sapling
 			}
-			country_event = FAU_phase_one.10
 		}
 
 		ai_will_do = {
