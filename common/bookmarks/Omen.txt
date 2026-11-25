@@ -5,7 +5,7 @@ bookmarks = {
 		date = 2026.1.1.1
 		picture = "GFX_select_date_omen"
 		
-		default_country = "KRO"
+		default_country = "FAU"
 		default = yes
 
 		filters = { new_content continent }

@@ -31,13 +31,4 @@ instant_effect = {
 		progress = 0.28
 		efficiency = 100
 	}
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment
-			creator = "IRN"
-		}
-		requested_factories = 1
-		progress = 0.28
-		efficiency = 100
-	}
 }

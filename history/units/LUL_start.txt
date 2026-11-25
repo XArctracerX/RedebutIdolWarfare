@@ -65,7 +65,7 @@ units = {
 	division = {
 		name = "Lasso Rangers"
 		location = 1972
-		division_template = "Lassoo Rangers"
+		division_template = "Lasso Rangers"
 		start_experience_factor = 0.4
 	}
 }
