@@ -1015,6 +1015,7 @@
 				type = take_state
 				expire = 0
 			}
+			add_threat = 2
 		}
 
 		ai_will_do = {
@@ -1045,6 +1046,7 @@
 				type = take_state
 				expire = 0
 			}
+			add_threat = 2
 		}
 
 		ai_will_do = {
@@ -1079,6 +1081,7 @@
 				type = take_state
 				expire = 0
 			}
+			add_threat = 2
 		}
 
 		ai_will_do = {
