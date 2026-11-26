@@ -378,7 +378,7 @@
 
 	focus = {
 		id = FAU_faunamart_lottery
-		icon = GFX_debug_kizuna_ai
+		icon = GFX_FAU_faunamart_lottery
 		cost = 30
 		x = 0
 		y = 1

@@ -169,6 +169,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/FAU/FAU_Environmentally_Friendly_Laws.dds"
 	}
 
+	# FAU CENTER PATH #
+	SpriteType = {
+		name = "GFX_FAU_faunamart_lottery"
+		texturefile = "gfx/interface/goals/FAU/FAU_faunamart_lottery.dds"
+	}	
 
 	# FAU RIGHT PATH #
 	
