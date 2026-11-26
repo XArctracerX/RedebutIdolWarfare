@@ -48,6 +48,16 @@ faction_goal_resource_control = {
 					operators =  { faction_members }
 					name = FACTION
 			}
+			resource = sakuradite
+			amount > 499
+			extracted = yes # (optional, default: no) checks extracted amount instead of country balance
+		}
+		has_resources_in_collection = {
+			collection = {
+					input = game:scope
+					operators =  { faction_members }
+					name = FACTION
+			}
 			resource = rubber
 			amount > 199
 			extracted = yes # (optional, default: no) checks extracted amount instead of country balance
@@ -172,6 +182,12 @@ faction_goal_secure_chinese_waters = {
 				input = {
 					input = collection:china_potential_core_mainland_states
 					operators = {
+						limit = {
+							OR = {
+								controller = { is_in_faction_with = JPN }
+								is_controlled_by = JPN
+							}
+						}
 					}
 					name = COLLECTION_NO_JAPANESE_IN_CHINA
 				}
@@ -191,11 +207,25 @@ faction_goal_no_japanese_in_china = {
 		
 	}
 	visible = {
+		FROM = {
+			any_enemy_country = {
+				original_tag = JPN
+			}
+		}
+		
 	}
 	completed = {
 		collection_size = {
 			input = {
 				input = collection:china_potential_core_mainland_states
+				operators = {
+					limit = {
+						OR = {
+							controller = { is_in_faction_with = JPN }
+							is_controlled_by = JPN
+						}
+					}
+				}
 				name = COLLECTION_NO_JAPANESE_IN_CHINA
 			}
 			value < 1
@@ -238,6 +268,9 @@ faction_goal_align_china = {
 	category = long_term
 	group = FOCUS_FILTER_ANNEXATION
 	visible = {
+		FROM = {
+			original_tag = JPN
+		}
 	}
 	completed = {
 		collection_size = {
@@ -278,7 +311,7 @@ faction_goal_align_china = {
 		base = 1
 		modifier = {
 			add = 9 # Early game prio
-			date < 2031.1.1
+			date < 1941.1.1
 		}
 	}
 }
@@ -292,6 +325,9 @@ faction_goal_war_on_communism_in_asia = {
 		
 	}
 	visible = {
+		FROM = {
+			original_tag = JPN
+		}
 	}
 	completed = {
 		collection_size = {
@@ -352,7 +388,11 @@ faction_goal_contain_japanese_expansion_asia = {
 		
 	}
 	visible = {
-		date > 2030.1.1
+		FROM = {
+			original_tag = BRT
+			has_country_flag = USA_unlock_contain_japanese_goal
+		}
+		date > 1940.1.1
 		collection_size = {
 			input = {
 				input = collection:country_and_all_subjects_controlled_non_core_states
@@ -361,7 +401,30 @@ faction_goal_contain_japanese_expansion_asia = {
 			value > 29
 		}
 	}
-	completed = {	
+	completed = {
+		JPN = {
+			IF = {
+				limit = {
+					is_in_faction = no
+				}
+				collection_size = {
+					input = {
+						input = collection:country_and_all_subjects_controlled_non_core_states
+						name = COLLECTION_OCCUPIED_STATES_BY_JAPAN_OR_FACTION_MEMBERS
+					}
+					value < 20
+				}
+			}
+			ELSE = {
+				collection_size = {
+					input = {
+						input = collection:faction_controlled_non_core_states
+						name = COLLECTION_OCCUPIED_STATES_BY_JAPAN_OR_FACTION_MEMBERS
+					}
+					value < 20
+				}
+			}
+		}		
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -395,6 +458,9 @@ faction_goal_contain_japanese_expansion_asia = {
 		}
 		modifier = {
 			add = 10 # Really do it when at war
+			any_enemy_country = {
+				original_tag = JPN
+			}
 		}
 	}
 }
@@ -434,7 +500,7 @@ faction_goal_eastern_european_security = {
 		base = 0
 		modifier = {
 			add = 1
-			date > 2028.1.1
+			date > 1938.1.1
 		}
 	}
 }
@@ -486,7 +552,10 @@ faction_goal_disarm_aggression_central_powers = {
 	group = FOCUS_FILTER_POLITICAL_CHARACTER
 	visible = {
 		FROM = {
-			has_government = idolocracy
+			OR = {
+				original_tag = FRA
+			}
+			has_government = BR_paternalism
 		}
 	}
 	completed = {
@@ -526,11 +595,17 @@ faction_goal_rule_the_waves = {
 	category = long_term
 	group = FOCUS_FILTER_NAVY_XP
 	visible = {
+		FROM = {
+			OR = {
+				original_tag = ENG # Britannia always wants to Rule!
+				num_of_naval_factories > 19
+			}
+		}
 	}
 	available = {
 		FROM = {
 			OR = {
-				NOT = { has_government = idolocracy }
+				NOT = { has_government = BR_paternalism }
 			}
 		}
 	}
@@ -965,7 +1040,7 @@ faction_goal_the_atomic_race = {
 	group = FOCUS_FILTER_RESEARCH
 	category = long_term
 	visible = {
-		date > 2030.1.1
+		date > 1940.1.1
 	}
 	completed = {
 		custom_override_tooltip = {
@@ -1041,7 +1116,7 @@ faction_goal_defeat_of_communism = {
 				operators = {
 					faction_members
 					limit = {
-						has_government = anarchy
+						has_government = BR_socialism
 					}
 				}
 				name = FACTION
@@ -1072,7 +1147,7 @@ faction_goal_defeat_of_communism = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = anarchy
+				ideology = BR_socialism
 				popularity = -0.15
 			}
 			add_political_power = 100
@@ -1093,7 +1168,7 @@ faction_goal_defeat_of_fascism = {
 				operators = {
 					faction_members
 					limit = {
-						has_government = technocracy
+						has_government = BR_supremacist
 					}
 				}
 				name = FACTION
@@ -1123,7 +1198,7 @@ faction_goal_defeat_of_fascism = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = technocracy
+				ideology = BR_supremacist
 				popularity = -0.15
 			}
 			add_political_power = 100
@@ -1145,8 +1220,8 @@ faction_goal_defeat_of_anti_fascists = {
 					faction_members
 					limit = {
 						OR = {
-							has_government = technocracy
-							has_government = idolocracy
+							has_government = BR_supremacist
+							has_government = BR_paternalism
 						}
 					}
 				}
@@ -1177,7 +1252,7 @@ faction_goal_defeat_of_anti_fascists = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = technocracy
+				ideology = BR_supremacist
 				popularity = 0.2
 			}
 			add_political_power = 100
@@ -1188,7 +1263,7 @@ faction_goal_defeat_of_anti_fascists = {
 		modifier = { 
 			add = 1 # If war with communists you probably hate them
 			any_enemy_country = {
-				has_government = anarchy
+				has_government = BR_socialism
 			}
 		}
 	}
@@ -1208,8 +1283,8 @@ faction_goal_defeat_of_anti_communists = {
 					faction_members
 					limit = {
 						OR = {
-							has_government = technocracy
-							has_government = idolocracy
+							has_government = BR_supremacist
+							has_government = BR_paternalism
 						}
 					}
 				}
@@ -1240,7 +1315,7 @@ faction_goal_defeat_of_anti_communists = {
 		custom_effect_tooltip = ALL_FACTION_MEMBERS
 		every_faction_member = {
 			add_popularity = {
-				ideology = anarchy
+				ideology = BR_socialism
 				popularity = 0.2
 			}
 			add_political_power = 100
@@ -1251,7 +1326,7 @@ faction_goal_defeat_of_anti_communists = {
 		modifier = { 
 			add = 1 # If war with communists you probably hate them
 			any_enemy_country = {
-				has_government = anarchy
+				has_government = BR_socialism
 			}
 		}
 	}
@@ -1269,7 +1344,7 @@ faction_goal_the_red_tide = {
 	visible = {
 		FROM = {
 			is_major = yes
-			has_government = anarchy
+			has_government = BR_socialism
 		}
 	}
 	completed = {
