@@ -1,17 +1,43 @@
 capital = 501
 
-set_stability = 0.01
-set_war_support = 0.01
+set_stability = 0.43
+set_war_support = 0.78
 
-set_convoys = 50
+add_ideas = {
+	limited_conscription
+	partial_economic_mobilisation
+	limited_exports
+}
 
-set_research_slots = 1
+set_convoys = 113
+
+set_research_slots = 2
+
+set_technology = {
+	# Infantry #
+	infantry_weapons = 1
+	
+	# Vehicles #
+	tech_trucks = 1
+	motorised_infantry = 1
+
+	# Support #
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+
+	# Artillery #
+	gw_artillery = 1
+
+
+}
 
 set_popularities = {
-	anarchy = 0
-	autocracy = 0
+	anarchy = 8
+	autocracy = 64
 	corporatocracy = 0
-	idolocracy = 100
+	idolocracy = 28
 	theocracy = 0
 	technocracy = 0
 }

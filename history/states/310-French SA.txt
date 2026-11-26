@@ -7,8 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = DOD
-		add_core_of = DOD
+		owner = UME
+		add_core_of = UME
 		
 		buildings = {
 			infrastructure = 1

@@ -11,8 +11,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = DOD
-		add_core_of = DOD
+		owner = UME
+		add_core_of = UME
 		
 		buildings = {
 			infrastructure = 2 #was 3

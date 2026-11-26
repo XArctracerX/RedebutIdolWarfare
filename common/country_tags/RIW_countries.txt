@@ -64,6 +64,7 @@ SER	= "countries/Sera.txt"
 
 # South America #
 DOD	= "countries/Dodoland.txt"
+UME = "countries/Loboland.txt"
 YAH	= "countries/Yashiro.txt"
 RED	= "countries/Claude.txt"
 ELY	= "countries/Elyssia.txt"

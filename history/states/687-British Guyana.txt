@@ -8,8 +8,8 @@ state={
 		4982 8107 12716 
 	}
 	history={
-		owner = DOD
-		add_core_of = DOD
+		owner = UME
+		add_core_of = UME
 		
 		victory_points = {
 			4982 2

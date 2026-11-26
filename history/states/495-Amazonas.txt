@@ -6,8 +6,8 @@ state={
 		rubber=3.000
 	}
 	history={
-		owner = DOD
-		add_core_of = DOD
+		owner = UME
+		add_core_of = UME
 		
 		victory_points = {
 			10934 3
