@@ -155,6 +155,7 @@ recruit_character = FAU_rorokaili_yumi
 recruit_character = FAU_buffy
 recruit_character = FAU_smol_fauna
 recruit_character = FAU_faunya
+recruit_character = FAU_opal
 # Navy #
 # Air #
 ## Generals ##

@@ -416,6 +416,42 @@ characters = {
 		}
 	}
 
+	FAU_opal = {
+		name = "Opal"
+		portraits = {
+			army = {
+				large = "gfx/leaders/FAU/portrait_FAU_opal.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_opal_idea.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/FAU/portrait_FAU_opal.dds"
+				small = "gfx/interface/advisors/FAU/portrait_FAU_opal_idea.dds"
+			}
+		}
+			advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = FAU_opal
+			ledger = army
+			allowed = {
+				original_tag = FAU
+			}
+			
+			traits = {
+				army_regrouping_2
+			}
+		}	
+
+		corps_commander = {
+			traits = { war_hero commando skirmisher }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
 	# Navy #
 	# Air #
 	## Generals ##
