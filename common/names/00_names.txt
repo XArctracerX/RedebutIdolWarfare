@@ -231,7 +231,7 @@ KFP = {
 	}
 }
 
-RYZ = {
+MON = {
 	male = {
 		names = { 
 			Aritomo

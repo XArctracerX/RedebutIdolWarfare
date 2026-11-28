@@ -3,15 +3,15 @@ characters = {
 	### Phase One ###
 	## Country Leaders ##
 	# Main #
-	RYZ_misma_ryzing = {
-		name = "Misma Ryzing"
+	MON_monarch = {
+		name = "Monarch"
 		portraits = {
 			army = {
-				large = "gfx/leaders/RYZ/portrait_RYZ_misma_ryzing.dds"
+				large = "gfx/leaders/MON/portrait_MON_monarch.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 			civilian = {
-				large = "gfx/leaders/RYZ/portrait_RYZ_misma_ryzing.dds"
+				large = "gfx/leaders/MON/portrait_MON_monarch.dds"
 				#small = "gfx/interface/ideas/AST/portrait_MRU_robert_saulfort_idea.dds"
 			}
 		}
