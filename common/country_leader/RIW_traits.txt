@@ -347,4 +347,28 @@ leader_traits = {
 		}
 	}
 
+	### Scandinavia Traits ###
+	## MON Traits ##
+	# Starting #
+	MON_queen_of_the_multiverse = {
+		random = no
+
+		army_speed_factor = 0.05
+		army_attack_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MON_the_scuff_queen = {
+		random = no
+
+		air_accidents_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
 }

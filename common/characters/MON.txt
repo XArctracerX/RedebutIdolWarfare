@@ -19,7 +19,7 @@ characters = {
 		country_leader = {
 		    desc = ""
 			ideology = absolute_monarchy
-			traits = { }
+			traits = { MON_queen_of_the_multiverse MON_the_scuff_queen }
 			expire = "2020.1.1"
 		}
 	}
